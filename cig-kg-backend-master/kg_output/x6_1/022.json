@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "6385876f-f0f3-437b-bfaf-94961c3c89ba",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology EMERGENCY 护罩故障"
+      }
+    },
+    {
+      "id": "c2627211-2e54-4a85-bcc9-e6c29186aaec",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 49.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_98_402_865_989_790_0.jpg"
+      }
+    },
+    {
+      "id": "d509af36-5303-45f0-84ff-7a96f4ec698f",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S699 - PT机器内的护罩",
+        "缩写": "2S699",
+        "功能类型": "安全传感器"
+      }
+    },
+    {
+      "id": "6a67048c-18ab-4b39-8750-a6fa65953be3",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "PT内护罩打开"
+      }
+    },
+    {
+      "id": "499f9ff8-39d5-4201-bb10-78f7e19a5f72",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL PT内护罩打开的报警信号"
+      }
+    },
+    {
+      "id": "680c6f1b-52ce-46d1-8ae0-f55343eb7e94",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 50.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_100_340_868_1054_787_0.jpg"
+      }
+    },
+    {
+      "id": "e5fb8bb4-7891-4562-89dd-30bd82d9acf1",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S1319 - 机器后部上方箱体护罩 - X 部分",
+        "缩写": "2S1319",
+        "功能类型": "安全传感器"
+      }
+    },
+    {
+      "id": "30ea7c95-756d-44b4-919c-da7d2c1f3140",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "打开机器内部的照明; 发出信息typology NORMAL XT后护罩打开"
+      }
+    },
+    {
+      "id": "abb6dd9a-af0a-4062-a047-3c3246fdd037",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 51.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_102_342_843_1043_788_0.jpg"
+      }
+    },
+    {
+      "id": "b503547d-48db-4bf2-9664-ca5d09b807f7",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S1329 - 机器后部箱体护罩 - P 部分",
+        "缩写": "2S1329",
+        "功能类型": "安全传感器"
+      }
+    },
+    {
+      "id": "de0cdcd2-e0f1-43af-9e00-a5df99af7934",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "打开机器内部的照明; 发出信息typology NORMAL XP后护罩打开"
+      }
+    },
+    {
+      "id": "e31a10ad-934e-4ebf-995d-35430beea53a",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 52.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_104_335_839_1011_794_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "d509af36-5303-45f0-84ff-7a96f4ec698f",
+      "to": "6385876f-f0f3-437b-bfaf-94961c3c89ba"
+    },
+    {
+      "type": "有图片",
+      "from": "d509af36-5303-45f0-84ff-7a96f4ec698f",
+      "to": "c2627211-2e54-4a85-bcc9-e6c29186aaec"
+    },
+    {
+      "type": "有检测异常",
+      "from": "d509af36-5303-45f0-84ff-7a96f4ec698f",
+      "to": "6a67048c-18ab-4b39-8750-a6fa65953be3"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "6a67048c-18ab-4b39-8750-a6fa65953be3",
+      "to": "499f9ff8-39d5-4201-bb10-78f7e19a5f72"
+    },
+    {
+      "type": "有图片",
+      "from": "d509af36-5303-45f0-84ff-7a96f4ec698f",
+      "to": "680c6f1b-52ce-46d1-8ae0-f55343eb7e94"
+    },
+    {
+      "type": "有异常动作",
+      "from": "e5fb8bb4-7891-4562-89dd-30bd82d9acf1",
+      "to": "30ea7c95-756d-44b4-919c-da7d2c1f3140"
+    },
+    {
+      "type": "有图片",
+      "from": "e5fb8bb4-7891-4562-89dd-30bd82d9acf1",
+      "to": "abb6dd9a-af0a-4062-a047-3c3246fdd037"
+    },
+    {
+      "type": "有异常动作",
+      "from": "b503547d-48db-4bf2-9664-ca5d09b807f7",
+      "to": "de0cdcd2-e0f1-43af-9e00-a5df99af7934"
+    },
+    {
+      "type": "有图片",
+      "from": "b503547d-48db-4bf2-9664-ca5d09b807f7",
+      "to": "e31a10ad-934e-4ebf-995d-35430beea53a"
+    }
+  ]
+}

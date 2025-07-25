@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "id": "a59f6cf8-ab75-45e4-956c-d14d9d1ecd81",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING: [LREAL] - 圆周(2701)"
+      }
+    },
+    {
+      "id": "20851466-9ec7-437d-9614-aa854c71c30b",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_NEGATIVE_CORRECTION: [LREAL]"
+      }
+    },
+    {
+      "id": "e88363bd-86af-4d21-965b-ea582d63d81f",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_POSITIVE_CORRECTION: [LREAL] - 最大校正的正值(2652)"
+      }
+    },
+    {
+      "id": "1c05f148-78c0-48d7-8a2c-a3771b9ba988",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING_TRADE_OFF: [LREAL] - 微调 (3633)"
+      }
+    },
+    {
+      "id": "58e526e6-326b-4cdc-b547-dee3a1a37fa4",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_ENABLE: [BOOL] - 启用对中 (3644)"
+      }
+    },
+    {
+      "id": "0a6addbb-f326-4c00-b1e2-5f5477bbce84",
+      "type": "参数",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_ENABLE: [BOOL] - 自动微调 (3645)"
+      }
+    },
+    {
+      "id": "7c3385dd-ad4d-4c43-ab40-dfc0462a80ca",
+      "type": "参数",
+      "properties": {
+        "实体名": "UNWINDING_MAXIMUM_DELTA: [UDINT] - (0)"
+      }
+    },
+    {
+      "id": "d7b4c040-e136-4f16-b911-3d71f9bff631",
+      "type": "参数",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_PERCENTAGE: [UDINT] - (0)"
+      }
+    },
+    {
+      "id": "7ab44fc7-1d52-43ec-a011-513a817c5ccd",
+      "type": "检测相位",
+      "properties": {
+        "实体名": "CONTROL_PHASE. PHASE: [LREAL] 检测相位 (712)"
+      }
+    },
+    {
+      "id": "57250866-e080-41bd-9258-150356f8d29a",
+      "type": "检测相位",
+      "properties": {
+        "实体名": "CORRECTION_CONTROL_PHASE. PHASE: LREAL] 校正相位(3631)"
+      }
+    },
+    {
+      "id": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK"
+      }
+    },
+    {
+      "id": "3ea8a934-80b3-4b0b-89f9-0f54bb61c982",
+      "type": "参数",
+      "properties": {
+        "实体名": "DELAY_ON: [LREAL] - 启动的补偿 (3418)"
+      }
+    },
+    {
+      "id": "5ff08a0d-385a-474f-986a-5a533d8c28af",
+      "type": "参数",
+      "properties": {
+        "实体名": "DELAY_OFF: [LREAL] - 免除的补偿(3419)"
+      }
+    },
+    {
+      "id": "1372b4ae-28b7-497c-92c1-2641ff3cb851",
+      "type": "参数",
+      "properties": {
+        "实体名": "CUT_OFF_TIME: [LREAL] - 最大持续时间 (2292)"
+      }
+    },
+    {
+      "id": "b568bcef-6132-4e78-a2fa-95333860ce0e",
+      "type": "参数",
+      "properties": {
+        "实体名": "POSITION_OFFSET: [LREAL] - 偏移 (693)"
+      }
+    },
+    {
+      "id": "f581445c-8eed-428b-a512-9a072c8754b4",
+      "type": "参数",
+      "properties": {
+        "实体名": "FORCE_OUTPUT_FREQUENCY: [LREAL] - 手动清洁频率(2596)"
+      }
+    },
+    {
+      "id": "e4c8b154-a30d-49fc-8e5d-1ba2bd821b08",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].ENABLED: [BOOL] - 启用[0] (1020)"
+      }
+    },
+    {
+      "id": "8f83bc5e-4857-498f-9cf9-d5ae64f13263",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].START_POSITION: [LREAL] - 初始位置[0] (1214)"
+      }
+    },
+    {
+      "id": "1fccd7a1-04a4-4d0c-8919-a2c93ceba190",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].END_POSITION: [LREAL] - 最终位置[0] (1213)"
+      }
+    },
+    {
+      "id": "b7b86a36-df7a-4268-8e15-9e84854606d2",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N]. EQUIDISTANT_CAMS_ACTIVE: [BOOL] - (0)"
+      }
+    },
+    {
+      "id": "9d6fb628-fd21-4e3f-b4d4-87845500c492",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_NUMBER: [INT] - 等距点数量 (3417)"
+      }
+    },
+    {
+      "id": "6d80a77b-3498-446b-b79c-9928d0d93034",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION: [LREAL] - (0)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "3ea8a934-80b3-4b0b-89f9-0f54bb61c982"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "5ff08a0d-385a-474f-986a-5a533d8c28af"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "1372b4ae-28b7-497c-92c1-2641ff3cb851"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "b568bcef-6132-4e78-a2fa-95333860ce0e"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "f581445c-8eed-428b-a512-9a072c8754b4"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "e4c8b154-a30d-49fc-8e5d-1ba2bd821b08"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "8f83bc5e-4857-498f-9cf9-d5ae64f13263"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "1fccd7a1-04a4-4d0c-8919-a2c93ceba190"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "b7b86a36-df7a-4268-8e15-9e84854606d2"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "9d6fb628-fd21-4e3f-b4d4-87845500c492"
+    },
+    {
+      "type": "有参数",
+      "from": "d56fec62-6368-402b-b016-a54da8e011b5",
+      "to": "6d80a77b-3498-446b-b79c-9928d0d93034"
+    }
+  ]
+}

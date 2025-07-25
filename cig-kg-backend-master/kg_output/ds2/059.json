@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "76913227-03fd-4497-8332-31ba77135bbf",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "烟包质量可视系统"
+      }
+    },
+    {
+      "id": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B4540 - 烟包质量可视系统",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "实现烟包的质量检测",
+        "缩写": "2B4540"
+      }
+    },
+    {
+      "id": "3ddcc2a0-ba9f-4c2f-bb86-d9c7e5c33146",
+      "type": "设备",
+      "properties": {
+        "实体名": "2A4549 - 烟包质量可视系统",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2A4549"
+      }
+    },
+    {
+      "id": "fdf45abe-bac2-4d21-a3d5-83d84cddb0d8",
+      "type": "功能",
+      "properties": {
+        "实体名": "实现烟包的质量检测",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "efd16e19-a8c7-426c-b724-d8efd3ce5f49",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 烟包质量检测:剔除太多"
+      }
+    },
+    {
+      "id": "f523f016-f62a-45b7-919b-981794a376e0",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 烟包质量检测:回声编号无效"
+      }
+    },
+    {
+      "id": "84ff552d-0307-4bb4-8825-8b85cc45ce91",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 烟包质量检测失效"
+      }
+    },
+    {
+      "id": "6955be16-5835-4a58-991f-de15614b36c1",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "分离的彩色镜头 640X480 ATTACCO C TATTILE F00384"
+      }
+    },
+    {
+      "id": "6a180f02-92c3-4a71-a8aa-8346ba9e4cbd",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 249",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_518_452_1213_935_787_0.jpg"
+      }
+    },
+    {
+      "id": "760f736e-c667-4ac1-9191-862ab60d30c7",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "VISION SYSTEM护罩打开的探测"
+      }
+    },
+    {
+      "id": "b3f6a161-4305-4f33-ad43-1830cfcd3c01",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S4558 - 可视系统护罩的打开探测",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "探测VISION SYSTEM组件的打开",
+        "缩写": "2S4558"
+      }
+    },
+    {
+      "id": "d6ccd57d-ec1d-48df-8ec2-0f77a8b36189",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若组件打开"
+      }
+    },
+    {
+      "id": "ad1ba2c3-5cc2-4a70-a33b-0318053de962",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 可视系统组件打开"
+      }
+    },
+    {
+      "id": "1386170e-39d8-4985-a01e-026e7cb3c140",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "感应器 BALLUFF BES Q08ZC-PSC20B-S49G PNP/NA 2MM"
+      }
+    },
+    {
+      "id": "e9c5bb3e-a1ca-4530-ab5a-bd6aa3a19692",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 250",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_520_337_816_1048_793_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "76913227-03fd-4497-8332-31ba77135bbf",
+      "to": "b7ec0495-df24-4677-8d24-755f37bd962b"
+    },
+    {
+      "type": "包含设备",
+      "from": "76913227-03fd-4497-8332-31ba77135bbf",
+      "to": "3ddcc2a0-ba9f-4c2f-bb86-d9c7e5c33146"
+    },
+    {
+      "type": "有功能",
+      "from": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "to": "fdf45abe-bac2-4d21-a3d5-83d84cddb0d8"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "to": "efd16e19-a8c7-426c-b724-d8efd3ce5f49"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "to": "f523f016-f62a-45b7-919b-981794a376e0"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "to": "84ff552d-0307-4bb4-8825-8b85cc45ce91"
+    },
+    {
+      "type": "有校准部件",
+      "from": "b7ec0495-df24-4677-8d24-755f37bd962b",
+      "to": "6955be16-5835-4a58-991f-de15614b36c1"
+    },
+    {
+      "type": "有图片",
+      "from": "76913227-03fd-4497-8332-31ba77135bbf",
+      "to": "6a180f02-92c3-4a71-a8aa-8346ba9e4cbd"
+    },
+    {
+      "type": "包含设备",
+      "from": "760f736e-c667-4ac1-9191-862ab60d30c7",
+      "to": "b3f6a161-4305-4f33-ad43-1830cfcd3c01"
+    },
+    {
+      "type": "有检测异常",
+      "from": "b3f6a161-4305-4f33-ad43-1830cfcd3c01",
+      "to": "d6ccd57d-ec1d-48df-8ec2-0f77a8b36189"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d6ccd57d-ec1d-48df-8ec2-0f77a8b36189",
+      "to": "ad1ba2c3-5cc2-4a70-a33b-0318053de962"
+    },
+    {
+      "type": "有校准部件",
+      "from": "b3f6a161-4305-4f33-ad43-1830cfcd3c01",
+      "to": "1386170e-39d8-4985-a01e-026e7cb3c140"
+    },
+    {
+      "type": "有图片",
+      "from": "760f736e-c667-4ac1-9191-862ab60d30c7",
+      "to": "e9c5bb3e-a1ca-4530-ab5a-bd6aa3a19692"
+    }
+  ]
+}

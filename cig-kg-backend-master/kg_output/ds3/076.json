@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "0bfaf421-cc0d-48b3-8934-00aa38e2f51c",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "X6"
+      }
+    },
+    {
+      "id": "f8329c63-82f9-4c08-96f9-582b7b3d9698",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "运行运行的描述 输出端横梁调节"
+      }
+    },
+    {
+      "id": "ea1f67d2-81f3-4abc-b0a6-f695779608e8",
+      "type": "设备",
+      "properties": {
+        "实体名": "上梁架电机",
+        "设备类型": "电机",
+        "位置": "产品流/出口/干燥梁架",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "4338adaf-b8bd-4e83-ab77-b89a1b949a32",
+      "type": "功能",
+      "properties": {
+        "实体名": "对中功能",
+        "功能类型": "对齐功能"
+      }
+    },
+    {
+      "id": "67e9a4ed-7ae7-46eb-904f-4a378c60ba81",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 5.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_832_465_801_797_492_0.jpg"
+      }
+    },
+    {
+      "id": "0c3d80aa-22d5-43cf-8fa1-3f47df6c59a5",
+      "type": "参见",
+      "properties": {
+        "实体名": "表格 1 页 4-26"
+      }
+    },
+    {
+      "id": "5b743d53-2ea0-4105-b5cf-c0abdf831644",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "SAFETY_INTEGRATED_OBJECT"
+      }
+    },
+    {
+      "id": "64636d6f-503b-4dc8-892e-81ab80198b81",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "PROTECTION_ASM - (0)"
+      }
+    },
+    {
+      "id": "90259385-a3c5-4bab-9075-f380056d37a7",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "LOCK_WSM - 锁定(396)"
+      }
+    },
+    {
+      "id": "b459b179-d0ff-4a0e-839e-376d25d883a3",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "770a75b0-11ab-40a8-aa79-364b8686a05f",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "ANALOG_CHECK"
+      }
+    },
+    {
+      "id": "2c153c33-4288-4e1d-b9c8-7f722c0cb280",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAX_VALUE_REACHED_ASM - 最大值 (605)"
+      }
+    },
+    {
+      "id": "8faa11ca-cb28-471d-9e19-f2e37ecffbc6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MIN_VALUE_REACHED_ASM - 最小值 (606)"
+      }
+    },
+    {
+      "id": "452541a4-09fa-43f7-aadf-5a25943d9fe5",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "DIAGNOSIS_FSM - 故障(591)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "0bfaf421-cc0d-48b3-8934-00aa38e2f51c",
+      "to": "f8329c63-82f9-4c08-96f9-582b7b3d9698"
+    },
+    {
+      "type": "包含设备",
+      "from": "f8329c63-82f9-4c08-96f9-582b7b3d9698",
+      "to": "ea1f67d2-81f3-4abc-b0a6-f695779608e8"
+    },
+    {
+      "type": "有功能",
+      "from": "ea1f67d2-81f3-4abc-b0a6-f695779608e8",
+      "to": "4338adaf-b8bd-4e83-ab77-b89a1b949a32"
+    },
+    {
+      "type": "有图片",
+      "from": "f8329c63-82f9-4c08-96f9-582b7b3d9698",
+      "to": "67e9a4ed-7ae7-46eb-904f-4a378c60ba81"
+    },
+    {
+      "type": "有参见",
+      "from": "ea1f67d2-81f3-4abc-b0a6-f695779608e8",
+      "to": "0c3d80aa-22d5-43cf-8fa1-3f47df6c59a5"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0bfaf421-cc0d-48b3-8934-00aa38e2f51c",
+      "to": "5b743d53-2ea0-4105-b5cf-c0abdf831644"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "5b743d53-2ea0-4105-b5cf-c0abdf831644",
+      "to": "64636d6f-503b-4dc8-892e-81ab80198b81"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "5b743d53-2ea0-4105-b5cf-c0abdf831644",
+      "to": "90259385-a3c5-4bab-9075-f380056d37a7"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "5b743d53-2ea0-4105-b5cf-c0abdf831644",
+      "to": "b459b179-d0ff-4a0e-839e-376d25d883a3"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0bfaf421-cc0d-48b3-8934-00aa38e2f51c",
+      "to": "770a75b0-11ab-40a8-aa79-364b8686a05f"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "770a75b0-11ab-40a8-aa79-364b8686a05f",
+      "to": "2c153c33-4288-4e1d-b9c8-7f722c0cb280"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "770a75b0-11ab-40a8-aa79-364b8686a05f",
+      "to": "8faa11ca-cb28-471d-9e19-f2e37ecffbc6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "770a75b0-11ab-40a8-aa79-364b8686a05f",
+      "to": "452541a4-09fa-43f7-aadf-5a25943d9fe5"
+    }
+  ]
+}

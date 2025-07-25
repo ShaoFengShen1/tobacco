@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "6ddb78eb-ade4-4a78-9a41-b1bda98ffbb7",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "aa20e412-58f1-4c79-944c-624afc00bdbe",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE-信息"
+      }
+    },
+    {
+      "id": "9c7169cc-fa96-4839-9351-5ecdd865c013",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3314",
+        "设备类型": "温度检测模块",
+        "操作细节": "4个通道, 用于热电偶"
+      }
+    },
+    {
+      "id": "1c3951ec-d41a-46fa-8b40-4dec2e779989",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3204",
+        "设备类型": "温度检测模块",
+        "操作细节": "4个通道, 用于PT100"
+      }
+    },
+    {
+      "id": "275ea255-cdec-44b6-97e1-f29c0c5b16f7",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)",
+        "操作细节": "当出现任何一个模块故障时被显示"
+      }
+    },
+    {
+      "id": "80d5f4b6-3ed5-4049-a1bb-49bb80b960cc",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER"
+      }
+    },
+    {
+      "id": "b49dc7b0-e250-4008-8218-81f6573af986",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER-信息"
+      }
+    },
+    {
+      "id": "a36558a9-7946-467a-8066-9e3d59767f3b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FEM - (0)",
+        "操作细节": "当出现轴的一般错误时被显示"
+      }
+    },
+    {
+      "id": "1d9d37e9-b496-4eb1-ab03-565ba29306db",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAIN_ENCODER_LAG_ERROR_ASM - (0)",
+        "操作细节": "当出现机器编码器读取错误时被显示"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "6ddb78eb-ade4-4a78-9a41-b1bda98ffbb7",
+      "to": "aa20e412-58f1-4c79-944c-624afc00bdbe"
+    },
+    {
+      "type": "包含设备",
+      "from": "6ddb78eb-ade4-4a78-9a41-b1bda98ffbb7",
+      "to": "9c7169cc-fa96-4839-9351-5ecdd865c013"
+    },
+    {
+      "type": "包含设备",
+      "from": "6ddb78eb-ade4-4a78-9a41-b1bda98ffbb7",
+      "to": "1c3951ec-d41a-46fa-8b40-4dec2e779989"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "aa20e412-58f1-4c79-944c-624afc00bdbe",
+      "to": "275ea255-cdec-44b6-97e1-f29c0c5b16f7"
+    },
+    {
+      "type": "有二级标题",
+      "from": "80d5f4b6-3ed5-4049-a1bb-49bb80b960cc",
+      "to": "b49dc7b0-e250-4008-8218-81f6573af986"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b49dc7b0-e250-4008-8218-81f6573af986",
+      "to": "a36558a9-7946-467a-8066-9e3d59767f3b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b49dc7b0-e250-4008-8218-81f6573af986",
+      "to": "1d9d37e9-b496-4eb1-ab03-565ba29306db"
+    }
+  ]
+}

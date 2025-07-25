@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "id": "44e0e980-6029-4310-833e-26004d51c454",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "02"
+      }
+    },
+    {
+      "id": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "机器检测 烟支料库组件"
+      }
+    },
+    {
+      "id": "c8d646a1-e501-4959-bbc4-c9bfa76d99cf",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[14]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "ee4cb829-f7af-435a-82aa-e9cffcdb7d4a",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "3d1fa15c-8586-4168-b566-c6c963abb69b",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[15]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "17b37d9d-fdaa-4ce6-9fc5-4ece6037552d",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "ec21cf3f-4ad3-42d0-8c7b-3966a3733413",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[16]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "e0e0b3cb-6d66-4c55-8320-06021b172fe7",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "cf8961d5-6d74-4288-b585-f34594514893",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[17]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "fa53bf10-bf3b-48f1-a063-58f7f2e93250",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "aebf2da9-13e8-4ff7-964d-e28ce9b98c28",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[18]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "79639c8f-c8ad-4cec-a18f-5c32651ce4bb",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "44e0e980-6029-4310-833e-26004d51c454",
+      "to": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99"
+    },
+    {
+      "type": "包含设备",
+      "from": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "to": "c8d646a1-e501-4959-bbc4-c9bfa76d99cf"
+    },
+    {
+      "type": "有参见",
+      "from": "c8d646a1-e501-4959-bbc4-c9bfa76d99cf",
+      "to": "ee4cb829-f7af-435a-82aa-e9cffcdb7d4a"
+    },
+    {
+      "type": "包含设备",
+      "from": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "to": "3d1fa15c-8586-4168-b566-c6c963abb69b"
+    },
+    {
+      "type": "有参见",
+      "from": "3d1fa15c-8586-4168-b566-c6c963abb69b",
+      "to": "17b37d9d-fdaa-4ce6-9fc5-4ece6037552d"
+    },
+    {
+      "type": "包含设备",
+      "from": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "to": "ec21cf3f-4ad3-42d0-8c7b-3966a3733413"
+    },
+    {
+      "type": "有参见",
+      "from": "ec21cf3f-4ad3-42d0-8c7b-3966a3733413",
+      "to": "e0e0b3cb-6d66-4c55-8320-06021b172fe7"
+    },
+    {
+      "type": "包含设备",
+      "from": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "to": "cf8961d5-6d74-4288-b585-f34594514893"
+    },
+    {
+      "type": "有参见",
+      "from": "cf8961d5-6d74-4288-b585-f34594514893",
+      "to": "fa53bf10-bf3b-48f1-a063-58f7f2e93250"
+    },
+    {
+      "type": "包含设备",
+      "from": "803f2ba9-cc2b-4939-9fab-c1bc260bbf99",
+      "to": "aebf2da9-13e8-4ff7-964d-e28ce9b98c28"
+    },
+    {
+      "type": "有参见",
+      "from": "aebf2da9-13e8-4ff7-964d-e28ce9b98c28",
+      "to": "79639c8f-c8ad-4cec-a18f-5c32651ce4bb"
+    }
+  ]
+}

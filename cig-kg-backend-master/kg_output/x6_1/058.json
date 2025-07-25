@@ -1,0 +1,296 @@
+{
+  "nodes": [
+    {
+      "id": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S308",
+        "设备类型": "传感器",
+        "位置": "拼接辊组件的后面",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "铝箔纸换卷拼接辊无刷电机复位"
+      }
+    },
+    {
+      "id": "f0126acd-2134-446b-bc2d-e02f1e1fa312",
+      "type": "功能",
+      "properties": {
+        "实体名": "传感器2S308",
+        "功能类型": "定位功能"
+      }
+    },
+    {
+      "id": "56823b6f-e91c-4644-9b5a-a3ac2c5b4609",
+      "type": "设备",
+      "properties": {
+        "实体名": "无刷电机2M839",
+        "设备类型": "无刷电机",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3a6b77ac-dfed-4827-b1f5-8654b483e248",
+      "type": "参见",
+      "properties": {
+        "实体名": "铝箔纸换卷材料拼接辊的无刷电机, 页 3-79"
+      }
+    },
+    {
+      "id": "01f169da-03f7-4c2d-8be1-8755ebde5e13",
+      "type": "设备",
+      "properties": {
+        "实体名": "驱动钥匙旋钮2S668",
+        "设备类型": "旋钮",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "013b46a0-e1ee-41c1-8532-dd2ff4836bb5",
+      "type": "参见",
+      "properties": {
+        "实体名": "铝箔纸换卷重新初始化旋钮 - 铝箔纸换卷置零按钮 - 铝箔纸换卷模拟按钮,页 2-261"
+      }
+    },
+    {
+      "id": "897665ea-b275-46c0-9fe7-d50e49df0e9f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology ABNORMAL 电机出现故障"
+      }
+    },
+    {
+      "id": "5ca456f1-b2ea-402c-adf4-2caec63ca857",
+      "type": "参见",
+      "properties": {
+        "实体名": "AXIS-信息, 页 5-21"
+      }
+    },
+    {
+      "id": "115aedba-40b8-4b89-8742-54291c903da0",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "感应器 BALLUFF BES 516-131-S4C"
+      }
+    },
+    {
+      "id": "adec4876-6c44-4808-801f-7e9559a2ee97",
+      "type": "警告",
+      "properties": {
+        "实体名": "每次修改拼接辊复位位置,移动复位传感器2S308时,必须重复环的定位"
+      }
+    },
+    {
+      "id": "b9994d83-dc12-45a2-b43c-7372002abbdf",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 98",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_237_414_320_903_793_0.jpg"
+      }
+    },
+    {
+      "id": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S310",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "铝箔纸卷盘转台的水平位置检测"
+      }
+    },
+    {
+      "id": "45085f76-ea42-406e-ac72-12c442e6faf4",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S312",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "铝箔纸卷盘转台的垂直位置检测"
+      }
+    },
+    {
+      "id": "e1303806-d434-4f90-949e-7ff6ba7fa7d7",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S313",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "铝箔纸卷盘转台转动越出循环的检测"
+      }
+    },
+    {
+      "id": "44b41f6d-d3a2-4d6f-a203-dc430a0781d4",
+      "type": "功能",
+      "properties": {
+        "实体名": "三个传感器",
+        "功能类型": "位置检测功能"
+      }
+    },
+    {
+      "id": "a8ae1086-4d54-4bd8-bfdf-2df7544fff51",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:转台转动超时报警信号"
+      }
+    },
+    {
+      "id": "98108832-0c45-45f5-9256-6431b85cfa96",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:卷盘架转台逆向转动报警信号"
+      }
+    },
+    {
+      "id": "7cbf8393-aef6-40c4-97f8-a9ae32007cd0",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:转台锁定/松锁传感器检查报警信号"
+      }
+    },
+    {
+      "id": "aec6ea4e-53ea-427d-a455-f8058baf65c3",
+      "type": "参见",
+      "properties": {
+        "实体名": "铝箔纸换卷重新初始化旋钮 - 铝箔纸换卷置零按钮 - 铝箔纸换卷模拟按钮,页 2-261"
+      }
+    },
+    {
+      "id": "ddea62e9-9c83-4fdb-bada-5a87a02dd123",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盘卷自动开卷被中断的报警信号"
+      }
+    },
+    {
+      "id": "893c837e-fd73-43d8-bded-5e1a0eb67d54",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 以手动方式开卷新卷盘 信号"
+      }
+    },
+    {
+      "id": "8a885649-d6a6-45ea-ba10-c7880c9e9c0a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 把新纸边定位在切刀下面信号"
+      }
+    },
+    {
+      "id": "87abd311-b2df-465c-b694-430cefef9b36",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 99",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_239_253_319_844_791_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "to": "f0126acd-2134-446b-bc2d-e02f1e1fa312"
+    },
+    {
+      "type": "有参见",
+      "from": "f0126acd-2134-446b-bc2d-e02f1e1fa312",
+      "to": "3a6b77ac-dfed-4827-b1f5-8654b483e248"
+    },
+    {
+      "type": "有参见",
+      "from": "01f169da-03f7-4c2d-8be1-8755ebde5e13",
+      "to": "013b46a0-e1ee-41c1-8532-dd2ff4836bb5"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "to": "897665ea-b275-46c0-9fe7-d50e49df0e9f"
+    },
+    {
+      "type": "有参见",
+      "from": "897665ea-b275-46c0-9fe7-d50e49df0e9f",
+      "to": "5ca456f1-b2ea-402c-adf4-2caec63ca857"
+    },
+    {
+      "type": "有校准部件",
+      "from": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "to": "115aedba-40b8-4b89-8742-54291c903da0"
+    },
+    {
+      "type": "有警告",
+      "from": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "to": "adec4876-6c44-4808-801f-7e9559a2ee97"
+    },
+    {
+      "type": "有图片",
+      "from": "1bbeb301-8ebd-4c9e-961a-d0c67e914200",
+      "to": "b9994d83-dc12-45a2-b43c-7372002abbdf"
+    },
+    {
+      "type": "有功能",
+      "from": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "to": "44b41f6d-d3a2-4d6f-a203-dc430a0781d4"
+    },
+    {
+      "type": "有功能",
+      "from": "45085f76-ea42-406e-ac72-12c442e6faf4",
+      "to": "44b41f6d-d3a2-4d6f-a203-dc430a0781d4"
+    },
+    {
+      "type": "有功能",
+      "from": "e1303806-d434-4f90-949e-7ff6ba7fa7d7",
+      "to": "44b41f6d-d3a2-4d6f-a203-dc430a0781d4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "to": "a8ae1086-4d54-4bd8-bfdf-2df7544fff51"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "45085f76-ea42-406e-ac72-12c442e6faf4",
+      "to": "98108832-0c45-45f5-9256-6431b85cfa96"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "e1303806-d434-4f90-949e-7ff6ba7fa7d7",
+      "to": "7cbf8393-aef6-40c4-97f8-a9ae32007cd0"
+    },
+    {
+      "type": "有参见",
+      "from": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "to": "aec6ea4e-53ea-427d-a455-f8058baf65c3"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "to": "ddea62e9-9c83-4fdb-bada-5a87a02dd123"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "45085f76-ea42-406e-ac72-12c442e6faf4",
+      "to": "893c837e-fd73-43d8-bded-5e1a0eb67d54"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "e1303806-d434-4f90-949e-7ff6ba7fa7d7",
+      "to": "8a885649-d6a6-45ea-ba10-c7880c9e9c0a"
+    },
+    {
+      "type": "有图片",
+      "from": "dd84e75e-924d-48b9-a949-6adea724fe7a",
+      "to": "87abd311-b2df-465c-b694-430cefef9b36"
+    }
+  ]
+}

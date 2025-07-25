@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "a8de45b3-9eac-456a-b841-c8fcd21f14a0",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "技术"
+      }
+    },
+    {
+      "id": "7ff413ac-1523-4b4c-b936-43531c11d954",
+      "type": "设备",
+      "properties": {
+        "实体名": "BECKHOFF",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "6e3f68cc-0e29-4d84-9f39-7855a9c2acf8",
+      "type": "设备",
+      "properties": {
+        "实体名": "输出端横梁调节",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "X6"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a8de45b3-9eac-456a-b841-c8fcd21f14a0",
+      "to": "7ff413ac-1523-4b4c-b936-43531c11d954"
+    },
+    {
+      "type": "包含设备",
+      "from": "a8de45b3-9eac-456a-b841-c8fcd21f14a0",
+      "to": "6e3f68cc-0e29-4d84-9f39-7855a9c2acf8"
+    }
+  ]
+}

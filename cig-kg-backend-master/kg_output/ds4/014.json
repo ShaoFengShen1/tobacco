@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "4e613631-2428-4ead-b887-6cafc86fe27a",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_INPUT"
+      }
+    },
+    {
+      "id": "75dafac3-b849-4ce3-9662-8240c0d109f5",
+      "type": "参数",
+      "properties": {
+        "实体名": "POLARITY_DIRECT: [BOOL] - 极性(611)"
+      }
+    },
+    {
+      "id": "ded68d57-a954-4040-8ead-b9b521c66665",
+      "type": "参数",
+      "properties": {
+        "实体名": "DEBOUNCE_FILTER.DELAY_OFF_ON: [DINT] - 过滤器从熄灭状态到开启状态(1067)"
+      }
+    },
+    {
+      "id": "013693a4-95a9-4952-9077-7b858eb76a12",
+      "type": "参数",
+      "properties": {
+        "实体名": "DEBOUNCE_FILTER.DELAY_ON_OFF: [DINT] - 过滤器从开启状态到熄灭状态(1066)"
+      }
+    },
+    {
+      "id": "1bb572a1-91cb-4ec6-9654-7b8eb2f8c2b3",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_OUTPUT"
+      }
+    },
+    {
+      "id": "f7e1133c-9288-4174-b922-48c8c8e5be19",
+      "type": "参数",
+      "properties": {
+        "实体名": "POLARITY_DIRECT: [BOOL] - 极性(611)"
+      }
+    },
+    {
+      "id": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TIMING CHECK"
+      }
+    },
+    {
+      "id": "5c089ecc-b674-4467-a885-27882e2ec960",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIRST_TIMING_STEP: DINT - 检测开始的工步(2514)"
+      }
+    },
+    {
+      "id": "cebc19d4-582c-4862-b1da-3da66409ddc9",
+      "type": "参数",
+      "properties": {
+        "实体名": "STEP:DINT - 工步(710)"
+      }
+    },
+    {
+      "id": "c0938d17-2b5b-4eae-b1cf-4ab2dc0673fe",
+      "type": "参数",
+      "properties": {
+        "实体名": "THRESHOLD_TIME: LREAL - 临界值 (2516)"
+      }
+    },
+    {
+      "id": "0639be96-4f29-4703-bee5-d60604ea11fb",
+      "type": "参数",
+      "properties": {
+        "实体名": "START_TIMING_PHASE.PHASE: LREAL - 检测开始相位(2515)"
+      }
+    },
+    {
+      "id": "bbb3f26c-97be-4262-89b8-2ee89aeeb457",
+      "type": "参数",
+      "properties": {
+        "实体名": "END_TIMING_PHASE.PHASE: LREAL - 检测开始相位(2513)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参数",
+      "from": "4e613631-2428-4ead-b887-6cafc86fe27a",
+      "to": "75dafac3-b849-4ce3-9662-8240c0d109f5"
+    },
+    {
+      "type": "有参数",
+      "from": "4e613631-2428-4ead-b887-6cafc86fe27a",
+      "to": "ded68d57-a954-4040-8ead-b9b521c66665"
+    },
+    {
+      "type": "有参数",
+      "from": "4e613631-2428-4ead-b887-6cafc86fe27a",
+      "to": "013693a4-95a9-4952-9077-7b858eb76a12"
+    },
+    {
+      "type": "有参数",
+      "from": "1bb572a1-91cb-4ec6-9654-7b8eb2f8c2b3",
+      "to": "f7e1133c-9288-4174-b922-48c8c8e5be19"
+    },
+    {
+      "type": "有参数",
+      "from": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "to": "5c089ecc-b674-4467-a885-27882e2ec960"
+    },
+    {
+      "type": "有参数",
+      "from": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "to": "cebc19d4-582c-4862-b1da-3da66409ddc9"
+    },
+    {
+      "type": "有参数",
+      "from": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "to": "c0938d17-2b5b-4eae-b1cf-4ab2dc0673fe"
+    },
+    {
+      "type": "有参数",
+      "from": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "to": "0639be96-4f29-4703-bee5-d60604ea11fb"
+    },
+    {
+      "type": "有参数",
+      "from": "8328f5e8-4865-4801-8564-f93b229c3adb",
+      "to": "bbb3f26c-97be-4262-89b8-2ee89aeeb457"
+    }
+  ]
+}

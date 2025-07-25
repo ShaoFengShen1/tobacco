@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "8cd4eef5-df7b-4251-b967-63e8e8de91e8",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当复位程序没有被正确执行时被显示"
+      }
+    },
+    {
+      "id": "638725ca-a265-4842-98f6-7d7a1f520dcd",
+      "type": "设备",
+      "properties": {
+        "实体名": "ENCODER_PRESET_ASM - 请求编码器置零",
+        "缩写": "590"
+      }
+    },
+    {
+      "id": "818db56c-dabc-4736-a6a8-0828d6646bef",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "在请求轴线位置初始化之后被显示"
+      }
+    },
+    {
+      "id": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "AXIS-参数"
+      }
+    },
+    {
+      "id": "9f67e4ba-8655-46af-88eb-139f0f1f8e3e",
+      "type": "设备",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KP: [LREAL] - 速度环的比例增益",
+        "缩写": "595"
+      }
+    },
+    {
+      "id": "0858db7c-0476-4714-a1d1-0ae01967239a",
+      "type": "设备",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KI: [LREAL] - 速度环的积分时间",
+        "缩写": "594"
+      }
+    },
+    {
+      "id": "f8646fb1-9b4b-4c00-8afc-bec448158d0e",
+      "type": "设备",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KV: [LREAL] - 位置环的比例增益",
+        "缩写": "593"
+      }
+    },
+    {
+      "id": "56d05aa5-52fc-4fe6-9c6c-1af2c9a639f1",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME.POSITION: [LREAL] - 复位位置",
+        "缩写": "1346"
+      }
+    },
+    {
+      "id": "094f9037-629c-49d9-a0c5-6d93e6af2ddf",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME.OFFSET: [LREAL] - 复位偏移",
+        "缩写": "1348"
+      }
+    },
+    {
+      "id": "131964e3-3e27-4b27-b86e-eb4c3887c3d5",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME.EXIT_VELOCITY: [LREAL] - 输出速度",
+        "缩写": "1033"
+      }
+    },
+    {
+      "id": "b63be019-a636-44dc-970d-9b55aec49ab5",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME. NOTCH_SIZE: [LREAL] - 标记尺寸",
+        "缩写": "627"
+      }
+    },
+    {
+      "id": "b4ed1fab-8734-4a00-bb82-2407a6b38be7",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME.NOTCH_SIZE_TOLERANCE: [LREAL] - 标记尺寸的公差",
+        "缩写": "628"
+      }
+    },
+    {
+      "id": "d22c8ee7-6453-4ba9-be49-e374ad9a70f2",
+      "type": "设备",
+      "properties": {
+        "实体名": "HOME. SEARCH_VELOCITY: [LREAL] - 复位搜寻速度",
+        "缩写": "3412"
+      }
+    },
+    {
+      "id": "5ee44383-0b70-41e7-bd21-d30adda34752",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PREUNWINDER"
+      }
+    },
+    {
+      "id": "cc75a0b2-8150-4c7c-b4d3-bc61a7e7fc26",
+      "type": "功能",
+      "properties": {
+        "实体名": "PREUNWINDER允许通过电气轴来管理材料缓冲器,保证恒定松卷,并通过PID调节器保持在所需的水平位上",
+        "功能类型": "效用功能"
+      }
+    },
+    {
+      "id": "82ed6839-c135-4c34-b992-7fc13c7cf219",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PREUNWINDER-信息"
+      }
+    },
+    {
+      "id": "d595d803-533f-4000-b53e-39f8aae6b514",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当材料填充水平位达到最小预松卷数值时被显示",
+        "缩写": "891"
+      }
+    },
+    {
+      "id": "7e105599-9360-49ef-afbd-09452c0fc665",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当材料填充水平位达到最大预松卷数值时被显示",
+        "缩写": "890"
+      }
+    },
+    {
+      "id": "1a72e47e-c24a-47bc-8da6-d021d6da53c3",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当材料填充水平位没有改变, 尽管松卷电机在运动时被显示, 若启用了参数 BUFFER_FILLING_CHECK_ENABLE: [BOOL]",
+        "缩写": "889"
+      }
+    },
+    {
+      "id": "3c2d808d-c0aa-4214-947f-8c204c770646",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "在松卷中的材料卷搜寻功能过程中, 在尝试次数超过最大设定值时, 被显示",
+        "缩写": "2895"
+      }
+    },
+    {
+      "id": "12815887-043a-43a4-9d5c-061904d79900",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK"
+      }
+    },
+    {
+      "id": "10929782-9b80-474e-96c3-1386978bb02b",
+      "type": "功能",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK 对特定事件的检测(触发器)",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "08fd8f8d-056c-410d-a256-4e63454de130",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK-信息"
+      }
+    },
+    {
+      "id": "cc7388b8-c9eb-4895-a44d-d5ebd9b1d661",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "连续失误检测的最大次数",
+        "缩写": "663"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "638725ca-a265-4842-98f6-7d7a1f520dcd",
+      "to": "8cd4eef5-df7b-4251-b967-63e8e8de91e8"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "638725ca-a265-4842-98f6-7d7a1f520dcd",
+      "to": "818db56c-dabc-4736-a6a8-0828d6646bef"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "9f67e4ba-8655-46af-88eb-139f0f1f8e3e"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "0858db7c-0476-4714-a1d1-0ae01967239a"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "f8646fb1-9b4b-4c00-8afc-bec448158d0e"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "56d05aa5-52fc-4fe6-9c6c-1af2c9a639f1"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "094f9037-629c-49d9-a0c5-6d93e6af2ddf"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "131964e3-3e27-4b27-b86e-eb4c3887c3d5"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "b63be019-a636-44dc-970d-9b55aec49ab5"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "b4ed1fab-8734-4a00-bb82-2407a6b38be7"
+    },
+    {
+      "type": "有二级标题",
+      "from": "45f0ddb1-5059-4534-9212-3fbf919d6ebb",
+      "to": "d22c8ee7-6453-4ba9-be49-e374ad9a70f2"
+    },
+    {
+      "type": "有功能",
+      "from": "5ee44383-0b70-41e7-bd21-d30adda34752",
+      "to": "cc75a0b2-8150-4c7c-b4d3-bc61a7e7fc26"
+    },
+    {
+      "type": "有二级标题",
+      "from": "5ee44383-0b70-41e7-bd21-d30adda34752",
+      "to": "82ed6839-c135-4c34-b992-7fc13c7cf219"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "82ed6839-c135-4c34-b992-7fc13c7cf219",
+      "to": "d595d803-533f-4000-b53e-39f8aae6b514"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "82ed6839-c135-4c34-b992-7fc13c7cf219",
+      "to": "7e105599-9360-49ef-afbd-09452c0fc665"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "82ed6839-c135-4c34-b992-7fc13c7cf219",
+      "to": "1a72e47e-c24a-47bc-8da6-d021d6da53c3"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "82ed6839-c135-4c34-b992-7fc13c7cf219",
+      "to": "3c2d808d-c0aa-4214-947f-8c204c770646"
+    },
+    {
+      "type": "有功能",
+      "from": "12815887-043a-43a4-9d5c-061904d79900",
+      "to": "10929782-9b80-474e-96c3-1386978bb02b"
+    },
+    {
+      "type": "有二级标题",
+      "from": "12815887-043a-43a4-9d5c-061904d79900",
+      "to": "08fd8f8d-056c-410d-a256-4e63454de130"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "08fd8f8d-056c-410d-a256-4e63454de130",
+      "to": "cc7388b8-c9eb-4895-a44d-d5ebd9b1d661"
+    }
+  ]
+}

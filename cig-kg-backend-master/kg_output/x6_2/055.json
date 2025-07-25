@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "79d5cc03-1d2f-4565-aa95-25dbdbe4a570",
+      "type": "设备",
+      "properties": {
+        "实体名": "上下梁架烟包取样驱动装置",
+        "缩写": "2Y4539"
+      }
+    },
+    {
+      "id": "053cc328-f054-423f-9f8c-3cd52429da5a",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 上下梁架烟包取样驱动装置, 页 3-251, 2Y4539"
+      }
+    },
+    {
+      "id": "16daf8a7-6966-4f7f-afcb-0de7a51d51cc",
+      "type": "设备",
+      "properties": {
+        "实体名": "指示灯 2H4507 - 梁架烟包压紧器请求按钮指示灯",
+        "操作方式": "通告操作员执行一次新的取样操作"
+      }
+    },
+    {
+      "id": "76c27103-063f-48cd-af13-11db56f480c1",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 242",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_500_340_788_867_790_0.jpg"
+      }
+    },
+    {
+      "id": "64af05ad-0215-4d0f-a616-e64d1cbf830a",
+      "type": "设备",
+      "properties": {
+        "实体名": "X出口部分按钮盘上的X停机按钮",
+        "缩写": "2S334",
+        "功能类型": "停止机器"
+      }
+    },
+    {
+      "id": "dedf200b-80e2-4650-886e-bfd9422b7d49",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "4d703476-bd92-4add-bfa1-e6ed677c7631",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 辅助停机按钮被按下( 参见 DIGITAL_CHECK-信息,页 5-41)的报警信号"
+      }
+    },
+    {
+      "id": "862cc539-d5a6-4919-8d16-859654a39e59",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 243",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_502_337_944_1054_787_0.jpg"
+      }
+    },
+    {
+      "id": "28620b6d-e200-412e-883a-be44bcb2390b",
+      "type": "设备",
+      "properties": {
+        "实体名": "PB 按钮盘上紧急停机按钮",
+        "缩写": "S360",
+        "功能类型": "停止整条线"
+      }
+    },
+    {
+      "id": "f56efa9f-65b0-4723-87a8-c7c9953d9539",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology EMERGENCY 出口紧急停机按钮 ( 参见 SAFETY_INTEGRATED_OBJECT-信息, 页 5-3) 的报警信号"
+      }
+    },
+    {
+      "id": "42107be0-2f6d-4dcb-8221-3b374f141f57",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology EMERGENCY 紧急按钮回路断开"
+      }
+    },
+    {
+      "id": "cde01fed-ff7d-41f6-b503-67e4c97e5dff",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 244",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_504_338_920_1053_786_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "79d5cc03-1d2f-4565-aa95-25dbdbe4a570",
+      "to": "053cc328-f054-423f-9f8c-3cd52429da5a"
+    },
+    {
+      "type": "有功能",
+      "from": "64af05ad-0215-4d0f-a616-e64d1cbf830a",
+      "to": "dedf200b-80e2-4650-886e-bfd9422b7d49"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "64af05ad-0215-4d0f-a616-e64d1cbf830a",
+      "to": "4d703476-bd92-4add-bfa1-e6ed677c7631"
+    },
+    {
+      "type": "有图片",
+      "from": "64af05ad-0215-4d0f-a616-e64d1cbf830a",
+      "to": "862cc539-d5a6-4919-8d16-859654a39e59"
+    },
+    {
+      "type": "有功能",
+      "from": "28620b6d-e200-412e-883a-be44bcb2390b",
+      "to": "f56efa9f-65b0-4723-87a8-c7c9953d9539"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "28620b6d-e200-412e-883a-be44bcb2390b",
+      "to": "42107be0-2f6d-4dcb-8221-3b374f141f57"
+    },
+    {
+      "type": "有图片",
+      "from": "28620b6d-e200-412e-883a-be44bcb2390b",
+      "to": "cde01fed-ff7d-41f6-b503-67e4c97e5dff"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "d6782770-58a6-441b-98c8-924ea8415426",
+      "type": "设备",
+      "properties": {
+        "实体名": "移位寄存器的工步",
+        "操作细节": "开始时间统计"
+      }
+    },
+    {
+      "id": "9f4f104c-0d56-4335-93ce-2c61b6b76f37",
+      "type": "设备",
+      "properties": {
+        "实体名": "移位寄存器的工步",
+        "操作细节": "结束时间统计, 执行超过最长时间的检测, 必要时设定产品剔除"
+      }
+    },
+    {
+      "id": "01c98d48-4dc7-4ab1-852e-ea353c196110",
+      "type": "设备",
+      "properties": {
+        "实体名": "THRESHOLD_TIME: LREAL - 临界值",
+        "操作细节": "最长时间:超过该时间,将设定产品剔除"
+      }
+    },
+    {
+      "id": "d8049721-1e50-474e-b45f-151d89e3c1f4",
+      "type": "设备",
+      "properties": {
+        "实体名": "START_TIMING_PHASE.PHASE: LREAL - 检测开始相位",
+        "操作细节": "开始时间统计的初始相位"
+      }
+    },
+    {
+      "id": "b40c0fb9-895d-4a74-9463-2c88d3a345ce",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_TIMING_PHASE.PHASE: LREAL - 检测开始相位",
+        "操作细节": "结束时间统计的最终相位"
+      }
+    },
+    {
+      "id": "1ed3d8a6-8344-4339-86b0-09a88be26933",
+      "type": "设备",
+      "properties": {
+        "实体名": "SAFETY_INTEGRATED_SERIES",
+        "功能类型": "允许构成安全装置的逻辑系列, 并管理安全执行器"
+      }
+    },
+    {
+      "id": "7a88b4f7-ed89-4eff-a1d9-5c445a41b07a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "OPEN_WSM - 打开",
+        "操作细节": "当系列被打开,而机器没有停止时,被显示"
+      }
+    },
+    {
+      "id": "35d4163a-54f8-41b1-9769-89c7b1561043",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障",
+        "操作细节": "在系列故障时被显示"
+      }
+    },
+    {
+      "id": "74f09ffa-c2f4-4227-a1aa-38fea5fdd92a",
+      "type": "设备",
+      "properties": {
+        "实体名": "SOE_DRIVE",
+        "功能类型": "允许管理用于型号为“SoE” (Servo over EtherCAT)的电机的驱动器"
+      }
+    },
+    {
+      "id": "7b9cfe2e-5c05-4ecb-9bd0-84539627e05a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障",
+        "操作细节": "在驱动器出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "20359733-844d-4bea-ac4a-ac635c6d65e5",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "CHANNEL_A_FAULT_FSM - 通道A诊断",
+        "操作细节": "在驱动器通道A出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "82b2251f-2186-498c-8606-7ab4490f2b42",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "CHANNEL_B_FAULT_FSM - 通道B诊断",
+        "操作细节": "在驱动器通道B出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "a5469a88-06b0-4535-8b12-f5fe04d69c73",
+      "type": "设备",
+      "properties": {
+        "实体名": "MOTORIZATION_CONDITIONER",
+        "功能类型": "允许启动机器速度的限制"
+      }
+    },
+    {
+      "id": "f93a9f58-94a0-4a48-a972-722680f38087",
+      "type": "设备",
+      "properties": {
+        "实体名": "VELOCITY_LIMIT: LREAL - 速度限制",
+        "操作细节": "速度限制值,在MOTORIZATION_CONDITIONER有效时不得超过在数值"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "1ed3d8a6-8344-4339-86b0-09a88be26933",
+      "to": "7a88b4f7-ed89-4eff-a1d9-5c445a41b07a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "1ed3d8a6-8344-4339-86b0-09a88be26933",
+      "to": "35d4163a-54f8-41b1-9769-89c7b1561043"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "74f09ffa-c2f4-4227-a1aa-38fea5fdd92a",
+      "to": "7b9cfe2e-5c05-4ecb-9bd0-84539627e05a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "74f09ffa-c2f4-4227-a1aa-38fea5fdd92a",
+      "to": "20359733-844d-4bea-ac4a-ac635c6d65e5"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "74f09ffa-c2f4-4227-a1aa-38fea5fdd92a",
+      "to": "82b2251f-2186-498c-8606-7ab4490f2b42"
+    },
+    {
+      "type": "包含设备",
+      "from": "a5469a88-06b0-4535-8b12-f5fe04d69c73",
+      "to": "f93a9f58-94a0-4a48-a972-722680f38087"
+    }
+  ]
+}

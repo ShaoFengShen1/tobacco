@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "4f327846-6279-4606-bf68-6f3a994f090a",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "机器在没有废品箱的情况下在第四轮上作多于 15 次的剔除"
+      }
+    },
+    {
+      "id": "dcfcbcc6-377b-4434-b79c-1d865032ab9f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "17659830-81c1-42f6-8d1e-ffb484e8fa3d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 左废品箱未到位 / 废品位高报警信号"
+      }
+    },
+    {
+      "id": "7bd10be1-df78-4ed3-a604-d61d823fde36",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 90",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_214_339_999_1046_610_0.jpg"
+      }
+    },
+    {
+      "id": "b8cfe328-d9a9-4683-a118-bb82a4da6dbc",
+      "type": "设备",
+      "properties": {
+        "实体名": "第五轮上真空的压力调节器",
+        "缩写": "2A1199 - 第五轮上真空压力调节器"
+      }
+    },
+    {
+      "id": "f0365e12-b4c5-426d-841f-bb176dea2cb8",
+      "type": "功能",
+      "properties": {
+        "实体名": "在调节第五轮上奖券真空(VACUUM)的吸气时,可调整压力调节器2A1199",
+        "功能类型": "调节功能"
+      }
+    },
+    {
+      "id": "1cbc09a7-d333-481f-9206-19f53b8ff903",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 91",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_216_338_1215_1049_783_0.jpg"
+      }
+    },
+    {
+      "id": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器 2S417",
+        "缩写": "2S417 - 检查一第五轮输送烟包堵塞"
+      }
+    },
+    {
+      "id": "f02f9ed4-f4f0-4dd3-b97d-6c09a3d7a3bb",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第五轮入口处烟包堵塞",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "d6dc1d7b-e609-4f75-a9c7-937177a8d37f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "489f838f-f287-4d31-b74b-22d29d45f1be",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮进料口烟包阻塞报警信号"
+      }
+    },
+    {
+      "id": "3807d61e-523f-4877-a9ec-f9bd65c6f820",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出 typology OBLIGATION 打开第五轮的半环 信号"
+      }
+    },
+    {
+      "id": "06a2adc3-2a1f-4717-a0e8-81d8e2867f63",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮阻塞的报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "4f327846-6279-4606-bf68-6f3a994f090a",
+      "to": "dcfcbcc6-377b-4434-b79c-1d865032ab9f"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "4f327846-6279-4606-bf68-6f3a994f090a",
+      "to": "17659830-81c1-42f6-8d1e-ffb484e8fa3d"
+    },
+    {
+      "type": "有图片",
+      "from": "b8cfe328-d9a9-4683-a118-bb82a4da6dbc",
+      "to": "1cbc09a7-d333-481f-9206-19f53b8ff903"
+    },
+    {
+      "type": "有功能",
+      "from": "b8cfe328-d9a9-4683-a118-bb82a4da6dbc",
+      "to": "f0365e12-b4c5-426d-841f-bb176dea2cb8"
+    },
+    {
+      "type": "有功能",
+      "from": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "to": "f02f9ed4-f4f0-4dd3-b97d-6c09a3d7a3bb"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "to": "d6dc1d7b-e609-4f75-a9c7-937177a8d37f"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "to": "489f838f-f287-4d31-b74b-22d29d45f1be"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "to": "3807d61e-523f-4877-a9ec-f9bd65c6f820"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c3ccf278-f7bb-41f1-ad64-e4d41b9b1742",
+      "to": "06a2adc3-2a1f-4717-a0e8-81d8e2867f63"
+    }
+  ]
+}

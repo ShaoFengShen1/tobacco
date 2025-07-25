@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "cdf82074-5eae-45d2-8055-66bbaed629cc",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "X6"
+      }
+    },
+    {
+      "id": "c210403a-ae3d-4a5e-aa70-c83c65057b26",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "内框纸左缓冲台处于靠近 - 停顿状态"
+      }
+    },
+    {
+      "id": "273d257e-a123-4777-8b35-c27d929f0659",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y5026",
+        "设备类型": "执行器",
+        "位置": "内框纸左缓冲台",
+        "操作方式": "驱动",
+        "操作细节": "靠近/停顿时内框纸的左压台",
+        "缩写": "2Y5026"
+      }
+    },
+    {
+      "id": "e829f995-f8c8-4549-96be-4eb9c50bfb99",
+      "type": "参见",
+      "properties": {
+        "实体名": "左右缓冲台伸出限位器 - 左右缓冲台缩回限位器,页 2-319"
+      }
+    },
+    {
+      "id": "eee83854-c82d-4bfa-a05b-41ad3c659ed8",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 奖券左压紧器超时:冲程(参见 DOUBLE_ACTUATOR-信息,页 5-19) 报警信号"
+      }
+    },
+    {
+      "id": "11c30d78-c7c0-4e79-a811-c58c0c785103",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 奖券左压紧器超时:停顿(参见 DOUBLE_ACTUATOR-信息,页 5-19) 报警信号"
+      }
+    },
+    {
+      "id": "5ca05556-3a12-4ce3-9dfb-e8add9a602d9",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "材料处理/拼接/循环"
+      }
+    },
+    {
+      "id": "cf2037aa-0631-42de-a3e6-df1efb7ac852",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": "机器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "cfc4828e-f128-4a10-9874-b7dbc2d8d158",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "内框纸右缓冲台处于靠近 - 停顿状态"
+      }
+    },
+    {
+      "id": "9aeb7e67-f29c-4bde-a095-b4952c3f1395",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y5028",
+        "设备类型": "执行器",
+        "位置": "内框纸右缓冲台",
+        "操作方式": "驱动",
+        "操作细节": "靠近/停顿时内框纸的右压台",
+        "缩写": "2Y5028"
+      }
+    },
+    {
+      "id": "5dfeaf07-daa0-4b18-b8ad-e62512796b52",
+      "type": "参见",
+      "properties": {
+        "实体名": "左右缓冲台伸出限位器 - 左右缓冲台缩回限位器,页 2-319"
+      }
+    },
+    {
+      "id": "b04fd2b0-b332-40d1-bc58-87cfe5ddf817",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 奖券右压紧器超时:冲程(参见 DOUBLE_ACTUATOR-信息,页 5-19) 报警信号"
+      }
+    },
+    {
+      "id": "a0aad257-2309-40ca-aa7c-09ae3a525f30",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 奖券右压紧器超时:停顿(参见 DOUBLE_ACTUATOR-信息,页 5-19) 报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "cdf82074-5eae-45d2-8055-66bbaed629cc",
+      "to": "c210403a-ae3d-4a5e-aa70-c83c65057b26"
+    },
+    {
+      "type": "包含设备",
+      "from": "c210403a-ae3d-4a5e-aa70-c83c65057b26",
+      "to": "273d257e-a123-4777-8b35-c27d929f0659"
+    },
+    {
+      "type": "有参见",
+      "from": "273d257e-a123-4777-8b35-c27d929f0659",
+      "to": "e829f995-f8c8-4549-96be-4eb9c50bfb99"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "273d257e-a123-4777-8b35-c27d929f0659",
+      "to": "eee83854-c82d-4bfa-a05b-41ad3c659ed8"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "273d257e-a123-4777-8b35-c27d929f0659",
+      "to": "11c30d78-c7c0-4e79-a811-c58c0c785103"
+    },
+    {
+      "type": "有二级标题",
+      "from": "cdf82074-5eae-45d2-8055-66bbaed629cc",
+      "to": "5ca05556-3a12-4ce3-9dfb-e8add9a602d9"
+    },
+    {
+      "type": "包含设备",
+      "from": "5ca05556-3a12-4ce3-9dfb-e8add9a602d9",
+      "to": "cf2037aa-0631-42de-a3e6-df1efb7ac852"
+    },
+    {
+      "type": "有二级标题",
+      "from": "cdf82074-5eae-45d2-8055-66bbaed629cc",
+      "to": "cfc4828e-f128-4a10-9874-b7dbc2d8d158"
+    },
+    {
+      "type": "包含设备",
+      "from": "cfc4828e-f128-4a10-9874-b7dbc2d8d158",
+      "to": "9aeb7e67-f29c-4bde-a095-b4952c3f1395"
+    },
+    {
+      "type": "有参见",
+      "from": "9aeb7e67-f29c-4bde-a095-b4952c3f1395",
+      "to": "5dfeaf07-daa0-4b18-b8ad-e62512796b52"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9aeb7e67-f29c-4bde-a095-b4952c3f1395",
+      "to": "b04fd2b0-b332-40d1-bc58-87cfe5ddf817"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9aeb7e67-f29c-4bde-a095-b4952c3f1395",
+      "to": "a0aad257-2309-40ca-aa7c-09ae3a525f30"
+    }
+  ]
+}

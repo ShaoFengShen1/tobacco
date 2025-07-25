@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "name": "PROTOS2-2卷接机组",
+      "type": "设备",
+      "properties": {
+        "型号": "PROTOS2-2"
+      }
+    },
+    {
+      "id": "12e39bba-1366-45e8-8300-1e83f84c992d",
+      "name": "SE盘纸接头检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "a529f970-a11b-4e64-b0e0-b1f3e73d02db",
+      "name": "缺滤嘴检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "4c81c77f-3713-4964-bb9d-a71ff0210c46",
+      "name": "水松纸接头检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "ce56f665-3f05-4658-9d95-adda48182a1d",
+      "name": "MAX胶堆检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "c98c690e-0364-4cc3-8197-f5f8f331a558",
+      "name": "钢印模糊检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "8e8684bc-8c6f-4e4a-a39a-5ade75dd635e",
+      "name": "剔除鼓轮处剔废阀",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "15801cf8-12eb-4e0c-a881-e345ecade50a",
+      "name": "漏气检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "c28fd6b6-1caf-46c6-9893-ec02e1211c9c",
+      "name": "微波重量检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "61f3d672-46b0-412f-8882-5472af0b0d53",
+      "name": "空头检测",
+      "type": "检测项目",
+      "properties": null
+    },
+    {
+      "id": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "name": "操作工",
+      "type": "人员",
+      "properties": null
+    },
+    {
+      "id": "13cb452e-8827-488b-8795-4c197d65e08a",
+      "name": "电气维修工",
+      "type": "人员",
+      "properties": null
+    },
+    {
+      "id": "963f49e9-1464-47c5-b462-05c0e3f1e0fa",
+      "name": "传感器",
+      "type": "设备部件",
+      "properties": null
+    },
+    {
+      "id": "6c9cb295-e687-41c6-a4e4-fd8615ba91e8",
+      "name": "检测器",
+      "type": "设备部件",
+      "properties": null
+    },
+    {
+      "id": "a12bf0b1-f4da-42f8-861b-846c358ab939",
+      "name": "剔废阀",
+      "type": "设备部件",
+      "properties": null
+    }
+  ],
+  "relationships": [
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "12e39bba-1366-45e8-8300-1e83f84c992d"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "a529f970-a11b-4e64-b0e0-b1f3e73d02db"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "4c81c77f-3713-4964-bb9d-a71ff0210c46"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "ce56f665-3f05-4658-9d95-adda48182a1d"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "c98c690e-0364-4cc3-8197-f5f8f331a558"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "8e8684bc-8c6f-4e4a-a39a-5ade75dd635e"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "15801cf8-12eb-4e0c-a881-e345ecade50a"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "c28fd6b6-1caf-46c6-9893-ec02e1211c9c"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "71da1a68-919c-48c4-975f-55a3f6164172",
+      "to": "61f3d672-46b0-412f-8882-5472af0b0d53"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "to": "12e39bba-1366-45e8-8300-1e83f84c992d"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "to": "a529f970-a11b-4e64-b0e0-b1f3e73d02db"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "to": "4c81c77f-3713-4964-bb9d-a71ff0210c46"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "to": "ce56f665-3f05-4658-9d95-adda48182a1d"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "3ff05eb9-63a2-4e56-bd84-46c5e1318d4f",
+      "to": "c98c690e-0364-4cc3-8197-f5f8f331a558"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "13cb452e-8827-488b-8795-4c197d65e08a",
+      "to": "8e8684bc-8c6f-4e4a-a39a-5ade75dd635e"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "13cb452e-8827-488b-8795-4c197d65e08a",
+      "to": "15801cf8-12eb-4e0c-a881-e345ecade50a"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "13cb452e-8827-488b-8795-4c197d65e08a",
+      "to": "c28fd6b6-1caf-46c6-9893-ec02e1211c9c"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "13cb452e-8827-488b-8795-4c197d65e08a",
+      "to": "61f3d672-46b0-412f-8882-5472af0b0d53"
+    },
+    {
+      "name": "监测",
+      "type": "功能",
+      "from": "963f49e9-1464-47c5-b462-05c0e3f1e0fa",
+      "to": "ce56f665-3f05-4658-9d95-adda48182a1d"
+    },
+    {
+      "name": "监测",
+      "type": "功能",
+      "from": "6c9cb295-e687-41c6-a4e4-fd8615ba91e8",
+      "to": "12e39bba-1366-45e8-8300-1e83f84c992d"
+    },
+    {
+      "name": "控制",
+      "type": "功能",
+      "from": "a12bf0b1-f4da-42f8-861b-846c358ab939",
+      "to": "8e8684bc-8c6f-4e4a-a39a-5ade75dd635e"
+    }
+  ]
+}

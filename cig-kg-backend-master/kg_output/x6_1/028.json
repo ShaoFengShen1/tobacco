@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "b3268a36-4ad9-40e3-812f-13eb3193d1de",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 59",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_121_53_320_1265_1631_0.jpg"
+      }
+    },
+    {
+      "id": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "type": "设备",
+      "properties": {
+        "实体名": "机器检测 烟支料库组件",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "X6"
+      }
+    },
+    {
+      "id": "eca2825a-3f93-4214-982e-676b5e92b050",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 61",
+        "图片路径": null
+      }
+    },
+    {
+      "id": "69d17d5d-c076-4b45-804e-fbdae8d79d66",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "29ce0f8f-920f-4859-953e-0bbc59a8a71c",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[1]"
+      }
+    },
+    {
+      "id": "bb70c36e-0b88-49d1-9c81-bc893f5a6495",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "69c24c19-f59d-482b-9da0-713929311e79",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[2]"
+      }
+    },
+    {
+      "id": "a39ffd66-4f23-4e5c-9fe6-e6502f6653f9",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[3]"
+      }
+    },
+    {
+      "id": "a5b24e4a-b7ca-4e4b-b065-aed76bde598e",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[4]"
+      }
+    },
+    {
+      "id": "8cbea146-e78e-4b23-9256-d2ea2e1fbfef",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[5]"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有图片",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "b3268a36-4ad9-40e3-812f-13eb3193d1de"
+    },
+    {
+      "type": "有参见",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "69d17d5d-c076-4b45-804e-fbdae8d79d66"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "29ce0f8f-920f-4859-953e-0bbc59a8a71c"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "69c24c19-f59d-482b-9da0-713929311e79"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "a39ffd66-4f23-4e5c-9fe6-e6502f6653f9"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "a5b24e4a-b7ca-4e4b-b065-aed76bde598e"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ea5b4e5f-10c7-4823-8eae-a66c4146db6b",
+      "to": "8cbea146-e78e-4b23-9256-d2ea2e1fbfef"
+    }
+  ]
+}

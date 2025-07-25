@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ANALOG_OUTPUT"
+      }
+    },
+    {
+      "id": "0b5ed8fa-0b99-45ad-8878-1c001f901768",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 2.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_882_506_648_719_574_0.jpg"
+      }
+    },
+    {
+      "id": "b4a81ba5-df5d-4a61-996b-825110352b29",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE. XA_W: REAL"
+      }
+    },
+    {
+      "id": "8453a6cb-fcc2-4db9-bc83-172a18e4d85d",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE. YA_W : REAL"
+      }
+    },
+    {
+      "id": "89b8e8e1-8cca-4847-b371-54a3c33eb0e2",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.XB_W : REAL"
+      }
+    },
+    {
+      "id": "2a499cce-f639-43a2-bdda-2d74a3d392b3",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.YB_W : REAL"
+      }
+    },
+    {
+      "id": "c6a76c62-d2f5-4d2f-96e4-5e338b6207cc",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "9282ffb6-6e69-4ac5-9962-d461caebf841",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "ced8143e-6016-4cb6-8b66-31f79eae75ae",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "540ef9d2-5f4e-4056-a4df-6a4a4dbcaa0e",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "cd9f90bb-b794-42ff-a27a-d35c0fdff282",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.XA_W: REAL - 点 A: 电气数值(3496)"
+      }
+    },
+    {
+      "id": "5a61730a-550b-4af0-a3d7-45fbba07b5e3",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.YA_W: REAL - 点 A: 物理数值(3498)"
+      }
+    },
+    {
+      "id": "05f3bf24-f143-4fa6-93c5-fd24adfb6033",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.XB_W: REAL - 点 B: 电气数值(3497)"
+      }
+    },
+    {
+      "id": "737d7e35-4766-4e54-bc4b-c1078b5a9c62",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.YB_W: REAL - 点 B: 物理数值(3499)"
+      }
+    },
+    {
+      "id": "a787399c-0941-4718-b421-202dd831dc05",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "d6fb88a7-649f-4fff-a9dc-e35b0e42118f",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "5bb1ca3c-bd40-4a5e-963c-5ebef84a2874",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "2117c608-a8ce-46ed-9c86-03d73a629597",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "127a262f-8d2b-4f06-80e3-fb47cf948fef",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "STEPPER_DRIVE"
+      }
+    },
+    {
+      "id": "e4e539be-d7f1-4863-845f-e3f6783304ce",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有图片",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "0b5ed8fa-0b99-45ad-8878-1c001f901768"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "b4a81ba5-df5d-4a61-996b-825110352b29"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "8453a6cb-fcc2-4db9-bc83-172a18e4d85d"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "89b8e8e1-8cca-4847-b371-54a3c33eb0e2"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "2a499cce-f639-43a2-bdda-2d74a3d392b3"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "c6a76c62-d2f5-4d2f-96e4-5e338b6207cc"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "9282ffb6-6e69-4ac5-9962-d461caebf841"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "ced8143e-6016-4cb6-8b66-31f79eae75ae"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "540ef9d2-5f4e-4056-a4df-6a4a4dbcaa0e"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "cd9f90bb-b794-42ff-a27a-d35c0fdff282"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "5a61730a-550b-4af0-a3d7-45fbba07b5e3"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "05f3bf24-f143-4fa6-93c5-fd24adfb6033"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "737d7e35-4766-4e54-bc4b-c1078b5a9c62"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "a787399c-0941-4718-b421-202dd831dc05"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "d6fb88a7-649f-4fff-a9dc-e35b0e42118f"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "5bb1ca3c-bd40-4a5e-963c-5ebef84a2874"
+    },
+    {
+      "type": "有参数",
+      "from": "84994b6d-2f49-4e3a-8a88-1404e2f46426",
+      "to": "2117c608-a8ce-46ed-9c86-03d73a629597"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "127a262f-8d2b-4f06-80e3-fb47cf948fef",
+      "to": "e4e539be-d7f1-4863-845f-e3f6783304ce"
+    }
+  ]
+}

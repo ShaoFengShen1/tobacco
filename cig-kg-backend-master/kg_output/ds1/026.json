@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "bd0161de-781d-4bca-a2f6-111e313b5964",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "X 机器料库光电探测器"
+      }
+    },
+    {
+      "id": "fbef2f93-6c3b-43b2-bfb2-15db690cce70",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B50",
+        "设备类型": "光电探测器",
+        "位置": "烟库的1号烟槽内",
+        "操作方式": "存在检测",
+        "缩写": "2B50 - 烟库的1号烟槽内烟支的存在检测"
+      }
+    },
+    {
+      "id": "6c98a4cd-490f-495b-83d4-d79d87051ae1",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B51",
+        "设备类型": "光电探测器",
+        "位置": "烟库的2号烟槽内",
+        "操作方式": "存在检测",
+        "缩写": "2B51 - 烟库的2号烟槽内烟支的存在检测"
+      }
+    },
+    {
+      "id": "0a47da99-e9fb-4d48-be10-51c72b2dcfd8",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B52",
+        "设备类型": "光电探测器",
+        "位置": "烟库的3号烟槽内",
+        "操作方式": "存在检测",
+        "缩写": "2B52 - 烟库的3号烟槽内烟支的存在检测"
+      }
+    },
+    {
+      "id": "698ae842-9a64-4cbc-8dca-02e3af54620e",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查料库组件每个烟槽内产品的存在",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "0a8f677b-a096-47eb-a569-a03ba96cee9a",
+      "type": "参见",
+      "properties": {
+        "实体名": "CHECK_SECTION-参数:,页 5-9"
+      }
+    },
+    {
+      "id": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在烟槽上连续探测出缺少烟支的次数大于由监视器参数设定的数值"
+      }
+    },
+    {
+      "id": "5b2436f9-abf4-42c1-9a6b-b4cb5b0dcac3",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "fa83ad5f-937b-4518-9ed8-9591a909f49d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "bd0161de-781d-4bca-a2f6-111e313b5964",
+      "to": "fbef2f93-6c3b-43b2-bfb2-15db690cce70"
+    },
+    {
+      "type": "包含设备",
+      "from": "bd0161de-781d-4bca-a2f6-111e313b5964",
+      "to": "6c98a4cd-490f-495b-83d4-d79d87051ae1"
+    },
+    {
+      "type": "包含设备",
+      "from": "bd0161de-781d-4bca-a2f6-111e313b5964",
+      "to": "0a47da99-e9fb-4d48-be10-51c72b2dcfd8"
+    },
+    {
+      "type": "有功能",
+      "from": "fbef2f93-6c3b-43b2-bfb2-15db690cce70",
+      "to": "698ae842-9a64-4cbc-8dca-02e3af54620e"
+    },
+    {
+      "type": "有功能",
+      "from": "6c98a4cd-490f-495b-83d4-d79d87051ae1",
+      "to": "698ae842-9a64-4cbc-8dca-02e3af54620e"
+    },
+    {
+      "type": "有功能",
+      "from": "0a47da99-e9fb-4d48-be10-51c72b2dcfd8",
+      "to": "698ae842-9a64-4cbc-8dca-02e3af54620e"
+    },
+    {
+      "type": "有参见",
+      "from": "fbef2f93-6c3b-43b2-bfb2-15db690cce70",
+      "to": "0a8f677b-a096-47eb-a569-a03ba96cee9a"
+    },
+    {
+      "type": "有参见",
+      "from": "6c98a4cd-490f-495b-83d4-d79d87051ae1",
+      "to": "0a8f677b-a096-47eb-a569-a03ba96cee9a"
+    },
+    {
+      "type": "有参见",
+      "from": "0a47da99-e9fb-4d48-be10-51c72b2dcfd8",
+      "to": "0a8f677b-a096-47eb-a569-a03ba96cee9a"
+    },
+    {
+      "type": "有检测异常",
+      "from": "fbef2f93-6c3b-43b2-bfb2-15db690cce70",
+      "to": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0"
+    },
+    {
+      "type": "有检测异常",
+      "from": "6c98a4cd-490f-495b-83d4-d79d87051ae1",
+      "to": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0"
+    },
+    {
+      "type": "有检测异常",
+      "from": "0a47da99-e9fb-4d48-be10-51c72b2dcfd8",
+      "to": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0",
+      "to": "5b2436f9-abf4-42c1-9a6b-b4cb5b0dcac3"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "cba6ff5e-d5a6-4fc7-83a7-37adc9c891d0",
+      "to": "fa83ad5f-937b-4518-9ed8-9591a909f49d"
+    }
+  ]
+}

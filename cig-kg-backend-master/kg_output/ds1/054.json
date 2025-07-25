@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "bc905dad-4fe6-4752-9a1d-d04229161ec1",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "34ff7478-efc0-4b63-9859-5b363a1cde7d",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "5196850c-500c-497a-a60c-d7e4976daea0",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "e8ace0f4-c567-423b-9990-1a4163cde3fa",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "第五轮入口处盒片存在的外侧检测"
+      }
+    },
+    {
+      "id": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B433",
+        "设备类型": "传感器",
+        "位置": "第五轮入口处",
+        "操作方式": "检查",
+        "操作细节": "第五轮入口处盒片的正确定位",
+        "缩写": "2B433"
+      }
+    },
+    {
+      "id": "efa04a9e-4e09-4977-a53e-5fbd33489728",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第五轮入口处盒片的正确定位",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "03e7d808-f194-487a-a389-03b638be7d92",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器还没有探测出盒片的正确位置"
+      }
+    },
+    {
+      "id": "c76649c9-059d-43f7-a29f-701acfff946e",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "ca9946c4-5454-4344-b1cb-100bfb740cba",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮入口处前缺盒片报警信号"
+      }
+    },
+    {
+      "id": "7b97ba3e-a5f7-457f-a17a-11d723ee566b",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器探测出盒片的存在, 而与存在链条比较时盒片不应该存在"
+      }
+    },
+    {
+      "id": "ef058b75-8e60-43fb-ab01-7b4fb4c86b66",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮入口处盒片前存在有误报警信号"
+      }
+    },
+    {
+      "id": "470ece51-24b2-4366-842e-516a35ae69dd",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 打开第五轮的半环报警信号"
+      }
+    },
+    {
+      "id": "4a182e9c-87fc-4952-ae07-22bbec0993c6",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器在机器连续转动三圈均没有测出状态的变化"
+      }
+    },
+    {
+      "id": "d669629a-f8fa-46b7-a0e0-0d2d7e778e16",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 检测失效:第五轮盒片前存在的报警信号"
+      }
+    },
+    {
+      "id": "8df9795d-3b93-4c0f-b196-10c56bca1cc5",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "激光光电管 DATASENSOR S40 - PH - M03 - PH/950401290"
+      }
+    },
+    {
+      "id": "93cca074-bdc6-44e5-90d0-d4a353c9b6b5",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 94",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_223_251_318_1070_795_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "bc905dad-4fe6-4752-9a1d-d04229161ec1"
+    },
+    {
+      "type": "有功能",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "efa04a9e-4e09-4977-a53e-5fbd33489728"
+    },
+    {
+      "type": "有检测异常",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "03e7d808-f194-487a-a389-03b638be7d92"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "03e7d808-f194-487a-a389-03b638be7d92",
+      "to": "c76649c9-059d-43f7-a29f-701acfff946e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "03e7d808-f194-487a-a389-03b638be7d92",
+      "to": "ca9946c4-5454-4344-b1cb-100bfb740cba"
+    },
+    {
+      "type": "有检测异常",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "7b97ba3e-a5f7-457f-a17a-11d723ee566b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7b97ba3e-a5f7-457f-a17a-11d723ee566b",
+      "to": "ef058b75-8e60-43fb-ab01-7b4fb4c86b66"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7b97ba3e-a5f7-457f-a17a-11d723ee566b",
+      "to": "470ece51-24b2-4366-842e-516a35ae69dd"
+    },
+    {
+      "type": "有检测异常",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "4a182e9c-87fc-4952-ae07-22bbec0993c6"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "4a182e9c-87fc-4952-ae07-22bbec0993c6",
+      "to": "d669629a-f8fa-46b7-a0e0-0d2d7e778e16"
+    },
+    {
+      "type": "有校准部件",
+      "from": "19fb3e78-0a5e-4d0f-bd36-40e80e69b9ef",
+      "to": "8df9795d-3b93-4c0f-b196-10c56bca1cc5"
+    },
+    {
+      "type": "有图片",
+      "from": "e8ace0f4-c567-423b-9990-1a4163cde3fa",
+      "to": "93cca074-bdc6-44e5-90d0-d4a353c9b6b5"
+    }
+  ]
+}

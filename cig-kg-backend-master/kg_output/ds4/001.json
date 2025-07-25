@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "e044f005-f15d-4dc9-a92c-fbf06f3e36c1",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "LATCH INPUT"
+      }
+    },
+    {
+      "id": "c2d87f65-d4a5-40a0-9372-c1b0b5d3d026",
+      "type": "功能",
+      "properties": {
+        "实体名": "LATCH_INPUT",
+        "功能类型": "纪录在出现物理输入通信波峰时的轴线位置"
+      }
+    },
+    {
+      "id": "f89a978a-6990-4f99-b67f-88fb2a10256a",
+      "type": "参数",
+      "properties": {
+        "实体名": "POLARITY_DIRECT: [BOOL] - 极性(611)"
+      }
+    },
+    {
+      "id": "c827e694-dde3-4da4-b3a2-15c14e9fdb23",
+      "type": "参数",
+      "properties": {
+        "实体名": "WINDOW.BEGIN_PH.PHASE: [LREAL] - 窗口的开始相位(714)"
+      }
+    },
+    {
+      "id": "5c715398-2220-4d72-9d19-55e1b16bbc3a",
+      "type": "参数",
+      "properties": {
+        "实体名": "WINDOW.END_PH.PHASE: [LREAL] - 窗口的结束相位(715)"
+      }
+    },
+    {
+      "id": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "CONTROL_SECTION"
+      }
+    },
+    {
+      "id": "5f98520b-70b4-4414-b768-080671efdda0",
+      "type": "功能",
+      "properties": {
+        "实体名": "CONTROL_SECTION",
+        "功能类型": "管理保存在链条内某个工步上的信息:根据相应内容,产生组合动作"
+      }
+    },
+    {
+      "id": "e47f7519-80e9-435d-898f-34050d8dfe0a",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACTIVATION_TIME: [DINT] - 启动时刻 (840)"
+      }
+    },
+    {
+      "id": "269fc62d-ccc1-404f-aa89-41acb07bce17",
+      "type": "参数",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)"
+      }
+    },
+    {
+      "id": "1c47ba1d-af67-4e24-83c4-23bffd9f4993",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.PHASE: [LREAL] - 启动相位(839)"
+      }
+    },
+    {
+      "id": "9100490e-a843-46d6-874d-84134866c967",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.DELAY: [UDINT] - 启动相位的延迟 (837)"
+      }
+    },
+    {
+      "id": "06de6d76-a819-49a9-a9e8-08f213dd39a6",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.MAX_COMPENSATION: [UDINT] - 启动相位的最大补偿 (838)"
+      }
+    },
+    {
+      "id": "9022f030-f906-443a-89d7-5a11c533fabf",
+      "type": "参数",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.PHASE: [LREAL] - 免除相位(842)"
+      }
+    },
+    {
+      "id": "06573353-e259-4948-9add-8c96212579ea",
+      "type": "参数",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.DELAY: [UDINT] - 免除相位的延迟(841)"
+      }
+    },
+    {
+      "id": "62398d1e-32e4-47e5-b1c8-7e4072ed05ca",
+      "type": "参数",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.MAX_COMPENSATION: [UDINT] - 免除相位的最大补偿 (855)"
+      }
+    },
+    {
+      "id": "be059772-ac64-4a43-93d2-78645c5495be",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PHASE_WINDOW"
+      }
+    },
+    {
+      "id": "2d41f04c-b36d-4637-9640-aa511b1cdab5",
+      "type": "功能",
+      "properties": {
+        "实体名": "PHASE_WINDOW",
+        "功能类型": "在一个开始相位和一个结束相位之间(窗口)产生与电气轴位置相关联的事件"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "e044f005-f15d-4dc9-a92c-fbf06f3e36c1",
+      "to": "c2d87f65-d4a5-40a0-9372-c1b0b5d3d026"
+    },
+    {
+      "type": "包含设备",
+      "from": "e044f005-f15d-4dc9-a92c-fbf06f3e36c1",
+      "to": "f89a978a-6990-4f99-b67f-88fb2a10256a"
+    },
+    {
+      "type": "包含设备",
+      "from": "e044f005-f15d-4dc9-a92c-fbf06f3e36c1",
+      "to": "c827e694-dde3-4da4-b3a2-15c14e9fdb23"
+    },
+    {
+      "type": "包含设备",
+      "from": "e044f005-f15d-4dc9-a92c-fbf06f3e36c1",
+      "to": "5c715398-2220-4d72-9d19-55e1b16bbc3a"
+    },
+    {
+      "type": "有功能",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "5f98520b-70b4-4414-b768-080671efdda0"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "e47f7519-80e9-435d-898f-34050d8dfe0a"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "269fc62d-ccc1-404f-aa89-41acb07bce17"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "1c47ba1d-af67-4e24-83c4-23bffd9f4993"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "9100490e-a843-46d6-874d-84134866c967"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "06de6d76-a819-49a9-a9e8-08f213dd39a6"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "9022f030-f906-443a-89d7-5a11c533fabf"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "06573353-e259-4948-9add-8c96212579ea"
+    },
+    {
+      "type": "包含设备",
+      "from": "18b8a5c7-5a50-4e54-ad42-c00fdf4231fc",
+      "to": "62398d1e-32e4-47e5-b1c8-7e4072ed05ca"
+    },
+    {
+      "type": "有功能",
+      "from": "be059772-ac64-4a43-93d2-78645c5495be",
+      "to": "2d41f04c-b36d-4637-9640-aa511b1cdab5"
+    }
+  ]
+}

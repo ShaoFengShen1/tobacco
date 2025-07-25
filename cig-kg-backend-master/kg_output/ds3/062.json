@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "id": "013f98e0-cede-480a-813d-8adab2914a27",
+      "type": "设备",
+      "properties": {
+        "实体名": "上梁架 松卷",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3d8fe365-6329-442b-b2fd-bcbb332caed6",
+      "type": "设备",
+      "properties": {
+        "实体名": "下梁架 松卷",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "802a6e9b-36d8-45a2-b7e5-6883fa047011",
+      "type": "设备",
+      "properties": {
+        "实体名": "上横梁相 位传感器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "24c41b79-2c11-420f-8276-27c4754ec264",
+      "type": "设备",
+      "properties": {
+        "实体名": "上梁架传 感器的相 位读取",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "b2a97f23-74c9-4c7c-a18e-6213a3250303",
+      "type": "设备",
+      "properties": {
+        "实体名": "下皮带 齿形基本 相位",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "dd29a922-7a12-4ebb-b90a-4d8c830dbc5e",
+      "type": "设备",
+      "properties": {
+        "实体名": "连接板线 性转换器 相对尺寸",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3847dfff-c8ef-4404-81dc-32082dce9971",
+      "type": "设备",
+      "properties": {
+        "实体名": "上梁架 停止开始 相位",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "c33a98c8-555d-4900-ba5c-519ef6a4754b",
+      "type": "设备",
+      "properties": {
+        "实体名": "下梁架 停止开始 相位",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "adccd844-39ed-4349-a9a7-4e64f1c3289d",
+      "type": "设备",
+      "properties": {
+        "实体名": "上梁架的 烟包数量",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "ea85d717-99e0-4b3e-9f17-0bf19b38de41",
+      "type": "设备",
+      "properties": {
+        "实体名": "下梁架的 烟包数量",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "4425df91-48b0-4a6b-afdd-21f1f8f051c6",
+      "type": "设备",
+      "properties": {
+        "实体名": "上横梁齿 形碰撞",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "79878a02-9ef4-4fe4-9b6e-5ee48a618be7",
+      "type": "设备",
+      "properties": {
+        "实体名": "下横梁齿 形碰撞",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": []
+}

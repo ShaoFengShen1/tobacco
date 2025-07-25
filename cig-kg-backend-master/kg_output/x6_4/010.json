@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "b780a102-9be3-49af-ae10-cfd90950998a",
+      "type": "功能",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION",
+        "功能类型": "等距凸轮固定数字的产生功能"
+      }
+    },
+    {
+      "id": "e534c748-3f41-4c51-9ab6-d4797afc6902",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_NUMBER",
+        "设备类型": "等距点数量",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "3417"
+      }
+    },
+    {
+      "id": "7e423860-a318-4b04-8c00-09b78b867bba",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION",
+        "设备类型": "等距凸轮持续时间",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "0"
+      }
+    },
+    {
+      "id": "93b98057-ff78-4820-8b9f-94800ed7eeba",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK"
+      }
+    },
+    {
+      "id": "90468440-50a7-4f8d-a477-5be52ec42acb",
+      "type": "功能",
+      "properties": {
+        "实体名": "DIGITAL_CHECK",
+        "功能类型": "根据数字信号的状态在aHMI上显示报警"
+      }
+    },
+    {
+      "id": "b1666522-3837-4e17-8d0c-092fe6909b8c",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK-信息"
+      }
+    },
+    {
+      "id": "9ef9f198-d303-4698-85f8-dc9f63bbbfb5",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "ALARM_ASM",
+        "诊断信息": "当数字信号状态与定义检测所设定的状态对应时被显示"
+      }
+    },
+    {
+      "id": "5bf5ab9b-7f30-4791-b1df-742be25977f3",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK-参数"
+      }
+    },
+    {
+      "id": "ee0dd07a-c2b6-465d-90ff-4a544b5faae1",
+      "type": "设备",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_OFF_ON",
+        "设备类型": "数字信号的转换过滤",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "从 OFF (FALSE) 至 ON (TRUE) 的转换只有在持续时间大于或等于设定的持续时间时才会被考虑",
+        "缩写": "0"
+      }
+    },
+    {
+      "id": "e36d16d0-931d-4cec-81b3-a9e68b8589b7",
+      "type": "设备",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_ON_OFF",
+        "设备类型": "数字信号的转换过滤",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "从 ON (TRUE) 至 OFF (FALSE) 的转换只有在持续时间大于或等于设定的持续时间时才会被考虑",
+        "缩写": "0"
+      }
+    },
+    {
+      "id": "5aa937da-b67b-4e84-9607-0e257c954cbe",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "272fa4da-1163-4b6c-9e91-0e645d4b5355",
+      "type": "功能",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE",
+        "功能类型": "设置和管理各种不同的温度检测模块"
+      }
+    },
+    {
+      "id": "231bd8cf-fb92-42f9-9b94-295180c0ef57",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE-信息"
+      }
+    },
+    {
+      "id": "18833e86-12a4-41d6-8658-3b291f0547e1",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM",
+        "诊断信息": "当出现任何一个模块故障时被显示"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "93b98057-ff78-4820-8b9f-94800ed7eeba",
+      "to": "90468440-50a7-4f8d-a477-5be52ec42acb"
+    },
+    {
+      "type": "有二级标题",
+      "from": "93b98057-ff78-4820-8b9f-94800ed7eeba",
+      "to": "b1666522-3837-4e17-8d0c-092fe6909b8c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b1666522-3837-4e17-8d0c-092fe6909b8c",
+      "to": "9ef9f198-d303-4698-85f8-dc9f63bbbfb5"
+    },
+    {
+      "type": "有二级标题",
+      "from": "93b98057-ff78-4820-8b9f-94800ed7eeba",
+      "to": "5bf5ab9b-7f30-4791-b1df-742be25977f3"
+    },
+    {
+      "type": "包含设备",
+      "from": "5bf5ab9b-7f30-4791-b1df-742be25977f3",
+      "to": "ee0dd07a-c2b6-465d-90ff-4a544b5faae1"
+    },
+    {
+      "type": "包含设备",
+      "from": "5bf5ab9b-7f30-4791-b1df-742be25977f3",
+      "to": "e36d16d0-931d-4cec-81b3-a9e68b8589b7"
+    },
+    {
+      "type": "有功能",
+      "from": "5aa937da-b67b-4e84-9607-0e257c954cbe",
+      "to": "272fa4da-1163-4b6c-9e91-0e645d4b5355"
+    },
+    {
+      "type": "有二级标题",
+      "from": "5aa937da-b67b-4e84-9607-0e257c954cbe",
+      "to": "231bd8cf-fb92-42f9-9b94-295180c0ef57"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "231bd8cf-fb92-42f9-9b94-295180c0ef57",
+      "to": "18833e86-12a4-41d6-8658-3b291f0547e1"
+    }
+  ]
+}

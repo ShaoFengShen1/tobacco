@@ -1,0 +1,283 @@
+{
+  "nodes": [
+    {
+      "id": "482abe54-b8d2-4d6b-a365-9e419db62b16",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "CHECK_SECTION 5-9"
+      }
+    },
+    {
+      "id": "d2f27493-1a68-44dc-a482-b2a630b88524",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "CHECK_SECTION. 5-9"
+      }
+    },
+    {
+      "id": "0461f7b6-c73d-4b89-91f3-760541a3ac91",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK. 5-11"
+      }
+    },
+    {
+      "id": "0bfe19f8-56b4-46cb-b05a-47264d62b2bb",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK 5-11"
+      }
+    },
+    {
+      "id": "1eaa3efb-2b83-454c-8588-8514436213e8",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "LATCH_INPUT 5-13"
+      }
+    },
+    {
+      "id": "a7e5543d-4cee-41bc-b796-233cb702459c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "LATCH INPUT 5-13"
+      }
+    },
+    {
+      "id": "3608cf06-642a-4ce8-bf8a-c1a45c9de444",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "CONTROL_SECTION. 5-15"
+      }
+    },
+    {
+      "id": "b084320d-7ba3-4415-a166-9d7861d38b2e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "CONTROL_SECTION 5-15"
+      }
+    },
+    {
+      "id": "05280f87-dba3-4493-9291-21c6f4fe829c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PHASE WINDOW 5-17"
+      }
+    },
+    {
+      "id": "6d01c8e1-2d3a-4877-8aea-1a35bac78a51",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PHASE WINDOW 5-17"
+      }
+    },
+    {
+      "id": "76bb93c6-b1a7-4eda-acf9-30405f24820d",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR. 5-19"
+      }
+    },
+    {
+      "id": "d34d3704-8b87-49c0-b851-7a74b15278b3",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DOUBLE ACTUATOR 5-19"
+      }
+    },
+    {
+      "id": "f9621d48-a1dc-4922-87e4-95288a1d2488",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "AXIS 5-21"
+      }
+    },
+    {
+      "id": "dbdcc0ec-2819-49d7-9b8f-74d11ca3daf7",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "AXIS 5-21"
+      }
+    },
+    {
+      "id": "8f1a2e67-a311-490d-a3c4-11e005abda71",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PREUNWINDER 5-23"
+      }
+    },
+    {
+      "id": "550856ea-0c83-4162-ac2f-76b1e8224d13",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PREUNWINDER 5-23"
+      }
+    },
+    {
+      "id": "1b52422d-8c9d-4ccf-b09f-c0cfe5266ec5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK 5-25"
+      }
+    },
+    {
+      "id": "03245a76-97e3-4388-abb6-490422d1afa2",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK 5-25"
+      }
+    },
+    {
+      "id": "88ff7347-fbf3-4257-93e7-b5bb85c823f6",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER 5-27"
+      }
+    },
+    {
+      "id": "5635d8b5-7757-4ca3-9000-fe00237cc007",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER 5-27"
+      }
+    },
+    {
+      "id": "bfb53bc9-b1b5-4ec9-9808-9125620a6297",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR. 5-29"
+      }
+    },
+    {
+      "id": "442d80f6-603b-44e2-bc2e-2a754dfe5de7",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR 5-29"
+      }
+    },
+    {
+      "id": "b87d58d0-83a9-49b1-a1be-0cf57e219948",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER 5-31"
+      }
+    },
+    {
+      "id": "32c407bf-79a2-4aef-9b02-e8b93fdaed78",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER 5-31"
+      }
+    },
+    {
+      "id": "281b96f7-4373-4960-92d9-b9b355271040",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER 5-33"
+      }
+    },
+    {
+      "id": "6532456a-ec2f-4267-a451-1c10a9696c03",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT ADJUSTER 5-33"
+      }
+    },
+    {
+      "id": "ffd8d057-07ac-41f3-983d-76b9d7baaa30",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER ESTIMATOR 5-35"
+      }
+    },
+    {
+      "id": "eba2cabf-05b6-43ae-b3aa-25d61897c988",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER ESTIMATOR 5-35"
+      }
+    },
+    {
+      "id": "32d18c34-d6ca-4591-8f6e-58b822842c1e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER. 5-37"
+      }
+    },
+    {
+      "id": "a79c21dd-43f2-4899-b034-8cb4f349c244",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER. 5-37"
+      }
+    },
+    {
+      "id": "a40b6305-76b0-4707-93a0-46d0badc331d",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK 5-39"
+      }
+    },
+    {
+      "id": "33ca0153-4cb3-4443-be08-9ad49062a0f6",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK 5-39"
+      }
+    },
+    {
+      "id": "f8d9932d-4b64-43e5-8e85-3557761db149",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK 5-41"
+      }
+    },
+    {
+      "id": "ff0dc6cd-d9f8-4a60-94d3-29f061f7f01c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK. 5-41"
+      }
+    },
+    {
+      "id": "5f2e1fb9-7baf-45d3-8c5c-2291e382f93d",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE 5-43"
+      }
+    },
+    {
+      "id": "bc9ada1d-4abb-4965-8387-e8423e6f7f00",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE. 5-43"
+      }
+    },
+    {
+      "id": "c2c3e7c7-5ae0-4fef-ae34-2c104b11070d",
+      "type": "设备",
+      "properties": {
+        "实体名": "X6",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "424319e5-2f35-46b5-a443-4ebdbe98cd48",
+      "type": "图片",
+      "properties": {
+        "实体名": "X6",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_14_123_1917_1473_382_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有图片",
+      "from": "c2c3e7c7-5ae0-4fef-ae34-2c104b11070d",
+      "to": "424319e5-2f35-46b5-a443-4ebdbe98cd48"
+    }
+  ]
+}

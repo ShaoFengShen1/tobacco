@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "b1338ea1-2e26-431a-9896-d3d38ec5000d",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAX_VALUE_REACHED_ASM - 最大值 (605)"
+      }
+    },
+    {
+      "id": "b9fe8b3c-f99e-451a-812a-d1ecd06745d6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MIN_VALUE_REACHED_ASM - 最小值 (606)"
+      }
+    },
+    {
+      "id": "49004f7a-f55c-4e85-8496-64b816536f9a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "DIAGNOSIS_FSM - 故障(591)"
+      }
+    },
+    {
+      "id": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "ANALOG_CHECK-参数"
+      }
+    },
+    {
+      "id": "3e72fc61-253d-458f-9585-3e7961375d57",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_VALUE [REAL] - 最大值 (605)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "设定模拟信号的允许工作范围的上极限值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "4fc29254-1f1d-42c7-8a51-2d04bf272660",
+      "type": "设备",
+      "properties": {
+        "实体名": "MIN_VALUE [REAL] - 最小值 (606)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "设定模拟信号的允许工作范围的下极限值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "38f420f2-2d04-4781-81c8-ca531e603ef9",
+      "type": "设备",
+      "properties": {
+        "实体名": "HYSTERESIS [UDINT] - 滞后现象(604)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "设定信号最大值或最小值的滞后现象数值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "a5d15df8-82c9-471c-a083-6c72ee63a5b8",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PHASE"
+      }
+    },
+    {
+      "id": "a716edb8-00fa-4ea0-865c-3bc0428af5ca",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PHASE-参数"
+      }
+    },
+    {
+      "id": "755b1044-8128-4d7f-9f12-4bb0ead81170",
+      "type": "设备",
+      "properties": {
+        "实体名": "PHASE: [LREAL] - 相位(189)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "消除事件的轴位置",
+        "缩写": null
+      }
+    },
+    {
+      "id": "667e556f-61d6-4eee-8ea0-c4fe555c5917",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY: [UDINT] - 延迟(856)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "补偿时间",
+        "缩写": null
+      }
+    },
+    {
+      "id": "765687bd-6c2a-4687-8cd3-87d011cc5767",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_COMPENSATION: [UDINT] - 最大补偿 (882)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "相位补偿的最大值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "6f1779ce-a9ef-44b2-9502-c002dc123bb5",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "CHECK_SECTION"
+      }
+    },
+    {
+      "id": "b2bd28e5-8b0f-46ce-beba-e0b3a412b51a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - (0)"
+      }
+    },
+    {
+      "id": "1571bd9d-1bc3-4dc2-98a1-a67d1dcb99b3",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SINGLE_FAILED_CHECK_AEM - 失误 (3141)"
+      }
+    },
+    {
+      "id": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "CHECK_SECTION-参数"
+      }
+    },
+    {
+      "id": "6a48719a-db69-477d-8d84-a0a3830310e8",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "执行检测处的链条工步",
+        "缩写": null
+      }
+    },
+    {
+      "id": "7be5e41f-d7ac-4757-8816-5d2f745c0e51",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET: [DINT] - 所需写入的第一工步偏移(383')",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "在执行检测之后,设定产品剔除处的链条工步",
+        "缩写": null
+      }
+    },
+    {
+      "id": "683d7c40-1325-4318-ad08-cb647ad6602a",
+      "type": "设备",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE: [DINT] - 所需写入的工步数量(717)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "在参数FIRST_STEP_TO_WRITE_OFFSET: [DINT]设定的工步之后的剔除工步的数量",
+        "缩写": null
+      }
+    },
+    {
+      "id": "45dfd276-d102-4d03-b14f-0d0084761c38",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - 连续失误检测的最大次数 (663)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "检测连续失误的最大次数",
+        "缩写": null
+      }
+    },
+    {
+      "id": "79610e44-b0c6-4d98-b970-5cba6a4cacb1",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_FAILED_CHECKS_PERCENTAGE: [UDINT] - 失误检测的最大百分比(664)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "失误检测的最大允许百分比",
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "b1338ea1-2e26-431a-9896-d3d38ec5000d"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "b9fe8b3c-f99e-451a-812a-d1ecd06745d6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "49004f7a-f55c-4e85-8496-64b816536f9a"
+    },
+    {
+      "type": "包含设备",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "3e72fc61-253d-458f-9585-3e7961375d57"
+    },
+    {
+      "type": "包含设备",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "4fc29254-1f1d-42c7-8a51-2d04bf272660"
+    },
+    {
+      "type": "包含设备",
+      "from": "b1b84912-9ff1-461d-842b-31c3db81b2f0",
+      "to": "38f420f2-2d04-4781-81c8-ca531e603ef9"
+    },
+    {
+      "type": "有二级标题",
+      "from": "a5d15df8-82c9-471c-a083-6c72ee63a5b8",
+      "to": "a716edb8-00fa-4ea0-865c-3bc0428af5ca"
+    },
+    {
+      "type": "包含设备",
+      "from": "a716edb8-00fa-4ea0-865c-3bc0428af5ca",
+      "to": "755b1044-8128-4d7f-9f12-4bb0ead81170"
+    },
+    {
+      "type": "包含设备",
+      "from": "a716edb8-00fa-4ea0-865c-3bc0428af5ca",
+      "to": "667e556f-61d6-4eee-8ea0-c4fe555c5917"
+    },
+    {
+      "type": "包含设备",
+      "from": "a716edb8-00fa-4ea0-865c-3bc0428af5ca",
+      "to": "765687bd-6c2a-4687-8cd3-87d011cc5767"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6f1779ce-a9ef-44b2-9502-c002dc123bb5",
+      "to": "b2bd28e5-8b0f-46ce-beba-e0b3a412b51a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6f1779ce-a9ef-44b2-9502-c002dc123bb5",
+      "to": "1571bd9d-1bc3-4dc2-98a1-a67d1dcb99b3"
+    },
+    {
+      "type": "有二级标题",
+      "from": "6f1779ce-a9ef-44b2-9502-c002dc123bb5",
+      "to": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e"
+    },
+    {
+      "type": "包含设备",
+      "from": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "to": "6a48719a-db69-477d-8d84-a0a3830310e8"
+    },
+    {
+      "type": "包含设备",
+      "from": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "to": "7be5e41f-d7ac-4757-8816-5d2f745c0e51"
+    },
+    {
+      "type": "包含设备",
+      "from": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "to": "683d7c40-1325-4318-ad08-cb647ad6602a"
+    },
+    {
+      "type": "包含设备",
+      "from": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "to": "45dfd276-d102-4d03-b14f-0d0084761c38"
+    },
+    {
+      "type": "包含设备",
+      "from": "d7616c9d-e5e9-4d0a-bb68-d1b8b8ee869e",
+      "to": "79610e44-b0c6-4d98-b970-5cba6a4cacb1"
+    }
+  ]
+}

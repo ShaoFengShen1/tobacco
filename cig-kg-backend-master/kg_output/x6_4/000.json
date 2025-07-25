@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "e00d90c5-5e60-4cb8-ad1d-eaa9a1386289",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK"
+      }
+    },
+    {
+      "id": "52b991e6-9c37-40fd-af31-a1f9d27e9cce",
+      "type": "功能",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK",
+        "功能类型": "检查和诊断与2个物理信号(输入)状态相关的所有可能组合"
+      }
+    },
+    {
+      "id": "b665e5f6-52b1-47a0-840c-942539977f13",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MISALIGNMENT_AEM - 偏移(2300)"
+      }
+    },
+    {
+      "id": "13d3f1ce-0abe-40c1-9e62-15d7170e58a9",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当检测的材料出现偏移或者不存在时将被显示"
+      }
+    },
+    {
+      "id": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK-参数:"
+      }
+    },
+    {
+      "id": "e3ea356f-1010-44fb-8e89-c3e87e01d92b",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)",
+        "设备类型": "参数",
+        "操作细节": "执行检测处的链条工步"
+      }
+    },
+    {
+      "id": "077a0419-2383-4d41-bc26-42de0e3c219e",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET: [DINT] - 所需写入的第一工步偏移(3837)",
+        "设备类型": "参数",
+        "操作细节": "在执行检测之后,设定产品剔除处的链条工步"
+      }
+    },
+    {
+      "id": "4ad51767-3fc2-485c-bb79-d8fb6132cda8",
+      "type": "设备",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE: [DINT] - 所需写入的工步数量(717)",
+        "设备类型": "参数",
+        "操作细节": "在参数FIRST_STEP_TO_WRITE_OFFSET设定的工步之后的剔除工步的数量"
+      }
+    },
+    {
+      "id": "f727a0b4-0122-4957-9603-c0502e2a3944",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_DISTANCE: [LREAL] - 在输入波峰之间的最大距离 (1240)",
+        "设备类型": "参数",
+        "操作细节": "由参数OUTER_WINDOW.BEGIN_PH.PHASE: [LREAL]和OUTER_WINDOW.END_PH.PHASE: [LREAL]定义的外部检测窗口内取样位置之间的轴线位置参照的最大允许距离"
+      }
+    },
+    {
+      "id": "c934a4b2-1f2f-44a6-9f41-cc40b7fb9aaf",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_ABSENCES: [UDINT] - 非正确的最大连续次数I (3843)",
+        "设备类型": "参数",
+        "操作细节": "对齐检查输入的连续缺少读取的最大次数"
+      }
+    },
+    {
+      "id": "7b79ea9d-6935-45de-97fb-f4b20ab32084",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_MISALINGNMENTS: [UDINT] - 偏移的最大连续次数 (3838)",
+        "设备类型": "参数",
+        "操作细节": "对齐检测连续失误的最大次数"
+      }
+    },
+    {
+      "id": "bef0609b-ab0d-49e3-b7aa-45ca79b3045e",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_FINE_MISALIGNMENTS: [UDINT] - 微小偏移的最大连续次数(710)",
+        "设备类型": "参数",
+        "操作细节": "微小对齐检测连续失误的最大次数"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "e00d90c5-5e60-4cb8-ad1d-eaa9a1386289",
+      "to": "52b991e6-9c37-40fd-af31-a1f9d27e9cce"
+    },
+    {
+      "type": "包含设备",
+      "from": "b665e5f6-52b1-47a0-840c-942539977f13",
+      "to": "13d3f1ce-0abe-40c1-9e62-15d7170e58a9"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "e3ea356f-1010-44fb-8e89-c3e87e01d92b"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "077a0419-2383-4d41-bc26-42de0e3c219e"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "4ad51767-3fc2-485c-bb79-d8fb6132cda8"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "f727a0b4-0122-4957-9603-c0502e2a3944"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "c934a4b2-1f2f-44a6-9f41-cc40b7fb9aaf"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "7b79ea9d-6935-45de-97fb-f4b20ab32084"
+    },
+    {
+      "type": "包含设备",
+      "from": "6f72b2b0-7871-4b14-bffc-4f8a8057fe80",
+      "to": "bef0609b-ab0d-49e3-b7aa-45ca79b3045e"
+    }
+  ]
+}

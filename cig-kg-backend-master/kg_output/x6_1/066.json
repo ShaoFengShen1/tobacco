@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "c86fcdb1-8ddc-4d20-babf-db6c1fe9ab31",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 115",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_266_541_475_686_409_0.jpg"
+      }
+    },
+    {
+      "id": "e4250c6e-8b84-4635-9461-499da62af395",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 116",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_266_541_1366_684_410_0.jpg"
+      }
+    },
+    {
+      "id": "1d4b4c51-7b48-4db4-95fe-47116e595c97",
+      "type": "设备",
+      "properties": {
+        "实体名": "机器检测 铝箔纸换卷组件",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "X6"
+      }
+    },
+    {
+      "id": "812cc46f-ef73-4aaa-b928-494354cc4b88",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "b33720af-7185-4ed0-9e0f-bbd0efbb114c",
+      "type": "设备",
+      "properties": {
+        "实体名": "纸边预置平台",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S4737 - 纸边预置平台在低位"
+      }
+    },
+    {
+      "id": "a79353a3-9d06-416c-a14e-b688064d8fea",
+      "type": "设备",
+      "properties": {
+        "实体名": "纸边预置平台",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S4748 - 纸边预置平台在高位"
+      }
+    },
+    {
+      "id": "ecd236d5-9d1b-4482-b5be-d7008014d44f",
+      "type": "功能",
+      "properties": {
+        "实体名": "两个传感器检查由电机2M837完成的铝箔纸预置活动平台的上下运动",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "794f350b-76f9-4cc3-b4f1-efbd61cd675b",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "启动活动平台或开卷支臂的运动"
+      }
+    },
+    {
+      "id": "3eccc36a-46af-43be-a06a-7b3fc2d97897",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止铝箔纸换卷组件"
+      }
+    },
+    {
+      "id": "ad842ba2-6da2-4032-95b0-7c9ff8107207",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 开卷器支臂没有到位报警信号"
+      }
+    },
+    {
+      "id": "1fdb4afb-6883-48ed-947e-26a1209ee008",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 117",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_270_414_1208_970_793_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有图片",
+      "from": "1d4b4c51-7b48-4db4-95fe-47116e595c97",
+      "to": "e4250c6e-8b84-4635-9461-499da62af395"
+    },
+    {
+      "type": "有功能",
+      "from": "b33720af-7185-4ed0-9e0f-bbd0efbb114c",
+      "to": "ecd236d5-9d1b-4482-b5be-d7008014d44f"
+    },
+    {
+      "type": "有功能",
+      "from": "a79353a3-9d06-416c-a14e-b688064d8fea",
+      "to": "ecd236d5-9d1b-4482-b5be-d7008014d44f"
+    },
+    {
+      "type": "有检测异常",
+      "from": "b33720af-7185-4ed0-9e0f-bbd0efbb114c",
+      "to": "794f350b-76f9-4cc3-b4f1-efbd61cd675b"
+    },
+    {
+      "type": "有检测异常",
+      "from": "a79353a3-9d06-416c-a14e-b688064d8fea",
+      "to": "794f350b-76f9-4cc3-b4f1-efbd61cd675b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "794f350b-76f9-4cc3-b4f1-efbd61cd675b",
+      "to": "3eccc36a-46af-43be-a06a-7b3fc2d97897"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "794f350b-76f9-4cc3-b4f1-efbd61cd675b",
+      "to": "ad842ba2-6da2-4032-95b0-7c9ff8107207"
+    },
+    {
+      "type": "有图片",
+      "from": "b33720af-7185-4ed0-9e0f-bbd0efbb114c",
+      "to": "1fdb4afb-6883-48ed-947e-26a1209ee008"
+    },
+    {
+      "type": "有图片",
+      "from": "a79353a3-9d06-416c-a14e-b688064d8fea",
+      "to": "1fdb4afb-6883-48ed-947e-26a1209ee008"
+    }
+  ]
+}

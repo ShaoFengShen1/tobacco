@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "69dc0d5e-f75c-46c2-89d1-2196bc4cc5fd",
+      "type": "设备",
+      "properties": {
+        "实体名": "执行器2Y917",
+        "设备类型": "执行器",
+        "操作细节": "应该非常敏捷地执行短运动"
+      }
+    },
+    {
+      "id": "acb92e3f-e397-4c16-840f-edeafa2a4dbc",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器在预定时间内没有探测出运动"
+      }
+    },
+    {
+      "id": "5c741b57-bdd0-441c-b18d-6034a8fb0645",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "71914a72-4136-4a04-9346-f0a9dce81fca",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 涂胶器靠近失效",
+        "参见": "DIGITAL_ACTUATOR-信息, 页 5-29"
+      }
+    },
+    {
+      "id": "d74841d7-3aff-4adc-896e-0c2b81fd4d21",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 涂胶器远离失效",
+        "参见": "DIGITAL_ACTUATOR-信息, 页 5-29"
+      }
+    },
+    {
+      "id": "bc47244b-3e1c-4a54-a27a-8973bcfd520f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "当机器在运行时,设定参数“盒片/涂胶/辊子靠近/免除涂胶器远离”为“OFF”,可抑制涂胶器的短运动"
+      }
+    },
+    {
+      "id": "941fd323-db0e-4b54-af94-8d6335dd462a",
+      "type": "图片",
+      "properties": {
+        "实体名": "01955b02-6cff-7e1b-ac84-e8ebec45ae19_433_257_322_847_683_0.jpg",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_433_257_322_847_683_0.jpg"
+      }
+    },
+    {
+      "id": "1a897b3a-803a-4a28-8d00-fcaa897263a8",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S450",
+        "设备类型": "传感器",
+        "功能类型": "检查涂胶器是否正确转动",
+        "操作细节": "由涂胶器电机2M972驱动, 或者由运行中的机器驱动"
+      }
+    },
+    {
+      "id": "04def2dc-830f-4966-8d8f-64800cfb7072",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在时间结束时,若还没有测出波峰"
+      }
+    },
+    {
+      "id": "245aa6c6-d099-4107-b0fb-8e9f907137f4",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "d04ffc74-b865-4060-ab85-6adfea242a51",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 盒片涂胶器不转动报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有检测异常",
+      "from": "69dc0d5e-f75c-46c2-89d1-2196bc4cc5fd",
+      "to": "acb92e3f-e397-4c16-840f-edeafa2a4dbc"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acb92e3f-e397-4c16-840f-edeafa2a4dbc",
+      "to": "5c741b57-bdd0-441c-b18d-6034a8fb0645"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acb92e3f-e397-4c16-840f-edeafa2a4dbc",
+      "to": "71914a72-4136-4a04-9346-f0a9dce81fca"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acb92e3f-e397-4c16-840f-edeafa2a4dbc",
+      "to": "d74841d7-3aff-4adc-896e-0c2b81fd4d21"
+    },
+    {
+      "type": "有检测异常",
+      "from": "1a897b3a-803a-4a28-8d00-fcaa897263a8",
+      "to": "04def2dc-830f-4966-8d8f-64800cfb7072"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "04def2dc-830f-4966-8d8f-64800cfb7072",
+      "to": "245aa6c6-d099-4107-b0fb-8e9f907137f4"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "04def2dc-830f-4966-8d8f-64800cfb7072",
+      "to": "d04ffc74-b865-4060-ab85-6adfea242a51"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "08c9e0aa-a0fa-4507-851a-5a86ec3cb2fb",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "X6 驱动器 总组件"
+      }
+    },
+    {
+      "id": "b9748b07-1ac4-4d65-8c93-42de8dc031d9",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y1097 - X电机的冷却水流入",
+        "设备类型": "执行器",
+        "操作方式": "启动/免除",
+        "操作细节": "在机器主电机上冷却水的流入",
+        "缩写": "2Y1097"
+      }
+    },
+    {
+      "id": "cc4c69a3-d455-4f2b-876a-ba948e1f96eb",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 X 机器电机,页 3-5"
+      }
+    },
+    {
+      "id": "13bcde49-bafc-464d-a93d-bc78a893e1ba",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology EMERGENCY 主电机温度太高报警信号"
+      }
+    },
+    {
+      "id": "f28cc5bd-ee6b-49ef-b148-9a06e43bf5de",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "机器/驱动装置/管理器/温度检测"
+      }
+    },
+    {
+      "id": "fb42955b-4f5a-4e5c-a9ff-eeb3ada398bf",
+      "type": "设备",
+      "properties": {
+        "实体名": "电机2M610 - 烟库烟支抖动器电机",
+        "设备类型": "电机",
+        "缩写": "2M610"
+      }
+    },
+    {
+      "id": "41e87876-c214-4924-9132-7c35a3794dcb",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 X烟库抖动辊控制按钮,页 2-125"
+      }
+    },
+    {
+      "id": "ce4329ee-8d77-4ede-8a75-23c0d12c6f71",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障 ( 参见 AXIS-信息, 页 5-21)报警信号"
+      }
+    },
+    {
+      "id": "3da44438-5705-4427-975b-b15820f4ae95",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "烟支水平传送带的电机"
+      }
+    },
+    {
+      "id": "925841fc-fd7c-4913-9fd1-c5b8f832199d",
+      "type": "设备",
+      "properties": {
+        "实体名": "电机2M1180 - 烟支水平传送带电机",
+        "设备类型": "电机",
+        "缩写": "2M1180"
+      }
+    },
+    {
+      "id": "0fd9c7be-98a2-49bf-b97f-d8d4160572ec",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 在水平传送带之间烟井内的烟支水平位, 页 2-99"
+      }
+    },
+    {
+      "id": "bbd37bc5-be78-4fad-a744-55a592be5d37",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障 ( 参见 AXIS-信息, 页 5-21)报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "08c9e0aa-a0fa-4507-851a-5a86ec3cb2fb",
+      "to": "b9748b07-1ac4-4d65-8c93-42de8dc031d9"
+    },
+    {
+      "type": "有参见",
+      "from": "b9748b07-1ac4-4d65-8c93-42de8dc031d9",
+      "to": "cc4c69a3-d455-4f2b-876a-ba948e1f96eb"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b9748b07-1ac4-4d65-8c93-42de8dc031d9",
+      "to": "13bcde49-bafc-464d-a93d-bc78a893e1ba"
+    },
+    {
+      "type": "包含设备",
+      "from": "f28cc5bd-ee6b-49ef-b148-9a06e43bf5de",
+      "to": "fb42955b-4f5a-4e5c-a9ff-eeb3ada398bf"
+    },
+    {
+      "type": "有参见",
+      "from": "fb42955b-4f5a-4e5c-a9ff-eeb3ada398bf",
+      "to": "41e87876-c214-4924-9132-7c35a3794dcb"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "fb42955b-4f5a-4e5c-a9ff-eeb3ada398bf",
+      "to": "ce4329ee-8d77-4ede-8a75-23c0d12c6f71"
+    },
+    {
+      "type": "包含设备",
+      "from": "3da44438-5705-4427-975b-b15820f4ae95",
+      "to": "925841fc-fd7c-4913-9fd1-c5b8f832199d"
+    },
+    {
+      "type": "有参见",
+      "from": "925841fc-fd7c-4913-9fd1-c5b8f832199d",
+      "to": "0fd9c7be-98a2-49bf-b97f-d8d4160572ec"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "925841fc-fd7c-4913-9fd1-c5b8f832199d",
+      "to": "bbd37bc5-be78-4fad-a744-55a592be5d37"
+    }
+  ]
+}

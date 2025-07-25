@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "d472faed-fcf3-4643-be22-bcfd18bae3af",
+      "type": "设备",
+      "properties": {
+        "实体名": "驱动器 裹包线",
+        "设备类型": "驱动器",
+        "缩写": "X6"
+      }
+    },
+    {
+      "id": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "type": "设备",
+      "properties": {
+        "实体名": "执行器 2Y913",
+        "设备类型": "执行器",
+        "缩写": "2Y913",
+        "操作方式": "启动/免除",
+        "操作细节": "第三轮的剔除运动"
+      }
+    },
+    {
+      "id": "66c68208-e471-4204-84b7-1a98b1914955",
+      "type": "功能",
+      "properties": {
+        "实体名": "控制一第三轮产品剔除",
+        "功能类型": "控制功能"
+      }
+    },
+    {
+      "id": "4f9119d5-5794-4976-b57f-3bbacd1210c3",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 PHASE-参数: , 页 5-7"
+      }
+    },
+    {
+      "id": "3c1b225f-2575-422e-97f5-e31c51bcb417",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CONTROL_SECTION-参数:,页 5-15"
+      }
+    },
+    {
+      "id": "56666e6f-4049-43d8-b0ff-508e0c174086",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 失效:第三轮上烟包剔除"
+      }
+    },
+    {
+      "id": "b6c59c77-5064-4ad0-98c0-8ce361b4829c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 无请求第三轮烟包剔除"
+      }
+    },
+    {
+      "id": "1b177f3b-396f-4aa8-bb18-b5e82c6bcf27",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 从鼓轮上取掉无烟包的盒片的报警信号"
+      }
+    },
+    {
+      "id": "0c12ce4a-2a1b-4306-9a0c-62aaa3b0b9af",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 打开前护罩并排除烟包信号"
+      }
+    },
+    {
+      "id": "afcecf5d-80a2-4d58-b4b8-764e2a777f44",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在执行器出现故障或强制时"
+      }
+    },
+    {
+      "id": "e3fb566c-c006-4f55-87f3-8b7925d37cee",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 失效:第三轮上烟包剔除(参见 CHECK_SECTION-信息,页 5-9)报警信号"
+      }
+    },
+    {
+      "id": "c7f7269c-6e84-4a56-8337-d1266c1ffb26",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 无请求第三轮烟包剔除(参见 CHECK_SECTION-信息,页 5-9)报警信号"
+      }
+    },
+    {
+      "id": "7557faa7-b870-4e57-935a-c4374afc13d0",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 从鼓轮上取掉无烟包的盒片的报警信号"
+      }
+    },
+    {
+      "id": "5a1f382d-b2e7-4b20-bfc3-47af48c4c3dc",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology OBLIGATION 打开前护罩并排除烟包信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "66c68208-e471-4204-84b7-1a98b1914955"
+    },
+    {
+      "type": "有参见",
+      "from": "d472faed-fcf3-4643-be22-bcfd18bae3af",
+      "to": "4f9119d5-5794-4976-b57f-3bbacd1210c3"
+    },
+    {
+      "type": "有参见",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "3c1b225f-2575-422e-97f5-e31c51bcb417"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "56666e6f-4049-43d8-b0ff-508e0c174086"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "b6c59c77-5064-4ad0-98c0-8ce361b4829c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "1b177f3b-396f-4aa8-bb18-b5e82c6bcf27"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "0c12ce4a-2a1b-4306-9a0c-62aaa3b0b9af"
+    },
+    {
+      "type": "有检测异常",
+      "from": "cf4cabfb-d57a-42d8-930e-9599e3de594d",
+      "to": "afcecf5d-80a2-4d58-b4b8-764e2a777f44"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "afcecf5d-80a2-4d58-b4b8-764e2a777f44",
+      "to": "e3fb566c-c006-4f55-87f3-8b7925d37cee"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "afcecf5d-80a2-4d58-b4b8-764e2a777f44",
+      "to": "c7f7269c-6e84-4a56-8337-d1266c1ffb26"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "afcecf5d-80a2-4d58-b4b8-764e2a777f44",
+      "to": "7557faa7-b870-4e57-935a-c4374afc13d0"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "afcecf5d-80a2-4d58-b4b8-764e2a777f44",
+      "to": "5a1f382d-b2e7-4b20-bfc3-47af48c4c3dc"
+    }
+  ]
+}

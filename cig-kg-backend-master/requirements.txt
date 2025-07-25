@@ -1,0 +1,13 @@
+langchain
+python-dotenv
+neo4j
+tqdm
+pydantic
+fastapi
+pathlib
+pymupdf4llm
+pypdf2
+openai
+uvicorn
+langchain_community
+python-multipart

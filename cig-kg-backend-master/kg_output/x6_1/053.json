@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "1ac2ddb6-19b3-4762-a5b4-c7af6da995ed",
+      "type": "设备",
+      "properties": {
+        "实体名": "第五轮半环活动部分",
+        "设备类型": "活动部分",
+        "位置": "第五轮",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "7b879161-9af4-44cd-91fd-a0deef6f9a15",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "堵塞的烟包"
+      }
+    },
+    {
+      "id": "2a7c6657-5f8a-488f-856f-954eb86a6cad",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "a4410a0f-6d07-493a-8a83-775944faaf87",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮进料口烟包阻塞报警信号"
+      }
+    },
+    {
+      "id": "8290e4d6-248d-4bbd-94b2-f4c1aab74749",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出 typology OBLIGATION 打开第五轮的半环 信号"
+      }
+    },
+    {
+      "id": "45b18920-fa66-4fe6-8dfa-f8ade893db50",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮阻塞的报警信号"
+      }
+    },
+    {
+      "id": "f6f28f9a-d6d7-4f50-90c0-0243d47042d9",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "将剔除工步设定在监视器参数"
+      }
+    },
+    {
+      "id": "77ef00ed-01df-4540-bd9c-185a6d0abe93",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 92",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_218_339_979_1027_792_0.jpg"
+      }
+    },
+    {
+      "id": "4eaeef74-a58b-44ee-bf2f-969358ddc2e6",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S435",
+        "设备类型": "传感器",
+        "位置": "第五轮螺旋折叠器",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S435"
+      }
+    },
+    {
+      "id": "a438d539-176b-496e-9ebb-545c64abf287",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第五轮螺旋折叠器的堵塞或打开",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "a66e1048-4a33-451d-ab1f-2a99e6aa1950",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "第五轮螺旋折叠器打开"
+      }
+    },
+    {
+      "id": "c3ac7058-1aaf-470c-b487-32013ba15a8e",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "ef110734-e4ab-4261-9379-9579be5e5331",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出 typology OBLIGATION 打开第五轮的半环 信号"
+      }
+    },
+    {
+      "id": "afe4e6dd-2d45-4343-b38c-bf352081112c",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第五轮折叠器打开报警信号"
+      }
+    },
+    {
+      "id": "586e51ce-3aca-4ad6-9fd3-9a5e2ac4204f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "将剔除工步设定在监视器参数"
+      }
+    },
+    {
+      "id": "85690249-5e9d-4f17-9784-692de612ef13",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 93",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_220_335_1184_1050_790_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "to": "2a7c6657-5f8a-488f-856f-954eb86a6cad"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "to": "a4410a0f-6d07-493a-8a83-775944faaf87"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "to": "8290e4d6-248d-4bbd-94b2-f4c1aab74749"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "to": "45b18920-fa66-4fe6-8dfa-f8ade893db50"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "acbaf4bc-cc9f-4364-87fc-39e4f60f3957",
+      "to": "f6f28f9a-d6d7-4f50-90c0-0243d47042d9"
+    },
+    {
+      "type": "有图片",
+      "from": "1ac2ddb6-19b3-4762-a5b4-c7af6da995ed",
+      "to": "77ef00ed-01df-4540-bd9c-185a6d0abe93"
+    },
+    {
+      "type": "有功能",
+      "from": "4eaeef74-a58b-44ee-bf2f-969358ddc2e6",
+      "to": "a438d539-176b-496e-9ebb-545c64abf287"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a66e1048-4a33-451d-ab1f-2a99e6aa1950",
+      "to": "c3ac7058-1aaf-470c-b487-32013ba15a8e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a66e1048-4a33-451d-ab1f-2a99e6aa1950",
+      "to": "ef110734-e4ab-4261-9379-9579be5e5331"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a66e1048-4a33-451d-ab1f-2a99e6aa1950",
+      "to": "afe4e6dd-2d45-4343-b38c-bf352081112c"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a66e1048-4a33-451d-ab1f-2a99e6aa1950",
+      "to": "586e51ce-3aca-4ad6-9fd3-9a5e2ac4204f"
+    },
+    {
+      "type": "有图片",
+      "from": "4eaeef74-a58b-44ee-bf2f-969358ddc2e6",
+      "to": "85690249-5e9d-4f17-9784-692de612ef13"
+    }
+  ]
+}

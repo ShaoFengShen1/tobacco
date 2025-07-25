@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "342663fe-ab62-4c6c-beda-521279adc713",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "卫星参数"
+      }
+    },
+    {
+      "id": "e313fe42-b6aa-42c1-a906-51fe19ef8ecf",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "数字与符号"
+      }
+    },
+    {
+      "id": "13f23fc2-5d9d-4986-925d-836b9baf28d9",
+      "type": "设备",
+      "properties": {
+        "实体名": "卷盘",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "974371cb-6a07-498f-8be5-f6d2d8f01a30",
+      "type": "设备",
+      "properties": {
+        "实体名": "纸边缓冲器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "84ac8f1a-5982-4d65-803a-0bb2cae86b59",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "ac62ba4e-688e-4d47-84a4-0d9199b4781e",
+      "type": "设备",
+      "properties": {
+        "实体名": "切刀",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "4054f56c-5035-42a6-ae60-66f6f9c5cae8",
+      "type": "设备",
+      "properties": {
+        "实体名": "主编码器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "c46ffd42-4a64-4851-9cf8-d88eae74d80b",
+      "type": "设备",
+      "properties": {
+        "实体名": "制动器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "db011c65-fb3d-4c3f-bec0-22197c827b42",
+      "type": "设备",
+      "properties": {
+        "实体名": "触发器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "084aaf5a-5c8e-4584-8072-e797e535026b",
+      "type": "设备",
+      "properties": {
+        "实体名": "涂胶器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "597b74b6-e32b-4ba6-a8ea-65028a5997b2",
+      "type": "设备",
+      "properties": {
+        "实体名": "控制器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "13f23fc2-5d9d-4986-925d-836b9baf28d9"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "974371cb-6a07-498f-8be5-f6d2d8f01a30"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "84ac8f1a-5982-4d65-803a-0bb2cae86b59"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "ac62ba4e-688e-4d47-84a4-0d9199b4781e"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "4054f56c-5035-42a6-ae60-66f6f9c5cae8"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "c46ffd42-4a64-4851-9cf8-d88eae74d80b"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "db011c65-fb3d-4c3f-bec0-22197c827b42"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "084aaf5a-5c8e-4584-8072-e797e535026b"
+    },
+    {
+      "type": "包含设备",
+      "from": "342663fe-ab62-4c6c-beda-521279adc713",
+      "to": "597b74b6-e32b-4ba6-a8ea-65028a5997b2"
+    }
+  ]
+}

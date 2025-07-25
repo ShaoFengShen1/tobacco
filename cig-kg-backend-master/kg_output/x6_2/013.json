@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "51034cd5-59ea-48df-a413-5b74aa7a9c2b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止装载器"
+      }
+    },
+    {
+      "id": "d701ad83-f3fe-4b5a-9c45-3fdbb2e7b793",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 内框纸右压辊超时:反衬"
+      }
+    },
+    {
+      "id": "6062e2b2-5798-48cc-b92f-1977e10bfc8c",
+      "type": "参见",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR-信息,页 5-19"
+      }
+    },
+    {
+      "id": "437b9428-fdde-4725-b0ee-3bb7f4fdecb5",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S5020",
+        "设备类型": "传感器"
+      }
+    },
+    {
+      "id": "8f9d4e5b-0b07-460f-b856-5b5fc63be69d",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在缩回运动过程中,传感器2S5020在预定时间内没有探测出缓冲台的正确位置"
+      }
+    },
+    {
+      "id": "f212413e-8dea-493b-bb4c-c6aa29e61a9d",
+      "type": "参见",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR-参数:,页 5-19"
+      }
+    },
+    {
+      "id": "29ab2af8-ecb9-4f8f-84d6-b0192c0e2e45",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止装载器"
+      }
+    },
+    {
+      "id": "d47cf2a2-4584-45e5-b719-f42c0953692d",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 内框纸右压辊超时:停顿"
+      }
+    },
+    {
+      "id": "ebd35f53-8448-4b2f-9848-cbe9f30628ad",
+      "type": "参见",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR-信息,页 5-19"
+      }
+    },
+    {
+      "id": "dd49ec3b-5eab-4d71-b704-49db7b6e4725",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 153.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_337_269_319_1045_790_0.jpg"
+      }
+    },
+    {
+      "id": "2ea7609b-350f-4e17-89d7-472c591f91ab",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 154.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_337_260_1208_1057_796_0.jpg"
+      }
+    },
+    {
+      "id": "3d00397f-0f6a-4c58-bc81-ab6c6431c491",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 155.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_338_347_319_1044_791_0.jpg"
+      }
+    },
+    {
+      "id": "499d3dea-f737-43fe-a005-b5cb9b32ad60",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 156.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_338_340_1208_1054_793_0.jpg"
+      }
+    },
+    {
+      "id": "a829345b-b345-4a99-8d3b-2a9705238e1a",
+      "type": "设备",
+      "properties": {
+        "实体名": "内框纸换卷电机位置感应器 “A”",
+        "缩写": "2S5021"
+      }
+    },
+    {
+      "id": "4d9ad5ac-fda3-45dd-be52-02f4adf0386d",
+      "type": "设备",
+      "properties": {
+        "实体名": "内框纸换卷电机位置感应器 “B”",
+        "缩写": "2S5022"
+      }
+    },
+    {
+      "id": "8d0e3aac-5080-4f3d-8276-b391a2ca1390",
+      "type": "设备",
+      "properties": {
+        "实体名": "内框纸换卷电机位置感应器 “C”",
+        "缩写": "2S5023"
+      }
+    },
+    {
+      "id": "d5cc7fe7-e06c-4667-8598-76f04602c9ce",
+      "type": "功能",
+      "properties": {
+        "实体名": "三个传感器识别在预置、切割和拼接操作过程中内框纸切刀电机的位置",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "47ccfe18-00d6-4acd-a5b3-adac4bc42981",
+      "type": "参见",
+      "properties": {
+        "实体名": "图形157页 2-324"
+      }
+    },
+    {
+      "id": "10bf560f-ed1c-42d3-bc34-c9744fbad7c4",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若“复位”位置在预定时间内没有找到"
+      }
+    },
+    {
+      "id": "e24ff5b0-7984-4359-8d1c-d630e9d7bcf5",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "8f9d4e5b-0b07-460f-b856-5b5fc63be69d",
+      "to": "29ab2af8-ecb9-4f8f-84d6-b0192c0e2e45"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "437b9428-fdde-4725-b0ee-3bb7f4fdecb5",
+      "to": "8f9d4e5b-0b07-460f-b856-5b5fc63be69d"
+    },
+    {
+      "type": "有参见",
+      "from": "437b9428-fdde-4725-b0ee-3bb7f4fdecb5",
+      "to": "f212413e-8dea-493b-bb4c-c6aa29e61a9d"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "437b9428-fdde-4725-b0ee-3bb7f4fdecb5",
+      "to": "d47cf2a2-4584-45e5-b719-f42c0953692d"
+    },
+    {
+      "type": "有参见",
+      "from": "d47cf2a2-4584-45e5-b719-f42c0953692d",
+      "to": "ebd35f53-8448-4b2f-9848-cbe9f30628ad"
+    },
+    {
+      "type": "有功能",
+      "from": "a829345b-b345-4a99-8d3b-2a9705238e1a",
+      "to": "d5cc7fe7-e06c-4667-8598-76f04602c9ce"
+    },
+    {
+      "type": "有功能",
+      "from": "4d9ad5ac-fda3-45dd-be52-02f4adf0386d",
+      "to": "d5cc7fe7-e06c-4667-8598-76f04602c9ce"
+    },
+    {
+      "type": "有功能",
+      "from": "8d0e3aac-5080-4f3d-8276-b391a2ca1390",
+      "to": "d5cc7fe7-e06c-4667-8598-76f04602c9ce"
+    },
+    {
+      "type": "有参见",
+      "from": "a829345b-b345-4a99-8d3b-2a9705238e1a",
+      "to": "47ccfe18-00d6-4acd-a5b3-adac4bc42981"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "10bf560f-ed1c-42d3-bc34-c9744fbad7c4",
+      "to": "e24ff5b0-7984-4359-8d1c-d630e9d7bcf5"
+    }
+  ]
+}

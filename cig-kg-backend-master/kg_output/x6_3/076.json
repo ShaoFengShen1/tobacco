@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "d9ca1b9f-a5f8-4a90-8993-1e680fe1ea02",
+      "type": "设备",
+      "properties": {
+        "实体名": "输出端横梁调节",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "X6"
+      }
+    },
+    {
+      "id": "46165b52-b4b9-4567-8bc8-0b411b10b7d6",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查校准光学组件的功能",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "e3f05e00-52de-4c78-8bce-1aa3d7f3ec8d",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "将正确数值输入到参数",
+        "操作描述": "排空梁架,并重新添满,并总是保持被免除的对中功能"
+      }
+    },
+    {
+      "id": "d43d0b1b-9e2c-4b8a-809b-2ab40a835e43",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在梁架上没有剔除"
+      }
+    },
+    {
+      "id": "5b6a5ff1-0222-4ea0-beb7-50edf90921d2",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "必需在干胶计时器介入之前开始用手转动"
+      }
+    },
+    {
+      "id": "d30d2f9d-c30d-458c-9455-4ba1b7d97035",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 5.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_832_465_801_797_492_0.jpg"
+      }
+    },
+    {
+      "id": "767189f1-edd7-4a26-b137-8b58afb6f668",
+      "type": "参见",
+      "properties": {
+        "实体名": "表格 1 页 4-26"
+      }
+    },
+    {
+      "id": "d64cf4c7-ff16-41a9-8e4a-fe8b7ed1a8f8",
+      "type": "设备",
+      "properties": {
+        "实体名": "SAFETY_INTEGRATED_OBJECT",
+        "设备类型": "安全装置",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "f254778f-1219-4acc-8901-00e1f9f48d55",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "PROTECTION_ASM - (0)"
+      }
+    },
+    {
+      "id": "458d7604-a042-4368-ad9d-b35a4713c1c9",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "LOCK_WSM - 锁定(396)"
+      }
+    },
+    {
+      "id": "16fabecb-1c87-4bb9-aeb5-fd64d43d7b25",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "9262b5a3-bb1c-4fc6-a4ab-b8857a626ca6",
+      "type": "设备",
+      "properties": {
+        "实体名": "ANALOG_CHECK",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "1c8a388a-5849-46c9-889f-ad337050193b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAX_VALUE_REACHED_ASM - 最大值 (605)"
+      }
+    },
+    {
+      "id": "21541e39-1d0f-4f2f-aadd-2b0bc6d2dbe7",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MIN_VALUE_REACHED_ASM - 最小值 (606)"
+      }
+    },
+    {
+      "id": "5de0dc4c-d56f-42e7-8548-dbb92c105b17",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "DIAGNOSIS_FSM - 故障(591)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "d9ca1b9f-a5f8-4a90-8993-1e680fe1ea02",
+      "to": "46165b52-b4b9-4567-8bc8-0b411b10b7d6"
+    },
+    {
+      "type": "有校准操作",
+      "from": "46165b52-b4b9-4567-8bc8-0b411b10b7d6",
+      "to": "e3f05e00-52de-4c78-8bce-1aa3d7f3ec8d"
+    },
+    {
+      "type": "有检测异常",
+      "from": "d9ca1b9f-a5f8-4a90-8993-1e680fe1ea02",
+      "to": "d43d0b1b-9e2c-4b8a-809b-2ab40a835e43"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d43d0b1b-9e2c-4b8a-809b-2ab40a835e43",
+      "to": "5b6a5ff1-0222-4ea0-beb7-50edf90921d2"
+    },
+    {
+      "type": "有图片",
+      "from": "d9ca1b9f-a5f8-4a90-8993-1e680fe1ea02",
+      "to": "d30d2f9d-c30d-458c-9455-4ba1b7d97035"
+    },
+    {
+      "type": "有参见",
+      "from": "d9ca1b9f-a5f8-4a90-8993-1e680fe1ea02",
+      "to": "767189f1-edd7-4a26-b137-8b58afb6f668"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d64cf4c7-ff16-41a9-8e4a-fe8b7ed1a8f8",
+      "to": "f254778f-1219-4acc-8901-00e1f9f48d55"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d64cf4c7-ff16-41a9-8e4a-fe8b7ed1a8f8",
+      "to": "458d7604-a042-4368-ad9d-b35a4713c1c9"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d64cf4c7-ff16-41a9-8e4a-fe8b7ed1a8f8",
+      "to": "16fabecb-1c87-4bb9-aeb5-fd64d43d7b25"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9262b5a3-bb1c-4fc6-a4ab-b8857a626ca6",
+      "to": "1c8a388a-5849-46c9-889f-ad337050193b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9262b5a3-bb1c-4fc6-a4ab-b8857a626ca6",
+      "to": "21541e39-1d0f-4f2f-aadd-2b0bc6d2dbe7"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9262b5a3-bb1c-4fc6-a4ab-b8857a626ca6",
+      "to": "5de0dc4c-d56f-42e7-8548-dbb92c105b17"
+    }
+  ]
+}

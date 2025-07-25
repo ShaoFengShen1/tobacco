@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    {
+      "id": "513e5ac6-d4fe-4d10-ac08-4cd10b17fd4e",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "LATCH_INPUT-参数"
+      }
+    },
+    {
+      "id": "e9263a16-3b58-4593-ba70-1a483268bf1a",
+      "type": "设备",
+      "properties": {
+        "实体名": "POLARITY_DIRECT",
+        "设备类型": "BOOL",
+        "位置": "611",
+        "操作方式": null,
+        "操作细节": "极性",
+        "缩写": null
+      }
+    },
+    {
+      "id": "7da51dfe-3080-45d8-95ed-82a48e00d9e2",
+      "type": "设备",
+      "properties": {
+        "实体名": "WINDOW.BEGIN_PH.PHASE",
+        "设备类型": "LREAL",
+        "位置": "714",
+        "操作方式": null,
+        "操作细节": "窗口的开始相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "dde4e688-13f3-4f7b-a272-7bee6de46ecc",
+      "type": "设备",
+      "properties": {
+        "实体名": "WINDOW.END_PH.PHASE",
+        "设备类型": "LREAL",
+        "位置": "715",
+        "操作方式": null,
+        "操作细节": "窗口的结束相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "CONTROL_SECTION"
+      }
+    },
+    {
+      "id": "18ca9222-35db-4add-9dd4-229987bec681",
+      "type": "设备",
+      "properties": {
+        "实体名": "ACTIVATION_TIME",
+        "设备类型": "DINT",
+        "位置": "840",
+        "操作方式": null,
+        "操作细节": "启动时刻",
+        "缩写": null
+      }
+    },
+    {
+      "id": "8b0ab5e8-074e-4aef-81a4-0762116acf53",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP",
+        "设备类型": "DINT",
+        "位置": "710",
+        "操作方式": null,
+        "操作细节": "工步",
+        "缩写": null
+      }
+    },
+    {
+      "id": "5763d6c8-955f-4f0f-9c01-0ef5e92ad128",
+      "type": "设备",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.PHASE",
+        "设备类型": "LREAL",
+        "位置": "839",
+        "操作方式": null,
+        "操作细节": "启动相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "c232552f-5a38-47a7-a334-16979f25e238",
+      "type": "设备",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.DELAY",
+        "设备类型": "UDINT",
+        "位置": "837",
+        "操作方式": null,
+        "操作细节": "启动相位的延迟",
+        "缩写": null
+      }
+    },
+    {
+      "id": "24a712be-a49f-457d-89f6-ac53519cda03",
+      "type": "设备",
+      "properties": {
+        "实体名": "ACTIVATION_PHASE.MAX_COMPENSATION",
+        "设备类型": "UDINT",
+        "位置": "838",
+        "操作方式": null,
+        "操作细节": "启动相位的最大补偿",
+        "缩写": null
+      }
+    },
+    {
+      "id": "b5574f66-75e8-4fd1-9e6c-00606e7efe32",
+      "type": "设备",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.PHASE",
+        "设备类型": "LREAL",
+        "位置": "842",
+        "操作方式": null,
+        "操作细节": "免除相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "6327a887-3274-4431-8221-0a46e9f781f9",
+      "type": "设备",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.DELAY",
+        "设备类型": "UDINT",
+        "位置": "841",
+        "操作方式": null,
+        "操作细节": "免除相位的延迟",
+        "缩写": null
+      }
+    },
+    {
+      "id": "109bace9-a053-46d1-a5a1-d9a1dbc59edd",
+      "type": "设备",
+      "properties": {
+        "实体名": "DEACTIVATION_PHASE.MAX_COMPENSATION",
+        "设备类型": "UDINT",
+        "位置": "855",
+        "操作方式": null,
+        "操作细节": "免除相位的最大补偿",
+        "缩写": null
+      }
+    },
+    {
+      "id": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "PHASE_WINDOW"
+      }
+    },
+    {
+      "id": "87186cc5-d3a2-4c4d-800e-59d2c7e3c7c3",
+      "type": "设备",
+      "properties": {
+        "实体名": "BEGIN_PH.PHASE",
+        "设备类型": "LREAL",
+        "位置": "714",
+        "操作方式": null,
+        "操作细节": "窗口的开始相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "966e25da-2b84-4ff8-9361-6da08dc7d12e",
+      "type": "设备",
+      "properties": {
+        "实体名": "BEGIN_PH.DELAY",
+        "设备类型": "UDINT",
+        "位置": "883",
+        "操作方式": null,
+        "操作细节": "开始相位的延迟",
+        "缩写": null
+      }
+    },
+    {
+      "id": "2871b8bc-63ff-4b6d-a9a0-647e9b674a9e",
+      "type": "设备",
+      "properties": {
+        "实体名": "BEGIN_PH.MAX_COMPENSATION",
+        "设备类型": "UDINT",
+        "位置": "884",
+        "操作方式": null,
+        "操作细节": "开始相位的最大补偿",
+        "缩写": null
+      }
+    },
+    {
+      "id": "41584867-429c-4387-a89b-262c4190b7c3",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_PH.PHASE",
+        "设备类型": "LREAL",
+        "位置": "715",
+        "操作方式": null,
+        "操作细节": "窗口的结束相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "bf3d4604-5308-44e3-88da-b6b12ecf58da",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_PH.DELAY",
+        "设备类型": "UDINT",
+        "位置": "885",
+        "操作方式": null,
+        "操作细节": "结束相位的延迟",
+        "缩写": null
+      }
+    },
+    {
+      "id": "118bbca7-79bc-4e82-b62b-f427abb54b3b",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_PH.MAX_COMPENSATION",
+        "设备类型": "UDINT",
+        "位置": "886",
+        "操作方式": null,
+        "操作细节": "结束相位的最大补偿",
+        "缩写": null
+      }
+    },
+    {
+      "id": "b0c95ef7-3c28-4875-9f72-6def25186705",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "513e5ac6-d4fe-4d10-ac08-4cd10b17fd4e",
+      "to": "e9263a16-3b58-4593-ba70-1a483268bf1a"
+    },
+    {
+      "type": "包含设备",
+      "from": "513e5ac6-d4fe-4d10-ac08-4cd10b17fd4e",
+      "to": "7da51dfe-3080-45d8-95ed-82a48e00d9e2"
+    },
+    {
+      "type": "包含设备",
+      "from": "513e5ac6-d4fe-4d10-ac08-4cd10b17fd4e",
+      "to": "dde4e688-13f3-4f7b-a272-7bee6de46ecc"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "18ca9222-35db-4add-9dd4-229987bec681"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "8b0ab5e8-074e-4aef-81a4-0762116acf53"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "5763d6c8-955f-4f0f-9c01-0ef5e92ad128"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "c232552f-5a38-47a7-a334-16979f25e238"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "24a712be-a49f-457d-89f6-ac53519cda03"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "b5574f66-75e8-4fd1-9e6c-00606e7efe32"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "6327a887-3274-4431-8221-0a46e9f781f9"
+    },
+    {
+      "type": "包含设备",
+      "from": "eb515e82-a784-4df5-8da4-72609a45b924",
+      "to": "109bace9-a053-46d1-a5a1-d9a1dbc59edd"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "87186cc5-d3a2-4c4d-800e-59d2c7e3c7c3"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "966e25da-2b84-4ff8-9361-6da08dc7d12e"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "2871b8bc-63ff-4b6d-a9a0-647e9b674a9e"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "41584867-429c-4387-a89b-262c4190b7c3"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "bf3d4604-5308-44e3-88da-b6b12ecf58da"
+    },
+    {
+      "type": "包含设备",
+      "from": "0f6bb018-be1f-411e-b5ad-4c0a7d85d7a9",
+      "to": "118bbca7-79bc-4e82-b62b-f427abb54b3b"
+    }
+  ]
+}

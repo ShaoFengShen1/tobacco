@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "5aa480f2-5464-4f9a-aabd-6b1da66ed502",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "PREUNWINDER"
+      }
+    },
+    {
+      "id": "731db6e3-402e-4c05-8e77-a56a66798241",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PREUNWINDER-信息"
+      }
+    },
+    {
+      "id": "811063a7-5cfd-45b4-8cec-2fa41c229024",
+      "type": "设备",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_MIN_ASM",
+        "设备类型": "最低水平位",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "891"
+      }
+    },
+    {
+      "id": "aa742f3f-525b-4e91-8ae5-88b3a4a6001c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "State message: 当材料填充水平位达到最小预松卷数值时被显示。"
+      }
+    },
+    {
+      "id": "19c15554-c9b9-4aa4-b1c2-3ab55b7721ae",
+      "type": "设备",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_MAX_ASM",
+        "设备类型": "最大水平位",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "890"
+      }
+    },
+    {
+      "id": "b8319d56-7a85-4282-acb3-a7045d29da17",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "State message: 当材料填充水平位达到最大预松卷数值时被显示。"
+      }
+    },
+    {
+      "id": "dec2afbb-4215-4378-834f-f78f445183e0",
+      "type": "设备",
+      "properties": {
+        "实体名": "BUFFER_FILLING_AEM",
+        "设备类型": "填充在进行中",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "889"
+      }
+    },
+    {
+      "id": "6f311940-55af-475e-ba7d-1c49d74a4f6b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Event message: 当材料填充水平位没有改变, 尽管松卷电机在运动时被显示, 若启用了参数 BUFFER_FILLING_CHECK_ENABLE: [BOOL]"
+      }
+    },
+    {
+      "id": "0767ebb6-a466-4df0-9441-0a9a1bc06a5a",
+      "type": "设备",
+      "properties": {
+        "实体名": "INFEED_FINDING_AEM",
+        "设备类型": "填充失误",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2895"
+      }
+    },
+    {
+      "id": "5b804b9a-0d59-4a14-a985-3f059fe208b2",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Event message: 在松卷中的材料卷搜寻功能过程中, 在尝试次数超过最大设定值时, 被显示。"
+      }
+    },
+    {
+      "id": "446cda75-c1f9-4940-af30-e6ab087462c5",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK"
+      }
+    },
+    {
+      "id": "51dea08f-d167-4cb5-a86f-a921ae51eb36",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK-信息"
+      }
+    },
+    {
+      "id": "fae19e97-2a51-43ee-95f7-928740f93a60",
+      "type": "设备",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM",
+        "设备类型": "连续失误检测的最大次数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "663"
+      }
+    },
+    {
+      "id": "41ea8004-8411-428a-9885-eeaf9262af01",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Event message: 当连续检测结果不正确的次数超过在参数 ENGINE.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] 设定的数值时、或者当超过参数 ENGINE.MAX_FAILED_CHECKS_PERCENTAGE: [UDINT]. 的百分比时,将被显示。"
+      }
+    },
+    {
+      "id": "83bd9f62-ff99-4577-868c-2d5009f59efe",
+      "type": "设备",
+      "properties": {
+        "实体名": "FAULT_AEM",
+        "设备类型": "编码顺序无效",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "923"
+      }
+    },
+    {
+      "id": "2014e4d5-1921-4d57-a845-cb45c19246d4",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Event message: 当出现任何一个检测故障时被显示。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "5aa480f2-5464-4f9a-aabd-6b1da66ed502",
+      "to": "731db6e3-402e-4c05-8e77-a56a66798241"
+    },
+    {
+      "type": "包含设备",
+      "from": "731db6e3-402e-4c05-8e77-a56a66798241",
+      "to": "811063a7-5cfd-45b4-8cec-2fa41c229024"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "811063a7-5cfd-45b4-8cec-2fa41c229024",
+      "to": "aa742f3f-525b-4e91-8ae5-88b3a4a6001c"
+    },
+    {
+      "type": "包含设备",
+      "from": "731db6e3-402e-4c05-8e77-a56a66798241",
+      "to": "19c15554-c9b9-4aa4-b1c2-3ab55b7721ae"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "19c15554-c9b9-4aa4-b1c2-3ab55b7721ae",
+      "to": "b8319d56-7a85-4282-acb3-a7045d29da17"
+    },
+    {
+      "type": "包含设备",
+      "from": "731db6e3-402e-4c05-8e77-a56a66798241",
+      "to": "dec2afbb-4215-4378-834f-f78f445183e0"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "dec2afbb-4215-4378-834f-f78f445183e0",
+      "to": "6f311940-55af-475e-ba7d-1c49d74a4f6b"
+    },
+    {
+      "type": "包含设备",
+      "from": "731db6e3-402e-4c05-8e77-a56a66798241",
+      "to": "0767ebb6-a466-4df0-9441-0a9a1bc06a5a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "0767ebb6-a466-4df0-9441-0a9a1bc06a5a",
+      "to": "5b804b9a-0d59-4a14-a985-3f059fe208b2"
+    },
+    {
+      "type": "有二级标题",
+      "from": "446cda75-c1f9-4940-af30-e6ab087462c5",
+      "to": "51dea08f-d167-4cb5-a86f-a921ae51eb36"
+    },
+    {
+      "type": "包含设备",
+      "from": "51dea08f-d167-4cb5-a86f-a921ae51eb36",
+      "to": "fae19e97-2a51-43ee-95f7-928740f93a60"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "fae19e97-2a51-43ee-95f7-928740f93a60",
+      "to": "41ea8004-8411-428a-9885-eeaf9262af01"
+    },
+    {
+      "type": "包含设备",
+      "from": "51dea08f-d167-4cb5-a86f-a921ae51eb36",
+      "to": "83bd9f62-ff99-4577-868c-2d5009f59efe"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "83bd9f62-ff99-4577-868c-2d5009f59efe",
+      "to": "2014e4d5-1921-4d57-a845-cb45c19246d4"
+    }
+  ]
+}

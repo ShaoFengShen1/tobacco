@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "4 运行运行的描述"
+      }
+    },
+    {
+      "id": "13c76631-6a90-48f6-b806-2d0ef4de6304",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "内框纸换卷 4-3"
+      }
+    },
+    {
+      "id": "12276df4-f656-4399-bc33-d1e005eec2dd",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "盒片叠的装载. 4-7"
+      }
+    },
+    {
+      "id": "9d9b2345-8753-4fc7-966d-dc3fbc68bb11",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "对中内框纸的松卷与同步 4-9"
+      }
+    },
+    {
+      "id": "afeb3fd0-f8f1-4c18-9de9-8099f59773b5",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "铝箔纸换卷 4-11"
+      }
+    },
+    {
+      "id": "8f424967-d527-4e86-9a19-61145edc700a",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "奖券换卷 4-21"
+      }
+    },
+    {
+      "id": "f976ca13-85b1-4dff-bddb-de2fbd3902b2",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "输出端横梁调节 4-23"
+      }
+    },
+    {
+      "id": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "5 数据库对象 - AFL"
+      }
+    },
+    {
+      "id": "71847272-0cf3-4f81-856f-31ba88f1a2b0",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "SAFETY_INTEGRATED_OBJECT 5-3"
+      }
+    },
+    {
+      "id": "d1118a25-d0e9-4e7b-8b58-13bf3222eff2",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "ANALOG_CHECK 5-5"
+      }
+    },
+    {
+      "id": "ef161ce5-2cc1-4383-9509-a6229a0ef659",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PHASE 5-7"
+      }
+    },
+    {
+      "id": "a5a31d50-af49-4558-8eba-b363f823f4d9",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "CHECK_SECTION 5-9"
+      }
+    },
+    {
+      "id": "d1019886-f19d-48c2-aa32-a4b5a843acb2",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK. 5-11"
+      }
+    },
+    {
+      "id": "ec3b58ac-133e-4c7c-ae0c-ce0539bcfe06",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "LATCH_INPUT 5-13"
+      }
+    },
+    {
+      "id": "e9f6aa74-b5ef-4c9e-9f02-baacf0e64891",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "CONTROL_SECTION. 5-15"
+      }
+    },
+    {
+      "id": "20dbdedd-5dc0-49fd-80e4-bbb1b412dd35",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "PHASE WINDOW 5-17"
+      }
+    },
+    {
+      "id": "3e9be2d5-fbc6-4125-b503-09c93e3f3382",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR. 5-19"
+      }
+    },
+    {
+      "id": "d63281e0-f2cd-4df4-adc9-3049cee38a34",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "AXIS 5-21"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "13c76631-6a90-48f6-b806-2d0ef4de6304"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "12276df4-f656-4399-bc33-d1e005eec2dd"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "9d9b2345-8753-4fc7-966d-dc3fbc68bb11"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "afeb3fd0-f8f1-4c18-9de9-8099f59773b5"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "8f424967-d527-4e86-9a19-61145edc700a"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0f82b113-da12-490f-a59b-12dbc4db34d0",
+      "to": "f976ca13-85b1-4dff-bddb-de2fbd3902b2"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "71847272-0cf3-4f81-856f-31ba88f1a2b0"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "d1118a25-d0e9-4e7b-8b58-13bf3222eff2"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "ef161ce5-2cc1-4383-9509-a6229a0ef659"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "a5a31d50-af49-4558-8eba-b363f823f4d9"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "d1019886-f19d-48c2-aa32-a4b5a843acb2"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "ec3b58ac-133e-4c7c-ae0c-ce0539bcfe06"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "e9f6aa74-b5ef-4c9e-9f02-baacf0e64891"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "20dbdedd-5dc0-49fd-80e4-bbb1b412dd35"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "3e9be2d5-fbc6-4125-b503-09c93e3f3382"
+    },
+    {
+      "type": "有二级标题",
+      "from": "0b707402-233a-49d1-b206-eb3dc51ac708",
+      "to": "d63281e0-f2cd-4df4-adc9-3049cee38a34"
+    }
+  ]
+}

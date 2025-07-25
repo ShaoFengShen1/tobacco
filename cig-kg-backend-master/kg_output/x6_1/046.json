@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "id": "d72eb304-b12e-4497-b988-a49d9c9f496e",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/第三轮/半环/打开检测"
+      }
+    },
+    {
+      "id": "5eb7a4ab-830d-43bf-928c-3f30c1442d13",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3424c56e-69c5-4dfb-82a2-8c8b37a72f5f",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "ff2de8a3-fe28-4958-b289-247451d57291",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B436",
+        "设备类型": "传感器",
+        "位置": "第三轮",
+        "操作方式": "检测",
+        "操作细节": "检查从第二轮至第三轮过程中PULL的存在以及其完整性",
+        "缩写": "2B436"
+      }
+    },
+    {
+      "id": "1cdb7580-f5f9-4f2c-8dc2-8ff9d694d6fe",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查PULL的存在以及其完整性",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "77eecf5e-8693-4647-8ac5-9ba0bfe4c5cb",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "没有探测出 PULL"
+      }
+    },
+    {
+      "id": "85910afc-6fe0-4fb0-9629-2f2e88faecca",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 第三轮缺拉片报警信号"
+      }
+    },
+    {
+      "id": "2d7666fb-59ee-4df5-a6f4-a0b35d7a7f8e",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "没有探测出传感器的状态变化"
+      }
+    },
+    {
+      "id": "4c4d8143-9d62-4806-96d3-f53e46518e63",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 第三轮拉片:检测失效报警信号"
+      }
+    },
+    {
+      "id": "439c22f4-903c-4d5b-a273-773a0ba7a102",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "光电管 KEYENCE FS-N11P PNP MASTER"
+      }
+    },
+    {
+      "id": "450e13ed-29f4-49a0-bc3c-6caff41a5306",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 82.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_191_257_316_1065_798_0.jpg"
+      }
+    },
+    {
+      "id": "a23f2d8b-a3a5-4d1d-b5fc-7b46a22daaf6",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 83.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_192_165_321_1395_1071_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "d72eb304-b12e-4497-b988-a49d9c9f496e",
+      "to": "5eb7a4ab-830d-43bf-928c-3f30c1442d13"
+    },
+    {
+      "type": "有参见",
+      "from": "5eb7a4ab-830d-43bf-928c-3f30c1442d13",
+      "to": "3424c56e-69c5-4dfb-82a2-8c8b37a72f5f"
+    },
+    {
+      "type": "包含设备",
+      "from": "d72eb304-b12e-4497-b988-a49d9c9f496e",
+      "to": "ff2de8a3-fe28-4958-b289-247451d57291"
+    },
+    {
+      "type": "有功能",
+      "from": "ff2de8a3-fe28-4958-b289-247451d57291",
+      "to": "1cdb7580-f5f9-4f2c-8dc2-8ff9d694d6fe"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ff2de8a3-fe28-4958-b289-247451d57291",
+      "to": "77eecf5e-8693-4647-8ac5-9ba0bfe4c5cb"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "77eecf5e-8693-4647-8ac5-9ba0bfe4c5cb",
+      "to": "85910afc-6fe0-4fb0-9629-2f2e88faecca"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ff2de8a3-fe28-4958-b289-247451d57291",
+      "to": "2d7666fb-59ee-4df5-a6f4-a0b35d7a7f8e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2d7666fb-59ee-4df5-a6f4-a0b35d7a7f8e",
+      "to": "4c4d8143-9d62-4806-96d3-f53e46518e63"
+    },
+    {
+      "type": "有校准部件",
+      "from": "ff2de8a3-fe28-4958-b289-247451d57291",
+      "to": "439c22f4-903c-4d5b-a273-773a0ba7a102"
+    },
+    {
+      "type": "有图片",
+      "from": "d72eb304-b12e-4497-b988-a49d9c9f496e",
+      "to": "450e13ed-29f4-49a0-bc3c-6caff41a5306"
+    },
+    {
+      "type": "有图片",
+      "from": "d72eb304-b12e-4497-b988-a49d9c9f496e",
+      "to": "a23f2d8b-a3a5-4d1d-b5fc-7b46a22daaf6"
+    }
+  ]
+}

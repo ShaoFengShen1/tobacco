@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "d874267c-88cb-478c-b276-fd54f5fad1c3",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION: [LREAL]"
+      }
+    },
+    {
+      "id": "4b5900dc-100a-4613-9044-b8a20b064ed6",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_NUMBER: [INT] - 等距点数量 (3417)"
+      }
+    },
+    {
+      "id": "b23e38c3-2dbf-4769-a655-7935b291648f",
+      "type": "参数",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION: [LREAL] - (0)"
+      }
+    },
+    {
+      "id": "731d18ab-847d-4e59-b223-a8d7dc8cec0a",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK"
+      }
+    },
+    {
+      "id": "a10866a2-506d-4295-bb51-797a3f6d6b68",
+      "type": "参数",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_OFF_ON: [DINT] - (0)"
+      }
+    },
+    {
+      "id": "ce7696dc-2980-4acb-bcb7-d4c29941349d",
+      "type": "参数",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_ON_OFF: [DINT] - (0)"
+      }
+    },
+    {
+      "id": "bda53775-8aeb-467e-bc6e-c6c17cc15630",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "eeafdc8a-843d-4e80-8f6c-0ede33d9028a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参数",
+      "from": "731d18ab-847d-4e59-b223-a8d7dc8cec0a",
+      "to": "a10866a2-506d-4295-bb51-797a3f6d6b68"
+    },
+    {
+      "type": "有参数",
+      "from": "731d18ab-847d-4e59-b223-a8d7dc8cec0a",
+      "to": "ce7696dc-2980-4acb-bcb7-d4c29941349d"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "bda53775-8aeb-467e-bc6e-c6c17cc15630",
+      "to": "eeafdc8a-843d-4e80-8f6c-0ede33d9028a"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "id": "907d6ab0-6d35-4010-be99-a69e72b92bb4",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "打印站的上护罩"
+      }
+    },
+    {
+      "id": "e4c5b17f-8480-4f01-b290-8be3c9acbfd4",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S4594 - 打码站护罩/拐角低位",
+        "设备类型": "传感器",
+        "位置": "打码站",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S4594"
+      }
+    },
+    {
+      "id": "1ea79db5-1a5d-41eb-aa18-d0f82e583103",
+      "type": "功能",
+      "properties": {
+        "实体名": "探测打码站的上活动护罩打开",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "9221bbf1-db59-4fed-9d6c-090c427340b3",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在预定时间内没有探测出锁定"
+      }
+    },
+    {
+      "id": "76373eef-e72d-4c38-86f5-64eaadcc6e6e",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "4ccf1c16-cf70-43d4-be57-c1baa0bbec64",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 打码器的上护罩打开报警信号"
+      }
+    },
+    {
+      "id": "53448b2d-4943-457d-92bf-f61aaf3d45b7",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology EMERGENCY 护罩故障"
+      }
+    },
+    {
+      "id": "1a4d4b57-fc36-4ec3-b000-7ae55e043458",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 240",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_494_341_881_1019_795_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "907d6ab0-6d35-4010-be99-a69e72b92bb4",
+      "to": "e4c5b17f-8480-4f01-b290-8be3c9acbfd4"
+    },
+    {
+      "type": "有功能",
+      "from": "e4c5b17f-8480-4f01-b290-8be3c9acbfd4",
+      "to": "1ea79db5-1a5d-41eb-aa18-d0f82e583103"
+    },
+    {
+      "type": "有检测异常",
+      "from": "e4c5b17f-8480-4f01-b290-8be3c9acbfd4",
+      "to": "9221bbf1-db59-4fed-9d6c-090c427340b3"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9221bbf1-db59-4fed-9d6c-090c427340b3",
+      "to": "76373eef-e72d-4c38-86f5-64eaadcc6e6e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9221bbf1-db59-4fed-9d6c-090c427340b3",
+      "to": "4ccf1c16-cf70-43d4-be57-c1baa0bbec64"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9221bbf1-db59-4fed-9d6c-090c427340b3",
+      "to": "53448b2d-4943-457d-92bf-f61aaf3d45b7"
+    },
+    {
+      "type": "有图片",
+      "from": "907d6ab0-6d35-4010-be99-a69e72b92bb4",
+      "to": "1a4d4b57-fc36-4ec3-b000-7ae55e043458"
+    }
+  ]
+}

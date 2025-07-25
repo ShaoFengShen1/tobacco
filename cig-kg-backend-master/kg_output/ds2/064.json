@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "3cd26f91-03e9-4ddb-b972-1897bc7bc373",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "X 机器电机"
+      }
+    },
+    {
+      "id": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "type": "设备",
+      "properties": {
+        "实体名": "电机2M701",
+        "设备类型": "电机",
+        "位置": null,
+        "操作方式": "由驱动器A700 - X 机组主电机变频器驱动",
+        "操作细节": "驱动机器的运动机构",
+        "缩写": "2M701"
+      }
+    },
+    {
+      "id": "b2e8a091-341a-4937-a061-4ee0d2f315c1",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 XB按钮盘上X手动速度调节电位计, 页 2-39"
+      }
+    },
+    {
+      "id": "e53082c1-c6f9-41a0-a8b5-26377222446c",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 MOTORIZATION_MANAGER- 参数: , 页 5-45"
+      }
+    },
+    {
+      "id": "699cf963-1f60-44d1-810e-b925f15c0e7e",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 AXIS-参数:,页 5-21"
+      }
+    },
+    {
+      "id": "b63fff6c-b9c2-4f3d-9982-33f7b9dc6902",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障"
+      }
+    },
+    {
+      "id": "6a77f118-a0e4-496c-b29a-ab321c1e1ae1",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 主电机故障"
+      }
+    },
+    {
+      "id": "588ee708-ccaf-4131-ab35-9fbd80bbf1fa",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 包装机编码器错误"
+      }
+    },
+    {
+      "id": "c1dbcc41-e561-4204-a1f1-82386c646c1e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "机器/驱动装置/管理器/主要的/轴线"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "3cd26f91-03e9-4ddb-b972-1897bc7bc373",
+      "to": "d4756cd7-a77a-405f-964c-0ee556ca35a6"
+    },
+    {
+      "type": "有参见",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "b2e8a091-341a-4937-a061-4ee0d2f315c1"
+    },
+    {
+      "type": "有参见",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "e53082c1-c6f9-41a0-a8b5-26377222446c"
+    },
+    {
+      "type": "有参见",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "699cf963-1f60-44d1-810e-b925f15c0e7e"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "b63fff6c-b9c2-4f3d-9982-33f7b9dc6902"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "6a77f118-a0e4-496c-b29a-ab321c1e1ae1"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d4756cd7-a77a-405f-964c-0ee556ca35a6",
+      "to": "588ee708-ccaf-4131-ab35-9fbd80bbf1fa"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "73e0d498-a9ce-40ec-af3e-c65e2e74dd6b",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK"
+      }
+    },
+    {
+      "id": "d7a2fc17-aa23-49f4-a065-03c742f87ee3",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK-信息"
+      }
+    },
+    {
+      "id": "f36e3402-91a3-410c-a759-3c81091c7ab4",
+      "type": "设备",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "AFL"
+      }
+    },
+    {
+      "id": "88bedbec-d09a-4806-b637-75abf5403c46",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 连续失误检测的最大次数 (663)"
+      }
+    },
+    {
+      "id": "3264ee97-6117-46f7-a2f6-7af3c36529b2",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_AEM - 编码顺序无效(923)"
+      }
+    },
+    {
+      "id": "f3de24ec-45ac-42e1-9a37-81b3765212c9",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "当连续检测结果不正确的次数超过在参数 ENGINE.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] 设定的数值时、或者当超过参数 ENGINE.MAX_FAILED_CHECKS_PERCENTAGE: [UDINT]. 的百分比时,将被显示。"
+      }
+    },
+    {
+      "id": "811c73e4-a24b-44b2-97ce-5e459206a724",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "当出现任何一个检测故障时被显示。"
+      }
+    },
+    {
+      "id": "37819f17-7037-4e11-a16d-c868c9d41c6b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "将把剔除信息设定相应的位移寄存器上。"
+      }
+    },
+    {
+      "id": "c5fef8ea-a957-4d32-aa9a-87018f9f07a5",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "HEATER"
+      }
+    },
+    {
+      "id": "3cfb29ef-09d0-41b0-b44c-1dd3f2a88f42",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "HEATER-信息"
+      }
+    },
+    {
+      "id": "c335dabe-7365-44a2-9c8c-3226220831fd",
+      "type": "设备",
+      "properties": {
+        "实体名": "HEATER",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "AFL"
+      }
+    },
+    {
+      "id": "1cfbf3a0-7dc0-453f-b761-c303e4500eac",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "73e0d498-a9ce-40ec-af3e-c65e2e74dd6b",
+      "to": "d7a2fc17-aa23-49f4-a065-03c742f87ee3"
+    },
+    {
+      "type": "包含设备",
+      "from": "73e0d498-a9ce-40ec-af3e-c65e2e74dd6b",
+      "to": "f36e3402-91a3-410c-a759-3c81091c7ab4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "f36e3402-91a3-410c-a759-3c81091c7ab4",
+      "to": "88bedbec-d09a-4806-b637-75abf5403c46"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "f36e3402-91a3-410c-a759-3c81091c7ab4",
+      "to": "3264ee97-6117-46f7-a2f6-7af3c36529b2"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f36e3402-91a3-410c-a759-3c81091c7ab4",
+      "to": "f3de24ec-45ac-42e1-9a37-81b3765212c9"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f36e3402-91a3-410c-a759-3c81091c7ab4",
+      "to": "811c73e4-a24b-44b2-97ce-5e459206a724"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "f3de24ec-45ac-42e1-9a37-81b3765212c9",
+      "to": "37819f17-7037-4e11-a16d-c868c9d41c6b"
+    },
+    {
+      "type": "有二级标题",
+      "from": "c5fef8ea-a957-4d32-aa9a-87018f9f07a5",
+      "to": "3cfb29ef-09d0-41b0-b44c-1dd3f2a88f42"
+    },
+    {
+      "type": "包含设备",
+      "from": "c5fef8ea-a957-4d32-aa9a-87018f9f07a5",
+      "to": "c335dabe-7365-44a2-9c8c-3226220831fd"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c335dabe-7365-44a2-9c8c-3226220831fd",
+      "to": "1cfbf3a0-7dc0-453f-b761-c303e4500eac"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "a667c1eb-e251-439e-a8a9-6d530e651baa",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "X6 驱动器 裹包线 03"
+      }
+    },
+    {
+      "id": "96a697f4-2257-4415-a420-de11dcbc6dc1",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y914 - 控制一第四轮产品剔除",
+        "设备类型": "执行器",
+        "操作方式": "启动/免除",
+        "操作细节": "第四轮的剔除运动",
+        "缩写": "2Y914"
+      }
+    },
+    {
+      "id": "4c5d2367-97ec-413f-97aa-bd9fca7ae3da",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CONTROL_SECTION-参数:,页 5-15"
+      }
+    },
+    {
+      "id": "a859e012-8331-4d03-9e44-eaa5fd937ec1",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 失效:第四轮烟包剔除"
+      }
+    },
+    {
+      "id": "8bd0694e-a0a7-4e64-9020-89b739ebb62c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 无请求第四轮烟包剔除"
+      }
+    },
+    {
+      "id": "c635a7a1-8745-46c4-8460-8d6cc983488a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 打开前护罩并排除烟包信号"
+      }
+    },
+    {
+      "id": "8b0af755-1748-4a15-bb7b-68307e2c188c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "表示根据调试的需要,在第四轮上作强制剔除运动。"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a667c1eb-e251-439e-a8a9-6d530e651baa",
+      "to": "96a697f4-2257-4415-a420-de11dcbc6dc1"
+    },
+    {
+      "type": "有参见",
+      "from": "96a697f4-2257-4415-a420-de11dcbc6dc1",
+      "to": "4c5d2367-97ec-413f-97aa-bd9fca7ae3da"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "96a697f4-2257-4415-a420-de11dcbc6dc1",
+      "to": "a859e012-8331-4d03-9e44-eaa5fd937ec1"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "96a697f4-2257-4415-a420-de11dcbc6dc1",
+      "to": "8bd0694e-a0a7-4e64-9020-89b739ebb62c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "96a697f4-2257-4415-a420-de11dcbc6dc1",
+      "to": "c635a7a1-8745-46c4-8460-8d6cc983488a"
+    },
+    {
+      "type": "有附加描述",
+      "from": "a667c1eb-e251-439e-a8a9-6d530e651baa",
+      "to": "8b0af755-1748-4a15-bb7b-68307e2c188c"
+    }
+  ]
+}

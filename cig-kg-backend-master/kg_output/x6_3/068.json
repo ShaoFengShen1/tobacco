@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "9da4ae50-84a3-4c02-b449-6e0df259dccd",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "更新: (26/02/2010)"
+      }
+    },
+    {
+      "id": "36c24edd-fe53-4882-88d6-897cd8ee7299",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "技术"
+      }
+    },
+    {
+      "id": "183cb66d-001f-401b-ae5d-31e4cb4d5ec3",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "(C.D. G.D. S. BOLOGNA - ITALIA"
+      }
+    },
+    {
+      "id": "530a6903-a86c-4e4f-a672-951d12badbdf",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "57, X66316000"
+      }
+    },
+    {
+      "id": "2cb19a57-cae3-4341-bf55-bebdc94db690",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "数据表格"
+      }
+    },
+    {
+      "id": "a98388bf-9cf9-43ad-9376-f11d5966d418",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "页"
+      }
+    },
+    {
+      "id": "ef7ea6fc-e53a-4c62-9cb8-22dd628a2abc",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "印刷板: 10/07/2013"
+      }
+    },
+    {
+      "id": "dc98099b-916e-4718-afa9-e79821284e3f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "BECKHOFF"
+      }
+    },
+    {
+      "id": "166e470c-f260-4d8e-8a44-9bf54069ea2f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "0131435402"
+      }
+    },
+    {
+      "id": "19518639-842c-477d-9d26-faa4fe892b06",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "EF60a"
+      }
+    },
+    {
+      "id": "1bccec99-663d-4984-a674-ee86df268b0c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "7/11"
+      }
+    },
+    {
+      "id": "f4fe4309-618c-46d2-b9ef-fc2d4175c1df",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "04-29"
+      }
+    },
+    {
+      "id": "1142b3f3-5abe-4a3c-8a43-dbab22513acf",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "X6"
+      }
+    },
+    {
+      "id": "68812545-450f-474a-9312-d8ef39c28c8f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "运行运行的描述 输出端横梁调节"
+      }
+    },
+    {
+      "id": "505ad8c7-af59-449e-9bc8-8be2091651d2",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "04"
+      }
+    }
+  ],
+  "relationships": []
+}

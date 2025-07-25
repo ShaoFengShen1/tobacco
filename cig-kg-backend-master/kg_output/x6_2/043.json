@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "19a162ed-a21c-403a-a3d1-9bdf30ddf0a4",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器在机器连续转动三圈时没有测出的状态变化"
+      }
+    },
+    {
+      "id": "53f84c62-35a1-4db9-9778-80e936a43e60",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "0d070b02-4424-4b71-8c4b-fad6ecf52934",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第三鼓轮皮带上盒片存在:检测失效(参见 CHECK_SECTION-信息, 页 5-9) 的报警信号"
+      }
+    },
+    {
+      "id": "e503a02b-9345-49bc-badd-139856520f04",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 214",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_449_261_764_1051_793_0.jpg"
+      }
+    },
+    {
+      "id": "199dc129-14bc-4b8d-bdde-29f1e0f66fcf",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B4547",
+        "设备类型": "传感器",
+        "位置": "盒片传送带最终端",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2B4547"
+      }
+    },
+    {
+      "id": "32fdbdfd-c989-4a14-96e0-bc12f5373b82",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查皮带上盒片叠的最低数量",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "1e52c744-1a2a-44e3-985b-a40be36bf8f5",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器不再探测到盒片叠"
+      }
+    },
+    {
+      "id": "51bca335-5126-4dfb-b534-d55219b6a9ce",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出信息typology OBLIGATION 盒片耗尽,以便通告操作员应该在传送带上添加盒片叠"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "19a162ed-a21c-403a-a3d1-9bdf30ddf0a4",
+      "to": "53f84c62-35a1-4db9-9778-80e936a43e60"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "19a162ed-a21c-403a-a3d1-9bdf30ddf0a4",
+      "to": "0d070b02-4424-4b71-8c4b-fad6ecf52934"
+    },
+    {
+      "type": "有功能",
+      "from": "199dc129-14bc-4b8d-bdde-29f1e0f66fcf",
+      "to": "32fdbdfd-c989-4a14-96e0-bc12f5373b82"
+    },
+    {
+      "type": "有检测异常",
+      "from": "199dc129-14bc-4b8d-bdde-29f1e0f66fcf",
+      "to": "1e52c744-1a2a-44e3-985b-a40be36bf8f5"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1e52c744-1a2a-44e3-985b-a40be36bf8f5",
+      "to": "51bca335-5126-4dfb-b534-d55219b6a9ce"
+    }
+  ]
+}

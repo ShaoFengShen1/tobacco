@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "a21848e6-1c67-4efd-94ad-00ec349cbca0",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/第三轮/剔除/未执行的剔除检测"
+      }
+    },
+    {
+      "id": "c5d568ab-8b17-4c3c-bc8e-46b6177fb8ce",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "c12730ab-e5f0-48e5-998b-d417d4608e88",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "f7ef98c1-bef0-4780-aebf-4e9db7ca7a2d",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B4563",
+        "设备类型": "传感器",
+        "位置": "第三轮下面的废品箱",
+        "操作方式": null,
+        "操作细节": "检查第三轮废品箱的水平位",
+        "缩写": "2B4563"
+      }
+    },
+    {
+      "id": "c8cc1a0e-870e-4feb-ae1a-85612e925963",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第三轮废品箱的水平位",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "2686c072-f691-470b-8d8e-c84c7a9a5a15",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器被激发"
+      }
+    },
+    {
+      "id": "5addbf56-9572-4474-979f-e9736296725d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "0186c8cd-6a01-446a-b93f-1a49cade4f31",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 右废品箱未到位 / 废品位高报警信号"
+      }
+    },
+    {
+      "id": "d72c4776-a89a-44ac-a969-afc5c15ddd4f",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 86.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_202_334_826_1053_782_0.jpg"
+      }
+    },
+    {
+      "id": "a821cbc1-6a7d-49fb-804a-24fafdbd93bc",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "第四轮半环打开检测"
+      }
+    },
+    {
+      "id": "6e797720-15b9-4c9e-b0b5-6f5d636a508b",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器 2S413",
+        "设备类型": "传感器",
+        "位置": "第四轮半环",
+        "操作方式": null,
+        "操作细节": "检查烟包堵塞和第四轮半环打开",
+        "缩写": "2S413"
+      }
+    },
+    {
+      "id": "0a3c86e0-0f8f-4116-a82d-2afdfbba43a9",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查烟包堵塞和第四轮半环打开",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "9345f167-aca8-487b-9423-fe3124f5fa30",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器探测出半环打开"
+      }
+    },
+    {
+      "id": "96b398d2-6aef-4a69-9afa-831b8ebe3f37",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "1c09ad42-c96c-4cda-b00a-51a6a2c9de88",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第四轮半环打开(参见 DIGITAL_CHECK-信息,页 5-41) 的报警信号"
+      }
+    },
+    {
+      "id": "503b4685-084e-46a0-ab8a-8cc7acc9b569",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 87.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_204_337_1149_1048_790_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a21848e6-1c67-4efd-94ad-00ec349cbca0",
+      "to": "c5d568ab-8b17-4c3c-bc8e-46b6177fb8ce"
+    },
+    {
+      "type": "有参见",
+      "from": "c5d568ab-8b17-4c3c-bc8e-46b6177fb8ce",
+      "to": "c12730ab-e5f0-48e5-998b-d417d4608e88"
+    },
+    {
+      "type": "有功能",
+      "from": "f7ef98c1-bef0-4780-aebf-4e9db7ca7a2d",
+      "to": "c8cc1a0e-870e-4feb-ae1a-85612e925963"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f7ef98c1-bef0-4780-aebf-4e9db7ca7a2d",
+      "to": "2686c072-f691-470b-8d8e-c84c7a9a5a15"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2686c072-f691-470b-8d8e-c84c7a9a5a15",
+      "to": "5addbf56-9572-4474-979f-e9736296725d"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2686c072-f691-470b-8d8e-c84c7a9a5a15",
+      "to": "0186c8cd-6a01-446a-b93f-1a49cade4f31"
+    },
+    {
+      "type": "有图片",
+      "from": "a21848e6-1c67-4efd-94ad-00ec349cbca0",
+      "to": "d72c4776-a89a-44ac-a969-afc5c15ddd4f"
+    },
+    {
+      "type": "包含设备",
+      "from": "a821cbc1-6a7d-49fb-804a-24fafdbd93bc",
+      "to": "6e797720-15b9-4c9e-b0b5-6f5d636a508b"
+    },
+    {
+      "type": "有功能",
+      "from": "6e797720-15b9-4c9e-b0b5-6f5d636a508b",
+      "to": "0a3c86e0-0f8f-4116-a82d-2afdfbba43a9"
+    },
+    {
+      "type": "有检测异常",
+      "from": "6e797720-15b9-4c9e-b0b5-6f5d636a508b",
+      "to": "9345f167-aca8-487b-9423-fe3124f5fa30"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9345f167-aca8-487b-9423-fe3124f5fa30",
+      "to": "96b398d2-6aef-4a69-9afa-831b8ebe3f37"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9345f167-aca8-487b-9423-fe3124f5fa30",
+      "to": "1c09ad42-c96c-4cda-b00a-51a6a2c9de88"
+    },
+    {
+      "type": "有图片",
+      "from": "a821cbc1-6a7d-49fb-804a-24fafdbd93bc",
+      "to": "503b4685-084e-46a0-ab8a-8cc7acc9b569"
+    }
+  ]
+}

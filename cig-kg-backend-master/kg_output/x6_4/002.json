@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "81611784-c2d5-4fec-b4a3-7b2050434465",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "PHASE_WINDOW"
+      }
+    },
+    {
+      "id": "8b332cd0-cc38-4b55-a74b-55226dea12a9",
+      "type": "设备",
+      "properties": {
+        "实体名": "PHASE_WINDOW",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "AFL PHASE_WINDOW"
+      }
+    },
+    {
+      "id": "7ce6242b-32b5-4e7a-8c68-2da595cbf6a5",
+      "type": "功能",
+      "properties": {
+        "实体名": "PHASE_WINDOW",
+        "功能类型": "允许在一个开始相位和一个结束相位之间(窗口)产生与电气轴位置相关联的事件"
+      }
+    },
+    {
+      "id": "b4e56d7b-94b6-4354-98a6-013136f7882e",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR"
+      }
+    },
+    {
+      "id": "08b26439-cc87-429f-bec5-5f6af1d39934",
+      "type": "设备",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "AFL DOUBLE_ACTUATOR"
+      }
+    },
+    {
+      "id": "e455a33b-5457-4e2f-b848-3a7da1e6beee",
+      "type": "功能",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR",
+        "功能类型": "管理双稳态数字执行器,例如,带有电气数字双指令的双重效果的活塞,可能还配备有限位器数字传感器"
+      }
+    },
+    {
+      "id": "ae18a375-fba1-4bf6-bbca-dc206c588350",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "AXIS"
+      }
+    },
+    {
+      "id": "72f8d341-2b6e-49c0-9937-be02b91aba16",
+      "type": "设备",
+      "properties": {
+        "实体名": "AXIS",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "AFL AXIS"
+      }
+    },
+    {
+      "id": "a57d8ed9-5cf0-40a6-a12f-3a913cd155fa",
+      "type": "功能",
+      "properties": {
+        "实体名": "AXIS",
+        "功能类型": "管理电气轴,控制例如非同步电机、无刷电机、步进式电机、编码器、等等"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "81611784-c2d5-4fec-b4a3-7b2050434465",
+      "to": "8b332cd0-cc38-4b55-a74b-55226dea12a9"
+    },
+    {
+      "type": "有功能",
+      "from": "8b332cd0-cc38-4b55-a74b-55226dea12a9",
+      "to": "7ce6242b-32b5-4e7a-8c68-2da595cbf6a5"
+    },
+    {
+      "type": "包含设备",
+      "from": "b4e56d7b-94b6-4354-98a6-013136f7882e",
+      "to": "08b26439-cc87-429f-bec5-5f6af1d39934"
+    },
+    {
+      "type": "有功能",
+      "from": "08b26439-cc87-429f-bec5-5f6af1d39934",
+      "to": "e455a33b-5457-4e2f-b848-3a7da1e6beee"
+    },
+    {
+      "type": "包含设备",
+      "from": "ae18a375-fba1-4bf6-bbca-dc206c588350",
+      "to": "72f8d341-2b6e-49c0-9937-be02b91aba16"
+    },
+    {
+      "type": "有功能",
+      "from": "72f8d341-2b6e-49c0-9937-be02b91aba16",
+      "to": "a57d8ed9-5cf0-40a6-a12f-3a913cd155fa"
+    }
+  ]
+}

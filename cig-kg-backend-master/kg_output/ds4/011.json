@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "a4ad0a60-d0b9-4dab-ade2-59499c212870",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "5d42b291-7ad3-467e-b5f6-6ecbe06e2d0b",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3314",
+        "设备类型": "温度检测模块",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "4个通道, 用于热电偶",
+        "缩写": null
+      }
+    },
+    {
+      "id": "a1957c18-6518-45ad-ae3d-c2b434367e98",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3204",
+        "设备类型": "温度检测模块",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "4个通道, 用于PT100",
+        "缩写": null
+      }
+    },
+    {
+      "id": "9b4d13be-92aa-49ef-b58e-cdfde03dc2a5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE-信息"
+      }
+    },
+    {
+      "id": "ec2e6fab-bf33-4332-b202-d1bf2b935fbd",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "ae167874-d62a-497d-87eb-ca296b9ae6b7",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE CONFIGURING10"
+      }
+    },
+    {
+      "id": "aaa3df59-1d55-4919-8c54-9b9af7c244c8",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE FAULT"
+      }
+    },
+    {
+      "id": "6bcce5d7-ef6c-4b00-8fe1-a906cdcafa02",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE NET FAULT"
+      }
+    },
+    {
+      "id": "48b16720-17d8-4375-b53d-09e5dc9a2ffc",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE PARAMETERS DEVICE TYPE ERROR"
+      }
+    },
+    {
+      "id": "d4d1e521-65b0-4e90-bef4-3c2be6410b57",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE PARAMETERS READING ERROR"
+      }
+    },
+    {
+      "id": "5ff27770-285a-49f2-828c-071679bbc326",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE PARAMETERS WRITING ERROR"
+      }
+    },
+    {
+      "id": "2b404aef-5a4b-434a-aa79-7a1f8c769a39",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE PARAMETERS WRITING TIMEOUT ERROR"
+      }
+    },
+    {
+      "id": "9ad8e45d-cd35-4af2-bfd9-c776b2e3659e",
+      "type": "参数",
+      "properties": {
+        "实体名": "TEMPERATURE SENSORS MODULE PARAMETERS_READING TIMEOUT_ERROR"
+      }
+    },
+    {
+      "id": "d7b3fb8a-977c-426e-a4ac-a68ae752b03a",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER"
+      }
+    },
+    {
+      "id": "cc103897-8b02-4b5e-839b-08e75644eb5e",
+      "type": "功能",
+      "properties": {
+        "实体名": "管理机器电机",
+        "功能类型": "效用功能"
+      }
+    },
+    {
+      "id": "a9dbc708-47e4-45f0-95f3-1fbdab01ec85",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER-信息"
+      }
+    },
+    {
+      "id": "e7f876a1-8fd7-467b-adbc-583fad525407",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FEM - (0)"
+      }
+    },
+    {
+      "id": "f8beffbb-b518-41fb-82be-31ec45908547",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAIN_ENCODER_LAG_ERROR_ASM - (0)"
+      }
+    },
+    {
+      "id": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER-参数:"
+      }
+    },
+    {
+      "id": "d403a5a6-ece3-4311-bf82-61046ccf0b5e",
+      "type": "参数",
+      "properties": {
+        "实体名": "NOMINAL VELOCITY: [LREAL] - 额定速度(935)"
+      }
+    },
+    {
+      "id": "8f418638-546b-4138-9c67-7c20bd88d0da",
+      "type": "参数",
+      "properties": {
+        "实体名": "TARGET_PRODUCTION_EFFICIENCY: [INT] - 生产效率:目标(4791)"
+      }
+    },
+    {
+      "id": "5d176af5-bba1-43b1-9093-b8c4aa75b6aa",
+      "type": "参数",
+      "properties": {
+        "实体名": "MIN_VELOCITY: [LREAL] - 最低速度(656)"
+      }
+    },
+    {
+      "id": "96323b97-1897-4a30-91a5-e3b8da993fd9",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_OVERSPEED: [LREAL] - 最高超速(654)"
+      }
+    },
+    {
+      "id": "cd5440bc-4c34-45a8-bed6-d69357ce5db3",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACCELERATION TIME: [LREAL] - 加速时间 (652)"
+      }
+    },
+    {
+      "id": "e6d4bf9c-be36-4a4d-ba62-262ca8eb80c9",
+      "type": "参数",
+      "properties": {
+        "实体名": "SERVICE_DECELERATION_TIME: [LREAL] - 辅助停机时间(657)"
+      }
+    },
+    {
+      "id": "15b7bc0c-d74b-4bbd-bdeb-e8bf2fbdddf1",
+      "type": "参数",
+      "properties": {
+        "实体名": "EMERGENCY_DECELERATION_TIME: [LREAL] - 紧急停机时间 (649)"
+      }
+    },
+    {
+      "id": "479f50ce-4fb7-449e-b00d-8ce456a7cb1c",
+      "type": "参数",
+      "properties": {
+        "实体名": "SUSPENDED_VELOCITY: [LREAL] - (0)"
+      }
+    },
+    {
+      "id": "db4e45e8-ba2a-430e-8b81-2ae7832acfff",
+      "type": "参数",
+      "properties": {
+        "实体名": "ON_PHASE_STOP_POSITION [O..n]: [ARRAY OF LREAL] - 同步停机位置 [O..n]"
+      }
+    },
+    {
+      "id": "6198fc8b-6244-48c9-ac50-f7de54dc21f2",
+      "type": "参数",
+      "properties": {
+        "实体名": "ON_PHASE_STOP_SEARCH_SPEED [LREAL] - 同步停机搜寻速度(0)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a4ad0a60-d0b9-4dab-ade2-59499c212870",
+      "to": "5d42b291-7ad3-467e-b5f6-6ecbe06e2d0b"
+    },
+    {
+      "type": "包含设备",
+      "from": "a4ad0a60-d0b9-4dab-ade2-59499c212870",
+      "to": "a1957c18-6518-45ad-ae3d-c2b434367e98"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "9b4d13be-92aa-49ef-b58e-cdfde03dc2a5",
+      "to": "ec2e6fab-bf33-4332-b202-d1bf2b935fbd"
+    },
+    {
+      "type": "有功能",
+      "from": "d7b3fb8a-977c-426e-a4ac-a68ae752b03a",
+      "to": "cc103897-8b02-4b5e-839b-08e75644eb5e"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a9dbc708-47e4-45f0-95f3-1fbdab01ec85",
+      "to": "e7f876a1-8fd7-467b-adbc-583fad525407"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a9dbc708-47e4-45f0-95f3-1fbdab01ec85",
+      "to": "f8beffbb-b518-41fb-82be-31ec45908547"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "d403a5a6-ece3-4311-bf82-61046ccf0b5e"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "8f418638-546b-4138-9c67-7c20bd88d0da"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "5d176af5-bba1-43b1-9093-b8c4aa75b6aa"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "96323b97-1897-4a30-91a5-e3b8da993fd9"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "cd5440bc-4c34-45a8-bed6-d69357ce5db3"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "e6d4bf9c-be36-4a4d-ba62-262ca8eb80c9"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "15b7bc0c-d74b-4bbd-bdeb-e8bf2fbdddf1"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "479f50ce-4fb7-449e-b00d-8ce456a7cb1c"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "db4e45e8-ba2a-430e-8b81-2ae7832acfff"
+    },
+    {
+      "type": "有参数",
+      "from": "1f827e05-b93d-4de3-8554-ab7f7c4bffc3",
+      "to": "6198fc8b-6244-48c9-ac50-f7de54dc21f2"
+    }
+  ]
+}

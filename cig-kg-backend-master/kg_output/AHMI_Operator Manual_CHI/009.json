@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "54333b92-5d52-46bf-8bcf-524c9612df45",
+      "name": "生产剔除",
+      "type": "操作",
+      "properties": {
+        "显示方式": "平的清单",
+        "弹出视窗": "包含有与其相关的其它信息"
+      }
+    },
+    {
+      "id": "87cd0a77-1822-4431-bc40-556cc961b3ee",
+      "name": "时间纪录",
+      "type": "功能",
+      "properties": {
+        "按钮": "时间记录– (Time History)",
+        "显示内容": "机器的连续时间"
+      }
+    },
+    {
+      "id": "64a7c2af-0320-4ad9-801c-14286e0f522f",
+      "name": "生产",
+      "type": "类别",
+      "properties": null
+    },
+    {
+      "id": "5d2209c3-711d-4c49-b6a1-fdd4da2288f6",
+      "name": "外部停机",
+      "type": "类别",
+      "properties": null
+    },
+    {
+      "id": "771539bd-4027-4017-87d8-61e92c7dec44",
+      "name": "等待",
+      "type": "类别",
+      "properties": null
+    },
+    {
+      "id": "29fb2581-8763-4f29-b2c4-936caab6f24e",
+      "name": "内部停机",
+      "type": "类别",
+      "properties": null
+    },
+    {
+      "id": "6a0056ea-12ab-450b-8677-cd26f9d6fa5e",
+      "name": "辅助计数器",
+      "type": "功能",
+      "properties": {
+        "按钮": "辅助计数器– (Auxiliary Counters)",
+        "显示内容": "与剔除不同的应用软件相关的计数器"
+      }
+    },
+    {
+      "id": "c404c4f9-b9fb-4cfb-9643-be2e051e4b78",
+      "name": "变化趋势",
+      "type": "功能",
+      "properties": {
+        "按钮": "添加至趋势图– Add To Trend",
+        "最大变量数": 20
+      }
+    },
+    {
+      "id": "9ed378b1-0118-4bb8-9ce0-d778d879100f",
+      "name": "品牌更换",
+      "type": "功能",
+      "properties": {
+        "种类": "传统的品牌更换– (Brand Change)",
+        "特征": "在通过组合框可选择配方组合内选择一个配方的可能性"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "显示",
+      "type": "包含",
+      "from": "54333b92-5d52-46bf-8bcf-524c9612df45",
+      "to": "87cd0a77-1822-4431-bc40-556cc961b3ee"
+    },
+    {
+      "name": "包含",
+      "type": "分类",
+      "from": "87cd0a77-1822-4431-bc40-556cc961b3ee",
+      "to": "64a7c2af-0320-4ad9-801c-14286e0f522f"
+    },
+    {
+      "name": "包含",
+      "type": "分类",
+      "from": "87cd0a77-1822-4431-bc40-556cc961b3ee",
+      "to": "5d2209c3-711d-4c49-b6a1-fdd4da2288f6"
+    },
+    {
+      "name": "包含",
+      "type": "分类",
+      "from": "87cd0a77-1822-4431-bc40-556cc961b3ee",
+      "to": "771539bd-4027-4017-87d8-61e92c7dec44"
+    },
+    {
+      "name": "包含",
+      "type": "分类",
+      "from": "87cd0a77-1822-4431-bc40-556cc961b3ee",
+      "to": "29fb2581-8763-4f29-b2c4-936caab6f24e"
+    },
+    {
+      "name": "显示",
+      "type": "功能",
+      "from": "6a0056ea-12ab-450b-8677-cd26f9d6fa5e",
+      "to": "c404c4f9-b9fb-4cfb-9643-be2e051e4b78"
+    },
+    {
+      "name": "管理",
+      "type": "功能",
+      "from": "9ed378b1-0118-4bb8-9ce0-d778d879100f",
+      "to": "c404c4f9-b9fb-4cfb-9643-be2e051e4b78"
+    }
+  ]
+}

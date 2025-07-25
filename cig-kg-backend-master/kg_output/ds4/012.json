@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "6e49709f-e2cb-46f6-9617-c9bcbc9a210a",
+      "type": "参数",
+      "properties": {
+        "实体名": "EMERGENCY_DECELERATION_TIME: [LREAL] - 紧急停机时间 (649)"
+      }
+    },
+    {
+      "id": "8a3caa29-357a-4378-8c4f-ffe625cb12bf",
+      "type": "参数",
+      "properties": {
+        "实体名": "SUSPENDED_VELOCITY: [LREAL] - (0)"
+      }
+    },
+    {
+      "id": "19ed7c61-1658-4b3b-a72b-89c28fa97dd5",
+      "type": "参数",
+      "properties": {
+        "实体名": "ON_PHASE_STOP_POSITION [O..n]: [ARRAY OF LREAL] - 同步停机位置 [O..n]"
+      }
+    },
+    {
+      "id": "65c0df3d-51ff-4af8-835d-61f07698648b",
+      "type": "参数",
+      "properties": {
+        "实体名": "ON_PHASE_STOP_SEARCH_SPEED [LREAL] - 同步停机搜寻速度(0)"
+      }
+    },
+    {
+      "id": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ANALOG_INPUT"
+      }
+    },
+    {
+      "id": "ebc3f536-a066-4ddf-bebf-25189ec34f81",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 1.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_880_506_648_719_574_0.jpg"
+      }
+    },
+    {
+      "id": "3b0afcaa-58c7-43f9-b26c-48180b0bdc7d",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE. XA_W: REAL"
+      }
+    },
+    {
+      "id": "9409b562-5427-49f0-9917-6f81f59e4570",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE. YA_W : REAL"
+      }
+    },
+    {
+      "id": "586c2b69-bf02-4ef0-a83f-95a47c74a860",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.XB_W: REAL"
+      }
+    },
+    {
+      "id": "0513f987-3c02-4794-a0fa-9d74a06a5099",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.YB_W : REAL"
+      }
+    },
+    {
+      "id": "3c592e0b-cedb-4d46-9019-30dcfbd7eba9",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "0df0d80d-6644-4c3c-b201-a2150dcba0b0",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "c6345c31-b07a-4fde-9fe4-7c64d904253c",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "abc6ba8c-b508-417e-b490-fdb4f3725836",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "98eef7ff-dd83-4a35-95f3-5918336e8823",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY. XA_W: REAL - 点 A: 电气数值(3496)"
+      }
+    },
+    {
+      "id": "4b82baea-4021-4dc9-9eea-f92a630b500d",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.YA_W: REAL - 点 A: 物理数值(3498)"
+      }
+    },
+    {
+      "id": "be3de79a-e1b2-4de6-819f-bbca92c0e4e8",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.XB_W: REAL - 点 B: 电气数值(3497)"
+      }
+    },
+    {
+      "id": "912cab2f-5c08-4395-ad4e-473ef8994fb4",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.YB_W: REAL - 点 B: 物理数值(3499)"
+      }
+    },
+    {
+      "id": "b4dc80cc-1a2a-4596-95f3-c3ff53740787",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "f8e4bd27-83ba-4589-88c7-ffc42cfbc875",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "6a04b8e7-b22e-4111-9a6a-5cae2dd6ed7a",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "f2f8f2d3-6d8c-48e5-9180-594935805d03",
+      "type": "参数",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MAX_W: REAL"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有图片",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "ebc3f536-a066-4ddf-bebf-25189ec34f81"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "3b0afcaa-58c7-43f9-b26c-48180b0bdc7d"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "9409b562-5427-49f0-9917-6f81f59e4570"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "586c2b69-bf02-4ef0-a83f-95a47c74a860"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "0513f987-3c02-4794-a0fa-9d74a06a5099"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "3c592e0b-cedb-4d46-9019-30dcfbd7eba9"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "0df0d80d-6644-4c3c-b201-a2150dcba0b0"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "c6345c31-b07a-4fde-9fe4-7c64d904253c"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "abc6ba8c-b508-417e-b490-fdb4f3725836"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "98eef7ff-dd83-4a35-95f3-5918336e8823"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "4b82baea-4021-4dc9-9eea-f92a630b500d"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "be3de79a-e1b2-4de6-819f-bbca92c0e4e8"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "912cab2f-5c08-4395-ad4e-473ef8994fb4"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "b4dc80cc-1a2a-4596-95f3-c3ff53740787"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "f8e4bd27-83ba-4589-88c7-ffc42cfbc875"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "6a04b8e7-b22e-4111-9a6a-5cae2dd6ed7a"
+    },
+    {
+      "type": "有参数",
+      "from": "0d9bc2f2-1e6d-4d5f-a937-eef0d7bdd0d0",
+      "to": "f2f8f2d3-6d8c-48e5-9180-594935805d03"
+    }
+  ]
+}

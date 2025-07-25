@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "3cf16870-85c4-4064-96d0-18135d78cb2d",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 59",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_121_53_320_1265_1631_0.jpg"
+      }
+    },
+    {
+      "id": "d7a52585-b155-4e92-a8af-06518a10e5e5",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 61",
+        "图片路径": null
+      }
+    },
+    {
+      "id": "ceaa1b63-fdff-4ad6-b58f-a144805890da",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[1]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "1b1f3d16-57e6-4c26-99b3-1390fb4b6ac2",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "d3a0fe84-c6cb-4ae2-b0cc-78fe1e9b70a4",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[2]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "9c885bc5-489b-4f90-aec5-e268db682962",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "40157b15-0245-4b89-825d-afe9d20110bf",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[3]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "9d96d13e-c440-47c2-a3e6-4356e1bcb8b6",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "37b7daef-abbf-4754-8b5e-fd93fbdb336d",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[4]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "7bbc1530-c3bb-47f3-942c-4fbb76a7873d",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "a3c709bd-f6d6-4443-9744-d9f5b430d953",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[5]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "ceaa1b63-fdff-4ad6-b58f-a144805890da",
+      "to": "1b1f3d16-57e6-4c26-99b3-1390fb4b6ac2"
+    },
+    {
+      "type": "有参见",
+      "from": "d3a0fe84-c6cb-4ae2-b0cc-78fe1e9b70a4",
+      "to": "9c885bc5-489b-4f90-aec5-e268db682962"
+    },
+    {
+      "type": "有参见",
+      "from": "40157b15-0245-4b89-825d-afe9d20110bf",
+      "to": "9d96d13e-c440-47c2-a3e6-4356e1bcb8b6"
+    },
+    {
+      "type": "有参见",
+      "from": "37b7daef-abbf-4754-8b5e-fd93fbdb336d",
+      "to": "7bbc1530-c3bb-47f3-942c-4fbb76a7873d"
+    }
+  ]
+}

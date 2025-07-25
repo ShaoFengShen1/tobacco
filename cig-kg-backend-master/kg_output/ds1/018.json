@@ -1,0 +1,340 @@
+{
+  "nodes": [
+    {
+      "id": "79f9ee40-ad35-4f5a-97bd-e9f5b8ca1873",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "润滑油过滤器的堵塞检测"
+      }
+    },
+    {
+      "id": "b4ba7d6c-3626-4794-9752-091cd40ece4f",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S211",
+        "设备类型": "传感器",
+        "位置": "“润滑油过滤器”装置内",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S211"
+      }
+    },
+    {
+      "id": "56c346cc-275d-4dc4-8e39-c039f21d25f7",
+      "type": "功能",
+      "properties": {
+        "实体名": "检测润滑油过滤器的堵塞",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "a5b4b77f-6687-4d55-98e2-1a4e2a1fe946",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "润滑油过滤器堵塞"
+      }
+    },
+    {
+      "id": "d1c23db8-cd9e-4e70-948f-8a99b27fe60a",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "0486863e-226b-4b94-986b-d11a14876ccd",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 润滑油滤清器阻塞的报警信号"
+      }
+    },
+    {
+      "id": "ced5c27b-d230-4288-8f19-6c0908fc9a1a",
+      "type": "参见",
+      "properties": {
+        "实体名": "DIGITAL_CHECK-信息, 页 5-41"
+      }
+    },
+    {
+      "id": "73222811-f6af-470f-b2eb-830b85a6ea1a",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 41.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_82_335_775_1050_678_0.jpg"
+      }
+    },
+    {
+      "id": "61ae1ed6-9235-41ab-8dc7-2201ac957ebf",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "油压检查PACKER"
+      }
+    },
+    {
+      "id": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S228",
+        "设备类型": "传感器",
+        "位置": "油箱出口处",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S228"
+      }
+    },
+    {
+      "id": "e5bdb6f9-03bf-4e37-b56d-58aea7c2ac88",
+      "type": "功能",
+      "properties": {
+        "实体名": "探测压力并提供数据",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "34c8e2ae-5937-4ab5-83a6-e7d2088ed639",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "油压不足"
+      }
+    },
+    {
+      "id": "dd8105af-a732-4d06-bb7a-a7103b056ff8",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "油压过高"
+      }
+    },
+    {
+      "id": "fb59860e-047c-4484-85e7-c632aa03ef07",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "油压检测失效"
+      }
+    },
+    {
+      "id": "62fcad38-5bc4-40d5-bc12-652f987dffb0",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "6ac1f427-5a8b-4037-956d-31f98ff8691c",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 油压不足的报警信号"
+      }
+    },
+    {
+      "id": "36dc1d15-aab0-4a23-b74c-d7adb0dd18c1",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 油压过高的报警信号"
+      }
+    },
+    {
+      "id": "88fd2350-6477-45f6-9d12-e789ab60cdb6",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 油压检测失效报警信号"
+      }
+    },
+    {
+      "id": "53d1f047-73d1-41db-96d3-b7d637b62f27",
+      "type": "参见",
+      "properties": {
+        "实体名": "ANALOG_CHECK-参数: , 页 5-5"
+      }
+    },
+    {
+      "id": "57ce5385-7538-4338-b135-a420286ddbbf",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 42.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_84_360_1208_1028_686_0.jpg"
+      }
+    },
+    {
+      "id": "be1db08b-4243-416c-880e-79d6ce143d45",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PACKER润滑油的高压检测"
+      }
+    },
+    {
+      "id": "458f4778-686f-4dd9-bc7e-c2f450c0460a",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S287",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S287"
+      }
+    },
+    {
+      "id": "2c7fc4a9-60b7-4a2c-8e67-393a43596113",
+      "type": "功能",
+      "properties": {
+        "实体名": "探测压力并提供数据",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "4234d30c-0ee9-4b46-bd56-7baac590dc13",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "高温下的检测"
+      }
+    },
+    {
+      "id": "0dbeddca-56ac-41aa-8f3a-acc74bf1a174",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "润滑油高压过大"
+      }
+    },
+    {
+      "id": "a95f07b8-e12e-4273-b041-89cb0621c14c",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "6b137fc4-3e1c-478e-81ac-52ce4827135d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 润滑油高压过大的报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "79f9ee40-ad35-4f5a-97bd-e9f5b8ca1873",
+      "to": "b4ba7d6c-3626-4794-9752-091cd40ece4f"
+    },
+    {
+      "type": "有功能",
+      "from": "b4ba7d6c-3626-4794-9752-091cd40ece4f",
+      "to": "56c346cc-275d-4dc4-8e39-c039f21d25f7"
+    },
+    {
+      "type": "有检测异常",
+      "from": "b4ba7d6c-3626-4794-9752-091cd40ece4f",
+      "to": "a5b4b77f-6687-4d55-98e2-1a4e2a1fe946"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a5b4b77f-6687-4d55-98e2-1a4e2a1fe946",
+      "to": "d1c23db8-cd9e-4e70-948f-8a99b27fe60a"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "a5b4b77f-6687-4d55-98e2-1a4e2a1fe946",
+      "to": "0486863e-226b-4b94-986b-d11a14876ccd"
+    },
+    {
+      "type": "有参见",
+      "from": "b4ba7d6c-3626-4794-9752-091cd40ece4f",
+      "to": "ced5c27b-d230-4288-8f19-6c0908fc9a1a"
+    },
+    {
+      "type": "有图片",
+      "from": "79f9ee40-ad35-4f5a-97bd-e9f5b8ca1873",
+      "to": "73222811-f6af-470f-b2eb-830b85a6ea1a"
+    },
+    {
+      "type": "包含设备",
+      "from": "61ae1ed6-9235-41ab-8dc7-2201ac957ebf",
+      "to": "61f54877-3fa1-472a-8a5b-a5ca600e86c0"
+    },
+    {
+      "type": "有功能",
+      "from": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "to": "e5bdb6f9-03bf-4e37-b56d-58aea7c2ac88"
+    },
+    {
+      "type": "有检测异常",
+      "from": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "to": "34c8e2ae-5937-4ab5-83a6-e7d2088ed639"
+    },
+    {
+      "type": "有检测异常",
+      "from": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "to": "dd8105af-a732-4d06-bb7a-a7103b056ff8"
+    },
+    {
+      "type": "有检测异常",
+      "from": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "to": "fb59860e-047c-4484-85e7-c632aa03ef07"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "34c8e2ae-5937-4ab5-83a6-e7d2088ed639",
+      "to": "62fcad38-5bc4-40d5-bc12-652f987dffb0"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "34c8e2ae-5937-4ab5-83a6-e7d2088ed639",
+      "to": "6ac1f427-5a8b-4037-956d-31f98ff8691c"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "dd8105af-a732-4d06-bb7a-a7103b056ff8",
+      "to": "62fcad38-5bc4-40d5-bc12-652f987dffb0"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "dd8105af-a732-4d06-bb7a-a7103b056ff8",
+      "to": "36dc1d15-aab0-4a23-b74c-d7adb0dd18c1"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "fb59860e-047c-4484-85e7-c632aa03ef07",
+      "to": "62fcad38-5bc4-40d5-bc12-652f987dffb0"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "fb59860e-047c-4484-85e7-c632aa03ef07",
+      "to": "88fd2350-6477-45f6-9d12-e789ab60cdb6"
+    },
+    {
+      "type": "有参见",
+      "from": "61f54877-3fa1-472a-8a5b-a5ca600e86c0",
+      "to": "53d1f047-73d1-41db-96d3-b7d637b62f27"
+    },
+    {
+      "type": "有图片",
+      "from": "61ae1ed6-9235-41ab-8dc7-2201ac957ebf",
+      "to": "57ce5385-7538-4338-b135-a420286ddbbf"
+    },
+    {
+      "type": "包含设备",
+      "from": "be1db08b-4243-416c-880e-79d6ce143d45",
+      "to": "458f4778-686f-4dd9-bc7e-c2f450c0460a"
+    },
+    {
+      "type": "有功能",
+      "from": "458f4778-686f-4dd9-bc7e-c2f450c0460a",
+      "to": "2c7fc4a9-60b7-4a2c-8e67-393a43596113"
+    },
+    {
+      "type": "有检测异常",
+      "from": "458f4778-686f-4dd9-bc7e-c2f450c0460a",
+      "to": "0dbeddca-56ac-41aa-8f3a-acc74bf1a174"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "0dbeddca-56ac-41aa-8f3a-acc74bf1a174",
+      "to": "a95f07b8-e12e-4273-b041-89cb0621c14c"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "0dbeddca-56ac-41aa-8f3a-acc74bf1a174",
+      "to": "6b137fc4-3e1c-478e-81ac-52ce4827135d"
+    }
+  ]
+}

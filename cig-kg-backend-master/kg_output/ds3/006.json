@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "33f8aba9-6915-4031-95b2-31f0367d7692",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "03 驱动器 裹包线 X6"
+      }
+    },
+    {
+      "id": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M831 - 铝箔纸换卷装置的卷盘芯轴A的无刷电机",
+        "设备类型": "无刷电机",
+        "缩写": "2M831"
+      }
+    },
+    {
+      "id": "fe764e36-de91-4856-94bf-75b130a7f1cc",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 PHASE-参数: , 页 5-7"
+      }
+    },
+    {
+      "id": "51cae363-fd77-467e-88d0-141585430042",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 AXIS-参数:,页 5-21"
+      }
+    },
+    {
+      "id": "a98351a1-8937-4fb9-981b-ca9b58a1c442",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 PREUNWINDER-参数:,页 5-23"
+      }
+    },
+    {
+      "id": "6a908e85-7bd1-49c9-83f6-196820fdc1ca",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology ABNORMAL 电机出现故障"
+      }
+    },
+    {
+      "id": "33ec973a-3776-43fb-b7c3-3fe1fd2ae944",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:松卷中的芯轴打开的报警信号"
+      }
+    },
+    {
+      "id": "0a9684cb-b41c-4f6e-9eb0-3e8680903992",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 在松卷中的芯轴搜寻的报警信号"
+      }
+    },
+    {
+      "id": "7eedc69d-80e6-47e8-b7a9-8b4cb6620c7c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:松卷中的芯轴未被探测出"
+      }
+    },
+    {
+      "id": "543baa0b-2956-47fc-8486-fe44e5a725b6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:缓冲器内存量不足"
+      }
+    },
+    {
+      "id": "13555130-c296-436f-bb86-83d76fb0bd0c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 铝箔纸:缓冲器内存量过大"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "33f8aba9-6915-4031-95b2-31f0367d7692",
+      "to": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a"
+    },
+    {
+      "type": "有参见",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "fe764e36-de91-4856-94bf-75b130a7f1cc"
+    },
+    {
+      "type": "有参见",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "51cae363-fd77-467e-88d0-141585430042"
+    },
+    {
+      "type": "有参见",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "a98351a1-8937-4fb9-981b-ca9b58a1c442"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "6a908e85-7bd1-49c9-83f6-196820fdc1ca"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "33ec973a-3776-43fb-b7c3-3fe1fd2ae944"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "0a9684cb-b41c-4f6e-9eb0-3e8680903992"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "7eedc69d-80e6-47e8-b7a9-8b4cb6620c7c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "543baa0b-2956-47fc-8486-fe44e5a725b6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "6bc689f9-2eec-4a77-a83b-4a25be0ff28a",
+      "to": "13555130-c296-436f-bb86-83d76fb0bd0c"
+    }
+  ]
+}

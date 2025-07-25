@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "41a03c92-6ea4-477a-8484-9a5bf67b35a9",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "cdb83863-c9c5-4d81-9b37-52647943a7c3",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3314",
+        "设备类型": "温度检测模块",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "4个通道, 用于热电偶",
+        "缩写": null
+      }
+    },
+    {
+      "id": "81265c6e-0e83-44c0-b3ef-cdc85bba7fe7",
+      "type": "设备",
+      "properties": {
+        "实体名": "EL3204",
+        "设备类型": "温度检测模块",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "4个通道, 用于PT100",
+        "缩写": null
+      }
+    },
+    {
+      "id": "95fbc024-59ca-45e9-96f1-077f190f821e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE-信息"
+      }
+    },
+    {
+      "id": "719f04cb-3b93-4edb-90b6-1c0ab9fbcf86",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "7ebc446a-6da6-4439-bf95-cf96425ca786",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "State message: 当出现任何一个模块故障时被显示。"
+      }
+    },
+    {
+      "id": "3c7b3798-1ecf-43ee-9eda-e3ebb7843b38",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER"
+      }
+    },
+    {
+      "id": "879ac919-9119-4cbb-b1ae-a3292e7b9824",
+      "type": "功能",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER",
+        "功能类型": "管理机器电机"
+      }
+    },
+    {
+      "id": "d267d40f-ee20-4534-979b-8e284a9a1022",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER-信息"
+      }
+    },
+    {
+      "id": "7082dc02-f145-4851-ae89-164517604694",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FEM - (0)"
+      }
+    },
+    {
+      "id": "6280b841-21b9-49f0-9e95-daeb6e370cd8",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "Fault message: 当出现轴的一般错误时被显示。"
+      }
+    },
+    {
+      "id": "082eb1fa-f169-4fdf-8e38-dd22d0d067b9",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MAIN_ENCODER_LAG_ERROR_ASM - (0)"
+      }
+    },
+    {
+      "id": "787ebacf-a18d-4f82-8ca7-af795d0f2fd7",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "Alarm message: 当出现机器编码器读取错误时被显示。"
+      }
+    },
+    {
+      "id": "bfad447e-f0f1-4550-9bd5-046fe8d528e8",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MOTORIZATION_MANAGER-参数:"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "41a03c92-6ea4-477a-8484-9a5bf67b35a9",
+      "to": "cdb83863-c9c5-4d81-9b37-52647943a7c3"
+    },
+    {
+      "type": "包含设备",
+      "from": "41a03c92-6ea4-477a-8484-9a5bf67b35a9",
+      "to": "81265c6e-0e83-44c0-b3ef-cdc85bba7fe7"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "95fbc024-59ca-45e9-96f1-077f190f821e",
+      "to": "719f04cb-3b93-4edb-90b6-1c0ab9fbcf86"
+    },
+    {
+      "type": "有检测异常",
+      "from": "95fbc024-59ca-45e9-96f1-077f190f821e",
+      "to": "7ebc446a-6da6-4439-bf95-cf96425ca786"
+    },
+    {
+      "type": "有功能",
+      "from": "3c7b3798-1ecf-43ee-9eda-e3ebb7843b38",
+      "to": "879ac919-9119-4cbb-b1ae-a3292e7b9824"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d267d40f-ee20-4534-979b-8e284a9a1022",
+      "to": "7082dc02-f145-4851-ae89-164517604694"
+    },
+    {
+      "type": "有检测异常",
+      "from": "d267d40f-ee20-4534-979b-8e284a9a1022",
+      "to": "6280b841-21b9-49f0-9e95-daeb6e370cd8"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d267d40f-ee20-4534-979b-8e284a9a1022",
+      "to": "082eb1fa-f169-4fdf-8e38-dd22d0d067b9"
+    },
+    {
+      "type": "有检测异常",
+      "from": "d267d40f-ee20-4534-979b-8e284a9a1022",
+      "to": "787ebacf-a18d-4f82-8ca7-af795d0f2fd7"
+    }
+  ]
+}

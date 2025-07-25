@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "62aed8dc-96c2-47fc-92bd-549d422162c4",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology EMERGENCY 电路故障",
+        "参见": "SAFETY_INTEGRATED_OBJECT-信息,页 5-3"
+      }
+    },
+    {
+      "id": "23a34d4e-8430-47e6-9bf6-9d788e9d4d7e",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 37.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_72_337_788_1048_794_0.jpg"
+      }
+    },
+    {
+      "id": "5646500f-e431-4205-80cb-65517a009a12",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "机器编码器"
+      }
+    },
+    {
+      "id": "127b12fc-6296-44f7-baa9-29d2fbeeb699",
+      "type": "设备",
+      "properties": {
+        "实体名": "编码器2A596",
+        "缩写": "2A596 - X 机组数据编码器电路",
+        "功能类型": "提供机器的角度位置"
+      }
+    },
+    {
+      "id": "c75433c5-cb2b-4d3e-95e1-aa256ec072b9",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在编码器出现故障的情况下"
+      }
+    },
+    {
+      "id": "8bb16949-e0fe-4213-b954-fb74cbc5c49f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 包装机编码器错误报警信号"
+      }
+    },
+    {
+      "id": "5bc28fac-0259-4da1-bc56-acbf7cf5a94d",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology ABNORMAL 执行主编码器复位",
+        "参见": "AXIS-信息, 页 5-21"
+      }
+    },
+    {
+      "id": "74bc092d-7399-437d-acfa-5497e393e2f0",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "编码器 BAUMER SINGLETURN ETHERCAT - GBAMW.020EPA2"
+      }
+    },
+    {
+      "id": "f0dea3b4-480a-4d91-a041-a4a45647c4e2",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "编码器置零与复位位置",
+        "操作描述": "使用工装37, XAOM42以手动方式将机器移动到机械零点位置上,并按顺序按下按钮来执行程序"
+      }
+    },
+    {
+      "id": "97941a9a-b104-46ad-b2a1-a3e856fa6e0c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "交换器出口处水的温度检测"
+      }
+    },
+    {
+      "id": "46a79faa-fbd6-457f-9122-7f925ed2f859",
+      "type": "设备",
+      "properties": {
+        "实体名": "探测器 2B4255",
+        "缩写": "2B4255 - X交换器出口处水的温度检测",
+        "功能类型": "探测交换器组件冷却液体的温度"
+      }
+    },
+    {
+      "id": "5c2305c1-8a42-45ff-96e1-e632985a9b50",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "当模拟信号水平高于在监视器参数“机器/辅助设施/水/温度/水平位检测/最大值”上设定的数值时"
+      }
+    },
+    {
+      "id": "6cbfb462-6e1a-41b9-9ff5-a2bbc3a1ff24",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 水温过高报警信号"
+      }
+    },
+    {
+      "id": "928dff85-1a07-4c55-8fc8-c91c6bed0d7d",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 39.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_76_335_864_925_761_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "127b12fc-6296-44f7-baa9-29d2fbeeb699",
+      "to": "5bc28fac-0259-4da1-bc56-acbf7cf5a94d"
+    },
+    {
+      "type": "有检测异常",
+      "from": "127b12fc-6296-44f7-baa9-29d2fbeeb699",
+      "to": "c75433c5-cb2b-4d3e-95e1-aa256ec072b9"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c75433c5-cb2b-4d3e-95e1-aa256ec072b9",
+      "to": "8bb16949-e0fe-4213-b954-fb74cbc5c49f"
+    },
+    {
+      "type": "有校准部件",
+      "from": "127b12fc-6296-44f7-baa9-29d2fbeeb699",
+      "to": "74bc092d-7399-437d-acfa-5497e393e2f0"
+    },
+    {
+      "type": "有校准操作",
+      "from": "74bc092d-7399-437d-acfa-5497e393e2f0",
+      "to": "f0dea3b4-480a-4d91-a041-a4a45647c4e2"
+    },
+    {
+      "type": "包含设备",
+      "from": "5646500f-e431-4205-80cb-65517a009a12",
+      "to": "127b12fc-6296-44f7-baa9-29d2fbeeb699"
+    },
+    {
+      "type": "有检测异常",
+      "from": "46a79faa-fbd6-457f-9122-7f925ed2f859",
+      "to": "5c2305c1-8a42-45ff-96e1-e632985a9b50"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "5c2305c1-8a42-45ff-96e1-e632985a9b50",
+      "to": "6cbfb462-6e1a-41b9-9ff5-a2bbc3a1ff24"
+    },
+    {
+      "type": "包含设备",
+      "from": "97941a9a-b104-46ad-b2a1-a3e856fa6e0c",
+      "to": "46a79faa-fbd6-457f-9122-7f925ed2f859"
+    },
+    {
+      "type": "有图片",
+      "from": "97941a9a-b104-46ad-b2a1-a3e856fa6e0c",
+      "to": "928dff85-1a07-4c55-8fc8-c91c6bed0d7d"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "55e9f9f7-4a7a-4ff7-b8f0-a578296075f5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MULTI_DIGITAL_CAM_TRACK"
+      }
+    },
+    {
+      "id": "2918953a-ec00-4b0e-90f2-4209c9c24c64",
+      "type": "参数",
+      "properties": {
+        "实体名": "FORCE_OUTPUT_FREQUENCY: DINT - 手动清洁频率 (2596)"
+      }
+    },
+    {
+      "id": "b9e942ac-5fb8-4fed-b0a2-af014eb8da8d",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PWM"
+      }
+    },
+    {
+      "id": "1938d58c-f8a0-4102-8a8d-e29dbfe24fc0",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 3.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_900_313_629_1185_365_0.jpg"
+      }
+    },
+    {
+      "id": "d2aed47e-da3b-42b1-98e4-7d21f3945d52",
+      "type": "参数",
+      "properties": {
+        "实体名": "PERIOD_MS: DINT - 周期"
+      }
+    },
+    {
+      "id": "9862bdc5-d21e-41e9-84ca-7b1f79f074b6",
+      "type": "参数",
+      "properties": {
+        "实体名": "DUTY_CYCLE: LREAL - DUTY - CYCLE"
+      }
+    },
+    {
+      "id": "49b2311d-47a2-45db-8ed5-a96049e0918b",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "BUTTON_ENCODER"
+      }
+    },
+    {
+      "id": "74e12218-45da-4994-9917-d9995673fc06",
+      "type": "参数",
+      "properties": {
+        "实体名": "LOWER_TRAVEL_LIMIT : [DINT] - 最小值 (606)"
+      }
+    },
+    {
+      "id": "f6115446-f697-4fc2-8fcc-e7ea81cdeaf5",
+      "type": "参数",
+      "properties": {
+        "实体名": "UPPER_TRAVEL_LIMIT : [DINT] - 最大值 (605)"
+      }
+    },
+    {
+      "id": "fef467f2-e872-4ad2-853f-46c4910a8423",
+      "type": "参数",
+      "properties": {
+        "实体名": "PUSHBUTTON_NOT_PRESSED_STEP_VALUE : [REAL] - 在按钮未被按下时的递增数值(57.8."
+      }
+    },
+    {
+      "id": "a9e82b88-bcbc-460a-9d95-d726566e36d4",
+      "type": "参数",
+      "properties": {
+        "实体名": "PUSHBUTTON_PRESSED_STEP_VALUE : [REAL] - 在按钮被按下时的递增数值 (5752)"
+      }
+    },
+    {
+      "id": "3d505ba6-91ea-4186-9c62-93cacf7f7942",
+      "type": "设备",
+      "properties": {
+        "实体名": "2A1199 第五轮上真空压力调节器 2–199",
+        "设备类型": "真空压力调节器",
+        "位置": "第五轮上",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2A1199"
+      }
+    },
+    {
+      "id": "a9b5a754-ffc1-4626-b981-60ab437f1245",
+      "type": "设备",
+      "properties": {
+        "实体名": "2A1940 气流. 2-73",
+        "设备类型": "气流",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2A1940"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "55e9f9f7-4a7a-4ff7-b8f0-a578296075f5",
+      "to": "2918953a-ec00-4b0e-90f2-4209c9c24c64"
+    },
+    {
+      "type": "有图片",
+      "from": "b9e942ac-5fb8-4fed-b0a2-af014eb8da8d",
+      "to": "1938d58c-f8a0-4102-8a8d-e29dbfe24fc0"
+    },
+    {
+      "type": "包含设备",
+      "from": "b9e942ac-5fb8-4fed-b0a2-af014eb8da8d",
+      "to": "d2aed47e-da3b-42b1-98e4-7d21f3945d52"
+    },
+    {
+      "type": "包含设备",
+      "from": "b9e942ac-5fb8-4fed-b0a2-af014eb8da8d",
+      "to": "9862bdc5-d21e-41e9-84ca-7b1f79f074b6"
+    },
+    {
+      "type": "包含设备",
+      "from": "49b2311d-47a2-45db-8ed5-a96049e0918b",
+      "to": "74e12218-45da-4994-9917-d9995673fc06"
+    },
+    {
+      "type": "包含设备",
+      "from": "49b2311d-47a2-45db-8ed5-a96049e0918b",
+      "to": "f6115446-f697-4fc2-8fcc-e7ea81cdeaf5"
+    },
+    {
+      "type": "包含设备",
+      "from": "49b2311d-47a2-45db-8ed5-a96049e0918b",
+      "to": "fef467f2-e872-4ad2-853f-46c4910a8423"
+    },
+    {
+      "type": "包含设备",
+      "from": "49b2311d-47a2-45db-8ed5-a96049e0918b",
+      "to": "a9e82b88-bcbc-460a-9d95-d726566e36d4"
+    }
+  ]
+}

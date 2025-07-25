@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "9cd9fa6b-7d5f-4ccd-abeb-40860b1ee816",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "驱动器 梁架组件"
+      }
+    },
+    {
+      "id": "eec040e2-ffd6-4387-a540-ff538b6dea89",
+      "type": "设备",
+      "properties": {
+        "实体名": "2E1428",
+        "缩写": "2E1428"
+      }
+    },
+    {
+      "id": "5d57c400-66f9-4530-afdb-4599f86578d5",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B1428",
+        "缩写": "2B1428"
+      }
+    },
+    {
+      "id": "a614493f-535d-4a11-adc6-278d0178e6c1",
+      "type": "设备",
+      "properties": {
+        "实体名": "2A1428",
+        "缩写": "2A1428"
+      }
+    },
+    {
+      "id": "5e3db7e0-6a87-449e-a965-7808ecc062a0",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology ABNORMAL 输出带加热器未就绪"
+      }
+    },
+    {
+      "id": "088eee14-39ba-45e4-9b92-fcbbb598cb1a",
+      "type": "参见",
+      "properties": {
+        "实体名": "HEATER-信息,页 5-27"
+      }
+    },
+    {
+      "id": "4f7fadea-92b7-4bf4-aebc-d2ee33bf36dd",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "烟包合并器输出带无刷电机"
+      }
+    },
+    {
+      "id": "81940e05-ddef-4195-9af0-ce265acc1f7d",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M1003 - 烟包合并器输出皮带的无刷电机",
+        "缩写": "2M1003"
+      }
+    },
+    {
+      "id": "d8409e11-f350-450c-85b0-c0b09cc9d33e",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S4509",
+        "缩写": "2S4509"
+      }
+    },
+    {
+      "id": "cbd76b85-4ee4-4964-8b1b-f5fb1b1e6247",
+      "type": "参见",
+      "properties": {
+        "实体名": "出口处烟包合并器护罩,页 2-467"
+      }
+    },
+    {
+      "id": "c4411032-d0ba-434b-81fe-55c4cd78ad94",
+      "type": "设备",
+      "properties": {
+        "实体名": "编码器2A596",
+        "缩写": "2A596"
+      }
+    },
+    {
+      "id": "a0406a72-ca88-4551-903b-48aaa023c9b9",
+      "type": "参见",
+      "properties": {
+        "实体名": "机器编码器,页 2-57"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "9cd9fa6b-7d5f-4ccd-abeb-40860b1ee816",
+      "to": "5e3db7e0-6a87-449e-a965-7808ecc062a0"
+    },
+    {
+      "type": "有参见",
+      "from": "5e3db7e0-6a87-449e-a965-7808ecc062a0",
+      "to": "088eee14-39ba-45e4-9b92-fcbbb598cb1a"
+    },
+    {
+      "type": "包含设备",
+      "from": "9cd9fa6b-7d5f-4ccd-abeb-40860b1ee816",
+      "to": "eec040e2-ffd6-4387-a540-ff538b6dea89"
+    },
+    {
+      "type": "包含设备",
+      "from": "9cd9fa6b-7d5f-4ccd-abeb-40860b1ee816",
+      "to": "5d57c400-66f9-4530-afdb-4599f86578d5"
+    },
+    {
+      "type": "包含设备",
+      "from": "9cd9fa6b-7d5f-4ccd-abeb-40860b1ee816",
+      "to": "a614493f-535d-4a11-adc6-278d0178e6c1"
+    },
+    {
+      "type": "包含设备",
+      "from": "4f7fadea-92b7-4bf4-aebc-d2ee33bf36dd",
+      "to": "81940e05-ddef-4195-9af0-ce265acc1f7d"
+    },
+    {
+      "type": "有参见",
+      "from": "d8409e11-f350-450c-85b0-c0b09cc9d33e",
+      "to": "cbd76b85-4ee4-4964-8b1b-f5fb1b1e6247"
+    },
+    {
+      "type": "有参见",
+      "from": "c4411032-d0ba-434b-81fe-55c4cd78ad94",
+      "to": "a0406a72-ca88-4551-903b-48aaa023c9b9"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "5aece05f-2675-43e4-b20e-d21a2c45364b",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "X6"
+      }
+    },
+    {
+      "id": "c2589ca7-cb31-4fed-ad7f-4f050c448e1c",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "铝箔纸换卷材料拼接辊的无刷电机"
+      }
+    },
+    {
+      "id": "38394613-f608-449a-ad12-ae7c57d2a826",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M839 - 铝箔纸换卷材料拼接辊的无刷电机",
+        "设备类型": "无刷电机",
+        "缩写": "2M839"
+      }
+    },
+    {
+      "id": "f0776778-483a-4408-97e2-f90900c1ab22",
+      "type": "设备",
+      "properties": {
+        "实体名": "驱动器A711-双驱动器",
+        "设备类型": "驱动器"
+      }
+    },
+    {
+      "id": "99c6aac1-2edd-43ae-8f8f-b89fbc9471df",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S308",
+        "设备类型": "传感器"
+      }
+    },
+    {
+      "id": "ecfc4b4f-1063-44cc-ad7d-d957a8438a60",
+      "type": "参见",
+      "properties": {
+        "实体名": "铝箔纸换卷拼接辊无刷电机的复位,页 2-219"
+      }
+    },
+    {
+      "id": "2de268d8-d89f-4a96-b7be-ca1a0c2c4c2a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障的报警信号"
+      }
+    },
+    {
+      "id": "a4cf956b-f85b-4b49-8092-d0783c664288",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "Typology ABNORMAL 拼接辊没有运动报警信号"
+      }
+    },
+    {
+      "id": "f7a78b4a-a69e-404c-bb20-1f54ad4d5161",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "材料处理/拼接/电机/轴线"
+      }
+    },
+    {
+      "id": "756909dc-53d9-4e4f-be3a-00934a9ebb4a",
+      "type": "参见",
+      "properties": {
+        "实体名": "AXIS-参数:,页 5-21"
+      }
+    },
+    {
+      "id": "8a943dc3-b83f-49f2-9fd8-071ce2c9981d",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "铝箔纸换卷预置缓冲台步进式电机"
+      }
+    },
+    {
+      "id": "49bfac1b-e540-43be-bf72-65f94aa5385a",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M846 - 铝箔纸换卷预置压台步进式电机",
+        "设备类型": "步进式电机",
+        "缩写": "2M846"
+      }
+    },
+    {
+      "id": "67cec542-faa7-44ab-b99a-27521e814bae",
+      "type": "设备",
+      "properties": {
+        "实体名": "驱动器2A828 - 铝箔纸换卷预置压台步进式电机驱动器",
+        "设备类型": "驱动器"
+      }
+    },
+    {
+      "id": "29106e78-3d3d-4593-97e2-9392b80d7bc4",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 纸边交付机械手没有到位报警信号"
+      }
+    },
+    {
+      "id": "30f29646-ce11-4d85-9530-7a2e35778b1c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障的报警信号"
+      }
+    },
+    {
+      "id": "436ff322-179c-4b6b-a38b-91e9d32a527e",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 运行故障(参见 STEPPER_DRIVE-信息,页 5-51) 的报警信号"
+      }
+    },
+    {
+      "id": "bde125ee-c29f-4f73-bac5-0ca3efba566f",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "铝箔纸缓冲杆上的喷气"
+      }
+    },
+    {
+      "id": "d9f12e21-78f4-4dcc-ad22-9c2112b14695",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y1677 - 铝箔纸压台杆上的喷气",
+        "设备类型": "执行器",
+        "缩写": "2Y1677"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "5aece05f-2675-43e4-b20e-d21a2c45364b",
+      "to": "c2589ca7-cb31-4fed-ad7f-4f050c448e1c"
+    },
+    {
+      "type": "包含设备",
+      "from": "c2589ca7-cb31-4fed-ad7f-4f050c448e1c",
+      "to": "38394613-f608-449a-ad12-ae7c57d2a826"
+    },
+    {
+      "type": "包含设备",
+      "from": "c2589ca7-cb31-4fed-ad7f-4f050c448e1c",
+      "to": "f0776778-483a-4408-97e2-f90900c1ab22"
+    },
+    {
+      "type": "包含设备",
+      "from": "c2589ca7-cb31-4fed-ad7f-4f050c448e1c",
+      "to": "99c6aac1-2edd-43ae-8f8f-b89fbc9471df"
+    },
+    {
+      "type": "有参见",
+      "from": "99c6aac1-2edd-43ae-8f8f-b89fbc9471df",
+      "to": "ecfc4b4f-1063-44cc-ad7d-d957a8438a60"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "38394613-f608-449a-ad12-ae7c57d2a826",
+      "to": "2de268d8-d89f-4a96-b7be-ca1a0c2c4c2a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "38394613-f608-449a-ad12-ae7c57d2a826",
+      "to": "a4cf956b-f85b-4b49-8092-d0783c664288"
+    },
+    {
+      "type": "有二级标题",
+      "from": "5aece05f-2675-43e4-b20e-d21a2c45364b",
+      "to": "f7a78b4a-a69e-404c-bb20-1f54ad4d5161"
+    },
+    {
+      "type": "有参见",
+      "from": "f7a78b4a-a69e-404c-bb20-1f54ad4d5161",
+      "to": "756909dc-53d9-4e4f-be3a-00934a9ebb4a"
+    },
+    {
+      "type": "有二级标题",
+      "from": "5aece05f-2675-43e4-b20e-d21a2c45364b",
+      "to": "8a943dc3-b83f-49f2-9fd8-071ce2c9981d"
+    },
+    {
+      "type": "包含设备",
+      "from": "8a943dc3-b83f-49f2-9fd8-071ce2c9981d",
+      "to": "49bfac1b-e540-43be-bf72-65f94aa5385a"
+    },
+    {
+      "type": "包含设备",
+      "from": "8a943dc3-b83f-49f2-9fd8-071ce2c9981d",
+      "to": "67cec542-faa7-44ab-b99a-27521e814bae"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "49bfac1b-e540-43be-bf72-65f94aa5385a",
+      "to": "29106e78-3d3d-4593-97e2-9392b80d7bc4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "49bfac1b-e540-43be-bf72-65f94aa5385a",
+      "to": "30f29646-ce11-4d85-9530-7a2e35778b1c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "49bfac1b-e540-43be-bf72-65f94aa5385a",
+      "to": "436ff322-179c-4b6b-a38b-91e9d32a527e"
+    },
+    {
+      "type": "有二级标题",
+      "from": "5aece05f-2675-43e4-b20e-d21a2c45364b",
+      "to": "bde125ee-c29f-4f73-bac5-0ca3efba566f"
+    },
+    {
+      "type": "包含设备",
+      "from": "bde125ee-c29f-4f73-bac5-0ca3efba566f",
+      "to": "d9f12e21-78f4-4dcc-ad22-9c2112b14695"
+    }
+  ]
+}

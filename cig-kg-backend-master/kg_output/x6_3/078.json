@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "2c4e93bf-ca53-45de-8980-17403b6337bd",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_FAILED_CHECKS",
+        "设备类型": "参数",
+        "操作细节": "连续失误检测的最大次数",
+        "缩写": "UDINT"
+      }
+    },
+    {
+      "id": "32a03ecc-6b75-4f4e-9652-c7344cd68d82",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM"
+      }
+    },
+    {
+      "id": "b6a6464a-3ed4-48af-96ed-c70f595e51ba",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_FAILED_CHECKS_PERCENTAGE",
+        "设备类型": "参数",
+        "操作细节": "失误检测的最大允许百分比",
+        "缩写": "UDINT"
+      }
+    },
+    {
+      "id": "d386bdb4-13cc-4dc7-b24c-fc07ae5b764a",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCTS_FOR_FAILED_CHECK_PERCENTAGE",
+        "设备类型": "参数",
+        "操作细节": "用于计算失误检测的产品数量",
+        "缩写": "UDINT"
+      }
+    },
+    {
+      "id": "1a1d0d3a-ae53-46a4-acb6-c8c991fbcbde",
+      "type": "设备",
+      "properties": {
+        "实体名": "CHECK_PHASE.PHASE",
+        "设备类型": "参数",
+        "操作细节": "检测相位",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "059d79bd-c57b-4716-b3c1-821627bc2e24",
+      "type": "设备",
+      "properties": {
+        "实体名": "CHECK_WINDOW.BEGIN_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "窗口开始相位",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "71950801-9656-4b60-a217-81ddd38a544e",
+      "type": "设备",
+      "properties": {
+        "实体名": "CHECK_WINDOW.END_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "窗口结束相位",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "cfec6664-14ba-49f5-bd3a-a6bbc1af24f1",
+      "type": "设备",
+      "properties": {
+        "实体名": "ASYNCHRONOUS_CHECK_PHASE.PHASE",
+        "设备类型": "参数",
+        "操作细节": "非同步检测相位",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "3ea28bc6-0ca9-4995-ae37-fe177dc744fc",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK"
+      }
+    },
+    {
+      "id": "97aa6206-9bf4-4d56-8879-7f6e032391fc",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP",
+        "设备类型": "参数",
+        "操作细节": "工步",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "b4f0f68e-4cf2-4e61-a375-b76c29854440",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET",
+        "设备类型": "参数",
+        "操作细节": "所需写入的第一工步偏移",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "1c827079-af6e-40c3-94c4-94b7e642b2de",
+      "type": "设备",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE",
+        "设备类型": "参数",
+        "操作细节": "所需写入的工步数量",
+        "缩写": "DINT"
+      }
+    },
+    {
+      "id": "4dc3c508-2214-461d-85db-94a2b95e41bf",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_DISTANCE",
+        "设备类型": "参数",
+        "操作细节": "在输入波峰之间的最大距离",
+        "缩写": "LREAL"
+      }
+    },
+    {
+      "id": "852d21c4-4d95-4ce5-aec5-47c6ee5809f8",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_ABSENCES",
+        "设备类型": "参数",
+        "操作细节": "非正确的最大连续次数I",
+        "缩写": "UDINT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "2c4e93bf-ca53-45de-8980-17403b6337bd",
+      "to": "32a03ecc-6b75-4f4e-9652-c7344cd68d82"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b6a6464a-3ed4-48af-96ed-c70f595e51ba",
+      "to": "32a03ecc-6b75-4f4e-9652-c7344cd68d82"
+    }
+  ]
+}

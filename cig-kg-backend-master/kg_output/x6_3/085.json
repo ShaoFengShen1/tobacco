@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "a33bd0a8-5153-490d-a6a5-57271694f6fd",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER"
+      }
+    },
+    {
+      "id": "a420be3d-d2af-4303-9422-b721d879c409",
+      "type": "设备",
+      "properties": {
+        "实体名": "FILTER",
+        "设备类型": "过滤器",
+        "操作细节": "产生一个相对于任何逻辑水平信号的延迟事件"
+      }
+    },
+    {
+      "id": "b444197c-6ff5-4332-be82-1239068aec81",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER - 参数"
+      }
+    },
+    {
+      "id": "ded25a43-cafa-4cb7-9b71-6fe060af19b2",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_OFF_ON",
+        "设备类型": "参数",
+        "操作细节": "过滤器从熄灭状态到开启状态"
+      }
+    },
+    {
+      "id": "130c2df9-1b15-43f7-b707-0af2d11d37e8",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_ON_OFF",
+        "设备类型": "参数",
+        "操作细节": "过滤器从开启状态到熄灭状态"
+      }
+    },
+    {
+      "id": "7aea2e33-f8ee-4202-897e-2f4d64b03b2e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER"
+      }
+    },
+    {
+      "id": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER",
+        "设备类型": "调整器",
+        "操作细节": "管理材料(产品)的位置检测"
+      }
+    },
+    {
+      "id": "462aca09-3f3d-4867-8989-bc598d1ba4b5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER-信息"
+      }
+    },
+    {
+      "id": "80cdf806-14e6-414f-aa34-46e335ec9734",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION. TOO_MANY_FAILED_CHECKS_AEM",
+        "诊断信息": "剔除太多"
+      }
+    },
+    {
+      "id": "2cec4685-43cf-4878-a4ff-04d6a9722e34",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION. SINGLE_FAILED_CHECK_AEM"
+      }
+    },
+    {
+      "id": "6c128f46-fba0-4580-806f-49153289eff5",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "THIRD_AREA_CHECK_SECTION. TOO_MANY_FAILED_CHECKS_AEM",
+        "诊断信息": "对中误差"
+      }
+    },
+    {
+      "id": "991d8675-d03c-4ad1-a24a-14c9e4fde92b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "THIRD_AREA_CHECK_SECTION. SINGLE_FAILED_CHECK_AEM"
+      }
+    },
+    {
+      "id": "319d598e-5ab1-4922-be04-cbd107395d29",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MISSING_SIGNAL_CHECK_SECTION. TOO_MANY_FAILED_CHECKS_AEM",
+        "诊断信息": "没有信号"
+      }
+    },
+    {
+      "id": "7a7de3e0-0d3b-4954-8c92-a33ea1248a41",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "MISSING_SIGNAL_CHECK_SECTION. SINGLE_FAILED_CHECK_AEM"
+      }
+    },
+    {
+      "id": "697b14ec-ae85-4f9f-8e83-95d719192858",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER-参数"
+      }
+    },
+    {
+      "id": "b42deb40-b121-4fd8-8da0-c3816f6fceec",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP",
+        "设备类型": "参数",
+        "操作细节": "执行检测处的链条工步"
+      }
+    },
+    {
+      "id": "8db38070-7122-4de6-853d-ab912e506012",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET",
+        "设备类型": "参数",
+        "操作细节": "所需写入的第一工步偏移"
+      }
+    },
+    {
+      "id": "12033ffc-708b-4534-97a3-f64b96efac69",
+      "type": "设备",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE",
+        "设备类型": "参数",
+        "操作细节": "所需写入的工步数量"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a33bd0a8-5153-490d-a6a5-57271694f6fd",
+      "to": "a420be3d-d2af-4303-9422-b721d879c409"
+    },
+    {
+      "type": "有三级标题",
+      "from": "a33bd0a8-5153-490d-a6a5-57271694f6fd",
+      "to": "b444197c-6ff5-4332-be82-1239068aec81"
+    },
+    {
+      "type": "包含设备",
+      "from": "b444197c-6ff5-4332-be82-1239068aec81",
+      "to": "ded25a43-cafa-4cb7-9b71-6fe060af19b2"
+    },
+    {
+      "type": "包含设备",
+      "from": "b444197c-6ff5-4332-be82-1239068aec81",
+      "to": "130c2df9-1b15-43f7-b707-0af2d11d37e8"
+    },
+    {
+      "type": "有三级标题",
+      "from": "7aea2e33-f8ee-4202-897e-2f4d64b03b2e",
+      "to": "462aca09-3f3d-4867-8989-bc598d1ba4b5"
+    },
+    {
+      "type": "包含设备",
+      "from": "7aea2e33-f8ee-4202-897e-2f4d64b03b2e",
+      "to": "c5442d40-be0d-4649-a605-ca2425dc9b71"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "80cdf806-14e6-414f-aa34-46e335ec9734"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "2cec4685-43cf-4878-a4ff-04d6a9722e34"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "6c128f46-fba0-4580-806f-49153289eff5"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "991d8675-d03c-4ad1-a24a-14c9e4fde92b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "319d598e-5ab1-4922-be04-cbd107395d29"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "c5442d40-be0d-4649-a605-ca2425dc9b71",
+      "to": "7a7de3e0-0d3b-4954-8c92-a33ea1248a41"
+    },
+    {
+      "type": "有三级标题",
+      "from": "7aea2e33-f8ee-4202-897e-2f4d64b03b2e",
+      "to": "697b14ec-ae85-4f9f-8e83-95d719192858"
+    },
+    {
+      "type": "包含设备",
+      "from": "697b14ec-ae85-4f9f-8e83-95d719192858",
+      "to": "b42deb40-b121-4fd8-8da0-c3816f6fceec"
+    },
+    {
+      "type": "包含设备",
+      "from": "697b14ec-ae85-4f9f-8e83-95d719192858",
+      "to": "8db38070-7122-4de6-853d-ab912e506012"
+    },
+    {
+      "type": "包含设备",
+      "from": "697b14ec-ae85-4f9f-8e83-95d719192858",
+      "to": "12033ffc-708b-4534-97a3-f64b96efac69"
+    }
+  ]
+}

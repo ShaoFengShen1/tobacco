@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "type": "设备",
+      "properties": {
+        "实体名": "活动护罩",
+        "操作方式": "打开",
+        "操作细节": "在启动换卷时"
+      }
+    },
+    {
+      "id": "85f868c5-e765-4264-ac53-4a95edeae617",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "1e052019-f45c-416e-aa50-945e52cf9e87",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 左奖券卷盘结束"
+      }
+    },
+    {
+      "id": "5c7b96ff-0d45-41c5-9248-1e77eb72baa9",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 右奖券卷盘结束"
+      }
+    },
+    {
+      "id": "b0f66f1c-0377-4092-bf30-a06181b168cb",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息"
+      }
+    },
+    {
+      "id": "8847448a-ddaf-4e44-9899-98cf3a6cd00b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "换卷循环被消除,换卷将以手动方式进行"
+      }
+    },
+    {
+      "id": "aa86fc73-f7e9-4347-b72c-38a79bf245e8",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "内框纸换卷由于缺少材料而以手动方式进行"
+      }
+    },
+    {
+      "id": "535182ae-9134-44f4-93c0-7655092a13eb",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 奖券换卷被中断"
+      }
+    },
+    {
+      "id": "5aff3b31-9cf6-4d6b-9e56-96aefd2387d6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 检查并执行奖券手动拼接"
+      }
+    },
+    {
+      "id": "5c729146-36ce-4e0e-88bc-a8f99e497d8a",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 奖券换卷被中断的报警信号"
+      }
+    },
+    {
+      "id": "28c34caa-3966-493f-842a-aa1fff4c0c9b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出信息typology OBLIGATION 检查并执行奖券手动拼接,并且在这种情况下材料更换将以手动方式进行"
+      }
+    },
+    {
+      "id": "0b6f58cb-4e2d-435e-9234-c96a566e5724",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 148.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_327_247_325_1077_788_0.jpg"
+      }
+    },
+    {
+      "id": "bf77f00b-ab90-4a0d-b1c5-fd444fcf7fd4",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 149.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_327_242_1215_1076_790_0.jpg"
+      }
+    },
+    {
+      "id": "cbb3908a-cb35-43c1-bebb-0da4a443aaa0",
+      "type": "设备",
+      "properties": {
+        "实体名": "内框纸换卷模拟按钮",
+        "缩写": "2S5014 - 内框纸模拟更换按钮"
+      }
+    },
+    {
+      "id": "7ece9c35-bcc2-4f9a-986c-98f80422abbb",
+      "type": "设备",
+      "properties": {
+        "实体名": "内框纸拼接护罩微动传感器",
+        "缩写": "2S4014 - 内框纸换卷装置的正面护罩"
+      }
+    },
+    {
+      "id": "b247424d-c2f6-4f79-bf6a-7d229c0945d1",
+      "type": "功能",
+      "properties": {
+        "实体名": "启动手动换卷循环",
+        "功能类型": "效用功能"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "85f868c5-e765-4264-ac53-4a95edeae617"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "b0f66f1c-0377-4092-bf30-a06181b168cb"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "8847448a-ddaf-4e44-9899-98cf3a6cd00b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "aa86fc73-f7e9-4347-b72c-38a79bf245e8"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "5c729146-36ce-4e0e-88bc-a8f99e497d8a"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "28c34caa-3966-493f-842a-aa1fff4c0c9b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "1e052019-f45c-416e-aa50-945e52cf9e87"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "5c7b96ff-0d45-41c5-9248-1e77eb72baa9"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "535182ae-9134-44f4-93c0-7655092a13eb"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "d89e31f6-48ba-4335-b539-4bacd446528a",
+      "to": "5aff3b31-9cf6-4d6b-9e56-96aefd2387d6"
+    },
+    {
+      "type": "有功能",
+      "from": "cbb3908a-cb35-43c1-bebb-0da4a443aaa0",
+      "to": "b247424d-c2f6-4f79-bf6a-7d229c0945d1"
+    }
+  ]
+}

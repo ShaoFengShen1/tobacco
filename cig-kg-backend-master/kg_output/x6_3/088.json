@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "47f8104a-0938-4877-93d0-7d7bc498d38e",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK"
+      }
+    },
+    {
+      "id": "754442b0-0636-4fdc-9905-a330797269ba",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK-参数"
+      }
+    },
+    {
+      "id": "8eaaac29-3cae-4ffc-b9e5-0b66242dabce",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_ON",
+        "设备类型": "参数",
+        "操作细节": "启动的补偿 (3418)"
+      }
+    },
+    {
+      "id": "f6f45ff8-d1ce-4ca1-bf40-200641b404e2",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_OFF",
+        "设备类型": "参数",
+        "操作细节": "免除的补偿(3419)"
+      }
+    },
+    {
+      "id": "8a986dfd-f568-48fe-b7a7-a9c0e7677eed",
+      "type": "设备",
+      "properties": {
+        "实体名": "CUT_OFF_TIME",
+        "设备类型": "参数",
+        "操作细节": "最大持续时间 (2292)"
+      }
+    },
+    {
+      "id": "bc5e60eb-87a0-4aa9-95ac-fed7f475357d",
+      "type": "设备",
+      "properties": {
+        "实体名": "POSITION_OFFSET",
+        "设备类型": "参数",
+        "操作细节": "偏移 (693)"
+      }
+    },
+    {
+      "id": "37c90767-0bd7-47c1-a707-3a252d1327fa",
+      "type": "设备",
+      "properties": {
+        "实体名": "FORCE_OUTPUT_FREQUENCY",
+        "设备类型": "参数",
+        "操作细节": "手动清洁频率(2596)"
+      }
+    },
+    {
+      "id": "c86c9e99-d700-4222-b98b-e78bcd911805",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].ENABLED",
+        "设备类型": "参数",
+        "操作细节": "启用[0] (1020)"
+      }
+    },
+    {
+      "id": "399f7553-ede2-4f06-a675-76ff0f113a68",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].START_POSITION",
+        "设备类型": "参数",
+        "操作细节": "初始位置[0] (1214)"
+      }
+    },
+    {
+      "id": "cdb12af8-ab6b-40f2-8e08-852ed6654316",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].END_POSITION",
+        "设备类型": "参数",
+        "操作细节": "最终位置[0] (1213)"
+      }
+    },
+    {
+      "id": "f52b6342-ea26-4cc7-8e14-bfea9f80d3a1",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_ACTIVE",
+        "设备类型": "参数",
+        "操作细节": "(0)"
+      }
+    },
+    {
+      "id": "e12c0a94-fa12-49e2-96fe-9fd586da7ffc",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_NUMBER",
+        "设备类型": "参数",
+        "操作细节": "等距点数量 (3417)"
+      }
+    },
+    {
+      "id": "98d4116f-dd68-414e-9cce-b403a494391e",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION",
+        "设备类型": "参数",
+        "操作细节": "(0)"
+      }
+    },
+    {
+      "id": "cf9b0148-9970-438a-8a99-7381f89485ad",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK"
+      }
+    },
+    {
+      "id": "113382e4-74e5-44b5-8708-e8798c9f611a",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK-信息"
+      }
+    },
+    {
+      "id": "7fd89d30-21bf-40c8-9204-06b340811998",
+      "type": "设备",
+      "properties": {
+        "实体名": "ALARM_ASM",
+        "设备类型": "信息",
+        "操作细节": "(0)"
+      }
+    },
+    {
+      "id": "d1e20355-1f83-4ef1-943a-230429bb150f",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_CHECK-参数"
+      }
+    },
+    {
+      "id": "f43f75d4-7584-4cf9-92b3-eef6c5986d78",
+      "type": "设备",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_OFF_ON",
+        "设备类型": "参数",
+        "操作细节": "(0)"
+      }
+    },
+    {
+      "id": "a8e335ed-56f7-411b-b650-6b866a8ade5d",
+      "type": "设备",
+      "properties": {
+        "实体名": "INPUT_ALARM_FILTER.DELAY_ON_OFF",
+        "设备类型": "参数",
+        "操作细节": "(0)"
+      }
+    },
+    {
+      "id": "3ab13881-6af2-461b-99a4-0109a7f4b45b",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE"
+      }
+    },
+    {
+      "id": "402af293-a372-4c5e-a8d5-28fd601e6733",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TEMPERATURE_SENSOR_MODULE-信息"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "47f8104a-0938-4877-93d0-7d7bc498d38e",
+      "to": "754442b0-0636-4fdc-9905-a330797269ba"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "8eaaac29-3cae-4ffc-b9e5-0b66242dabce"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "f6f45ff8-d1ce-4ca1-bf40-200641b404e2"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "8a986dfd-f568-48fe-b7a7-a9c0e7677eed"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "bc5e60eb-87a0-4aa9-95ac-fed7f475357d"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "37c90767-0bd7-47c1-a707-3a252d1327fa"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "c86c9e99-d700-4222-b98b-e78bcd911805"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "399f7553-ede2-4f06-a675-76ff0f113a68"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "cdb12af8-ab6b-40f2-8e08-852ed6654316"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "f52b6342-ea26-4cc7-8e14-bfea9f80d3a1"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "e12c0a94-fa12-49e2-96fe-9fd586da7ffc"
+    },
+    {
+      "type": "包含设备",
+      "from": "754442b0-0636-4fdc-9905-a330797269ba",
+      "to": "98d4116f-dd68-414e-9cce-b403a494391e"
+    },
+    {
+      "type": "有二级标题",
+      "from": "cf9b0148-9970-438a-8a99-7381f89485ad",
+      "to": "113382e4-74e5-44b5-8708-e8798c9f611a"
+    },
+    {
+      "type": "包含设备",
+      "from": "113382e4-74e5-44b5-8708-e8798c9f611a",
+      "to": "7fd89d30-21bf-40c8-9204-06b340811998"
+    },
+    {
+      "type": "有二级标题",
+      "from": "cf9b0148-9970-438a-8a99-7381f89485ad",
+      "to": "d1e20355-1f83-4ef1-943a-230429bb150f"
+    },
+    {
+      "type": "包含设备",
+      "from": "d1e20355-1f83-4ef1-943a-230429bb150f",
+      "to": "f43f75d4-7584-4cf9-92b3-eef6c5986d78"
+    },
+    {
+      "type": "包含设备",
+      "from": "d1e20355-1f83-4ef1-943a-230429bb150f",
+      "to": "a8e335ed-56f7-411b-b650-6b866a8ade5d"
+    },
+    {
+      "type": "有二级标题",
+      "from": "3ab13881-6af2-461b-99a4-0109a7f4b45b",
+      "to": "402af293-a372-4c5e-a8d5-28fd601e6733"
+    }
+  ]
+}

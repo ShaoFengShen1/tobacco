@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "52133cb5-a1aa-45c2-b5ba-409a6c57343d",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S378",
+        "设备类型": "传感器",
+        "位置": "内框纸缓冲器",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "e388b04b-ee17-4d42-b9fb-69c452365e0b",
+      "type": "参见",
+      "properties": {
+        "实体名": "内框纸缓冲器的检测,页 2-343"
+      }
+    },
+    {
+      "id": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "type": "设备",
+      "properties": {
+        "实体名": "编码器2A596",
+        "设备类型": "编码器",
+        "位置": "机器编码器",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "9ef99816-5c9a-4b54-a718-74018f629e47",
+      "type": "参见",
+      "properties": {
+        "实体名": "机器编码器, 页 2-57"
+      }
+    },
+    {
+      "id": "30fd52b6-2761-4c8f-ab44-47af65f07661",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 电机出现故障"
+      }
+    },
+    {
+      "id": "a4776e36-604f-429b-b6fd-a38292eb467e",
+      "type": "参见",
+      "properties": {
+        "实体名": "AXIS-信息, 页 5-21"
+      }
+    },
+    {
+      "id": "e57894f7-70ff-44a0-b664-7eb9f1d9b6ad",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 存储器内的内框纸储量不足"
+      }
+    },
+    {
+      "id": "e852e93d-0410-4c63-86fd-afdb8cddba5d",
+      "type": "参见",
+      "properties": {
+        "实体名": "PREUNWINDER-信息, 页 5-23"
+      }
+    },
+    {
+      "id": "5efb5ef3-9461-49a6-acbf-acdb06ae126e",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 存储器内的内框纸储量过多"
+      }
+    },
+    {
+      "id": "f024d2aa-2f81-4992-b981-f0cbc3bb413a",
+      "type": "参见",
+      "properties": {
+        "实体名": "PREUNWINDER-信息, 页 5-23"
+      }
+    },
+    {
+      "id": "ea0b5d96-413f-4001-9208-0f1dcfe4a6e8",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 超时:内框纸存储器装载"
+      }
+    },
+    {
+      "id": "a7c57374-ca09-451b-888b-b8df12094fcd",
+      "type": "参见",
+      "properties": {
+        "实体名": "PREUNWINDER-信息,页 5-23"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "52133cb5-a1aa-45c2-b5ba-409a6c57343d",
+      "to": "e388b04b-ee17-4d42-b9fb-69c452365e0b"
+    },
+    {
+      "type": "有参见",
+      "from": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "to": "9ef99816-5c9a-4b54-a718-74018f629e47"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "to": "30fd52b6-2761-4c8f-ab44-47af65f07661"
+    },
+    {
+      "type": "有参见",
+      "from": "30fd52b6-2761-4c8f-ab44-47af65f07661",
+      "to": "a4776e36-604f-429b-b6fd-a38292eb467e"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "to": "e57894f7-70ff-44a0-b664-7eb9f1d9b6ad"
+    },
+    {
+      "type": "有参见",
+      "from": "e57894f7-70ff-44a0-b664-7eb9f1d9b6ad",
+      "to": "e852e93d-0410-4c63-86fd-afdb8cddba5d"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "to": "5efb5ef3-9461-49a6-acbf-acdb06ae126e"
+    },
+    {
+      "type": "有参见",
+      "from": "5efb5ef3-9461-49a6-acbf-acdb06ae126e",
+      "to": "f024d2aa-2f81-4992-b981-f0cbc3bb413a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "75943677-cb06-4fc1-b654-2ba51f2fa93d",
+      "to": "ea0b5d96-413f-4001-9208-0f1dcfe4a6e8"
+    },
+    {
+      "type": "有参见",
+      "from": "ea0b5d96-413f-4001-9208-0f1dcfe4a6e8",
+      "to": "a7c57374-ca09-451b-888b-b8df12094fcd"
+    }
+  ]
+}

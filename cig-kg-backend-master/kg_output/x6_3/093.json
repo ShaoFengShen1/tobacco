@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "33e8815a-94a1-45e7-a56e-1f3dc7d594e0",
+      "type": "设备",
+      "properties": {
+        "实体名": "移位寄存器的工步",
+        "操作细节": "在此工步上开始时间统计"
+      }
+    },
+    {
+      "id": "4e1a0f3a-5ccf-431e-8853-0f75274fa87b",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP:DINT",
+        "操作细节": "工步(710)"
+      }
+    },
+    {
+      "id": "88842548-644a-4fd6-abff-6dca4f274386",
+      "type": "设备",
+      "properties": {
+        "实体名": "移位寄存器的工步",
+        "操作细节": "在此工步上结束时间统计, 执行超过最长时间的检测, 必要时设定产品剔除"
+      }
+    },
+    {
+      "id": "bd79f06f-fb74-4d12-8817-cb462b416ccb",
+      "type": "设备",
+      "properties": {
+        "实体名": "THRESHOLD_TIME: LREAL",
+        "操作细节": "临界值 (2516)"
+      }
+    },
+    {
+      "id": "3c5cadd1-970c-4730-9227-ce43a61598fe",
+      "type": "设备",
+      "properties": {
+        "实体名": "START_TIMING_PHASE.PHASE: LREAL",
+        "操作细节": "检测开始相位(2515)"
+      }
+    },
+    {
+      "id": "f114f8de-4b11-4c45-9a05-2120a53ddf8b",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_TIMING_PHASE.PHASE: LREAL",
+        "操作细节": "检测开始相位(2513)"
+      }
+    },
+    {
+      "id": "3b06200a-01a0-470b-b0cd-6aa6b2b56037",
+      "type": "设备",
+      "properties": {
+        "实体名": "SAFETY_INTEGRATED_SERIES",
+        "操作细节": "允许构成安全装置的逻辑系列(SAFETY_INTEGRATED_OBJECT 或者其它 SAFETY_INTEGRATED_SERIES), 并管理安全执行器 (继电器、等等...)"
+      }
+    },
+    {
+      "id": "cd10da27-c8d6-4ab4-9cd8-15d50d5fc2ff",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "OPEN_WSM - 打开 (225)",
+        "操作细节": "State message: 当系列被打开,而机器没有停止时,被显示"
+      }
+    },
+    {
+      "id": "588e5ba5-38aa-4249-96d2-7b01c84c48fc",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)",
+        "操作细节": "State message: 在系列故障时被显示"
+      }
+    },
+    {
+      "id": "0d13cb69-77e5-4a57-a8c4-f647f6016c89",
+      "type": "设备",
+      "properties": {
+        "实体名": "SOE_DRIVE",
+        "操作细节": "允许管理用于型号为“SoE” (Servo over EtherCAT)的电机的驱动器。可以管理单通道的驱动器(只控制一台电机)、或者双通道的驱动器(控制两台电机),这些带有或不带外部电源"
+      }
+    },
+    {
+      "id": "2a33d087-d4c3-4649-ab59-cefe1755495b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)",
+        "操作细节": "State message: 在驱动器出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "9a441728-7470-44c7-acef-fcfac31410e6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "CHANNEL_A_FAULT_FSM - 通道A诊断(624)",
+        "操作细节": "State message: 在驱动器通道A出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "a22fe31c-2aa6-4fbb-af5e-142d8531fc65",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "CHANNEL_B_FAULT_FSM - 通道B诊断 (625)",
+        "操作细节": "State message: 在驱动器通道B出现一般故障时被显示"
+      }
+    },
+    {
+      "id": "b6245fb1-daff-4691-ab2c-0d0d52112b59",
+      "type": "设备",
+      "properties": {
+        "实体名": "MOTORIZATION_CONDITIONER",
+        "操作细节": "允许启动机器速度的限制。通常在机器的某些特殊功能应该在速度不得超过某个预定值时使用(例如裹包材料的自动拼接、排空循环或机器填充、等等)"
+      }
+    },
+    {
+      "id": "7a7a32f3-ea64-449b-b781-6d92d28a96ef",
+      "type": "设备",
+      "properties": {
+        "实体名": "VELOCITY_LIMIT: LREAL",
+        "操作细节": "速度限制 (874)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "3b06200a-01a0-470b-b0cd-6aa6b2b56037",
+      "to": "cd10da27-c8d6-4ab4-9cd8-15d50d5fc2ff"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "3b06200a-01a0-470b-b0cd-6aa6b2b56037",
+      "to": "588e5ba5-38aa-4249-96d2-7b01c84c48fc"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "0d13cb69-77e5-4a57-a8c4-f647f6016c89",
+      "to": "2a33d087-d4c3-4649-ab59-cefe1755495b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "0d13cb69-77e5-4a57-a8c4-f647f6016c89",
+      "to": "9a441728-7470-44c7-acef-fcfac31410e6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "0d13cb69-77e5-4a57-a8c4-f647f6016c89",
+      "to": "a22fe31c-2aa6-4fbb-af5e-142d8531fc65"
+    },
+    {
+      "type": "包含设备",
+      "from": "b6245fb1-daff-4691-ab2c-0d0d52112b59",
+      "to": "7a7a32f3-ea64-449b-b781-6d92d28a96ef"
+    }
+  ]
+}

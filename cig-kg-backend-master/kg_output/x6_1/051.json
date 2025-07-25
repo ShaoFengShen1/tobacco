@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "538f88ce-c6fb-4d67-844e-b5c868d4c450",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "第四轮上产品剔除的效用检测"
+      }
+    },
+    {
+      "id": "26af234d-2a76-4c3c-a912-9ec317ba7485",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器 2S447",
+        "设备类型": "传感器",
+        "功能类型": "检查第四轮剔除运动是否正确"
+      }
+    },
+    {
+      "id": "8ead064b-81ae-4439-bae8-3ec31ed7b2be",
+      "type": "设备",
+      "properties": {
+        "实体名": "执行器2Y914",
+        "设备类型": "执行器"
+      }
+    },
+    {
+      "id": "6e557241-d216-4eb6-a6d7-59dffd2e8335",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 第四轮上产品剔除驱动装置,页 3-49"
+      }
+    },
+    {
+      "id": "3d73632b-0c37-414c-aa5f-c114b42a6648",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若剔除被设定在链条上,但传感器没有测出其运动"
+      }
+    },
+    {
+      "id": "82e99ee0-4516-41e9-833f-e04b986475f8",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 失效:第四轮烟包剔除的报警信号"
+      }
+    },
+    {
+      "id": "abb5db47-5c4a-4676-9387-b10a78a7bf0b",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若剔除逻辑信息在链条上不存在, 但传感器测出剔除运动"
+      }
+    },
+    {
+      "id": "4a9d09c5-5275-4826-a800-bab6bcc606d9",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 无请求第四轮烟包剔除报警信号； 发出typology OBLIGATION 打开前护罩并排除烟包信号"
+      }
+    },
+    {
+      "id": "88bbd3cc-6262-4e0b-9e34-392b9ca73f0b",
+      "type": "图片",
+      "properties": {
+        "实体名": "01955b02-6cff-7e1b-ac84-e8ebec45ae19_211_251_321_1032_746_0.jpg",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_211_251_321_1032_746_0.jpg"
+      }
+    },
+    {
+      "id": "08bcae8b-6df7-438c-a147-c32493120aac",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "第四轮下面废品箱水平位的检测"
+      }
+    },
+    {
+      "id": "0eaf0464-c696-4cf0-8df4-fa1800cdad0f",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B571",
+        "设备类型": "传感器",
+        "功能类型": "探测第四轮下方左侧废品箱上的剔除水平位"
+      }
+    },
+    {
+      "id": "31b6f4f4-dc8c-4ca7-853e-a82ec458a064",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若传感器保持被激发状态,而箱子还是满载"
+      }
+    },
+    {
+      "id": "97d7d02f-7a4a-44dc-8cce-549850136feb",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 左废品箱未到位/废品位高和发出排空箱子的信息typology OBLIGATION 排空/再插入左废品箱"
+      }
+    },
+    {
+      "id": "68980570-21d4-42fc-afbc-33c18fedfcd5",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "抽出废品箱之后,若机器在没有废品箱的情况下在第四轮上作多于 15 次的剔除"
+      }
+    },
+    {
+      "id": "a0988a02-d349-4d1e-8808-a7dacfd1682d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器; 发出typology ABNORMAL 左废品箱未到位 / 废品位高报警信号"
+      }
+    },
+    {
+      "id": "c4f8df65-aa7d-4aff-b76f-64ed11c80e54",
+      "type": "图片",
+      "properties": {
+        "实体名": "01955b02-6cff-7e1b-ac84-e8ebec45ae19_214_339_999_1046_610_0.jpg",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_214_339_999_1046_610_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "538f88ce-c6fb-4d67-844e-b5c868d4c450",
+      "to": "26af234d-2a76-4c3c-a912-9ec317ba7485"
+    },
+    {
+      "type": "有功能",
+      "from": "26af234d-2a76-4c3c-a912-9ec317ba7485",
+      "to": "8ead064b-81ae-4439-bae8-3ec31ed7b2be"
+    },
+    {
+      "type": "有参见",
+      "from": "8ead064b-81ae-4439-bae8-3ec31ed7b2be",
+      "to": "6e557241-d216-4eb6-a6d7-59dffd2e8335"
+    },
+    {
+      "type": "有检测异常",
+      "from": "26af234d-2a76-4c3c-a912-9ec317ba7485",
+      "to": "3d73632b-0c37-414c-aa5f-c114b42a6648"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "3d73632b-0c37-414c-aa5f-c114b42a6648",
+      "to": "82e99ee0-4516-41e9-833f-e04b986475f8"
+    },
+    {
+      "type": "有检测异常",
+      "from": "26af234d-2a76-4c3c-a912-9ec317ba7485",
+      "to": "abb5db47-5c4a-4676-9387-b10a78a7bf0b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "abb5db47-5c4a-4676-9387-b10a78a7bf0b",
+      "to": "4a9d09c5-5275-4826-a800-bab6bcc606d9"
+    },
+    {
+      "type": "有图片",
+      "from": "538f88ce-c6fb-4d67-844e-b5c868d4c450",
+      "to": "88bbd3cc-6262-4e0b-9e34-392b9ca73f0b"
+    },
+    {
+      "type": "包含设备",
+      "from": "08bcae8b-6df7-438c-a147-c32493120aac",
+      "to": "0eaf0464-c696-4cf0-8df4-fa1800cdad0f"
+    },
+    {
+      "type": "有功能",
+      "from": "0eaf0464-c696-4cf0-8df4-fa1800cdad0f",
+      "to": "31b6f4f4-dc8c-4ca7-853e-a82ec458a064"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "31b6f4f4-dc8c-4ca7-853e-a82ec458a064",
+      "to": "97d7d02f-7a4a-44dc-8cce-549850136feb"
+    },
+    {
+      "type": "有检测异常",
+      "from": "0eaf0464-c696-4cf0-8df4-fa1800cdad0f",
+      "to": "68980570-21d4-42fc-afbc-33c18fedfcd5"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "68980570-21d4-42fc-afbc-33c18fedfcd5",
+      "to": "a0988a02-d349-4d1e-8808-a7dacfd1682d"
+    },
+    {
+      "type": "有图片",
+      "from": "08bcae8b-6df7-438c-a147-c32493120aac",
+      "to": "c4f8df65-aa7d-4aff-b76f-64ed11c80e54"
+    }
+  ]
+}

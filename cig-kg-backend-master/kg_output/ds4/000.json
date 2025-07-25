@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK"
+      }
+    },
+    {
+      "id": "4a82dad3-5ec6-4ae7-8d89-f9fdec3a29b4",
+      "type": "功能",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK",
+        "功能类型": "检查和诊断与2个物理信号(输入)状态相关的所有可能组合"
+      }
+    },
+    {
+      "id": "f38593de-3491-43ee-a4cb-56e492764be5",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "MISALIGNMENT_AEM - 偏移(2300)"
+      }
+    },
+    {
+      "id": "52074612-d5ec-4688-9be6-57ea815e233a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "当检测的材料出现偏移或者不存在时将被显示"
+      }
+    },
+    {
+      "id": "48b881a7-cdad-4b06-83f3-28fce387915d",
+      "type": "参数",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)"
+      }
+    },
+    {
+      "id": "1ab354a6-530a-4c8b-a520-cd20ff5643e7",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET: [DINT] - 所需写入的第一工步偏移(3837)"
+      }
+    },
+    {
+      "id": "95756d3a-9fa8-40c1-ab50-6eb9403fd0a6",
+      "type": "参数",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE: [DINT] - 所需写入的工步数量(717)"
+      }
+    },
+    {
+      "id": "385d2369-f47c-4fff-99f3-9cbcd755dd5c",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_DISTANCE: [LREAL] - 在输入波峰之间的最大距离 (1240)"
+      }
+    },
+    {
+      "id": "59f760ca-a89e-475c-9fd9-78e7a3485f10",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_ABSENCES: [UDINT] - 非正确的最大连续次数I (3843)"
+      }
+    },
+    {
+      "id": "509d6956-a1db-4492-ab8a-bd3d33d5e931",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_MISALINGNMENTS: [UDINT] - 偏移的最大连续次数 (3838)"
+      }
+    },
+    {
+      "id": "719e6343-bd71-4af0-b39d-3e4edcb7091f",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_FINE_MISALIGNMENTS: [UDINT] - 微小偏移的最大连续次数(710)"
+      }
+    },
+    {
+      "id": "dbfd2ffa-3fd0-47c9-a8f9-891f34cf3277",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_REJECTS_SET_PERCENTAGE: [UDINT] - 失误检测的最大百分比(664)"
+      }
+    },
+    {
+      "id": "bfbe1fa6-8afc-4f4b-ab95-1fa8598747ea",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCTS_FOR_REJECTS_SET_PERCENTAGE: [UDINT] - 用于计算失误检测的产品数量(665)"
+      }
+    },
+    {
+      "id": "17349f08-021b-4c72-b5e3-dbfe78cef6b6",
+      "type": "参数",
+      "properties": {
+        "实体名": "INNER_BEGIN_PHASE: [LREAL] - 内窗口的开始相位(1235)"
+      }
+    },
+    {
+      "id": "66395fef-134a-4547-af5b-fc934e1f72a4",
+      "type": "参数",
+      "properties": {
+        "实体名": "INNER_END_PHASE: [LREAL] - 内窗口的结束相位(1237)"
+      }
+    },
+    {
+      "id": "fe32052f-b0b5-4b28-b11d-d0ae75dca08b",
+      "type": "参数",
+      "properties": {
+        "实体名": "CHECK_PHASE.PHASE: [LREAL] - 检测相位(712)"
+      }
+    },
+    {
+      "id": "a5e9e1d4-5c67-43a8-90e8-cb4cc9f6af9b",
+      "type": "参数",
+      "properties": {
+        "实体名": "OUTER_WINDOW.BEGIN_PH.PHASE: [LREAL] - 外窗口的开始相位(1236)"
+      }
+    },
+    {
+      "id": "ce1e7358-9c72-42d1-b394-037797518075",
+      "type": "参数",
+      "properties": {
+        "实体名": "OUTER_WINDOW.END_PH.PHASE: [LREAL] - 外窗口的结束相位(1238)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "4a82dad3-5ec6-4ae7-8d89-f9fdec3a29b4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "f38593de-3491-43ee-a4cb-56e492764be5",
+      "to": "52074612-d5ec-4688-9be6-57ea815e233a"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "48b881a7-cdad-4b06-83f3-28fce387915d"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "1ab354a6-530a-4c8b-a520-cd20ff5643e7"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "95756d3a-9fa8-40c1-ab50-6eb9403fd0a6"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "385d2369-f47c-4fff-99f3-9cbcd755dd5c"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "59f760ca-a89e-475c-9fd9-78e7a3485f10"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "509d6956-a1db-4492-ab8a-bd3d33d5e931"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "719e6343-bd71-4af0-b39d-3e4edcb7091f"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "dbfd2ffa-3fd0-47c9-a8f9-891f34cf3277"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "bfbe1fa6-8afc-4f4b-ab95-1fa8598747ea"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "17349f08-021b-4c72-b5e3-dbfe78cef6b6"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "66395fef-134a-4547-af5b-fc934e1f72a4"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "fe32052f-b0b5-4b28-b11d-d0ae75dca08b"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "a5e9e1d4-5c67-43a8-90e8-cb4cc9f6af9b"
+    },
+    {
+      "type": "包含设备",
+      "from": "29735b80-ec83-448b-b097-8d5a61671c84",
+      "to": "ce1e7358-9c72-42d1-b394-037797518075"
+    }
+  ]
+}

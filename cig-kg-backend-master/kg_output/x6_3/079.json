@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "c39a1a7b-8c8b-43c7-b4a0-9bb2977f6b3c",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_DISTANCE",
+        "设备类型": "参数",
+        "操作细节": "在输入波峰之间的最大距离 (1240)"
+      }
+    },
+    {
+      "id": "0d3ea165-4127-4ed0-a247-7ed93bf49fb6",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_ABSENCES",
+        "设备类型": "参数",
+        "操作细节": "非正确的最大连续次数I (3843)"
+      }
+    },
+    {
+      "id": "bda9b1ae-4e56-43c0-8bca-7051ce418797",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_MISALINGNMENTS",
+        "设备类型": "参数",
+        "操作细节": "偏移的最大连续次数 (3838)"
+      }
+    },
+    {
+      "id": "3516a8bd-33dd-4122-b71f-76ba33eecb17",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_CONSECUTIVE_FINE_MISALIGNMENTS",
+        "设备类型": "参数",
+        "操作细节": "微小偏移的最大连续次数(710)"
+      }
+    },
+    {
+      "id": "5f05da80-cefd-4fe8-a820-03b6c67a9e68",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_REJECTS_SET_PERCENTAGE",
+        "设备类型": "参数",
+        "操作细节": "失误检测的最大百分比(664)"
+      }
+    },
+    {
+      "id": "a1cf898f-cda8-4dc1-9ec9-28fbe6929ff4",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCTS_FOR_REJECTS_SET_PERCENTAGE",
+        "设备类型": "参数",
+        "操作细节": "用于计算失误检测的产品数量(665)"
+      }
+    },
+    {
+      "id": "d3b15f34-2d34-44e5-bbe7-332f5ddc1c34",
+      "type": "设备",
+      "properties": {
+        "实体名": "INNER_BEGIN_PHASE",
+        "设备类型": "参数",
+        "操作细节": "内窗口的开始相位(1235)"
+      }
+    },
+    {
+      "id": "d996397a-79bb-4a9d-a16d-065ac51ba52a",
+      "type": "设备",
+      "properties": {
+        "实体名": "INNER_END_PHASE",
+        "设备类型": "参数",
+        "操作细节": "内窗口的结束相位(1237)"
+      }
+    },
+    {
+      "id": "8d82dda1-9aff-4b7b-a314-3bc639849c07",
+      "type": "设备",
+      "properties": {
+        "实体名": "CHECK_PHASE.PHASE",
+        "设备类型": "参数",
+        "操作细节": "检测相位(712)"
+      }
+    },
+    {
+      "id": "da081279-cf9e-4a2e-8c54-f9c6928fd1d3",
+      "type": "设备",
+      "properties": {
+        "实体名": "OUTER_WINDOW.BEGIN_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "外窗口的开始相位(1236)"
+      }
+    },
+    {
+      "id": "c2b63e76-2d3c-4369-954d-e7394ac95ebd",
+      "type": "设备",
+      "properties": {
+        "实体名": "OUTER_WINDOW.END_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "外窗口的结束相位(1238)"
+      }
+    },
+    {
+      "id": "f8f59312-f8d0-4650-ae4b-3b6185e3c768",
+      "type": "设备",
+      "properties": {
+        "实体名": "POLARITY_DIRECT",
+        "设备类型": "参数",
+        "操作细节": "极性(611)"
+      }
+    },
+    {
+      "id": "1ecc294b-35ff-4330-9cc5-08b3294ab3f4",
+      "type": "设备",
+      "properties": {
+        "实体名": "WINDOW.BEGIN_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "窗口的开始相位(714)"
+      }
+    },
+    {
+      "id": "9362a4e5-ac63-46b0-a975-acc1e7d484c1",
+      "type": "设备",
+      "properties": {
+        "实体名": "WINDOW.END_PH.PHASE",
+        "设备类型": "参数",
+        "操作细节": "窗口的结束相位(715)"
+      }
+    }
+  ],
+  "relationships": []
+}

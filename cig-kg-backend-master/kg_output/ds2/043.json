@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "53a13d4f-3d46-4655-bef6-59cf64bc985d",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "传送带上盒片叠的存在检测"
+      }
+    },
+    {
+      "id": "0c53d691-ac27-46e0-9d86-72c9508ddc9a",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B4547",
+        "设备类型": "传感器",
+        "缩写": "2B4547"
+      }
+    },
+    {
+      "id": "4013e613-3fcb-421c-998f-455ec7d97a50",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查皮带上盒片叠的最低数量",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "64d1f2d5-aeb0-45ed-a144-d7dc1a6e7a8f",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器不再探测到盒片叠"
+      }
+    },
+    {
+      "id": "f6f7d60f-fc5e-4233-bef8-e2fa49494883",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出信息typology OBLIGATION 盒片耗尽"
+      }
+    },
+    {
+      "id": "ba62a8c5-77ed-4a9d-a7e1-5d6bd8a8bfc6",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 214",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_449_261_764_1051_793_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "53a13d4f-3d46-4655-bef6-59cf64bc985d",
+      "to": "0c53d691-ac27-46e0-9d86-72c9508ddc9a"
+    },
+    {
+      "type": "有功能",
+      "from": "0c53d691-ac27-46e0-9d86-72c9508ddc9a",
+      "to": "4013e613-3fcb-421c-998f-455ec7d97a50"
+    },
+    {
+      "type": "有检测异常",
+      "from": "0c53d691-ac27-46e0-9d86-72c9508ddc9a",
+      "to": "64d1f2d5-aeb0-45ed-a144-d7dc1a6e7a8f"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "64d1f2d5-aeb0-45ed-a144-d7dc1a6e7a8f",
+      "to": "f6f7d60f-fc5e-4233-bef8-e2fa49494883"
+    },
+    {
+      "type": "有图片",
+      "from": "53a13d4f-3d46-4655-bef6-59cf64bc985d",
+      "to": "ba62a8c5-77ed-4a9d-a7e1-5d6bd8a8bfc6"
+    }
+  ]
+}

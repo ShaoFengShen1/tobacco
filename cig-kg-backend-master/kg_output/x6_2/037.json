@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "d71b91df-3419-46d3-b8c1-152b97ccd540",
+      "type": "设备",
+      "properties": {
+        "实体名": "强制执行器2Y920",
+        "操作细节": "参见 盒片涂胶器的脱离,页 3-189",
+        "缩写": null
+      }
+    },
+    {
+      "id": "aa1cdc23-6280-4c0b-b6ed-a9e1f319e931",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片涂胶器的脱离,页 3-189"
+      }
+    },
+    {
+      "id": "ac32180b-283b-4cba-bb42-8c4d120b6efa",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S4565",
+        "功能类型": "检查涂胶器靠近和远离第二鼓轮的运动是否正确",
+        "缩写": "2S4565 - 盒片涂胶器靠近检测"
+      }
+    },
+    {
+      "id": "e38fc5e2-9378-4bb9-bad9-84e5ffffa0bd",
+      "type": "设备",
+      "properties": {
+        "实体名": "执行器2Y917",
+        "操作细节": "参见 盒片涂胶器靠紧驱动装置,页 3-185",
+        "缩写": null
+      }
+    },
+    {
+      "id": "02a8affa-5f24-4ed0-98cb-03e87c018b37",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片涂胶器靠紧驱动装置,页 3-185"
+      }
+    },
+    {
+      "id": "72bdbc89-d73b-4c44-ba85-149906a80dbe",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器在预定时间内没有探测出运动"
+      }
+    },
+    {
+      "id": "a460132c-f09c-4c05-9456-51f790e70203",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "5eb4d882-02dc-4ad7-bb21-0b81b4b05754",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 涂胶器靠近失效 ( 参见 DIGITAL_ACTUATOR-信息, 页 5-29),或者发出报警信息typology ABNORMAL 涂胶器远离失效(参见 DIGITAL_ACTUATOR- 信息, 页 5-29)"
+      }
+    },
+    {
+      "id": "6b891916-c342-4b41-9431-d956da9b6182",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 208",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_430_335_992_1050_790_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "d71b91df-3419-46d3-b8c1-152b97ccd540",
+      "to": "aa1cdc23-6280-4c0b-b6ed-a9e1f319e931"
+    },
+    {
+      "type": "有功能",
+      "from": "ac32180b-283b-4cba-bb42-8c4d120b6efa",
+      "to": "e38fc5e2-9378-4bb9-bad9-84e5ffffa0bd"
+    },
+    {
+      "type": "有参见",
+      "from": "e38fc5e2-9378-4bb9-bad9-84e5ffffa0bd",
+      "to": "02a8affa-5f24-4ed0-98cb-03e87c018b37"
+    },
+    {
+      "type": "有检测异常",
+      "from": "ac32180b-283b-4cba-bb42-8c4d120b6efa",
+      "to": "72bdbc89-d73b-4c44-ba85-149906a80dbe"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "72bdbc89-d73b-4c44-ba85-149906a80dbe",
+      "to": "a460132c-f09c-4c05-9456-51f790e70203"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "72bdbc89-d73b-4c44-ba85-149906a80dbe",
+      "to": "5eb4d882-02dc-4ad7-bb21-0b81b4b05754"
+    },
+    {
+      "type": "有图片",
+      "from": "ac32180b-283b-4cba-bb42-8c4d120b6efa",
+      "to": "6b891916-c342-4b41-9431-d956da9b6182"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "447f1ac4-d78a-4ba2-849a-2e3931c0bde7",
+      "type": "参数",
+      "properties": {
+        "实体名": "SECOND_AREA.THRESHOLD: [LREAL]"
+      }
+    },
+    {
+      "id": "92fc00c5-8d9f-4c38-a860-4e9e225fb2a6",
+      "type": "参数",
+      "properties": {
+        "实体名": "THIRD_AREA.THRESHOLD: [LREAL]"
+      }
+    },
+    {
+      "id": "d0d8c01e-61c8-4897-bd9d-334ccdd1a7ef",
+      "type": "参数",
+      "properties": {
+        "实体名": "THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT]"
+      }
+    },
+    {
+      "id": "1962bcfb-871d-48d4-9799-838f4e2eeb0a",
+      "type": "参数",
+      "properties": {
+        "实体名": "REFERENCE_PHASE.PHASE: [LREAL] - 检测相位(712)"
+      }
+    },
+    {
+      "id": "44255f9e-2e13-4dcb-8a9d-cb88bdf26f71",
+      "type": "参数",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - 引起停机的连续剔除次数(3968)"
+      }
+    },
+    {
+      "id": "358bde98-ca5a-4ffd-a0d0-c2b2fee3d6a5",
+      "type": "参数",
+      "properties": {
+        "实体名": "THIRD_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - (0)"
+      }
+    },
+    {
+      "id": "66d85d65-eb6c-4d74-b11b-fd8447089e97",
+      "type": "参数",
+      "properties": {
+        "实体名": "MISSING SIGNAL CHECK SECTION.MAX CONSECUTIVE FAILED CHECKS: [UDINT] - (0)"
+      }
+    },
+    {
+      "id": "99d1c894-80fc-4923-868b-b47088fa57a1",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR"
+      }
+    },
+    {
+      "id": "0f3e057e-e30b-4432-ba0d-f804420bf97b",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_DIAMETER: [DINT] - 最大直径 (2699)"
+      }
+    },
+    {
+      "id": "31ca93f9-8849-495b-92d1-4a813e7780d7",
+      "type": "参数",
+      "properties": {
+        "实体名": "MIN_DIAMETER: [DINT] - 最小直径 (2700)"
+      }
+    },
+    {
+      "id": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER"
+      }
+    },
+    {
+      "id": "1e6f0ca8-6d60-4ccb-bb1a-6d2a2b0b27f6",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_DISABLED_WSM - 校正被免除(2850)"
+      }
+    },
+    {
+      "id": "5c8facc1-b77d-4076-be69-50bbf24ffdc8",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_ENABLE: [BOOL]"
+      }
+    },
+    {
+      "id": "58934567-3dcd-4186-889b-9b2f6cd3949a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION. FAULT_FSM - 故障 (831)"
+      }
+    },
+    {
+      "id": "4e3d4ef7-c23d-410a-bd6f-6be5df1f59b4",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.HOME_ASM - (0)"
+      }
+    },
+    {
+      "id": "309af5ed-cbec-41e1-82d7-6baac09952a2",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.ENCODER_PRESET_ASM - (0)"
+      }
+    },
+    {
+      "id": "81577e22-48f1-4b33-bd37-a9f43a4372c7",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING: [LREAL] - 圆周(2701)"
+      }
+    },
+    {
+      "id": "49777b0c-7105-4d66-bfa5-0f28dcd2cc29",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_NEGATIVE_CORRECTION: [LREAL]"
+      }
+    },
+    {
+      "id": "51216619-e52d-4231-b68d-af5dae4aa3ee",
+      "type": "参数",
+      "properties": {
+        "实体名": "MAX_POSITIVE_CORRECTION: [LREAL] - 最大校正的正值(2652)"
+      }
+    },
+    {
+      "id": "cb93cce4-6bf3-49f8-bcbe-99c84a191514",
+      "type": "参数",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING_TRADE_OFF: [LREAL] - 微调 (3633)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参数",
+      "from": "99d1c894-80fc-4923-868b-b47088fa57a1",
+      "to": "0f3e057e-e30b-4432-ba0d-f804420bf97b"
+    },
+    {
+      "type": "有参数",
+      "from": "99d1c894-80fc-4923-868b-b47088fa57a1",
+      "to": "31ca93f9-8849-495b-92d1-4a813e7780d7"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "1e6f0ca8-6d60-4ccb-bb1a-6d2a2b0b27f6"
+    },
+    {
+      "type": "有参数",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "5c8facc1-b77d-4076-be69-50bbf24ffdc8"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "58934567-3dcd-4186-889b-9b2f6cd3949a"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "4e3d4ef7-c23d-410a-bd6f-6be5df1f59b4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "309af5ed-cbec-41e1-82d7-6baac09952a2"
+    },
+    {
+      "type": "有参数",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "81577e22-48f1-4b33-bd37-a9f43a4372c7"
+    },
+    {
+      "type": "有参数",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "49777b0c-7105-4d66-bfa5-0f28dcd2cc29"
+    },
+    {
+      "type": "有参数",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "51216619-e52d-4231-b68d-af5dae4aa3ee"
+    },
+    {
+      "type": "有参数",
+      "from": "a98faf56-35c7-46e3-b2e5-ef405c61eb1c",
+      "to": "cb93cce4-6bf3-49f8-bcbe-99c84a191514"
+    }
+  ]
+}

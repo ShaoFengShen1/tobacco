@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "6a72fedc-b942-4534-b573-bb66d5275cc9",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING",
+        "设备类型": "参数",
+        "操作细节": "设定产品质量的数值"
+      }
+    },
+    {
+      "id": "9ff5ddd5-d387-4441-8259-3a2f31b4abf1",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_NEGATIVE_CORRECTION",
+        "设备类型": "参数",
+        "操作细节": "设定负值校正的极限值"
+      }
+    },
+    {
+      "id": "413b9105-38a8-409b-beeb-2c0614c6cbba",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_POSITIVE_CORRECTION",
+        "设备类型": "参数",
+        "操作细节": "设定正值校正的极限值"
+      }
+    },
+    {
+      "id": "4c4ad539-705a-4958-b493-c1d7516067ea",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING_TRADE_OFF",
+        "设备类型": "参数",
+        "操作细节": "设定产品的附加质量的数值"
+      }
+    },
+    {
+      "id": "7e73e849-4cdb-424a-93fd-d73294ce66a7",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_ENABLE",
+        "设备类型": "参数",
+        "操作细节": "启用校正功能"
+      }
+    },
+    {
+      "id": "9107edb4-3c36-4bb0-beee-b322d7efa4c2",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_ENABLE",
+        "设备类型": "参数",
+        "操作细节": "启用产品附加松卷功能"
+      }
+    },
+    {
+      "id": "cc6faf37-1951-4020-8264-e65cfbde82d5",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_MAXIMUM_DELTA",
+        "设备类型": "参数",
+        "操作细节": "设定允许公差的最大百分比"
+      }
+    },
+    {
+      "id": "4818f220-9780-498b-ba94-99c32f201164",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_PERCENTAGE",
+        "设备类型": "参数",
+        "操作细节": "设定取样误差的校正百分比"
+      }
+    },
+    {
+      "id": "70b79794-0f4b-4345-99d7-5f1b80f4f656",
+      "type": "设备",
+      "properties": {
+        "实体名": "CONTROL_PHASE. PHASE",
+        "设备类型": "参数",
+        "操作细节": "执行检测时的相位"
+      }
+    },
+    {
+      "id": "05b5c753-ae09-439b-8638-ef4c8fbb6ab9",
+      "type": "设备",
+      "properties": {
+        "实体名": "CORRECTION_CONTROL_PHASE. PHASE",
+        "设备类型": "参数",
+        "操作细节": "执行校正时的相位"
+      }
+    },
+    {
+      "id": "85c99898-4072-4494-86cd-ead9d9da6e13",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK"
+      }
+    },
+    {
+      "id": "cd6c1ab4-4419-4791-83b6-892ebdc1701f",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_ON",
+        "设备类型": "参数",
+        "操作细节": "设定在输出实际启动时延迟的时间数值"
+      }
+    },
+    {
+      "id": "3d63a9c2-606f-4784-aef9-165959014861",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_OFF",
+        "设备类型": "参数",
+        "操作细节": "设定在输出实际免除时延迟的时间数值"
+      }
+    },
+    {
+      "id": "efb6dc4d-5c81-4cdb-aa8a-b3c70febe21b",
+      "type": "设备",
+      "properties": {
+        "实体名": "CUT_OFF_TIME",
+        "设备类型": "参数",
+        "操作细节": "设定由轴线位置产生的凸轮持续时间的极限值"
+      }
+    },
+    {
+      "id": "62700280-e38e-47f7-b996-9feaec874af2",
+      "type": "设备",
+      "properties": {
+        "实体名": "POSITION_OFFSET",
+        "设备类型": "参数",
+        "操作细节": "设定凸轮相对于相应轴线位置所采取的相位差数值"
+      }
+    },
+    {
+      "id": "31aec418-5437-47d8-a10d-074f4e49f5f9",
+      "type": "设备",
+      "properties": {
+        "实体名": "FORCE_OUTPUT_FREQUENCY",
+        "设备类型": "参数",
+        "操作细节": "设定输出指令频率的数值"
+      }
+    },
+    {
+      "id": "090a8c80-d2fe-4e1a-9133-f8cfac3d7068",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].ENABLED",
+        "设备类型": "参数",
+        "操作细节": "启用同步数字凸轮的产生功能"
+      }
+    },
+    {
+      "id": "9d253180-b912-469c-bca7-9accea573b5e",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].START_POSITION",
+        "设备类型": "参数",
+        "操作细节": "设定与数字凸轮开始对应的轴线位置的数值"
+      }
+    },
+    {
+      "id": "09834d98-4178-4418-ac61-c90ec5ed68ac",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].END_POSITION",
+        "设备类型": "参数",
+        "操作细节": "设定与数字凸轮结束对应的轴线位置的数值"
+      }
+    },
+    {
+      "id": "3498c94f-9231-4ef2-97c0-5de90fce6ee9",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N]. EQUIDISTANT_CAMS_ACTIVE",
+        "设备类型": "参数",
+        "操作细节": "启用等距凸轮固定数字的产生功能"
+      }
+    },
+    {
+      "id": "eb9fd062-003d-41e0-8c05-b5a12bf72d0b",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_NUMBER",
+        "设备类型": "参数",
+        "操作细节": "设定等距凸轮的数值"
+      }
+    },
+    {
+      "id": "0f5c4de9-411c-4ea3-b17f-dd17e024a4c0",
+      "type": "设备",
+      "properties": {
+        "实体名": "CAMS[N].EQUIDISTANT_CAMS_DURATION",
+        "设备类型": "参数",
+        "操作细节": "设定每个等距凸轮持续时间的数值"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "7e73e849-4cdb-424a-93fd-d73294ce66a7",
+      "to": "9ff5ddd5-d387-4441-8259-3a2f31b4abf1"
+    },
+    {
+      "type": "有功能",
+      "from": "7e73e849-4cdb-424a-93fd-d73294ce66a7",
+      "to": "413b9105-38a8-409b-beeb-2c0614c6cbba"
+    },
+    {
+      "type": "有功能",
+      "from": "9107edb4-3c36-4bb0-beee-b322d7efa4c2",
+      "to": "4c4ad539-705a-4958-b493-c1d7516067ea"
+    },
+    {
+      "type": "有功能",
+      "from": "7e73e849-4cdb-424a-93fd-d73294ce66a7",
+      "to": "4818f220-9780-498b-ba94-99c32f201164"
+    },
+    {
+      "type": "有功能",
+      "from": "7e73e849-4cdb-424a-93fd-d73294ce66a7",
+      "to": "05b5c753-ae09-439b-8638-ef4c8fbb6ab9"
+    },
+    {
+      "type": "有功能",
+      "from": "090a8c80-d2fe-4e1a-9133-f8cfac3d7068",
+      "to": "9d253180-b912-469c-bca7-9accea573b5e"
+    },
+    {
+      "type": "有功能",
+      "from": "090a8c80-d2fe-4e1a-9133-f8cfac3d7068",
+      "to": "09834d98-4178-4418-ac61-c90ec5ed68ac"
+    },
+    {
+      "type": "有功能",
+      "from": "3498c94f-9231-4ef2-97c0-5de90fce6ee9",
+      "to": "eb9fd062-003d-41e0-8c05-b5a12bf72d0b"
+    },
+    {
+      "type": "有功能",
+      "from": "3498c94f-9231-4ef2-97c0-5de90fce6ee9",
+      "to": "0f5c4de9-411c-4ea3-b17f-dd17e024a4c0"
+    }
+  ]
+}

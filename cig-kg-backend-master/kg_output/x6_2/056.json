@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "c3e69ba1-7be3-483d-bae6-75216e828dd6",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "机器检测 出口组件"
+      }
+    },
+    {
+      "id": "1ad25527-cae3-4ccd-92ba-176be92d05a2",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "拐角同步带齿的完整性检测"
+      }
+    },
+    {
+      "id": "5bc235cb-f66a-4312-9bd6-ebfb9ad2b060",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器 2B4531",
+        "设备类型": "传感器",
+        "缩写": "2B4531",
+        "操作细节": "探测烟包传送带是否断裂"
+      }
+    },
+    {
+      "id": "db4c5932-5054-4791-8260-6d1a5c3ab40f",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器2B4531探测出齿"
+      }
+    },
+    {
+      "id": "b2810308-2251-446c-a1ed-de45c4b6c232",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "983a4b41-4181-4127-adfa-a52ccc0d7a25",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL ELEMENT NOT PRESENT IN THE MACHINE COMPLEX CONFIGURATION报警信号"
+      }
+    },
+    {
+      "id": "c3697659-644f-4c83-a524-101d1aecee8f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "将皮带上的所有烟包被设定为剔除"
+      }
+    },
+    {
+      "id": "21532b58-e5cd-463b-a365-e57ada2738d7",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数:,页 5-9"
+      }
+    },
+    {
+      "id": "d90c2f1b-c401-4be2-885c-9026f559b88d",
+      "type": "设备",
+      "properties": {
+        "实体名": "激光器光电管 BAUMER OPDM 12P5101/S35A +11006510",
+        "设备类型": "激光器光电管"
+      }
+    },
+    {
+      "id": "a08d0c24-484b-4b60-847d-e7ba4249cfa4",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "在同步拐角入口处烟包的探测与计数"
+      }
+    },
+    {
+      "id": "60d15ada-5dfe-4b34-9586-2ab0de7694f2",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B4598",
+        "设备类型": "传感器",
+        "缩写": "2B4598",
+        "操作细节": "同步探测烟包是否应该存在:若非如此,则被剔除"
+      }
+    },
+    {
+      "id": "fa1dfb97-c6ce-48cd-bb3f-a90d922aef92",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "机器显示有一盒烟包存在、而传感器显示有空隙存在"
+      }
+    },
+    {
+      "id": "470740f7-cd7e-41de-8f15-4caf85d3dc7c",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "设定的烟包作为剔除"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "c3e69ba1-7be3-483d-bae6-75216e828dd6",
+      "to": "1ad25527-cae3-4ccd-92ba-176be92d05a2"
+    },
+    {
+      "type": "包含设备",
+      "from": "1ad25527-cae3-4ccd-92ba-176be92d05a2",
+      "to": "5bc235cb-f66a-4312-9bd6-ebfb9ad2b060"
+    },
+    {
+      "type": "有检测异常",
+      "from": "5bc235cb-f66a-4312-9bd6-ebfb9ad2b060",
+      "to": "db4c5932-5054-4791-8260-6d1a5c3ab40f"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "db4c5932-5054-4791-8260-6d1a5c3ab40f",
+      "to": "b2810308-2251-446c-a1ed-de45c4b6c232"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "db4c5932-5054-4791-8260-6d1a5c3ab40f",
+      "to": "983a4b41-4181-4127-adfa-a52ccc0d7a25"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "db4c5932-5054-4791-8260-6d1a5c3ab40f",
+      "to": "c3697659-644f-4c83-a524-101d1aecee8f"
+    },
+    {
+      "type": "有参见",
+      "from": "5bc235cb-f66a-4312-9bd6-ebfb9ad2b060",
+      "to": "21532b58-e5cd-463b-a365-e57ada2738d7"
+    },
+    {
+      "type": "包含设备",
+      "from": "1ad25527-cae3-4ccd-92ba-176be92d05a2",
+      "to": "d90c2f1b-c401-4be2-885c-9026f559b88d"
+    },
+    {
+      "type": "有二级标题",
+      "from": "c3e69ba1-7be3-483d-bae6-75216e828dd6",
+      "to": "a08d0c24-484b-4b60-847d-e7ba4249cfa4"
+    },
+    {
+      "type": "包含设备",
+      "from": "a08d0c24-484b-4b60-847d-e7ba4249cfa4",
+      "to": "60d15ada-5dfe-4b34-9586-2ab0de7694f2"
+    },
+    {
+      "type": "有检测异常",
+      "from": "60d15ada-5dfe-4b34-9586-2ab0de7694f2",
+      "to": "fa1dfb97-c6ce-48cd-bb3f-a90d922aef92"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "fa1dfb97-c6ce-48cd-bb3f-a90d922aef92",
+      "to": "470740f7-cd7e-41de-8f15-4caf85d3dc7c"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "dbd35cf4-8ccc-4e3e-bdae-b147f9783dd2",
+      "name": "仪表",
+      "type": "设备",
+      "properties": {
+        "功能": "显示数值"
+      }
+    },
+    {
+      "id": "3f5c8cdd-d8ee-4368-8e8a-e2b8af2610a5",
+      "name": "参数",
+      "type": "数据",
+      "properties": {
+        "用途": "技术分析"
+      }
+    },
+    {
+      "id": "f3667684-e004-4904-b758-1712aec5643d",
+      "name": "按钮",
+      "type": "控制",
+      "properties": {
+        "功能": "显示关系"
+      }
+    },
+    {
+      "id": "ac32bf15-34e2-499c-a970-fc8c7c76cb22",
+      "name": "按钮",
+      "type": "控制",
+      "properties": {
+        "功能": "显示信息"
+      }
+    },
+    {
+      "id": "2d27257f-6a6d-4043-93dd-bf1ac4c4fe4f",
+      "name": "按钮",
+      "type": "控制",
+      "properties": {
+        "功能": "显示测试"
+      }
+    },
+    {
+      "id": "330bf5e4-9d64-4b98-9f09-c60006855256",
+      "name": "按钮",
+      "type": "控制",
+      "properties": {
+        "功能": "显示细节"
+      }
+    },
+    {
+      "id": "99c68c2b-e48b-4b67-9a5f-ebeed6315f4b",
+      "name": "电机",
+      "type": "设备",
+      "properties": {
+        "状态": "测试中"
+      }
+    },
+    {
+      "id": "9112173e-150f-4180-99d5-ff55df4352de",
+      "name": "控制板",
+      "type": "设备",
+      "properties": {
+        "显示": "测试仪表和参数"
+      }
+    },
+    {
+      "id": "f8e89e32-8983-4f85-97da-facadddac4f2",
+      "name": "加热器",
+      "type": "设备",
+      "properties": {
+        "状态": "可启用或免除"
+      }
+    },
+    {
+      "id": "bbb80f02-6516-4736-84e7-2184c5a26049",
+      "name": "示波器",
+      "type": "设备",
+      "properties": {
+        "功能": "标绘趋势"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "控制",
+      "type": "操作",
+      "from": "f3667684-e004-4904-b758-1712aec5643d",
+      "to": "dbd35cf4-8ccc-4e3e-bdae-b147f9783dd2"
+    },
+    {
+      "name": "控制",
+      "type": "操作",
+      "from": "ac32bf15-34e2-499c-a970-fc8c7c76cb22",
+      "to": "3f5c8cdd-d8ee-4368-8e8a-e2b8af2610a5"
+    },
+    {
+      "name": "控制",
+      "type": "操作",
+      "from": "2d27257f-6a6d-4043-93dd-bf1ac4c4fe4f",
+      "to": "99c68c2b-e48b-4b67-9a5f-ebeed6315f4b"
+    },
+    {
+      "name": "控制",
+      "type": "操作",
+      "from": "330bf5e4-9d64-4b98-9f09-c60006855256",
+      "to": "dbd35cf4-8ccc-4e3e-bdae-b147f9783dd2"
+    },
+    {
+      "name": "监测",
+      "type": "操作",
+      "from": "9112173e-150f-4180-99d5-ff55df4352de",
+      "to": "99c68c2b-e48b-4b67-9a5f-ebeed6315f4b"
+    },
+    {
+      "name": "属于",
+      "type": "分类",
+      "from": "f8e89e32-8983-4f85-97da-facadddac4f2",
+      "to": "dbd35cf4-8ccc-4e3e-bdae-b147f9783dd2"
+    },
+    {
+      "name": "连接于",
+      "type": "物理",
+      "from": "bbb80f02-6516-4736-84e7-2184c5a26049",
+      "to": "3f5c8cdd-d8ee-4368-8e8a-e2b8af2610a5"
+    }
+  ]
+}

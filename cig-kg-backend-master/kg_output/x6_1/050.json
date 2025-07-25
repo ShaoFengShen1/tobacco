@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "4b48fc26-e3f1-48ca-9477-eb11fe5a7f85",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/第四轮/半环/打开检测"
+      }
+    },
+    {
+      "id": "4e7ad07b-40e4-4d19-b06c-37a9c1784b16",
+      "type": "设备",
+      "properties": {
+        "实体名": "小包机",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "1a4fd2bb-0a78-4e2d-bba4-d085d9a2e721",
+      "type": "参见",
+      "properties": {
+        "实体名": "CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "f3fc9859-b7ba-4b5f-916b-1b453bb99570",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B419",
+        "设备类型": "传感器",
+        "位置": "第四轮",
+        "操作方式": "检测",
+        "操作细节": "检查第四轮上烟包的存在",
+        "缩写": "2B419"
+      }
+    },
+    {
+      "id": "d58d84be-03c1-42ed-9f33-c1e690f7ced7",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第四轮上烟包的存在",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "1da7cb93-1d5b-4e01-8e0e-016f3104aeef",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "第四轮上缺少烟包"
+      }
+    },
+    {
+      "id": "de725d60-799a-4a4e-8337-22230a8a02e4",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "68feaf6c-f4f6-4ea9-b0ae-96be09472c70",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第四轮缺烟包报警信号"
+      }
+    },
+    {
+      "id": "e325d0cb-6ca3-4f4a-adeb-0f4d3bef7e09",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 从鼓轮上取掉无烟包的盒片报警信号"
+      }
+    },
+    {
+      "id": "d841cebb-6920-486f-8c5d-6d83653ee2cd",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "误存:第四轮烟包"
+      }
+    },
+    {
+      "id": "d941f055-b24b-4003-bd0f-936d5bbecf65",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "ddeddebc-d832-4399-95ac-d02cbfa30b5f",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 误存:第四轮烟包报警信号"
+      }
+    },
+    {
+      "id": "b5ee69bc-086b-4170-980f-55bf53f41135",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "在重新启动时,烟包将在第四轮剔除站上被剔除"
+      }
+    },
+    {
+      "id": "b193e046-bb2f-4f3e-bef3-7c6c5d521da1",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "第四轮烟包检测器:检测失效"
+      }
+    },
+    {
+      "id": "f2bde90e-6370-420b-9a2b-cdebef5c536e",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "8adeaacb-07b8-4566-ad01-d5ec3e447463",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第四轮烟包检测器:检测失效的报警信号"
+      }
+    },
+    {
+      "id": "d90d2afb-a5eb-47bb-99d3-b5d02b3a72d8",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 88.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_207_233_317_1046_807_0.jpg"
+      }
+    },
+    {
+      "id": "e8419eda-693e-4363-bd3b-8f55db3058e7",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/第四轮/烟包检测/不期望的缺少检测"
+      }
+    },
+    {
+      "id": "7113da7a-2af7-4fb0-8dcb-d186e32c1bd4",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器 2S447",
+        "设备类型": "传感器",
+        "位置": "第四轮",
+        "操作方式": "检查",
+        "操作细节": "检查第四轮剔除运动是否正确",
+        "缩写": "2S447"
+      }
+    },
+    {
+      "id": "fcf4011a-751b-42da-a73e-ee647f47fa33",
+      "type": "功能",
+      "properties": {
+        "实体名": "检查第四轮剔除运动是否正确",
+        "功能类型": "检测功能"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "4b48fc26-e3f1-48ca-9477-eb11fe5a7f85",
+      "to": "4e7ad07b-40e4-4d19-b06c-37a9c1784b16"
+    },
+    {
+      "type": "有参见",
+      "from": "4e7ad07b-40e4-4d19-b06c-37a9c1784b16",
+      "to": "1a4fd2bb-0a78-4e2d-bba4-d085d9a2e721"
+    },
+    {
+      "type": "包含设备",
+      "from": "4b48fc26-e3f1-48ca-9477-eb11fe5a7f85",
+      "to": "f3fc9859-b7ba-4b5f-916b-1b453bb99570"
+    },
+    {
+      "type": "有功能",
+      "from": "f3fc9859-b7ba-4b5f-916b-1b453bb99570",
+      "to": "d58d84be-03c1-42ed-9f33-c1e690f7ced7"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f3fc9859-b7ba-4b5f-916b-1b453bb99570",
+      "to": "1da7cb93-1d5b-4e01-8e0e-016f3104aeef"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1da7cb93-1d5b-4e01-8e0e-016f3104aeef",
+      "to": "de725d60-799a-4a4e-8337-22230a8a02e4"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1da7cb93-1d5b-4e01-8e0e-016f3104aeef",
+      "to": "68feaf6c-f4f6-4ea9-b0ae-96be09472c70"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1da7cb93-1d5b-4e01-8e0e-016f3104aeef",
+      "to": "e325d0cb-6ca3-4f4a-adeb-0f4d3bef7e09"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f3fc9859-b7ba-4b5f-916b-1b453bb99570",
+      "to": "d841cebb-6920-486f-8c5d-6d83653ee2cd"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d841cebb-6920-486f-8c5d-6d83653ee2cd",
+      "to": "d941f055-b24b-4003-bd0f-936d5bbecf65"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d841cebb-6920-486f-8c5d-6d83653ee2cd",
+      "to": "ddeddebc-d832-4399-95ac-d02cbfa30b5f"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d841cebb-6920-486f-8c5d-6d83653ee2cd",
+      "to": "b5ee69bc-086b-4170-980f-55bf53f41135"
+    },
+    {
+      "type": "有检测异常",
+      "from": "f3fc9859-b7ba-4b5f-916b-1b453bb99570",
+      "to": "b193e046-bb2f-4f3e-bef3-7c6c5d521da1"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "b193e046-bb2f-4f3e-bef3-7c6c5d521da1",
+      "to": "f2bde90e-6370-420b-9a2b-cdebef5c536e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "b193e046-bb2f-4f3e-bef3-7c6c5d521da1",
+      "to": "8adeaacb-07b8-4566-ad01-d5ec3e447463"
+    },
+    {
+      "type": "有图片",
+      "from": "4b48fc26-e3f1-48ca-9477-eb11fe5a7f85",
+      "to": "d90d2afb-a5eb-47bb-99d3-b5d02b3a72d8"
+    },
+    {
+      "type": "包含设备",
+      "from": "e8419eda-693e-4363-bd3b-8f55db3058e7",
+      "to": "7113da7a-2af7-4fb0-8dcb-d186e32c1bd4"
+    },
+    {
+      "type": "有功能",
+      "from": "7113da7a-2af7-4fb0-8dcb-d186e32c1bd4",
+      "to": "fcf4011a-751b-42da-a73e-ee647f47fa33"
+    }
+  ]
+}

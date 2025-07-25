@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "b9687f19-7ac7-4862-9e79-5fda6629e724",
+      "type": "参见",
+      "properties": {
+        "实体名": "CHECK_SECTION-参数:,页 5-9"
+      }
+    },
+    {
+      "id": "f9d29b53-3c44-4ca2-a52f-8e03c1cc0e89",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "某个小耳缺少或者没有被传感器探测出"
+      }
+    },
+    {
+      "id": "85e17945-6a7f-49ee-8bc6-9cfe29079d81",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "4e11fd9d-a156-4d93-a5f3-a3a1e7579ec8",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 第三鼓轮上无第一前盒片耳的盒片"
+      }
+    },
+    {
+      "id": "29a036a7-59dd-4c95-b5f2-f4fee7075679",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 第三鼓轮上无第二前盒片耳的盒片"
+      }
+    },
+    {
+      "id": "3d49b2f9-5e81-4e6e-bea6-8f345bc66250",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "连续三次没有探测出材料, 并且没有任何状态的改变"
+      }
+    },
+    {
+      "id": "89a5b609-5ec1-43a9-afce-589681330a3e",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 故障:第三鼓轮上前盒片耳检测的报警信号"
+      }
+    },
+    {
+      "id": "4e62e3c7-37df-432a-89df-3122c35f4165",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 213",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_445_253_321_1062_794_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "f9d29b53-3c44-4ca2-a52f-8e03c1cc0e89",
+      "to": "b9687f19-7ac7-4862-9e79-5fda6629e724"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "f9d29b53-3c44-4ca2-a52f-8e03c1cc0e89",
+      "to": "85e17945-6a7f-49ee-8bc6-9cfe29079d81"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "f9d29b53-3c44-4ca2-a52f-8e03c1cc0e89",
+      "to": "4e11fd9d-a156-4d93-a5f3-a3a1e7579ec8"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "f9d29b53-3c44-4ca2-a52f-8e03c1cc0e89",
+      "to": "29a036a7-59dd-4c95-b5f2-f4fee7075679"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "3d49b2f9-5e81-4e6e-bea6-8f345bc66250",
+      "to": "85e17945-6a7f-49ee-8bc6-9cfe29079d81"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "3d49b2f9-5e81-4e6e-bea6-8f345bc66250",
+      "to": "89a5b609-5ec1-43a9-afce-589681330a3e"
+    }
+  ]
+}

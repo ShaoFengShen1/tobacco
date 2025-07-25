@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "4f93792e-e643-443a-b1b2-5d2fe42d0941",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 199.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_416_337_1207_1057_784_0.jpg"
+      }
+    },
+    {
+      "id": "d5e09d61-4382-48a2-808f-4770b697e92e",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 200.",
+        "图片路径": null
+      }
+    },
+    {
+      "id": "b76b14b4-f8ce-4975-bc82-009ff9e78619",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 201.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_417_253_318_1065_784_0.jpg"
+      }
+    },
+    {
+      "id": "9eaada73-0be7-4c89-9e09-e645c414f2d2",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 202.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_418_185_404_1355_1098_0.jpg"
+      }
+    },
+    {
+      "id": "fc123d14-cd23-40dd-8a1d-d762ec0978a8",
+      "type": "设备",
+      "properties": {
+        "实体名": "X6鼓轮的转动盒片展开",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "088e6089-23bb-4ab6-822d-ca7bdb7aec33",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT_CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "183e67b1-f35c-4087-9bf2-184688093a66",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "383fe1f6-9b5a-4ab6-b103-2b16ec3531a2",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT_CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "4daf20fe-5b78-49b7-9aaa-bce2df80b216",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "f009b8e8-7edb-47bb-99fe-c8d756dfe164",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "62385c2b-6ae6-4c60-8d65-28a70ee4927b",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "1902f927-a270-4bff-b6d7-b4bf7d2264c9",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    },
+    {
+      "id": "9c39c13e-ef08-4958-bd2e-bd33ac6cd510",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 ALIGNMENT CHECK-参数: , 页 5-11"
+      }
+    }
+  ],
+  "relationships": []
+}

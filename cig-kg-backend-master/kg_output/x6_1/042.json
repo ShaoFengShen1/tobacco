@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "e9f8acfb-109b-483c-8ab9-49d6149f9965",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "0ee7d611-caf0-4db1-8f74-dee8fd589423",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "967c6556-fee2-41c0-844e-2aa7c111dd8a",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B218 - 前端检查一第二轮入口铝箔纸存在 / 校直",
+        "缩写": "2B218"
+      }
+    },
+    {
+      "id": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "type": "设备",
+      "properties": {
+        "实体名": "2B219 - 后端检查一第二轮入口铝箔纸存在 / 校直",
+        "缩写": "2B219"
+      }
+    },
+    {
+      "id": "dd3d8405-ca16-477d-a7b0-cf162deb0687",
+      "type": "功能",
+      "properties": {
+        "实体名": "存在功能",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "7fbe67b8-c2d2-48ba-8152-0c7ee3626ec5",
+      "type": "功能",
+      "properties": {
+        "实体名": "对齐功能",
+        "功能类型": "对齐功能"
+      }
+    },
+    {
+      "id": "97d5e1c6-7ffa-44dc-b94a-052ffa311fa4",
+      "type": "功能",
+      "properties": {
+        "实体名": "不期望的存在检测功能",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "7ee9206b-a80f-4781-a54b-f3f125a362a8",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "光电管 KEYENCE FS-N 11P"
+      }
+    },
+    {
+      "id": "697b8de7-f8a4-431a-b561-a2fbcb52eb06",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 76.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_179_253_919_1059_790_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "to": "dd3d8405-ca16-477d-a7b0-cf162deb0687"
+    },
+    {
+      "type": "有功能",
+      "from": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "to": "dd3d8405-ca16-477d-a7b0-cf162deb0687"
+    },
+    {
+      "type": "有功能",
+      "from": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "to": "7fbe67b8-c2d2-48ba-8152-0c7ee3626ec5"
+    },
+    {
+      "type": "有功能",
+      "from": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "to": "7fbe67b8-c2d2-48ba-8152-0c7ee3626ec5"
+    },
+    {
+      "type": "有功能",
+      "from": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "to": "97d5e1c6-7ffa-44dc-b94a-052ffa311fa4"
+    },
+    {
+      "type": "有功能",
+      "from": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "to": "97d5e1c6-7ffa-44dc-b94a-052ffa311fa4"
+    },
+    {
+      "type": "有校准部件",
+      "from": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "to": "7ee9206b-a80f-4781-a54b-f3f125a362a8"
+    },
+    {
+      "type": "有校准部件",
+      "from": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "to": "7ee9206b-a80f-4781-a54b-f3f125a362a8"
+    },
+    {
+      "type": "有图片",
+      "from": "509b6a1d-3cbc-41ed-8f05-87196c84b2f5",
+      "to": "697b8de7-f8a4-431a-b561-a2fbcb52eb06"
+    },
+    {
+      "type": "有图片",
+      "from": "44370c28-e5f5-4826-ad4e-bc96f07c5f49",
+      "to": "697b8de7-f8a4-431a-b561-a2fbcb52eb06"
+    }
+  ]
+}

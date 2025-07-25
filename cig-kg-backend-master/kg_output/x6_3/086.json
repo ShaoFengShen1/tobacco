@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER-参数"
+      }
+    },
+    {
+      "id": "73fb2af8-3a81-43ad-917e-718747cf75ab",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "执行检测处的链条工步",
+        "缩写": null
+      }
+    },
+    {
+      "id": "2c5b0744-f966-42b5-bbb0-132912b1cb2e",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET: [DINT] - 所需写入的第一工步偏移(3837)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "在执行检测之后,设定产品剔除处的链条工步,被描述为相对于参数STEP:[DINT] 设定值的偏移",
+        "缩写": null
+      }
+    },
+    {
+      "id": "a3e5a789-080b-4147-b223-6f817fdbde5a",
+      "type": "设备",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE: [DINT] - 所需写入的工步数量(717)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "在参数FIRST_STEP_TO_WRITE_OFFSET: [DINT]. 设定的工步之后的剔除工步的数量",
+        "缩写": null
+      }
+    },
+    {
+      "id": "943b12e2-4bed-4ca3-985e-eacd3b90fa96",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_AREA. THRESHOLD: [LREAL] - 引起剔除的最小误差 (3628)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差所应该保持的极限,以便能够执行由参数FIRST_AREA.ADJUSTMENT_PERCENTAGE: [DINT] 表达的校正百分比",
+        "缩写": null
+      }
+    },
+    {
+      "id": "b098a47d-eef5-456f-a3d2-3b88b093f1f9",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_AREA.ADJUSTMENT_PERCENTAGE: [DINT] - (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差的校正百分比,若小于由参数FIRST_AREA.THRESHOLD: [LREAL]表达的最大极限值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "99b25a15-0097-4952-9c93-5fdb745748d8",
+      "type": "设备",
+      "properties": {
+        "实体名": "SECOND_AREA.THRESHOLD: [LREAL] - 引起停机最小误差(3629)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差所应该保持的极限,以便能够执行由参数SECOND_AREA.ADJUSTMENT_PERCENTAGE: [DINT] 表达的校正百分比",
+        "缩写": null
+      }
+    },
+    {
+      "id": "a52b1d39-0662-40ae-90d6-52f9b37d5e68",
+      "type": "设备",
+      "properties": {
+        "实体名": "SECOND_AREA.ADJUSTMENT_PERCENTAGE: [DINT] (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差的校正百分比,若小于由参数SECOND_AREA.THRESHOLD: [LREAL]表达的最大极限值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "7bd43b52-08de-4188-a5e0-a1e82871f931",
+      "type": "设备",
+      "properties": {
+        "实体名": "THIRD_AREA.THRESHOLD: [LREAL] (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差所应该保持的极限,以便能够执行由参数THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT] 表达的校正百分比",
+        "缩写": null
+      }
+    },
+    {
+      "id": "85f5859c-5dfa-4da3-8eea-7b38522f34a0",
+      "type": "设备",
+      "properties": {
+        "实体名": "THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT] (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "取样误差的校正百分比,若小于由参数THIRD_AREA.THRESHOLD: [LREAL]表达的最大极限值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "adad28c2-3b91-4cb0-b10c-8eb2c5255b57",
+      "type": "设备",
+      "properties": {
+        "实体名": "REFERENCE_PHASE.PHASE: [LREAL] - 检测相位(712)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "执行检测时的相位",
+        "缩写": null
+      }
+    },
+    {
+      "id": "a7331bbd-d6a8-4a08-b5cd-d3482b0e14da",
+      "type": "设备",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - 引起停机的连续剔除次数(3968)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "当取样误差数值表示在由参数FIRST_AREA.THRESHOLD: [LREAL]设定的第一临界值与由参数 SECOND_AREA.THRESHOLD: [LREAL]设定的第二临界值之间时连续检测的最大次数",
+        "缩写": null
+      }
+    },
+    {
+      "id": "d45f16a3-19c8-439d-8f2b-154eadc50b99",
+      "type": "设备",
+      "properties": {
+        "实体名": "THIRD_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "当取样误差数值表示在由参数SECOND_AREA. THRESHOLD: [LREAL]设定的第二临界值与 THIRD_AREA. THRESHOLD: [LREAL]. 设定的第三临界值之间时连续检测的最大次数",
+        "缩写": null
+      }
+    },
+    {
+      "id": "576c64c9-458f-4b04-aa9f-24f152cfef65",
+      "type": "设备",
+      "properties": {
+        "实体名": "MISSING SIGNAL CHECK SECTION.MAX CONSECUTIVE FAILED CHECKS: [UDINT] - (0)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "在没有对材料位置进行取样期间连续检测的最大次数",
+        "缩写": null
+      }
+    },
+    {
+      "id": "beda1e26-d96c-446e-b453-2298d30fc983",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR"
+      }
+    },
+    {
+      "id": "346d6101-a21c-4494-aa71-3277bfbfd526",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_DIAMETER: [DINT] - 最大直径 (2699)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "设定允许的最大直径值",
+        "缩写": null
+      }
+    },
+    {
+      "id": "38b916c0-cd30-4cee-8ec0-a0b042b09bed",
+      "type": "设备",
+      "properties": {
+        "实体名": "MIN_DIAMETER: [DINT] - 最小直径 (2700)",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "设定允许的最小直径值",
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "73fb2af8-3a81-43ad-917e-718747cf75ab"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "2c5b0744-f966-42b5-bbb0-132912b1cb2e"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "a3e5a789-080b-4147-b223-6f817fdbde5a"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "943b12e2-4bed-4ca3-985e-eacd3b90fa96"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "b098a47d-eef5-456f-a3d2-3b88b093f1f9"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "99b25a15-0097-4952-9c93-5fdb745748d8"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "a52b1d39-0662-40ae-90d6-52f9b37d5e68"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "7bd43b52-08de-4188-a5e0-a1e82871f931"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "85f5859c-5dfa-4da3-8eea-7b38522f34a0"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "adad28c2-3b91-4cb0-b10c-8eb2c5255b57"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "a7331bbd-d6a8-4a08-b5cd-d3482b0e14da"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "d45f16a3-19c8-439d-8f2b-154eadc50b99"
+    },
+    {
+      "type": "包含设备",
+      "from": "e6da7501-740d-4a88-bfa1-ef1d58669cbf",
+      "to": "576c64c9-458f-4b04-aa9f-24f152cfef65"
+    },
+    {
+      "type": "包含设备",
+      "from": "beda1e26-d96c-446e-b453-2298d30fc983",
+      "to": "346d6101-a21c-4494-aa71-3277bfbfd526"
+    },
+    {
+      "type": "包含设备",
+      "from": "beda1e26-d96c-446e-b453-2298d30fc983",
+      "to": "38b916c0-cd30-4cee-8ec0-a0b042b09bed"
+    }
+  ]
+}

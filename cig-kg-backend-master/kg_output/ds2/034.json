@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "f136e93a-80f1-4c53-8ad8-10bf623e8e05",
+      "type": "设备",
+      "properties": {
+        "实体名": "X6",
+        "设备类型": "机器检测 盒片组件",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "02"
+      }
+    },
+    {
+      "id": "cdb136df-6c8f-4fac-bb64-0f1fc158fae7",
+      "type": "功能",
+      "properties": {
+        "实体名": "盒片/展开/第二鼓轮上盒片对齐检测/内侧效用检测",
+        "功能类型": null
+      }
+    },
+    {
+      "id": "b2fa7281-3a02-4a90-b060-a221d932f683",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "66d3cbec-cf75-4f36-8e55-1c8e83b3b43e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片胶缸的存在检测"
+      }
+    },
+    {
+      "id": "eb5f5ab8-a2f8-48e2-a97c-ff41a0a7b98d",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S451",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": "检查盒片涂胶缸的存在与正确插入",
+        "操作细节": null,
+        "缩写": "2S451"
+      }
+    },
+    {
+      "id": "ffba4fdc-22a3-49a9-845c-57a56fea49e8",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器没有在正确位置上测出胶缸的存在"
+      }
+    },
+    {
+      "id": "2a86bafa-ef1a-47df-a3b2-9c3c820b37f3",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "baafafdd-6de9-4ff2-a2a6-2ef731109e90",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 储胶盘未到位(参见 DIGITAL_CHECK-信息,页 5-41)的报警信号"
+      }
+    },
+    {
+      "id": "3b05ba58-ed77-4182-b00b-1d9981fe538e",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 203.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_422_340_1095_1043_787_0.jpg"
+      }
+    },
+    {
+      "id": "4bbd864b-37e2-4ac6-9f67-3d9bc2928a38",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片/涂胶/胶缸"
+      }
+    },
+    {
+      "id": "d297bedc-4579-4559-a12e-8a64c168385a",
+      "type": "功能",
+      "properties": {
+        "实体名": "数字传感器2S4026位于胶水桶内3检测胶水位",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "2f06b51b-a230-45fc-9f6d-02db2c840dd7",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "水平位低"
+      }
+    },
+    {
+      "id": "e3999ca6-b264-4d0c-993f-a71e349ca8ad",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "免除胶水搅拌器"
+      }
+    },
+    {
+      "id": "9508bad8-9561-439e-b92b-0ade7250cb15",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology OBLIGATION 添加储胶盘粘胶信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "f136e93a-80f1-4c53-8ad8-10bf623e8e05",
+      "to": "cdb136df-6c8f-4fac-bb64-0f1fc158fae7"
+    },
+    {
+      "type": "有参见",
+      "from": "f136e93a-80f1-4c53-8ad8-10bf623e8e05",
+      "to": "b2fa7281-3a02-4a90-b060-a221d932f683"
+    },
+    {
+      "type": "包含设备",
+      "from": "66d3cbec-cf75-4f36-8e55-1c8e83b3b43e",
+      "to": "eb5f5ab8-a2f8-48e2-a97c-ff41a0a7b98d"
+    },
+    {
+      "type": "有检测异常",
+      "from": "eb5f5ab8-a2f8-48e2-a97c-ff41a0a7b98d",
+      "to": "ffba4fdc-22a3-49a9-845c-57a56fea49e8"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "ffba4fdc-22a3-49a9-845c-57a56fea49e8",
+      "to": "2a86bafa-ef1a-47df-a3b2-9c3c820b37f3"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "ffba4fdc-22a3-49a9-845c-57a56fea49e8",
+      "to": "baafafdd-6de9-4ff2-a2a6-2ef731109e90"
+    },
+    {
+      "type": "有图片",
+      "from": "66d3cbec-cf75-4f36-8e55-1c8e83b3b43e",
+      "to": "3b05ba58-ed77-4182-b00b-1d9981fe538e"
+    },
+    {
+      "type": "包含设备",
+      "from": "4bbd864b-37e2-4ac6-9f67-3d9bc2928a38",
+      "to": "d297bedc-4579-4559-a12e-8a64c168385a"
+    },
+    {
+      "type": "有检测异常",
+      "from": "d297bedc-4579-4559-a12e-8a64c168385a",
+      "to": "2f06b51b-a230-45fc-9f6d-02db2c840dd7"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2f06b51b-a230-45fc-9f6d-02db2c840dd7",
+      "to": "e3999ca6-b264-4d0c-993f-a71e349ca8ad"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2f06b51b-a230-45fc-9f6d-02db2c840dd7",
+      "to": "9508bad8-9561-439e-b92b-0ade7250cb15"
+    }
+  ]
+}

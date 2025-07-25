@@ -1,0 +1,375 @@
+{
+  "nodes": [
+    {
+      "id": "01d7755c-9393-4b9f-b57c-80d7c0a1ce1c",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR"
+      }
+    },
+    {
+      "id": "cd27d0ec-bec7-4b9d-8974-e844a2e5be5d",
+      "type": "设备",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": "计算正在松卷中材料卷盘直径的正确值",
+        "操作细节": "使用相应的松卷轴, 以便计算卷盘的圈数, 以及读取材料缓冲器填满程度的相应模拟输入",
+        "缩写": null
+      }
+    },
+    {
+      "id": "31e34169-6e9b-41e6-9277-1b6b56c827ec",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR-参数"
+      }
+    },
+    {
+      "id": "b48641d2-4a3a-41f5-b384-a57fac2a39f8",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_DIAMETER",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定允许的最大直径值",
+        "操作细节": "2699",
+        "缩写": null
+      }
+    },
+    {
+      "id": "8335a1c4-53e4-4222-862d-caaf6ee0219b",
+      "type": "设备",
+      "properties": {
+        "实体名": "MIN_DIAMETER",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定允许的最小直径值",
+        "操作细节": "2700",
+        "缩写": null
+      }
+    },
+    {
+      "id": "5e745cc8-4202-4267-9ce3-553d05232945",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER"
+      }
+    },
+    {
+      "id": "7041b74f-a9be-489f-9745-2aa430405cac",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDER",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": "通过电气轴来管理材料松卷",
+        "操作细节": "与一个主轴、实际轴或者虚拟轴结合在一起,以便啮合在一起:执行凸轮轮廓,并作必要的校正",
+        "缩写": null
+      }
+    },
+    {
+      "id": "afb18103-04cc-44f1-9fac-85755ae5d910",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER-信息"
+      }
+    },
+    {
+      "id": "5a493200-9da2-4bf1-853d-db6cfa84f2d7",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_DISABLED_WSM - 校正被免除(2850)"
+      }
+    },
+    {
+      "id": "eec3e1e2-35bb-43c5-b7e9-c1e9123ddd90",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION. FAULT_FSM - 故障 (831)"
+      }
+    },
+    {
+      "id": "babb53bd-b7b9-4181-a000-7722d670f0f7",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.HOME_ASM - (0)"
+      }
+    },
+    {
+      "id": "b5e2dd59-e9a0-4199-a727-6933a024a9a1",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.ENCODER_PRESET_ASM - (0)"
+      }
+    },
+    {
+      "id": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "UNWINDER-参数"
+      }
+    },
+    {
+      "id": "3e8d1036-5a97-4028-a2dc-f7b0858799e9",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定产品质量的数值",
+        "操作细节": "2701",
+        "缩写": null
+      }
+    },
+    {
+      "id": "8ac640f6-c558-463b-86b2-8b6285527cd0",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_NEGATIVE_CORRECTION",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定负值校正的极限值",
+        "操作细节": "若参数PRODUCT_CORRECTION_ENABLE:[BOOL] 被启用",
+        "缩写": null
+      }
+    },
+    {
+      "id": "0c732505-419a-4d82-bd3c-861817aec0de",
+      "type": "设备",
+      "properties": {
+        "实体名": "MAX_POSITIVE_CORRECTION",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定正值校正的极限值",
+        "操作细节": "2652",
+        "缩写": null
+      }
+    },
+    {
+      "id": "c5aaeaf1-ed23-47d2-b6de-8e79aa423657",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING_TRADE_OFF",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "相对于参数PRODUCT_UNWINDING: [LREAL], 设定产品的附加质量的数值",
+        "操作细节": "3633",
+        "缩写": null
+      }
+    },
+    {
+      "id": "69a4dcf4-92c4-4f5b-8305-75847445379f",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_ENABLE",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "启用由参数MAX_NEGATIVE_CORRECTION: [LREAL]和MAX_POSITIVE_CORRECTION: [LREAL]表达的校正功能",
+        "操作细节": "3644",
+        "缩写": null
+      }
+    },
+    {
+      "id": "59bea431-9194-4609-9ad2-be20e80ff54a",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_ENABLE",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "启用由参数PRODUCT_UNWINDING_TRADE_OFF:[LREAL]表达的产品附加松卷功能",
+        "操作细节": "3645",
+        "缩写": null
+      }
+    },
+    {
+      "id": "00ab51f0-e7f4-4dd1-b7bc-8ecb074a3f49",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_MAXIMUM_DELTA",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "在计算实际松卷过程中,相对于由参数PRODUCT_UNWINDING: [LREAL]表达的松卷理论值,设定允许公差的最大百分比",
+        "操作细节": "0",
+        "缩写": null
+      }
+    },
+    {
+      "id": "f25da305-4bf5-4bd1-b794-6861aa2eb818",
+      "type": "设备",
+      "properties": {
+        "实体名": "UNWINDING_ADJUSTMENT_PERCENTAGE",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "设定取样误差的校正百分比",
+        "操作细节": "0",
+        "缩写": null
+      }
+    },
+    {
+      "id": "8046b8dc-b6cb-47c5-8865-c43f18d5baca",
+      "type": "设备",
+      "properties": {
+        "实体名": "CONTROL_PHASE. PHASE",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "执行检测时的相位",
+        "操作细节": "712",
+        "缩写": null
+      }
+    },
+    {
+      "id": "e08584ff-06e6-42bf-ada5-1d825197520e",
+      "type": "设备",
+      "properties": {
+        "实体名": "CORRECTION_CONTROL_PHASE. PHASE",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "执行校正时的相位",
+        "操作细节": "3631",
+        "缩写": null
+      }
+    },
+    {
+      "id": "13a3be71-0a40-4916-a700-0775ffb10472",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK"
+      }
+    },
+    {
+      "id": "108340e4-4563-4a87-9d81-29e3a098e136",
+      "type": "设备",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": "允许管理在电气轴的位置控制上产生的,或者以设定固定频率的相位(凸轮)",
+        "操作细节": "通常对于每个凸轮将会结合一个或者多个输出, 一般对于需要特别精确和高速切换的执行器, 例如: 涂胶指令",
+        "缩写": null
+      }
+    },
+    {
+      "id": "903b0315-5bef-4ddb-9478-0331f93ddfc4",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_CAM_TRACK-参数"
+      }
+    },
+    {
+      "id": "41586f53-fd79-4422-8625-739204f7551d",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_ON",
+        "设备类型": "参数",
+        "位置": null,
+        "操作方式": "启动的补偿",
+        "操作细节": "3418",
+        "缩写": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "01d7755c-9393-4b9f-b57c-80d7c0a1ce1c",
+      "to": "cd27d0ec-bec7-4b9d-8974-e844a2e5be5d"
+    },
+    {
+      "type": "包含设备",
+      "from": "31e34169-6e9b-41e6-9277-1b6b56c827ec",
+      "to": "b48641d2-4a3a-41f5-b384-a57fac2a39f8"
+    },
+    {
+      "type": "包含设备",
+      "from": "31e34169-6e9b-41e6-9277-1b6b56c827ec",
+      "to": "8335a1c4-53e4-4222-862d-caaf6ee0219b"
+    },
+    {
+      "type": "包含设备",
+      "from": "5e745cc8-4202-4267-9ce3-553d05232945",
+      "to": "7041b74f-a9be-489f-9745-2aa430405cac"
+    },
+    {
+      "type": "包含设备",
+      "from": "afb18103-04cc-44f1-9fac-85755ae5d910",
+      "to": "5a493200-9da2-4bf1-853d-db6cfa84f2d7"
+    },
+    {
+      "type": "包含设备",
+      "from": "afb18103-04cc-44f1-9fac-85755ae5d910",
+      "to": "eec3e1e2-35bb-43c5-b7e9-c1e9123ddd90"
+    },
+    {
+      "type": "包含设备",
+      "from": "afb18103-04cc-44f1-9fac-85755ae5d910",
+      "to": "babb53bd-b7b9-4181-a000-7722d670f0f7"
+    },
+    {
+      "type": "包含设备",
+      "from": "afb18103-04cc-44f1-9fac-85755ae5d910",
+      "to": "b5e2dd59-e9a0-4199-a727-6933a024a9a1"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "3e8d1036-5a97-4028-a2dc-f7b0858799e9"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "8ac640f6-c558-463b-86b2-8b6285527cd0"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "0c732505-419a-4d82-bd3c-861817aec0de"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "c5aaeaf1-ed23-47d2-b6de-8e79aa423657"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "69a4dcf4-92c4-4f5b-8305-75847445379f"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "59bea431-9194-4609-9ad2-be20e80ff54a"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "00ab51f0-e7f4-4dd1-b7bc-8ecb074a3f49"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "f25da305-4bf5-4bd1-b794-6861aa2eb818"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "8046b8dc-b6cb-47c5-8865-c43f18d5baca"
+    },
+    {
+      "type": "包含设备",
+      "from": "32c0885d-0aae-4787-8111-743ad54cdc5e",
+      "to": "e08584ff-06e6-42bf-ada5-1d825197520e"
+    },
+    {
+      "type": "包含设备",
+      "from": "13a3be71-0a40-4916-a700-0775ffb10472",
+      "to": "108340e4-4563-4a87-9d81-29e3a098e136"
+    },
+    {
+      "type": "包含设备",
+      "from": "903b0315-5bef-4ddb-9478-0331f93ddfc4",
+      "to": "41586f53-fd79-4422-8625-739204f7551d"
+    }
+  ]
+}

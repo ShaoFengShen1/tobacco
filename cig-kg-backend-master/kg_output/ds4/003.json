@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "c16a1a72-255d-4824-8675-ad17ca89329a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "ENCODER_PRESET_ASM - 请求编码器置零 (590)"
+      }
+    },
+    {
+      "id": "77871bec-76f6-4183-90e1-f33fb085a95b",
+      "type": "参数",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KP: [LREAL] - 速度环的比例增益 (595)"
+      }
+    },
+    {
+      "id": "b2b3db6e-a62f-4895-bce7-b72808e25244",
+      "type": "参数",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KI: [LREAL] - 速度环的积分时间 (594)"
+      }
+    },
+    {
+      "id": "94ffa485-9e06-4560-ad29-6b7e342051cd",
+      "type": "参数",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KV: [LREAL] - 位置环的比例增益(593)"
+      }
+    },
+    {
+      "id": "e1759857-fd46-4ba2-b54d-4f92b349cc9b",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME.POSITION: [LREAL] - 复位位置 (1346)"
+      }
+    },
+    {
+      "id": "9a33a814-0f33-4272-b786-ba95c8467b22",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME.OFFSET: [LREAL] - 复位偏移 (1348)"
+      }
+    },
+    {
+      "id": "2c138b14-0ffd-4dc0-9c12-efeba52cf844",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME.EXIT_VELOCITY: [LREAL] - 输出速度(1033)"
+      }
+    },
+    {
+      "id": "2a7795d0-0cb1-490c-9ecc-a39afb4b572f",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME. NOTCH_SIZE: [LREAL] - 标记尺寸 (627)"
+      }
+    },
+    {
+      "id": "8cd3a323-73a9-4970-840f-de4eff13835c",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME.NOTCH_SIZE_TOLERANCE: [LREAL] - 标记尺寸的公差 (628)"
+      }
+    },
+    {
+      "id": "a591253a-0948-41a8-9b17-f5920cbe8302",
+      "type": "参数",
+      "properties": {
+        "实体名": "HOME. SEARCH_VELOCITY: [LREAL] - 复位搜寻速度(3412)"
+      }
+    },
+    {
+      "id": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PREUNWINDER"
+      }
+    },
+    {
+      "id": "9739b673-4a88-4a0c-b458-51ccd2948645",
+      "type": "功能",
+      "properties": {
+        "实体名": "PREUNWINDER",
+        "功能类型": "管理材料缓冲器,保证恒定松卷,并通过PID调节器保持在所需的水平位上"
+      }
+    },
+    {
+      "id": "79758925-350c-492b-ae75-3cfff6b657ef",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_MIN_ASM - 最低水平位 (891)"
+      }
+    },
+    {
+      "id": "9e60ab40-4812-48d7-901e-c30a889cfad0",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_MAX_ASM - 最大水平位 (890)"
+      }
+    },
+    {
+      "id": "1911df02-ae89-455e-a644-4470d52debf4",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "BUFFER_FILLING_AEM - 填充在进行中(889)"
+      }
+    },
+    {
+      "id": "6d813e19-2caf-4fa9-82ee-0494383d6c23",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "INFEED_FINDING_AEM - 填充失误 (2895)"
+      }
+    },
+    {
+      "id": "0ac13b57-e825-4c68-868c-d9945195d1d9",
+      "type": "参数",
+      "properties": {
+        "实体名": "BUFFER_SETPOINT_PERCENT: [LREAL] - 缓冲器设定点 (5708)"
+      }
+    },
+    {
+      "id": "c0d5c61a-8ee8-41d2-a3d3-ade164801fa4",
+      "type": "参数",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_PERCENT_MIN: [LREAL] - 缓冲器最低水平位(7137)"
+      }
+    },
+    {
+      "id": "7178d3b6-70b9-435f-b15b-1c23f8266a48",
+      "type": "参数",
+      "properties": {
+        "实体名": "BUFFER_LEVEL_PERCENT_MAX: [LREAL] - 缓冲器最高水平位 (7138)"
+      }
+    },
+    {
+      "id": "93693c4a-035a-4962-a617-ae610379a8da",
+      "type": "参数",
+      "properties": {
+        "实体名": "BUFFER_FILLING_CHECK_ENABLE: [BOOL] - 启用缓冲器填充检测(7140)"
+      }
+    },
+    {
+      "id": "2c96a54f-0831-4251-afbd-2020e4bcf1fd",
+      "type": "参数",
+      "properties": {
+        "实体名": "FF:[LREAL] - 前馈(888)"
+      }
+    },
+    {
+      "id": "93300c35-5e7d-4642-9dc3-d53b9b013b1c",
+      "type": "参数",
+      "properties": {
+        "实体名": "PID_KP: [LREAL] - 比例增益(729)"
+      }
+    },
+    {
+      "id": "189adea3-eff3-452d-8ce9-83fce494bdcd",
+      "type": "参数",
+      "properties": {
+        "实体名": "PID_TI: [LREAL] - 积分时间 (794)"
+      }
+    },
+    {
+      "id": "11fa5219-0d20-40c3-b751-12ea3995a787",
+      "type": "参数",
+      "properties": {
+        "实体名": "PID_TD: [LREAL] - 导数时间 (793)"
+      }
+    },
+    {
+      "id": "692e2b51-0e0e-4876-bc87-202a4afeec5b",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK"
+      }
+    },
+    {
+      "id": "102d8afa-fe98-4d9c-84f9-aaafb8cd014c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 连续失误检测的最大次数 (663)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "79758925-350c-492b-ae75-3cfff6b657ef"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "9e60ab40-4812-48d7-901e-c30a889cfad0"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "1911df02-ae89-455e-a644-4470d52debf4"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "6d813e19-2caf-4fa9-82ee-0494383d6c23"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "0ac13b57-e825-4c68-868c-d9945195d1d9"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "c0d5c61a-8ee8-41d2-a3d3-ade164801fa4"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "7178d3b6-70b9-435f-b15b-1c23f8266a48"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "93693c4a-035a-4962-a617-ae610379a8da"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "2c96a54f-0831-4251-afbd-2020e4bcf1fd"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "93300c35-5e7d-4642-9dc3-d53b9b013b1c"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "189adea3-eff3-452d-8ce9-83fce494bdcd"
+    },
+    {
+      "type": "包含设备",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "11fa5219-0d20-40c3-b751-12ea3995a787"
+    },
+    {
+      "type": "有功能",
+      "from": "a7f22ba6-f0c2-4bed-ab41-f58c0c90a573",
+      "to": "9739b673-4a88-4a0c-b458-51ccd2948645"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "692e2b51-0e0e-4876-bc87-202a4afeec5b",
+      "to": "102d8afa-fe98-4d9c-84f9-aaafb8cd014c"
+    }
+  ]
+}

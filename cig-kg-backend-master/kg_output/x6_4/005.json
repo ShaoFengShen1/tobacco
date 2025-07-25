@@ -1,0 +1,359 @@
+{
+  "nodes": [
+    {
+      "id": "269efabe-3e2d-4a47-b0fa-5eafe607a394",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER"
+      }
+    },
+    {
+      "id": "ede21660-9aac-48bc-b56f-bd5e5ae3a76a",
+      "type": "设备",
+      "properties": {
+        "实体名": "HEATER",
+        "设备类型": "温度检测装置",
+        "操作方式": "调制信号 (PWM)",
+        "操作细节": "通过传感器 (例如:热电偶)控制其温度变换"
+      }
+    },
+    {
+      "id": "38b521df-ad2d-417c-8f7d-2abf45839c1f",
+      "type": "功能",
+      "properties": {
+        "实体名": "调节环PID",
+        "功能类型": "手动进行设置"
+      }
+    },
+    {
+      "id": "00daac9e-2171-4ca8-85c4-57082984d290",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER-信息"
+      }
+    },
+    {
+      "id": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "67658bab-0662-461d-bd4e-f602c78d79f4",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER NO REASON DETAIL"
+      }
+    },
+    {
+      "id": "392f0b30-84a9-42fd-966e-b632d8836ed4",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER ABSOLUTE MAX VALUE ERROR"
+      }
+    },
+    {
+      "id": "da95a77d-114b-4d3f-baf6-17eb8b9fc5ee",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER ABSOLUTE MIN VALUE ERROR"
+      }
+    },
+    {
+      "id": "ec952f34-eda2-4447-afc6-9c23bf915896",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER EXTERNAL FAULT ERROR"
+      }
+    },
+    {
+      "id": "ecd7016b-3b3f-4ba5-8857-6975828417a2",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER FB ERROR"
+      }
+    },
+    {
+      "id": "b85d28f4-d04f-43c0-aa48-a24e5c546289",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER FB PERSISTENTS SAVE ERROR"
+      }
+    },
+    {
+      "id": "e396e092-d9b1-4f9a-9e66-e6860b7ad497",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER FIELD GENERIC ERROR"
+      }
+    },
+    {
+      "id": "4fcdde8c-fd29-4b4e-ba68-26911e29c49a",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER MAX TIME OFF ERROR"
+      }
+    },
+    {
+      "id": "16d2ae65-0251-446c-94c9-e4e451efe0f2",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER MAX TIME ON ERROR"
+      }
+    },
+    {
+      "id": "4e0e0f96-871c-41a8-89ce-baad5ef87dc6",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER TUNING TIMEOUT"
+      }
+    },
+    {
+      "id": "7b524705-f3bb-4b13-884f-a5e04e7b3b14",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "OUT_OF_RANGE_ASM - 未就绪(2285)"
+      }
+    },
+    {
+      "id": "e0589709-0efd-476c-b8ee-6be0214ce5d2",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER OUT OF LOWER RANGE"
+      }
+    },
+    {
+      "id": "55f25fab-3f52-4b8c-aa1b-45e9016a4e59",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "HEATER OUT OF UPPER RANGE"
+      }
+    },
+    {
+      "id": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER-参数"
+      }
+    },
+    {
+      "id": "324796a1-d336-4364-a350-a6be5954cc4a",
+      "type": "设备",
+      "properties": {
+        "实体名": "EXTERNAL_PID",
+        "设备类型": "控制器外部参数",
+        "操作方式": "BOOL"
+      }
+    },
+    {
+      "id": "0fac4127-168d-4c3d-a91f-1707d1ed379c",
+      "type": "设备",
+      "properties": {
+        "实体名": "KD_HEATER_EXTERNAL",
+        "设备类型": "导数增益",
+        "操作方式": "DINT"
+      }
+    },
+    {
+      "id": "2d3c6ed1-cfec-4089-b98b-607bb68d4d11",
+      "type": "设备",
+      "properties": {
+        "实体名": "KI_HEATER_EXTERNAL",
+        "设备类型": "积分增益",
+        "操作方式": "DINT"
+      }
+    },
+    {
+      "id": "b79f0c21-35fb-44c1-b55a-7b71e9d7ced3",
+      "type": "设备",
+      "properties": {
+        "实体名": "KP_HEATER_EXTERNAL",
+        "设备类型": "比例增益",
+        "操作方式": "DINT"
+      }
+    },
+    {
+      "id": "b0a146b6-e9b9-4c4c-8b00-9e594e499866",
+      "type": "设备",
+      "properties": {
+        "实体名": "LOWER_RELATIVE_TEMPERATURE",
+        "设备类型": "公差下限",
+        "操作方式": "INT"
+      }
+    },
+    {
+      "id": "749ad49c-294d-48b5-8393-3fbd4eb1bb6d",
+      "type": "设备",
+      "properties": {
+        "实体名": "RUN_MODE_VALUE",
+        "设备类型": "额定运行方式的设定点",
+        "操作方式": "UINT"
+      }
+    },
+    {
+      "id": "4b88fc14-343d-4df5-8a97-1eb86db48668",
+      "type": "设备",
+      "properties": {
+        "实体名": "STANDBY_VALUE",
+        "设备类型": "待机运行方式的设定点",
+        "操作方式": "UINT"
+      }
+    },
+    {
+      "id": "6cc84e04-ba1a-4443-9642-25c59969294a",
+      "type": "设备",
+      "properties": {
+        "实体名": "UPPER_RELATIVE_TEMPERATURE",
+        "设备类型": "公差上限",
+        "操作方式": "INT"
+      }
+    },
+    {
+      "id": "ddba478c-f392-489b-9642-4d8efe9a61d2",
+      "type": "设备",
+      "properties": {
+        "实体名": "PID_OUTPUT_FILTER_EXTERNAL",
+        "设备类型": "输出阶段的过滤器",
+        "操作方式": "DINT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "269efabe-3e2d-4a47-b0fa-5eafe607a394",
+      "to": "ede21660-9aac-48bc-b56f-bd5e5ae3a76a"
+    },
+    {
+      "type": "有功能",
+      "from": "ede21660-9aac-48bc-b56f-bd5e5ae3a76a",
+      "to": "38b521df-ad2d-417c-8f7d-2abf45839c1f"
+    },
+    {
+      "type": "有二级标题",
+      "from": "269efabe-3e2d-4a47-b0fa-5eafe607a394",
+      "to": "00daac9e-2171-4ca8-85c4-57082984d290"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "00daac9e-2171-4ca8-85c4-57082984d290",
+      "to": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "67658bab-0662-461d-bd4e-f602c78d79f4"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "392f0b30-84a9-42fd-966e-b632d8836ed4"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "da95a77d-114b-4d3f-baf6-17eb8b9fc5ee"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "ec952f34-eda2-4447-afc6-9c23bf915896"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "ecd7016b-3b3f-4ba5-8857-6975828417a2"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "b85d28f4-d04f-43c0-aa48-a24e5c546289"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "e396e092-d9b1-4f9a-9e66-e6860b7ad497"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "4fcdde8c-fd29-4b4e-ba68-26911e29c49a"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "16d2ae65-0251-446c-94c9-e4e451efe0f2"
+    },
+    {
+      "type": "有检测异常",
+      "from": "62e20cf8-2ca3-449a-817b-9e53ca8ed4af",
+      "to": "4e0e0f96-871c-41a8-89ce-baad5ef87dc6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "00daac9e-2171-4ca8-85c4-57082984d290",
+      "to": "7b524705-f3bb-4b13-884f-a5e04e7b3b14"
+    },
+    {
+      "type": "有检测异常",
+      "from": "7b524705-f3bb-4b13-884f-a5e04e7b3b14",
+      "to": "e0589709-0efd-476c-b8ee-6be0214ce5d2"
+    },
+    {
+      "type": "有检测异常",
+      "from": "7b524705-f3bb-4b13-884f-a5e04e7b3b14",
+      "to": "55f25fab-3f52-4b8c-aa1b-45e9016a4e59"
+    },
+    {
+      "type": "有二级标题",
+      "from": "269efabe-3e2d-4a47-b0fa-5eafe607a394",
+      "to": "403db3e4-d71f-4921-a964-fcb351f8b7d1"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "324796a1-d336-4364-a350-a6be5954cc4a"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "0fac4127-168d-4c3d-a91f-1707d1ed379c"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "2d3c6ed1-cfec-4089-b98b-607bb68d4d11"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "b79f0c21-35fb-44c1-b55a-7b71e9d7ced3"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "b0a146b6-e9b9-4c4c-8b00-9e594e499866"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "749ad49c-294d-48b5-8393-3fbd4eb1bb6d"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "4b88fc14-343d-4df5-8a97-1eb86db48668"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "6cc84e04-ba1a-4443-9642-25c59969294a"
+    },
+    {
+      "type": "包含设备",
+      "from": "403db3e4-d71f-4921-a964-fcb351f8b7d1",
+      "to": "ddba478c-f392-489b-9642-4d8efe9a61d2"
+    }
+  ]
+}

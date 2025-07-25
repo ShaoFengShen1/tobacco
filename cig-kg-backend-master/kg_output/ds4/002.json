@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PHASE_WINDOW"
+      }
+    },
+    {
+      "id": "b4ac6e53-d7d6-49ac-8e81-da62de783665",
+      "type": "功能",
+      "properties": {
+        "实体名": "PHASE_WINDOW",
+        "功能类型": "在一个开始相位和一个结束相位之间(窗口)产生与电气轴位置相关联的事件"
+      }
+    },
+    {
+      "id": "98c0131d-e4ad-4536-b8e6-23a77dc7afac",
+      "type": "参数",
+      "properties": {
+        "实体名": "BEGIN_PH.PHASE: [LREAL] - 窗口的开始相位(714)"
+      }
+    },
+    {
+      "id": "0ab47198-8cf7-4bec-b2c3-5affc05b23f8",
+      "type": "参数",
+      "properties": {
+        "实体名": "BEGIN_PH.DELAY: [UDINT] - 开始相位的延迟 (883)"
+      }
+    },
+    {
+      "id": "ad8c4c85-ba65-4b46-874e-0a324e298579",
+      "type": "参数",
+      "properties": {
+        "实体名": "BEGIN_PH.MAX_COMPENSATION: [UDINT] - 开始相位的最大补偿 (884)"
+      }
+    },
+    {
+      "id": "e1501711-c1cc-4441-8ba5-c25fc8c58ca1",
+      "type": "参数",
+      "properties": {
+        "实体名": "END_PH.PHASE: [LREAL] - 窗口的结束相位(715)"
+      }
+    },
+    {
+      "id": "92121fd4-8cae-4837-b3f7-aaa6420ba965",
+      "type": "参数",
+      "properties": {
+        "实体名": "END_PH.DELAY: [UDINT] - 结束相位的延迟 (885)"
+      }
+    },
+    {
+      "id": "787ac01c-d7f8-4d7b-8384-b1349ddd9b5b",
+      "type": "参数",
+      "properties": {
+        "实体名": "END_PH.MAX_COMPENSATION: [UDINT] - 结束相位的最大补偿 (886)"
+      }
+    },
+    {
+      "id": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR"
+      }
+    },
+    {
+      "id": "496f0b44-7b7d-4b8a-b136-0547179cb968",
+      "type": "功能",
+      "properties": {
+        "实体名": "DOUBLE_ACTUATOR",
+        "功能类型": "管理双稳态数字执行器,例如,带有电气数字双指令的双重效果的活塞,可能还配备有限位器数字传感器"
+      }
+    },
+    {
+      "id": "2a0fcfc6-9c24-4a97-89f6-613fcf1cd22f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FORWARD_FEM - 向前位置 (3420)"
+      }
+    },
+    {
+      "id": "98aa8006-f5d4-47c4-836c-070cc57d223f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "BACKWARD_FEM - 向后位置 (3421)"
+      }
+    },
+    {
+      "id": "eacd379e-a895-4a6b-9a3d-a598b487bf8d",
+      "type": "参数",
+      "properties": {
+        "实体名": "FORWARD_TIME [UDINT] - 启动时间 (607)"
+      }
+    },
+    {
+      "id": "8d0e4555-f9f7-44ae-83d2-3f54f8cd6da2",
+      "type": "参数",
+      "properties": {
+        "实体名": "BACKWARD_TIME [UDINT] - 免除时间 (608)"
+      }
+    },
+    {
+      "id": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "AXIS"
+      }
+    },
+    {
+      "id": "11654b80-ba9a-46a9-80de-24ea3b5899d3",
+      "type": "功能",
+      "properties": {
+        "实体名": "AXIS",
+        "功能类型": "管理电气轴,控制例如非同步电机、无刷电机、步进式电机、编码器、等等"
+      }
+    },
+    {
+      "id": "97c50299-592b-42b2-a14b-ff40085fb0b2",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "6dbb8769-2e85-408d-a265-98551b93dbde",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "HOME_ASM - 请求电机复位 (592)"
+      }
+    },
+    {
+      "id": "d405d2cf-1f80-4beb-87a5-29fdf6e20728",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "ENCODER_PRESET_ASM - 请求编码器置零 (590)"
+      }
+    },
+    {
+      "id": "77ab9a45-3298-41ec-85d4-de9516f0fc3d",
+      "type": "参数",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KP: [LREAL] - 速度环的比例增益 (595)"
+      }
+    },
+    {
+      "id": "79425785-4f3a-4a1e-868e-30bf6cc74bc1",
+      "type": "参数",
+      "properties": {
+        "实体名": "PARAMETER.CONTROLLER_LOOPS.VELOCITY_LOOP_KI: [LREAL] - 速度环的积分时间 (594)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "b4ac6e53-d7d6-49ac-8e81-da62de783665"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "98c0131d-e4ad-4536-b8e6-23a77dc7afac"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "0ab47198-8cf7-4bec-b2c3-5affc05b23f8"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "ad8c4c85-ba65-4b46-874e-0a324e298579"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "e1501711-c1cc-4441-8ba5-c25fc8c58ca1"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "92121fd4-8cae-4837-b3f7-aaa6420ba965"
+    },
+    {
+      "type": "包含设备",
+      "from": "66e23bd3-4e86-4703-910c-cb0187631dbc",
+      "to": "787ac01c-d7f8-4d7b-8384-b1349ddd9b5b"
+    },
+    {
+      "type": "有功能",
+      "from": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "to": "496f0b44-7b7d-4b8a-b136-0547179cb968"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "to": "2a0fcfc6-9c24-4a97-89f6-613fcf1cd22f"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "to": "98aa8006-f5d4-47c4-836c-070cc57d223f"
+    },
+    {
+      "type": "包含设备",
+      "from": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "to": "eacd379e-a895-4a6b-9a3d-a598b487bf8d"
+    },
+    {
+      "type": "包含设备",
+      "from": "20e7fedf-5447-43e6-9ca3-363a7c5c788e",
+      "to": "8d0e4555-f9f7-44ae-83d2-3f54f8cd6da2"
+    },
+    {
+      "type": "有功能",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "11654b80-ba9a-46a9-80de-24ea3b5899d3"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "97c50299-592b-42b2-a14b-ff40085fb0b2"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "6dbb8769-2e85-408d-a265-98551b93dbde"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "d405d2cf-1f80-4beb-87a5-29fdf6e20728"
+    },
+    {
+      "type": "包含设备",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "77ab9a45-3298-41ec-85d4-de9516f0fc3d"
+    },
+    {
+      "type": "包含设备",
+      "from": "e7bf3483-6ed2-455e-ad12-575a8f853352",
+      "to": "79425785-4f3a-4a1e-868e-30bf6cc74bc1"
+    }
+  ]
+}

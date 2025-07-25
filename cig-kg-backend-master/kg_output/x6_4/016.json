@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "a8884194-4ed3-44dd-9f26-1b56f45a57c0",
+      "type": "设备",
+      "properties": {
+        "实体名": "MULTI_DIGITAL_CAM_TRACK",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "允许管理类型为DIGITAL_CAM_TRACK的多个物体,以便在实体输出上产生数字凸轮。通常用来管理喷胶器等装置。",
+        "缩写": null
+      }
+    },
+    {
+      "id": "5ff5da6f-35ef-4d7f-aa73-a4411107195d",
+      "type": "功能",
+      "properties": {
+        "实体名": "FORCE_OUTPUT_FREQUENCY",
+        "功能类型": "手动清洁频率"
+      }
+    },
+    {
+      "id": "caa0f144-6b2e-4f0b-a788-748d26bbf1f2",
+      "type": "设备",
+      "properties": {
+        "实体名": "PWM",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": "通过宽脉冲式调频技术PULSE_WIDTH_MODULATION产生一个两极数字波形",
+        "操作细节": "波形可在 \"digital_output\" 上重复产生,以便获得具有波形特征的信号。",
+        "缩写": null
+      }
+    },
+    {
+      "id": "dc0251af-88d5-4c7e-b813-0562ba71aaa0",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 3.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_900_313_629_1185_365_0.jpg"
+      }
+    },
+    {
+      "id": "868b6a19-97e6-4348-9bd8-59d9dd002257",
+      "type": "设备",
+      "properties": {
+        "实体名": "BUTTON_ENCODER",
+        "设备类型": "数据库对象",
+        "位置": null,
+        "操作方式": "管理带有按钮的圆钮",
+        "操作细节": "通常被用在按钮盘上,以便管理在手动运行过程中的机器速度。",
+        "缩写": null
+      }
+    },
+    {
+      "id": "51f249d6-61d2-4529-86b2-c2d2eb37e2ff",
+      "type": "设备",
+      "properties": {
+        "实体名": "第五轮上真空压力调节器",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2A1199"
+      }
+    },
+    {
+      "id": "f2dc9814-133a-464e-8f5e-6b67bb359ff3",
+      "type": "设备",
+      "properties": {
+        "实体名": "气流",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2A1940"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有功能",
+      "from": "a8884194-4ed3-44dd-9f26-1b56f45a57c0",
+      "to": "5ff5da6f-35ef-4d7f-aa73-a4411107195d"
+    },
+    {
+      "type": "有图片",
+      "from": "caa0f144-6b2e-4f0b-a788-748d26bbf1f2",
+      "to": "dc0251af-88d5-4c7e-b813-0562ba71aaa0"
+    }
+  ]
+}

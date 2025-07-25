@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "c5e7ff04-e8e5-402b-96b5-f032ac30920c",
+      "type": "设备",
+      "properties": {
+        "实体名": "2S5135 - 内框纸右导轨平台的吸气探测",
+        "设备类型": "传感器",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "探测出缺少材料",
+        "缩写": "2S5135"
+      }
+    },
+    {
+      "id": "e5ae6d34-2064-4f11-8d1c-e9608ea60e73",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "1ea8d6dc-67ae-4da8-a90a-3af593962c5d",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 内框纸粘带/边缘:缺少 报警信号"
+      }
+    },
+    {
+      "id": "df2e9da3-2180-402d-9e10-313927fb3212",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出 typology OBLIGATION 内框纸粘带 / 边缘位置:右边 信号"
+      }
+    },
+    {
+      "id": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "多通道控制器 SMC PSE201-B4C 4 通道"
+      }
+    },
+    {
+      "id": "89b090d8-8eef-40db-ba38-7bbe2c5c9d79",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "调节每个通道的数值",
+        "操作描述": "使得传感器能够探测出相应缓冲台或吸气平台上是否有材料存在"
+      }
+    },
+    {
+      "id": "b9cef3dd-3632-4f09-a3c4-8e15b0d6c60b",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "免除功能AUTO IDENTIFICATION FUNCTION RESETTING",
+        "操作描述": "默认值是Aon (Auto identification ON), 并应设定为Aof(Auto identification OFF)"
+      }
+    },
+    {
+      "id": "028e8196-129b-469b-8d83-01625cdfac00",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "为了进入完整的菜单",
+        "操作描述": "同时按下按钮DOWN和SET持续2秒钟"
+      }
+    },
+    {
+      "id": "fee00259-e4e5-44c9-b85f-17e3bed050f2",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "按下3次按钮SET,并通过按钮UP / DOWN设定: AOF",
+        "操作描述": "SET (以便退出)"
+      }
+    },
+    {
+      "id": "70345157-e2d6-4b2d-8d7b-b874a81318b9",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 160",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_345_256_781_1055_790_0.jpg"
+      }
+    },
+    {
+      "id": "8a8d0fef-a4bf-40ef-828e-d9d907d6c37a",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 161",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_346_334_323_1077_781_0.jpg"
+      }
+    },
+    {
+      "id": "488bd98e-b5f3-4bb8-bddf-d285dcced048",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 162",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_346_331_1210_1069_794_0.jpg"
+      }
+    },
+    {
+      "id": "211cdf20-ec6d-456f-a612-fc4e137e71fc",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "材料处理/拼接/循环"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "c5e7ff04-e8e5-402b-96b5-f032ac30920c",
+      "to": "e5ae6d34-2064-4f11-8d1c-e9608ea60e73"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c5e7ff04-e8e5-402b-96b5-f032ac30920c",
+      "to": "1ea8d6dc-67ae-4da8-a90a-3af593962c5d"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "c5e7ff04-e8e5-402b-96b5-f032ac30920c",
+      "to": "df2e9da3-2180-402d-9e10-313927fb3212"
+    },
+    {
+      "type": "有校准部件",
+      "from": "c5e7ff04-e8e5-402b-96b5-f032ac30920c",
+      "to": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5"
+    },
+    {
+      "type": "有校准操作",
+      "from": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5",
+      "to": "89b090d8-8eef-40db-ba38-7bbe2c5c9d79"
+    },
+    {
+      "type": "有校准操作",
+      "from": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5",
+      "to": "b9cef3dd-3632-4f09-a3c4-8e15b0d6c60b"
+    },
+    {
+      "type": "有校准操作",
+      "from": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5",
+      "to": "028e8196-129b-469b-8d83-01625cdfac00"
+    },
+    {
+      "type": "有校准操作",
+      "from": "e6f4f6a3-1631-4cfb-af3e-5cdac30de0d5",
+      "to": "fee00259-e4e5-44c9-b85f-17e3bed050f2"
+    },
+    {
+      "type": "有图片",
+      "from": "211cdf20-ec6d-456f-a612-fc4e137e71fc",
+      "to": "70345157-e2d6-4b2d-8d7b-b874a81318b9"
+    },
+    {
+      "type": "有图片",
+      "from": "211cdf20-ec6d-456f-a612-fc4e137e71fc",
+      "to": "8a8d0fef-a4bf-40ef-828e-d9d907d6c37a"
+    },
+    {
+      "type": "有图片",
+      "from": "211cdf20-ec6d-456f-a612-fc4e137e71fc",
+      "to": "488bd98e-b5f3-4bb8-bddf-d285dcced048"
+    }
+  ]
+}

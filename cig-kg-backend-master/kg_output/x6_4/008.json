@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "63957461-2242-4698-999b-4c91837a676a",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "取样误差的校正百分比,若小于由参数SECOND_AREA.THRESHOLD: [LREAL]表达的最大极限值。"
+      }
+    },
+    {
+      "id": "14bf3b0d-7e2a-4b34-ac98-5e8daaf6e5ce",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "THIRD_AREA.THRESHOLD: [LREAL] (0)"
+      }
+    },
+    {
+      "id": "5e23331c-8c5e-462c-ad9f-33ab051c274c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "取样误差所应该保持的极限,以便能够执行由参数THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT] 表达的校正百分比。"
+      }
+    },
+    {
+      "id": "91ef0a7f-6fdc-478c-ae0c-06df8907a645",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT] (0)"
+      }
+    },
+    {
+      "id": "c9d3afd7-29f7-4544-ba59-38a17bffda52",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "取样误差的校正百分比,若小于由参数THIRD_AREA.THRESHOLD: [LREAL]表达的最大极限值。"
+      }
+    },
+    {
+      "id": "7e40b239-338d-47cd-b48b-0dc4dedf02a0",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "REFERENCE_PHASE.PHASE: [LREAL] - 检测相位(712)"
+      }
+    },
+    {
+      "id": "05d379b1-31b6-4978-b363-7c11c0ae0abe",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "执行检测时的相位。"
+      }
+    },
+    {
+      "id": "f61fec36-f340-401a-a2a1-668850bad2ce",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - 引起停机的连续剔除次数(3968)"
+      }
+    },
+    {
+      "id": "07542e0a-600d-4fa0-ba55-f54af6444169",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "当取样误差数值表示在由参数FIRST_AREA.THRESHOLD: [LREAL]设定的第一临界值与由参数 SECOND_AREA.THRESHOLD: [LREAL]设定的第二临界值之间时连续检测的最大次数。"
+      }
+    },
+    {
+      "id": "3e38c64d-9113-43ae-837d-b2c298b4c5f6",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "若达到该数值,则会发出相应信息SECOND_AREA_CHECK_SECTION_TOO MANY_FAILED_CHECKS_AEM."
+      }
+    },
+    {
+      "id": "a1a5ce88-49a0-4548-8584-d52f61a2f317",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "THIRD_AREA_CHECK_SECTION.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - (0) 当取样误差数值表示在由参数SECOND_AREA. THRESHOLD: [LREAL]设定的第二临界值与 THIRD_AREA. THRESHOLD: [LREAL]. 设定的第三临界值之间时连续检测的最大次数。"
+      }
+    },
+    {
+      "id": "cdf67d47-ad90-4942-b46d-3afbc6400c58",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "若达到该数值,则会发出相应信息THRID_AREA_CHECK_SECTION TOO MANY_FAILED_CHECK"
+      }
+    },
+    {
+      "id": "3d945d7e-85f7-4512-b33c-a72fc220d5a0",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "MISSING SIGNAL CHECK SECTION.MAX CONSECUTIVE FAILED CHECKS: [UDINT] - (0) 在没有对材料位置进行取样期间连续检测的最大次数。"
+      }
+    },
+    {
+      "id": "ebc96ede-8b55-4375-9283-43c970176621",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "若达到该数值,则会发出相应信息MISSING_SIGNAL_CHECK_SECTION TOO_MANY_FAILED_CHECKS_AEM."
+      }
+    },
+    {
+      "id": "119a815a-198f-4253-a6a0-a1be99a47c1a",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR"
+      }
+    },
+    {
+      "id": "efda6995-f91f-460d-aa8a-87f1c700e088",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR计算正在松卷中材料卷盘直径的正确值。"
+      }
+    },
+    {
+      "id": "e669a702-45fc-4111-aff6-cae7df63683a",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "为此, 可使用相应的松卷轴, 以便计算卷盘的圈数, 以及读取材料缓冲器填满程度的相应模拟输入。"
+      }
+    },
+    {
+      "id": "48bb2cca-2ae8-4848-b33a-aa27bac543f3",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIAMETER_ESTIMATOR-参数:"
+      }
+    },
+    {
+      "id": "4076d9a3-37a5-4202-b073-cfda87194ffc",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "MAX_DIAMETER: [DINT] - 最大直径 (2699) 设定允许的最大直径值。"
+      }
+    },
+    {
+      "id": "0f49d965-db34-4607-84eb-2681ea8be5d0",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "MIN_DIAMETER: [DINT] - 最小直径 (2700) 设定允许的最小直径值。"
+      }
+    },
+    {
+      "id": "19422634-bd38-425f-8a5c-3a8155b12a6f",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "UNWINDER"
+      }
+    },
+    {
+      "id": "db3e6ad9-b80b-4e71-9147-5f570acea3da",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "UNWINDER通过电气轴来管理材料松卷。"
+      }
+    },
+    {
+      "id": "fb5274a3-8ef4-4953-8459-5a26c0c844db",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "与一个主轴、实际轴或者虚拟轴结合在一起,以便啮合在一起:执行凸轮轮廓,并作必要的校正。"
+      }
+    },
+    {
+      "id": "a0815ad5-5349-4833-87f1-66798c14b0fb",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "UNWINDER-信息"
+      }
+    },
+    {
+      "id": "df651567-0362-4088-b856-8351da8ac20d",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "PRODUCT_CORRECTION_DISABLED_WSM - 校正被免除(2850)"
+      }
+    },
+    {
+      "id": "4ec3500a-961e-4d60-9162-52433dd9ae9e",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "State message: 当校正功能通过参数免除时被显示,该参数为 PRODUCT_CORRECTION_ENABLE: [BOOL]."
+      }
+    },
+    {
+      "id": "0ef481d9-d893-45ca-b893-9470fd411e9e",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION. FAULT_FSM - 故障 (831)"
+      }
+    },
+    {
+      "id": "7a575616-e937-4813-b35c-52723fa8b06f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "State message: 当出现轴的一般错误时被显示。"
+      }
+    },
+    {
+      "id": "ac583228-f97f-4455-a20d-907e06f82b21",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "错误编码被列在Error_ID 1,2,3.上。"
+      }
+    },
+    {
+      "id": "77ceb9a8-0b77-44f5-976d-df1c15179980",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "这些编号详细列在Information System Beckhoff上。"
+      }
+    },
+    {
+      "id": "e56ecf16-b3d7-4cdd-bbcb-2f05f428f6c1",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.HOME_ASM - (0)"
+      }
+    },
+    {
+      "id": "6e87bdc0-630e-4517-aa73-bdf043707dca",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "State message: 当复位程序没有被正确执行时被显示。"
+      }
+    },
+    {
+      "id": "1c3e28d0-c19e-42ac-a397-878e5c31f8aa",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "VIRTUAL_CORRECTION.ENCODER_PRESET_ASM - (0)"
+      }
+    },
+    {
+      "id": "d0e517e9-089d-4c10-b88c-7ef7e4f86e2c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "State message: 在请求轴线位置初始化之后被显示。"
+      }
+    },
+    {
+      "id": "af5719cc-b497-4413-9245-b3c8ee68ebae",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "UNWINDER-参数:"
+      }
+    },
+    {
+      "id": "57d7e514-ce2e-4cc8-9b98-566590bbe97b",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING: [LREAL] - 圆周(2701)"
+      }
+    },
+    {
+      "id": "6f566b52-d460-4256-8cd8-708fd6937689",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "设定产品质量的数值。"
+      }
+    },
+    {
+      "id": "f3e2e04c-ed33-415c-9ae6-561486d3ed0c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "MAX_NEGATIVE_CORRECTION: [LREAL] -"
+      }
+    },
+    {
+      "id": "7908a7e0-dfdd-412f-adbd-17f044f9f691",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "设定负值校正的极限值,若参数PRODUCT_CORRECTION_ENABLE:[BOOL] 被启用。"
+      }
+    },
+    {
+      "id": "42658ce4-bac0-401c-8874-88ea5d11bdd0",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "MAX_POSITIVE_CORRECTION: [LREAL] - 最大校正的正值(2652)"
+      }
+    },
+    {
+      "id": "8216deb0-3d55-42c4-b56f-aa1c0053179a",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "设定正值校正的极限值,若参数PRODUCT_CORRECTION_ENABLE:[BOOL]被启用。"
+      }
+    },
+    {
+      "id": "c8446ee9-dd89-4a77-ade0-954899e73424",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "PRODUCT_UNWINDING_TRADE_OFF: [LREAL] - 微调 (3633)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "119a815a-198f-4253-a6a0-a1be99a47c1a",
+      "to": "48bb2cca-2ae8-4848-b33a-aa27bac543f3"
+    },
+    {
+      "type": "有二级标题",
+      "from": "19422634-bd38-425f-8a5c-3a8155b12a6f",
+      "to": "a0815ad5-5349-4833-87f1-66798c14b0fb"
+    },
+    {
+      "type": "有二级标题",
+      "from": "19422634-bd38-425f-8a5c-3a8155b12a6f",
+      "to": "af5719cc-b497-4413-9245-b3c8ee68ebae"
+    }
+  ]
+}

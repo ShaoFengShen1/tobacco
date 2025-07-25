@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "id": "88714fe1-dd9a-4cde-bb4e-d6d3458afba1",
+      "type": "参数",
+      "properties": {
+        "实体名": "RUN_MODE_VALUE: [UINT] - 额定运行方式的设定点 (733)"
+      }
+    },
+    {
+      "id": "af32ce38-20cb-4008-91d9-b220217e63ea",
+      "type": "参数",
+      "properties": {
+        "实体名": "STANDBY_VALUE: [UINT] - 待机运行方式的设定点 (734)"
+      }
+    },
+    {
+      "id": "131f7c8d-131e-472f-80ad-e89e5a59f268",
+      "type": "参数",
+      "properties": {
+        "实体名": "UPPER_RELATIVE_TEMPERATURE: [INT] - 公差上限(728)"
+      }
+    },
+    {
+      "id": "710d3ede-a7ec-46bb-b613-1d36503387a3",
+      "type": "参数",
+      "properties": {
+        "实体名": "PID_OUTPUT_FILTER_EXTERNAL: [DINT] - 输出阶段的过滤器 (730)"
+      }
+    },
+    {
+      "id": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR"
+      }
+    },
+    {
+      "id": "8b517697-7a89-406e-a87a-d574db5e9a84",
+      "type": "设备",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR",
+        "设备类型": "数字执行器"
+      }
+    },
+    {
+      "id": "3a5ed8d8-062c-4621-a3a3-dc05b7d83394",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "ACTIVE_FEM - 启动(1101)"
+      }
+    },
+    {
+      "id": "f98c7421-1a5f-4839-ab9e-0c3fa00e0daa",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "INACTIVE_FEM - 免除 (2876)"
+      }
+    },
+    {
+      "id": "4d54d4af-6cb5-4a91-8205-6a723e7e33e9",
+      "type": "参数",
+      "properties": {
+        "实体名": "ACTIVE_TIME [UDINT] - 启动时间 (607)"
+      }
+    },
+    {
+      "id": "66d76a3a-1a33-4d8b-9414-89f741c7b4a7",
+      "type": "参数",
+      "properties": {
+        "实体名": "INACTIVE_TIME [UDINT] - 免除时间 (608)"
+      }
+    },
+    {
+      "id": "6cefc87b-bf7e-4ab4-ac28-439b280bc781",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER"
+      }
+    },
+    {
+      "id": "821febea-61c0-446b-909d-52d3dad85c5b",
+      "type": "设备",
+      "properties": {
+        "实体名": "FILTER",
+        "设备类型": "过滤器"
+      }
+    },
+    {
+      "id": "548ae099-92c8-4b93-9cb1-499eb20778a9",
+      "type": "参数",
+      "properties": {
+        "实体名": "DELAY_OFF_ON: [DINT] - 过滤器从熄灭状态到开启状态(1067)"
+      }
+    },
+    {
+      "id": "bc2fb874-3ec4-47dc-8999-a10d709bacfa",
+      "type": "参数",
+      "properties": {
+        "实体名": "DELAY_ON_OFF: [DINT] - 过滤器从开启状态到熄灭状态(1066)"
+      }
+    },
+    {
+      "id": "7c8b7ad2-7479-41ef-bfb8-7570a1f77f97",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER"
+      }
+    },
+    {
+      "id": "3862e3c3-43b8-477b-81bb-fe28c66d71b6",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER",
+        "设备类型": "产品调整器"
+      }
+    },
+    {
+      "id": "6feed8a7-ada1-4560-8932-b6401bbc88fb",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SECOND_AREA_CHECK_SECTION. TOO_MANY_FAILED_CHECKS_AEM - 剔除太多 (2867)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "to": "8b517697-7a89-406e-a87a-d574db5e9a84"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "to": "3a5ed8d8-062c-4621-a3a3-dc05b7d83394"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "to": "f98c7421-1a5f-4839-ab9e-0c3fa00e0daa"
+    },
+    {
+      "type": "有参数",
+      "from": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "to": "4d54d4af-6cb5-4a91-8205-6a723e7e33e9"
+    },
+    {
+      "type": "有参数",
+      "from": "18bd008e-843a-4b01-ab31-c67628e298fc",
+      "to": "66d76a3a-1a33-4d8b-9414-89f741c7b4a7"
+    },
+    {
+      "type": "包含设备",
+      "from": "6cefc87b-bf7e-4ab4-ac28-439b280bc781",
+      "to": "821febea-61c0-446b-909d-52d3dad85c5b"
+    },
+    {
+      "type": "有参数",
+      "from": "6cefc87b-bf7e-4ab4-ac28-439b280bc781",
+      "to": "548ae099-92c8-4b93-9cb1-499eb20778a9"
+    },
+    {
+      "type": "有参数",
+      "from": "6cefc87b-bf7e-4ab4-ac28-439b280bc781",
+      "to": "bc2fb874-3ec4-47dc-8999-a10d709bacfa"
+    },
+    {
+      "type": "包含设备",
+      "from": "7c8b7ad2-7479-41ef-bfb8-7570a1f77f97",
+      "to": "3862e3c3-43b8-477b-81bb-fe28c66d71b6"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "7c8b7ad2-7479-41ef-bfb8-7570a1f77f97",
+      "to": "6feed8a7-ada1-4560-8932-b6401bbc88fb"
+    }
+  ]
+}

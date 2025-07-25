@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "type": "设备",
+      "properties": {
+        "实体名": "PRODUCT_ADJUSTER",
+        "设备类型": "位置检测设备",
+        "位置": null,
+        "操作方式": null,
+        "操作细节": "管理材料(产品)的位置检测",
+        "缩写": null
+      }
+    },
+    {
+      "id": "d9685836-1ff2-4470-a01d-d09838e4d5e8",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "检测没有正常完成"
+      }
+    },
+    {
+      "id": "5b821e21-9ded-4551-9bd5-0f5428b812ff",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "将把剔除信息设定相应的位移寄存器上"
+      }
+    },
+    {
+      "id": "4f138015-46e2-4f81-a74d-bf68f47bad9c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 剔除太多 (2867)"
+      }
+    },
+    {
+      "id": "43386122-d665-4c82-b363-ba34a5aebd08",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SINGLE_FAILED_CHECK_AEM - (0)"
+      }
+    },
+    {
+      "id": "fa2c754a-70d2-499a-8cea-69f8cef0da20",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 对中误差 (2467)"
+      }
+    },
+    {
+      "id": "5ba75857-438e-4170-8bc2-52c5b8d0fd28",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SINGLE_FAILED_CHECK_AEM - (0)"
+      }
+    },
+    {
+      "id": "2e51ac59-9d90-441f-ab6c-067485c7d531",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 没有信号 (3921)"
+      }
+    },
+    {
+      "id": "7c401ad5-b02c-40ae-b2c5-3bfc8a049c28",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "SINGLE_FAILED_CHECK_AEM - (0)"
+      }
+    },
+    {
+      "id": "36acc674-dab3-44ad-b4f4-2a25bffc5cc0",
+      "type": "参数",
+      "properties": {
+        "实体名": "STEP:[DINT] - 工步(710)"
+      }
+    },
+    {
+      "id": "c984c365-0e2c-4762-b092-0bbef78f152a",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIRST_STEP_TO_WRITE_OFFSET: [DINT] - 所需写入的第一工步偏移(3837)"
+      }
+    },
+    {
+      "id": "2af8ce6f-ded8-4bf2-8cf2-c6b8a6a8759e",
+      "type": "参数",
+      "properties": {
+        "实体名": "NUMBER_OF_STEPS_TO_WRITE: [DINT] - 所需写入的工步数量(717)"
+      }
+    },
+    {
+      "id": "5bb8b7f4-62cd-4500-b66f-7d0c1b5e98e8",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIRST_AREA. THRESHOLD: [LREAL] - 引起剔除的最小误差 (3628)"
+      }
+    },
+    {
+      "id": "c766a4b0-65dc-471e-87c7-96d1660fc4b4",
+      "type": "参数",
+      "properties": {
+        "实体名": "FIRST_AREA.ADJUSTMENT_PERCENTAGE: [DINT] - (0)"
+      }
+    },
+    {
+      "id": "5b43e084-d5fe-416b-a916-0ebfe5ce62de",
+      "type": "参数",
+      "properties": {
+        "实体名": "SECOND_AREA.THRESHOLD: [LREAL] - 引起停机最小误差(3629)"
+      }
+    },
+    {
+      "id": "311796ae-3c38-4e8c-aa51-b093deaca25c",
+      "type": "参数",
+      "properties": {
+        "实体名": "SECOND_AREA.ADJUSTMENT_PERCENTAGE: [DINT] (0)"
+      }
+    },
+    {
+      "id": "c9b3e4ca-c7d4-4084-adc0-336b80d65f76",
+      "type": "参数",
+      "properties": {
+        "实体名": "THIRD_AREA.THRESHOLD: [LREAL] (0)"
+      }
+    },
+    {
+      "id": "5297a859-8586-4124-8003-e087c291ea09",
+      "type": "参数",
+      "properties": {
+        "实体名": "THIRD_AREA.ADJUSTMENT_PERCENTAGE: [DINT] (0)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有检测异常",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "d9685836-1ff2-4470-a01d-d09838e4d5e8"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d9685836-1ff2-4470-a01d-d09838e4d5e8",
+      "to": "5b821e21-9ded-4551-9bd5-0f5428b812ff"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "4f138015-46e2-4f81-a74d-bf68f47bad9c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "43386122-d665-4c82-b363-ba34a5aebd08"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "fa2c754a-70d2-499a-8cea-69f8cef0da20"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "5ba75857-438e-4170-8bc2-52c5b8d0fd28"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "2e51ac59-9d90-441f-ab6c-067485c7d531"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "7c401ad5-b02c-40ae-b2c5-3bfc8a049c28"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "36acc674-dab3-44ad-b4f4-2a25bffc5cc0"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "c984c365-0e2c-4762-b092-0bbef78f152a"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "2af8ce6f-ded8-4bf2-8cf2-c6b8a6a8759e"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "5bb8b7f4-62cd-4500-b66f-7d0c1b5e98e8"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "c766a4b0-65dc-471e-87c7-96d1660fc4b4"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "5b43e084-d5fe-416b-a916-0ebfe5ce62de"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "311796ae-3c38-4e8c-aa51-b093deaca25c"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "c9b3e4ca-c7d4-4084-adc0-336b80d65f76"
+    },
+    {
+      "type": "有参数",
+      "from": "4e3d10f2-9f12-434a-8881-e7a620a54353",
+      "to": "5297a859-8586-4124-8003-e087c291ea09"
+    }
+  ]
+}

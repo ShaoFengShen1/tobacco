@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "TRIGGER_AND_CHECK"
+      }
+    },
+    {
+      "id": "e68f4df0-96a3-45ff-b150-7a75984fadbe",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "TOO_MANY_FAILED_CHECKS_AEM - 连续失误检测的最大次数 (663)"
+      }
+    },
+    {
+      "id": "5dfe0964-b04d-4855-bd9f-5507ad7b60f5",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_AEM - 编码顺序无效(923)"
+      }
+    },
+    {
+      "id": "f8762085-9792-4978-8bd3-7a17af4f2a35",
+      "type": "参数",
+      "properties": {
+        "实体名": "ENGINE. TRIGGER_STEP: [DINT] - 触发器工步(667)"
+      }
+    },
+    {
+      "id": "aa07000f-369f-4104-8e78-332c51d97bdd",
+      "type": "参数",
+      "properties": {
+        "实体名": "ENGINE.TRIGGER_POSITION: [DINT] - 触发器位置 (666)"
+      }
+    },
+    {
+      "id": "6db871fd-6942-4fa3-b644-9bfcaefc402c",
+      "type": "参数",
+      "properties": {
+        "实体名": "ENGINE.MAX_CONSECUTIVE_FAILED_CHECKS: [UDINT] - 连续失误检测的最大次数 (663)"
+      }
+    },
+    {
+      "id": "fe8adc37-211c-48c8-8963-f16ae5be7169",
+      "type": "参数",
+      "properties": {
+        "实体名": "ENGINE.MAX_FAILED_CHECKS_PERCENTAGE: [UDINT] - 失误检测的最大百分比(664)"
+      }
+    },
+    {
+      "id": "358b7147-74da-441b-abf9-7083436ce72c",
+      "type": "参数",
+      "properties": {
+        "实体名": "ENGINE.PRODUCT_FOR_FAILED_CHECKS_PERCENTAGE: [UDINT] - 用于计算失误检测的产品数量(665)"
+      }
+    },
+    {
+      "id": "680dd69d-c562-4777-b50f-5d43b99086b0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER"
+      }
+    },
+    {
+      "id": "fc481252-6612-4072-bc0d-e6d307f32992",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有诊断信息",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "e68f4df0-96a3-45ff-b150-7a75984fadbe"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "5dfe0964-b04d-4855-bd9f-5507ad7b60f5"
+    },
+    {
+      "type": "包含设备",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "f8762085-9792-4978-8bd3-7a17af4f2a35"
+    },
+    {
+      "type": "包含设备",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "aa07000f-369f-4104-8e78-332c51d97bdd"
+    },
+    {
+      "type": "包含设备",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "6db871fd-6942-4fa3-b644-9bfcaefc402c"
+    },
+    {
+      "type": "包含设备",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "fe8adc37-211c-48c8-8963-f16ae5be7169"
+    },
+    {
+      "type": "包含设备",
+      "from": "27187fb7-6845-42c2-94a2-6bbbb9d1eaa6",
+      "to": "358b7147-74da-441b-abf9-7083436ce72c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "680dd69d-c562-4777-b50f-5d43b99086b0",
+      "to": "fc481252-6612-4072-bc0d-e6d307f32992"
+    }
+  ]
+}

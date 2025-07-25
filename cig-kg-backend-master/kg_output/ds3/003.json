@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "75c08682-15ba-4443-acf6-d24bff4f2e2f",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "03 驱动器 裹包线 X6"
+      }
+    },
+    {
+      "id": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y913 - 控制一第三轮产品剔除",
+        "设备类型": "执行器",
+        "操作方式": "启动/免除",
+        "操作细节": "第三轮的剔除运动",
+        "缩写": "2Y913"
+      }
+    },
+    {
+      "id": "ab74b543-c25e-44ff-b4ee-3e041828469d",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CONTROL_SECTION-参数:,页 5-15"
+      }
+    },
+    {
+      "id": "50acbd62-012c-4f6d-84ff-6ad099af605f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 失效:第三轮上烟包剔除"
+      }
+    },
+    {
+      "id": "e5a1466b-10cb-44c7-8ce8-97dd5d88759f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 无请求第三轮烟包剔除"
+      }
+    },
+    {
+      "id": "e24b3e10-e693-4fb1-8164-133b2e023996",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 从鼓轮上取掉无烟包的盒片的报警信号"
+      }
+    },
+    {
+      "id": "b53f3435-4bf5-4c3c-aacb-36aca11108de",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology OBLIGATION 打开前护罩并排除烟包信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "75c08682-15ba-4443-acf6-d24bff4f2e2f",
+      "to": "43350572-e408-43f9-bf0d-06af45c0ae9a"
+    },
+    {
+      "type": "有参见",
+      "from": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "to": "ab74b543-c25e-44ff-b4ee-3e041828469d"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "to": "50acbd62-012c-4f6d-84ff-6ad099af605f"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "to": "e5a1466b-10cb-44c7-8ce8-97dd5d88759f"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "to": "e24b3e10-e693-4fb1-8164-133b2e023996"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "43350572-e408-43f9-bf0d-06af45c0ae9a",
+      "to": "b53f3435-4bf5-4c3c-aacb-36aca11108de"
+    }
+  ]
+}

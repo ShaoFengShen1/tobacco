@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "43adee73-5a27-40ec-8bf0-101d2c71ebbd",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[10]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3a37f49e-1475-4930-b824-21f3c67fbb53",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "c9d7ec68-f4d9-451d-b942-0b2dffbc7970",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[11]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "3be5ecbb-06e0-478c-b376-f312a8a13c8f",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "596767eb-ea2e-4b22-8a73-50b733a100e8",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[12]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "9f86fd9c-2424-47de-ac14-083b8eaea86a",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "9eb485c5-84dd-4f77-ab3a-5121e215b209",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[13]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "8e53f649-8dba-4074-a5b5-1ffbb0732257",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "d6833665-e5dc-4532-adac-3510fc70577f",
+      "type": "设备",
+      "properties": {
+        "实体名": "产品流/烟支料库/烟槽/组件/缺少检测[14]",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "c4d64554-0ec9-4cac-b4b5-5f08ae2e6f3a",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "43adee73-5a27-40ec-8bf0-101d2c71ebbd",
+      "to": "3a37f49e-1475-4930-b824-21f3c67fbb53"
+    },
+    {
+      "type": "有参见",
+      "from": "c9d7ec68-f4d9-451d-b942-0b2dffbc7970",
+      "to": "3be5ecbb-06e0-478c-b376-f312a8a13c8f"
+    },
+    {
+      "type": "有参见",
+      "from": "596767eb-ea2e-4b22-8a73-50b733a100e8",
+      "to": "9f86fd9c-2424-47de-ac14-083b8eaea86a"
+    },
+    {
+      "type": "有参见",
+      "from": "9eb485c5-84dd-4f77-ab3a-5121e215b209",
+      "to": "8e53f649-8dba-4074-a5b5-1ffbb0732257"
+    },
+    {
+      "type": "有参见",
+      "from": "d6833665-e5dc-4532-adac-3510fc70577f",
+      "to": "c4d64554-0ec9-4cac-b4b5-5f08ae2e6f3a"
+    }
+  ]
+}

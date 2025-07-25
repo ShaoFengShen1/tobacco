@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "8c3f7174-1f26-425e-8b80-25717e07aff2",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/烟支梁架/光电探测器/空头"
+      }
+    },
+    {
+      "id": "9fe6c65d-374f-48ed-b849-295d0c3a5b2d",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "2fae2dfb-bbc0-436c-8c22-b9b3e133651c",
+      "type": "设备",
+      "properties": {
+        "实体名": "空头剔除站",
+        "设备类型": "剔除站",
+        "位置": "与烟支上烟丝和滤嘴存在的探测和检查相关",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "13030db4-67b9-4141-90d4-4356a84341e0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "第一轮入口处铝箔纸对齐"
+      }
+    },
+    {
+      "id": "0309fee9-2eab-4b49-9cea-52fdd02c120d",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2B248",
+        "设备类型": "传感器",
+        "位置": "第一轮上",
+        "操作方式": "探测",
+        "操作细节": "铝箔纸的存在",
+        "缩写": "2B248"
+      }
+    },
+    {
+      "id": "b3577e13-2f4d-4ca8-b992-f6b4fb418468",
+      "type": "功能",
+      "properties": {
+        "实体名": "存在功能",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "45dd1624-23fe-424a-b783-757dea21e15b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "78f46c82-7ed5-4ab1-8eb2-78383fafcbf3",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第一轮无铝箔纸 ( 参见 CHECK_SECTION-信息,页 5-9)报警信号"
+      }
+    },
+    {
+      "id": "7884bf30-291f-45dc-ae64-04ec666a8f4f",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "铝箔纸纸张还是不存在"
+      }
+    },
+    {
+      "id": "4b219eaa-24e8-48bf-90e0-fa2d8a192b6a",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "传感器在裹包线上探测出纸张材料过多"
+      }
+    },
+    {
+      "id": "febd556d-bd35-4b16-acab-7c05ff2ade3b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第一轮上存在不期望的铝箔纸(参见 CHECK_SECTION-信息,页 5-9) 报警信号"
+      }
+    },
+    {
+      "id": "d53468f6-3a70-4a90-be8c-e076ab0b14b6",
+      "type": "功能",
+      "properties": {
+        "实体名": "效用功能",
+        "功能类型": "效用功能"
+      }
+    },
+    {
+      "id": "c277c28b-70e2-46be-94b9-bbb37781b444",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 第一轮铝箔纸存在:检测失效( 参见 CHECK_SECTION-信息,页 5-9) 的报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "8c3f7174-1f26-425e-8b80-25717e07aff2",
+      "to": "9fe6c65d-374f-48ed-b849-295d0c3a5b2d"
+    },
+    {
+      "type": "包含设备",
+      "from": "8c3f7174-1f26-425e-8b80-25717e07aff2",
+      "to": "2fae2dfb-bbc0-436c-8c22-b9b3e133651c"
+    },
+    {
+      "type": "有功能",
+      "from": "0309fee9-2eab-4b49-9cea-52fdd02c120d",
+      "to": "b3577e13-2f4d-4ca8-b992-f6b4fb418468"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7884bf30-291f-45dc-ae64-04ec666a8f4f",
+      "to": "45dd1624-23fe-424a-b783-757dea21e15b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7884bf30-291f-45dc-ae64-04ec666a8f4f",
+      "to": "78f46c82-7ed5-4ab1-8eb2-78383fafcbf3"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "4b219eaa-24e8-48bf-90e0-fa2d8a192b6a",
+      "to": "45dd1624-23fe-424a-b783-757dea21e15b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "4b219eaa-24e8-48bf-90e0-fa2d8a192b6a",
+      "to": "febd556d-bd35-4b16-acab-7c05ff2ade3b"
+    },
+    {
+      "type": "有功能",
+      "from": "0309fee9-2eab-4b49-9cea-52fdd02c120d",
+      "to": "d53468f6-3a70-4a90-be8c-e076ab0b14b6"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d53468f6-3a70-4a90-be8c-e076ab0b14b6",
+      "to": "45dd1624-23fe-424a-b783-757dea21e15b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "d53468f6-3a70-4a90-be8c-e076ab0b14b6",
+      "to": "c277c28b-70e2-46be-94b9-bbb37781b444"
+    }
+  ]
+}

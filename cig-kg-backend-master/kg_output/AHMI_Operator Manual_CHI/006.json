@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "429166e6-79fa-4beb-bb66-b0e455f55a84",
+      "name": "参数",
+      "type": "参数",
+      "properties": {
+        "修改细节": "收集在参数上所作的所有修改细节"
+      }
+    },
+    {
+      "id": "cc4383a3-dbef-4b2b-a2b4-5755c51f4a4e",
+      "name": "区域(12)",
+      "type": "区域",
+      "properties": {
+        "显示": "新的数值"
+      }
+    },
+    {
+      "id": "d384add1-e486-4252-a8dc-be096c219f51",
+      "name": "区域(13)",
+      "type": "区域",
+      "properties": {
+        "显示": "参照配方"
+      }
+    },
+    {
+      "id": "31d47385-3aad-47f2-96a8-3428f3cc4759",
+      "name": "区域(14)",
+      "type": "区域",
+      "properties": {
+        "显示": "执行修改的用户"
+      }
+    },
+    {
+      "id": "6b5e92c0-cb39-4ab6-a1d0-fdd5de264f81",
+      "name": "区域(15)",
+      "type": "区域",
+      "properties": {
+        "显示": "执行修改的环境"
+      }
+    },
+    {
+      "id": "a5147022-273a-4f31-889a-c8ddb10f95af",
+      "name": "区域(16)",
+      "type": "区域",
+      "properties": {
+        "显示": "参数修改的日期与时间"
+      }
+    },
+    {
+      "id": "f7ea0a98-a47a-426b-9958-dd5188ba952c",
+      "name": "参数浏览",
+      "type": "功能",
+      "properties": {
+        "描述": "当在参数浏览上，尝试改变某个参数或某个旋钮的数值"
+      }
+    },
+    {
+      "id": "0b189f2d-6a6d-4c87-b6cf-26a6289f3cf7",
+      "name": "弹出视窗",
+      "type": "界面元素",
+      "properties": {
+        "信息种类": "带有信息的弹出视窗"
+      }
+    },
+    {
+      "id": "9978534e-663d-4e4a-9983-8e5b9be934ab",
+      "name": "用户页面",
+      "type": "界面",
+      "properties": {
+        "功能": "参数浏览"
+      }
+    },
+    {
+      "id": "63013962-c1fb-4346-9bec-ad76a66cea58",
+      "name": "按钮“范围选择– (Choose Purpose)”",
+      "type": "按钮",
+      "properties": {
+        "功能": "过滤器，允许选择所需浏览的各种参数子集合"
+      }
+    },
+    {
+      "id": "720dc1c0-3dab-4fcf-8811-0318faf63a71",
+      "name": "按钮“主旋钮– (Main selectors)",
+      "type": "按钮",
+      "properties": null
+    },
+    {
+      "id": "d53e4cab-539a-4b85-9eaa-84a77c91bb76",
+      "name": "按钮“产品特征– (Product features)",
+      "type": "按钮",
+      "properties": null
+    },
+    {
+      "id": "0c63fdb8-e87e-444b-87c9-c46576c0ab31",
+      "name": "按钮“质量– (Quality)",
+      "type": "按钮",
+      "properties": null
+    },
+    {
+      "id": "6f6e9133-eb45-459e-b6f8-e1aa3db0f7f7",
+      "name": "按钮“免除检测– (Excluding Checks)",
+      "type": "按钮",
+      "properties": null
+    },
+    {
+      "id": "9c37649d-e1d4-40a7-8007-f3a0db011651",
+      "name": "机器种类选择的按钮(6)",
+      "type": "按钮",
+      "properties": {
+        "位置": "左上方"
+      }
+    },
+    {
+      "id": "19e14245-ca20-442c-bc6a-a80596de6e19",
+      "name": "构成在标题上显示的物体的材料(7)",
+      "type": "材料",
+      "properties": {
+        "位置": "页面的右边"
+      }
+    },
+    {
+      "id": "34f6950d-18ce-47ca-bc9b-42092ddedfb1",
+      "name": "按钮“Ok – (Ok)",
+      "type": "按钮",
+      "properties": {
+        "功能": "确认操作"
+      }
+    },
+    {
+      "id": "32c11cd0-22e3-48c1-8dc4-083ef08eaa9a",
+      "name": "按钮“外部装置– (External devices)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入用于机器检测和产品检查的辅助装置的子菜单"
+      }
+    },
+    {
+      "id": "0b019e29-3bcc-4bbd-a209-4e632afd8509",
+      "name": "按钮“统计– (Statistics)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入性能显示的总页面"
+      }
+    },
+    {
+      "id": "32270bb9-2dce-409b-99a1-80fb54064481",
+      "name": "按钮(2)",
+      "type": "按钮",
+      "properties": {
+        "功能": "返回到前班次上"
+      }
+    },
+    {
+      "id": "249e947f-2d31-4e1b-b2b4-e6ce3956cc79",
+      "name": "按钮(3)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入后面的班次上"
+      }
+    },
+    {
+      "id": "a7fdca9c-cf61-4b4c-b8d2-888c036b240d",
+      "name": "箭头(4)",
+      "type": "界面元素",
+      "properties": {
+        "功能": "打开显示所有设定的并有数据的班次的组合框"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "显示",
+      "type": "显示",
+      "from": "cc4383a3-dbef-4b2b-a2b4-5755c51f4a4e",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "显示",
+      "type": "显示",
+      "from": "d384add1-e486-4252-a8dc-be096c219f51",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "显示",
+      "type": "显示",
+      "from": "31d47385-3aad-47f2-96a8-3428f3cc4759",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "显示",
+      "type": "显示",
+      "from": "6b5e92c0-cb39-4ab6-a1d0-fdd5de264f81",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "显示",
+      "type": "显示",
+      "from": "a5147022-273a-4f31-889a-c8ddb10f95af",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "包含",
+      "type": "包含",
+      "from": "f7ea0a98-a47a-426b-9958-dd5188ba952c",
+      "to": "0b189f2d-6a6d-4c87-b6cf-26a6289f3cf7"
+    },
+    {
+      "name": "有效",
+      "type": "有效",
+      "from": "9978534e-663d-4e4a-9983-8e5b9be934ab",
+      "to": "f7ea0a98-a47a-426b-9958-dd5188ba952c"
+    },
+    {
+      "name": "过滤",
+      "type": "过滤",
+      "from": "63013962-c1fb-4346-9bec-ad76a66cea58",
+      "to": "720dc1c0-3dab-4fcf-8811-0318faf63a71"
+    },
+    {
+      "name": "过滤",
+      "type": "过滤",
+      "from": "63013962-c1fb-4346-9bec-ad76a66cea58",
+      "to": "d53e4cab-539a-4b85-9eaa-84a77c91bb76"
+    },
+    {
+      "name": "过滤",
+      "type": "过滤",
+      "from": "63013962-c1fb-4346-9bec-ad76a66cea58",
+      "to": "0c63fdb8-e87e-444b-87c9-c46576c0ab31"
+    },
+    {
+      "name": "过滤",
+      "type": "过滤",
+      "from": "63013962-c1fb-4346-9bec-ad76a66cea58",
+      "to": "6f6e9133-eb45-459e-b6f8-e1aa3db0f7f7"
+    },
+    {
+      "name": "选择",
+      "type": "选择",
+      "from": "9c37649d-e1d4-40a7-8007-f3a0db011651",
+      "to": "19e14245-ca20-442c-bc6a-a80596de6e19"
+    },
+    {
+      "name": "确认",
+      "type": "确认",
+      "from": "34f6950d-18ce-47ca-bc9b-42092ddedfb1",
+      "to": "429166e6-79fa-4beb-bb66-b0e455f55a84"
+    },
+    {
+      "name": "进入",
+      "type": "进入",
+      "from": "32c11cd0-22e3-48c1-8dc4-083ef08eaa9a",
+      "to": "0b019e29-3bcc-4bbd-a209-4e632afd8509"
+    },
+    {
+      "name": "导航",
+      "type": "导航",
+      "from": "32270bb9-2dce-409b-99a1-80fb54064481",
+      "to": "0b019e29-3bcc-4bbd-a209-4e632afd8509"
+    },
+    {
+      "name": "导航",
+      "type": "导航",
+      "from": "249e947f-2d31-4e1b-b2b4-e6ce3956cc79",
+      "to": "0b019e29-3bcc-4bbd-a209-4e632afd8509"
+    },
+    {
+      "name": "打开",
+      "type": "打开",
+      "from": "a7fdca9c-cf61-4b4c-b8d2-888c036b240d",
+      "to": "0b019e29-3bcc-4bbd-a209-4e632afd8509"
+    }
+  ]
+}

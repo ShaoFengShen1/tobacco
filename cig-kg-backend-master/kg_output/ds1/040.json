@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "id": "2c762288-e61e-49c6-a216-04fec0cca507",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "空头检测"
+      }
+    },
+    {
+      "id": "49fcbba1-4f98-4ebe-ac67-96a9157fc14e",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "c8db0267-0ac1-4b76-966c-ee724cf91264",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "2f4cbb2b-9837-4bfd-bb31-4fc51f3b2b43",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 光电探测器插件板无信号而剔除(参见 CHECK_SECTION-信息,页 5-9) 的报警信号"
+      }
+    },
+    {
+      "id": "e9646b77-e1eb-4eed-a56b-e4d5994f990b",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "校准:3个DIELL光电管的前端/后端光电探测器组件"
+      }
+    },
+    {
+      "id": "3a6fc583-309b-4354-80ff-b80ef0b0faf5",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 75.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_171_257_874_1055_748_0.jpg"
+      }
+    },
+    {
+      "id": "090d02d5-387b-4218-babc-bc5a024dfd02",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/烟支梁架/光电探测器/相位窗口"
+      }
+    },
+    {
+      "id": "5cec6243-997e-46dc-92eb-81eec4e6c717",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 PHASE_WINDOW-参数: , 页 5-17"
+      }
+    },
+    {
+      "id": "fe2edc5f-63fd-426d-b8e9-43b60b65560e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/烟支梁架/光电探测器/检测"
+      }
+    },
+    {
+      "id": "bd40dc2b-3db9-48f4-9fa6-4c772a132c26",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "fc8d2d4a-58bf-4fc7-b7e4-ba9cb4bb92f0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "产品流/裹包线/烟支梁架/光电探测器/空头"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "2c762288-e61e-49c6-a216-04fec0cca507",
+      "to": "49fcbba1-4f98-4ebe-ac67-96a9157fc14e"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2c762288-e61e-49c6-a216-04fec0cca507",
+      "to": "c8db0267-0ac1-4b76-966c-ee724cf91264"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "2c762288-e61e-49c6-a216-04fec0cca507",
+      "to": "2f4cbb2b-9837-4bfd-bb31-4fc51f3b2b43"
+    },
+    {
+      "type": "有图片",
+      "from": "e9646b77-e1eb-4eed-a56b-e4d5994f990b",
+      "to": "3a6fc583-309b-4354-80ff-b80ef0b0faf5"
+    },
+    {
+      "type": "有参见",
+      "from": "090d02d5-387b-4218-babc-bc5a024dfd02",
+      "to": "5cec6243-997e-46dc-92eb-81eec4e6c717"
+    },
+    {
+      "type": "有参见",
+      "from": "fe2edc5f-63fd-426d-b8e9-43b60b65560e",
+      "to": "bd40dc2b-3db9-48f4-9fa6-4c772a132c26"
+    }
+  ]
+}

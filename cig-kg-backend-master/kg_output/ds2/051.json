@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "943894af-28d9-4ce8-9c1a-8da9280ecbcb",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "在每次电机上出现错误 (这使得其位置不确定) 时, 或者在机器开启时, 系统将控制一次合并器复位循环"
+      }
+    },
+    {
+      "id": "a762bb0f-255f-4955-a7c6-3c38ade790e8",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出报警信息typology ABNORMAL 打开抽出器护罩"
+      }
+    },
+    {
+      "id": "b6448d2a-6d56-4fa9-b88e-51467762b48b",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "当合并器的机器相位为固定时,将不断检查复位传感器的位置:检查是否在某个公差范围内"
+      }
+    },
+    {
+      "id": "61f2a87d-ab24-4d1d-874b-fa8f0e9a6f4b",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "c536a964-3bf9-47f2-b8be-54c84ce045d6",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 抽出器电机复位未找到 ( 参见 CHECK_SECTION-信息, 页 5-9) 的报警信号"
+      }
+    },
+    {
+      "id": "08fe994c-76f2-42b2-b02b-28988263075d",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "系统允许的复位传感器搜寻的最大距离等于合并器组件转动的四个整圈, 直至完成程序"
+      }
+    },
+    {
+      "id": "cee1632d-afa4-40fa-8fb0-e972b08d92fa",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 抽出器电机复位未找到 ( 参见 AXIS-信息, 页 5-21)的报警信号"
+      }
+    },
+    {
+      "id": "f3b0d16e-ab80-4768-963e-bfd69adb8a95",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "报警信息typology ABNORMAL 抽出器电机跟踪误差 ( 参见 AXIS-信息, 页 5-21)识别电机的一个错误, 即: 超过在软件上定义的速度和加速度的最高允许极限值"
+      }
+    },
+    {
+      "id": "8c8efd2d-6b0b-4ee3-b1a2-3ab409d878c5",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "激光光电管 DATASENSOR S40 - PH - M03 - PH/950401290"
+      }
+    },
+    {
+      "id": "045d1d50-c7be-4a58-8bed-8672015162f0",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "在传感器前面没有齿时,执行程序EASY TOUCH"
+      }
+    },
+    {
+      "id": "b6d6369a-9a2b-460e-9bd7-5f4a1ea1d599",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "在读取受到干扰的情况下, 还可尝试 “微调采集” 程序"
+      }
+    },
+    {
+      "id": "b2e97119-e382-43e2-9f24-79716d6c830a",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "EASY TOUCH TM (标准采集)"
+      }
+    },
+    {
+      "id": "9a1d52c3-26bc-4f5f-b55e-ec70ba67a218",
+      "type": "校准操作",
+      "properties": {
+        "实体名": "微调采集"
+      }
+    },
+    {
+      "id": "a5550f63-9976-4a6f-99e8-6314a7e8ab12",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S4509",
+        "设备类型": "传感器",
+        "位置": "出口烟包合并器护罩",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S4509"
+      }
+    },
+    {
+      "id": "f7937e52-8917-4e62-a031-2e48e84fd118",
+      "type": "功能",
+      "properties": {
+        "实体名": "传感器2S4509发出包装机出口组件活动护罩的打开状态",
+        "功能类型": "检测功能"
+      }
+    },
+    {
+      "id": "0735eb88-edce-4398-a03a-0877f8d1d3db",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若活动护罩被打开,让传感器介入"
+      }
+    },
+    {
+      "id": "4a24ce88-261c-4f68-aea3-66afdaa209f5",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "8f4a5d61-25fb-4005-b573-f6c5e5c507e6",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 抽取器护门打开(参见 SAFETY_INTEGRATED_OBJECT-信息,页 5-3) 的报警信号"
+      }
+    },
+    {
+      "id": "f2b1caa3-222b-4275-af8b-aca3eb5f79fb",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "若在预定时间内没有探测出锁定"
+      }
+    },
+    {
+      "id": "dc5da4ae-fc3e-4359-8df3-5720740810aa",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology EMERGENCY 护罩故障 ( 参见 SAFETY_INTEGRATED_OBJECT-信息, 页 5-3)警告信号"
+      }
+    },
+    {
+      "id": "05c8e06b-3697-4a08-ac06-6737e8f5fad0",
+      "type": "图片",
+      "properties": {
+        "实体名": null,
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_483_253_319_1047_798_0.jpg"
+      }
+    },
+    {
+      "id": "496109fb-baca-4bf8-a4e5-a9b704ec2f5b",
+      "type": "图片",
+      "properties": {
+        "实体名": null,
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_484_567_1104_821_790_0.jpg"
+      }
+    },
+    {
+      "id": "59bec23a-c96a-44c0-8e3e-6731a3257332",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器2S4525",
+        "设备类型": "传感器",
+        "位置": "烟包合并器的位置检测",
+        "操作方式": null,
+        "操作细节": null,
+        "缩写": "2S4525"
+      }
+    },
+    {
+      "id": "33738bf9-ee43-4a06-996b-27c9c56d571e",
+      "type": "功能",
+      "properties": {
+        "实体名": "传感器2S4525检查整个烟包合并器组件的正确位置",
+        "功能类型": "检测功能"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "导致异常动作",
+      "from": "943894af-28d9-4ce8-9c1a-8da9280ecbcb",
+      "to": "a762bb0f-255f-4955-a7c6-3c38ade790e8"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "b6448d2a-6d56-4fa9-b88e-51467762b48b",
+      "to": "61f2a87d-ab24-4d1d-874b-fa8f0e9a6f4b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "b6448d2a-6d56-4fa9-b88e-51467762b48b",
+      "to": "c536a964-3bf9-47f2-b8be-54c84ce045d6"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "08fe994c-76f2-42b2-b02b-28988263075d",
+      "to": "61f2a87d-ab24-4d1d-874b-fa8f0e9a6f4b"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "08fe994c-76f2-42b2-b02b-28988263075d",
+      "to": "cee1632d-afa4-40fa-8fb0-e972b08d92fa"
+    },
+    {
+      "type": "有校准操作",
+      "from": "8c8efd2d-6b0b-4ee3-b1a2-3ab409d878c5",
+      "to": "045d1d50-c7be-4a58-8bed-8672015162f0"
+    },
+    {
+      "type": "有校准操作",
+      "from": "8c8efd2d-6b0b-4ee3-b1a2-3ab409d878c5",
+      "to": "b6d6369a-9a2b-460e-9bd7-5f4a1ea1d599"
+    },
+    {
+      "type": "有校准操作",
+      "from": "8c8efd2d-6b0b-4ee3-b1a2-3ab409d878c5",
+      "to": "b2e97119-e382-43e2-9f24-79716d6c830a"
+    },
+    {
+      "type": "有校准操作",
+      "from": "8c8efd2d-6b0b-4ee3-b1a2-3ab409d878c5",
+      "to": "9a1d52c3-26bc-4f5f-b55e-ec70ba67a218"
+    },
+    {
+      "type": "有功能",
+      "from": "a5550f63-9976-4a6f-99e8-6314a7e8ab12",
+      "to": "f7937e52-8917-4e62-a031-2e48e84fd118"
+    },
+    {
+      "type": "有检测异常",
+      "from": "a5550f63-9976-4a6f-99e8-6314a7e8ab12",
+      "to": "0735eb88-edce-4398-a03a-0877f8d1d3db"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "0735eb88-edce-4398-a03a-0877f8d1d3db",
+      "to": "4a24ce88-261c-4f68-aea3-66afdaa209f5"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "0735eb88-edce-4398-a03a-0877f8d1d3db",
+      "to": "8f4a5d61-25fb-4005-b573-f6c5e5c507e6"
+    },
+    {
+      "type": "有检测异常",
+      "from": "a5550f63-9976-4a6f-99e8-6314a7e8ab12",
+      "to": "f2b1caa3-222b-4275-af8b-aca3eb5f79fb"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "f2b1caa3-222b-4275-af8b-aca3eb5f79fb",
+      "to": "dc5da4ae-fc3e-4359-8df3-5720740810aa"
+    },
+    {
+      "type": "有功能",
+      "from": "59bec23a-c96a-44c0-8e3e-6731a3257332",
+      "to": "33738bf9-ee43-4a06-996b-27c9c56d571e"
+    }
+  ]
+}

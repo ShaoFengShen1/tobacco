@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "dc998a00-68c9-4988-b814-7548327714fc",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER-参数"
+      }
+    },
+    {
+      "id": "aa1dc2ac-94a8-4fe3-a45e-e363e9b526d4",
+      "type": "设备",
+      "properties": {
+        "实体名": "EXTERNAL_PID",
+        "设备类型": "BOOL",
+        "操作细节": "控制器外部参数 (723)"
+      }
+    },
+    {
+      "id": "a3446482-df2e-4119-a330-44183b6dc2f3",
+      "type": "设备",
+      "properties": {
+        "实体名": "KD_HEATER_EXTERNAL",
+        "设备类型": "DINT",
+        "操作细节": "导数增益 (724)"
+      }
+    },
+    {
+      "id": "a99e33eb-4816-4a5a-baa4-73e09ee05082",
+      "type": "设备",
+      "properties": {
+        "实体名": "KI_HEATER_EXTERNAL",
+        "设备类型": "DINT",
+        "操作细节": "积分增益(725)"
+      }
+    },
+    {
+      "id": "3cdccbf3-7170-4a18-bb70-ae67df14ef8b",
+      "type": "设备",
+      "properties": {
+        "实体名": "KP_HEATER_EXTERNAL",
+        "设备类型": "DINT",
+        "操作细节": "比例增益(729)"
+      }
+    },
+    {
+      "id": "7415db7f-3c46-4b94-b6da-db34da037508",
+      "type": "设备",
+      "properties": {
+        "实体名": "LOWER_RELATIVE_TEMPERATURE",
+        "设备类型": "INT",
+        "操作细节": "公差下限(727)"
+      }
+    },
+    {
+      "id": "482d13aa-6f21-41c8-bc9a-0abe6c61a797",
+      "type": "设备",
+      "properties": {
+        "实体名": "RUN_MODE_VALUE",
+        "设备类型": "UINT",
+        "操作细节": "额定运行方式的设定点 (733)"
+      }
+    },
+    {
+      "id": "bcec2539-08ce-49e1-96eb-77dd3e054fce",
+      "type": "设备",
+      "properties": {
+        "实体名": "STANDBY_VALUE",
+        "设备类型": "UINT",
+        "操作细节": "待机运行方式的设定点 (734)"
+      }
+    },
+    {
+      "id": "57d39315-c1f9-4894-9147-2266e2918196",
+      "type": "设备",
+      "properties": {
+        "实体名": "UPPER_RELATIVE_TEMPERATURE",
+        "设备类型": "INT",
+        "操作细节": "公差上限(728)"
+      }
+    },
+    {
+      "id": "34cb51db-07af-4050-8d38-c82ffdcaf75e",
+      "type": "设备",
+      "properties": {
+        "实体名": "PID_OUTPUT_FILTER_EXTERNAL",
+        "设备类型": "DINT",
+        "操作细节": "输出阶段的过滤器 (730)"
+      }
+    },
+    {
+      "id": "e131482a-0575-4dd6-ab88-8bed3419f0a0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR"
+      }
+    },
+    {
+      "id": "e3f0ffa7-9790-464a-bc2b-85b1fc1b75c8",
+      "type": "设备",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR",
+        "操作细节": "允许管理数字执行器,例如,电气控制的活塞,可能还配备有限位器数字传感器。"
+      }
+    },
+    {
+      "id": "796e2235-99b2-4da9-b5a6-6d1a9541f375",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR-信息"
+      }
+    },
+    {
+      "id": "ee748927-a37c-4989-89c2-fd25bba4437c",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "ACTIVE_FEM",
+        "操作细节": "启动(1101)"
+      }
+    },
+    {
+      "id": "2791771c-7845-4a7c-94a2-081de01cac6b",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "INACTIVE_FEM",
+        "操作细节": "免除 (2876)"
+      }
+    },
+    {
+      "id": "98d91137-e23f-4b6e-9d03-7914601b5f03",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "DIGITAL_ACTUATOR-参数"
+      }
+    },
+    {
+      "id": "1608f66a-4b47-4aea-9636-03d7177a1fce",
+      "type": "设备",
+      "properties": {
+        "实体名": "ACTIVE_TIME",
+        "设备类型": "UDINT",
+        "操作细节": "启动时间 (607)"
+      }
+    },
+    {
+      "id": "686a3aee-d9a0-4288-b6df-7553417777a4",
+      "type": "设备",
+      "properties": {
+        "实体名": "INACTIVE_TIME",
+        "设备类型": "UDINT",
+        "操作细节": "免除时间 (608)"
+      }
+    },
+    {
+      "id": "7c9b8625-b5f6-459d-a7f1-e3c8ed3959a0",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER"
+      }
+    },
+    {
+      "id": "cd9a7f72-f9e8-40a9-804a-2a34184f3e21",
+      "type": "设备",
+      "properties": {
+        "实体名": "FILTER",
+        "操作细节": "产生一个相对于任何逻辑水平信号的延迟事件。"
+      }
+    },
+    {
+      "id": "9709eebf-6954-41ca-b5e7-b30e64fcc5be",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "FILTER - 参数"
+      }
+    },
+    {
+      "id": "e9b9520d-b859-45fc-844b-ae6a7dd725c4",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_OFF_ON",
+        "设备类型": "DINT",
+        "操作细节": "过滤器从熄灭状态到开启状态(1067)"
+      }
+    },
+    {
+      "id": "71be6891-af13-4e54-9c09-6a74bcfd29e4",
+      "type": "设备",
+      "properties": {
+        "实体名": "DELAY_ON_OFF",
+        "设备类型": "DINT",
+        "操作细节": "过滤器从开启状态到熄灭状态(1066)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "aa1dc2ac-94a8-4fe3-a45e-e363e9b526d4"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "a3446482-df2e-4119-a330-44183b6dc2f3"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "a99e33eb-4816-4a5a-baa4-73e09ee05082"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "3cdccbf3-7170-4a18-bb70-ae67df14ef8b"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "7415db7f-3c46-4b94-b6da-db34da037508"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "482d13aa-6f21-41c8-bc9a-0abe6c61a797"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "bcec2539-08ce-49e1-96eb-77dd3e054fce"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "57d39315-c1f9-4894-9147-2266e2918196"
+    },
+    {
+      "type": "包含设备",
+      "from": "dc998a00-68c9-4988-b814-7548327714fc",
+      "to": "34cb51db-07af-4050-8d38-c82ffdcaf75e"
+    },
+    {
+      "type": "包含设备",
+      "from": "e131482a-0575-4dd6-ab88-8bed3419f0a0",
+      "to": "e3f0ffa7-9790-464a-bc2b-85b1fc1b75c8"
+    },
+    {
+      "type": "包含设备",
+      "from": "796e2235-99b2-4da9-b5a6-6d1a9541f375",
+      "to": "ee748927-a37c-4989-89c2-fd25bba4437c"
+    },
+    {
+      "type": "包含设备",
+      "from": "796e2235-99b2-4da9-b5a6-6d1a9541f375",
+      "to": "2791771c-7845-4a7c-94a2-081de01cac6b"
+    },
+    {
+      "type": "包含设备",
+      "from": "98d91137-e23f-4b6e-9d03-7914601b5f03",
+      "to": "1608f66a-4b47-4aea-9636-03d7177a1fce"
+    },
+    {
+      "type": "包含设备",
+      "from": "98d91137-e23f-4b6e-9d03-7914601b5f03",
+      "to": "686a3aee-d9a0-4288-b6df-7553417777a4"
+    },
+    {
+      "type": "包含设备",
+      "from": "7c9b8625-b5f6-459d-a7f1-e3c8ed3959a0",
+      "to": "cd9a7f72-f9e8-40a9-804a-2a34184f3e21"
+    },
+    {
+      "type": "包含设备",
+      "from": "9709eebf-6954-41ca-b5e7-b30e64fcc5be",
+      "to": "e9b9520d-b859-45fc-844b-ae6a7dd725c4"
+    },
+    {
+      "type": "包含设备",
+      "from": "9709eebf-6954-41ca-b5e7-b30e64fcc5be",
+      "to": "71be6891-af13-4e54-9c09-6a74bcfd29e4"
+    }
+  ]
+}

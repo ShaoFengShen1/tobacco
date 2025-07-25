@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "id": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "ANALOG_OUTPUT"
+      }
+    },
+    {
+      "id": "3a437123-2cc5-4b60-9849-801dad7d3ed0",
+      "type": "设备",
+      "properties": {
+        "实体名": "ANALOG_OUTPUT",
+        "设备类型": "执行器",
+        "操作方式": "PLC编辑的数字式数值",
+        "操作细节": "激活类似的一个振幅",
+        "缩写": null
+      }
+    },
+    {
+      "id": "7ac49ddc-0be4-4eb7-9cc2-df47823cd638",
+      "type": "图片",
+      "properties": {
+        "实体名": "ANALOG_OUTPUT-参数",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_882_506_648_719_574_0.jpg"
+      }
+    },
+    {
+      "id": "e5c3500c-ef71-4c6c-b4aa-1055f96a6499",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.XA_W: REAL"
+      }
+    },
+    {
+      "id": "51ca7269-a80a-44fb-a1d2-165d1d08dde1",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.YA_W : REAL"
+      }
+    },
+    {
+      "id": "145f9faa-c068-4af4-b39e-f3923ce13cde",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.XB_W : REAL"
+      }
+    },
+    {
+      "id": "967797c7-cfa3-478f-9d1e-475fd478f2b1",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.YB_W : REAL"
+      }
+    },
+    {
+      "id": "8818b169-1508-4eb9-b8e9-7029d8158f4d",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "425e6e60-74b5-405b-a507-6e4e19fbbc0c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "dee0bddc-7adf-42ec-80e3-a323cdcf5ff0",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "9fc298a0-da9d-4762-82b3-4c025b79a0a8",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "FIELD_ELE.Y_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "bff25d95-752f-41e6-924b-8d4a8ea9e4fc",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.XA_W: REAL - 点 A: 电气数值(3496)"
+      }
+    },
+    {
+      "id": "e512a37c-0f2b-4f45-8f66-6c289891eca2",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.YA_W: REAL - 点 A: 物理数值(3498)"
+      }
+    },
+    {
+      "id": "2f15d6bb-10e0-4622-8b93-ad93dc1cc63a",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.XB_W: REAL - 点 B: 电气数值(3497)"
+      }
+    },
+    {
+      "id": "cf55f36e-77b3-4f72-8b78-8dd64138f554",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.YB_W: REAL - 点 B: 物理数值(3499)"
+      }
+    },
+    {
+      "id": "62714314-2de0-4372-b1dd-3c9231e3af89",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.X_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "b4851f3d-fab0-4455-846a-cfb22eff888e",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.X_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "290a5bd2-2a55-4a23-8854-6e55b7156b12",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MIN_W: REAL"
+      }
+    },
+    {
+      "id": "1d90b179-9ec4-449a-a64f-c36e05411cdd",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "ELE_PHY.Y_MAX_W: REAL"
+      }
+    },
+    {
+      "id": "e7d2afea-3955-46ea-ba05-e3d9130359e1",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "STEPPER_DRIVE"
+      }
+    },
+    {
+      "id": "ed658335-bf30-4091-9f96-273fabb91c6c",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEPPER_DRIVE",
+        "设备类型": "驱动器",
+        "操作方式": "控制步进式电机",
+        "操作细节": "分为4种主要类型",
+        "缩写": null
+      }
+    },
+    {
+      "id": "bc1383a6-87fc-432e-9a0a-0f264f461dd1",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "3a437123-2cc5-4b60-9849-801dad7d3ed0"
+    },
+    {
+      "type": "有图片",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "7ac49ddc-0be4-4eb7-9cc2-df47823cd638"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "e5c3500c-ef71-4c6c-b4aa-1055f96a6499"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "51ca7269-a80a-44fb-a1d2-165d1d08dde1"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "145f9faa-c068-4af4-b39e-f3923ce13cde"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "967797c7-cfa3-478f-9d1e-475fd478f2b1"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "8818b169-1508-4eb9-b8e9-7029d8158f4d"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "425e6e60-74b5-405b-a507-6e4e19fbbc0c"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "dee0bddc-7adf-42ec-80e3-a323cdcf5ff0"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "9fc298a0-da9d-4762-82b3-4c025b79a0a8"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "bff25d95-752f-41e6-924b-8d4a8ea9e4fc"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "e512a37c-0f2b-4f45-8f66-6c289891eca2"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "2f15d6bb-10e0-4622-8b93-ad93dc1cc63a"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "cf55f36e-77b3-4f72-8b78-8dd64138f554"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "62714314-2de0-4372-b1dd-3c9231e3af89"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "b4851f3d-fab0-4455-846a-cfb22eff888e"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "290a5bd2-2a55-4a23-8854-6e55b7156b12"
+    },
+    {
+      "type": "有附加描述",
+      "from": "4ad5aaa9-3946-4cdc-a880-2a02726937a9",
+      "to": "1d90b179-9ec4-449a-a64f-c36e05411cdd"
+    },
+    {
+      "type": "包含设备",
+      "from": "e7d2afea-3955-46ea-ba05-e3d9130359e1",
+      "to": "ed658335-bf30-4091-9f96-273fabb91c6c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "ed658335-bf30-4091-9f96-273fabb91c6c",
+      "to": "bc1383a6-87fc-432e-9a0a-0f264f461dd1"
+    }
+  ]
+}

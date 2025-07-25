@@ -1,0 +1,263 @@
+{
+  "nodes": [
+    {
+      "id": "343db673-9cbe-4eb4-8491-44b2d87db10b",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片叠传送带的驱动电机"
+      }
+    },
+    {
+      "id": "2af5c9f8-6efe-4bc4-b158-45d6f8a74340",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M974 - 盒片叠传送带的驱动电机",
+        "设备类型": "电机",
+        "缩写": "2M974",
+        "操作方式": "由机器软件控制",
+        "操作细节": "将盒片叠传送到盒片供给组件上"
+      }
+    },
+    {
+      "id": "ee237c1f-d78b-476b-bb79-0af79c0af59a",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 输送带上缺盒片叠报警信号"
+      }
+    },
+    {
+      "id": "f2db8fbd-cc64-45ac-aa9e-aeb0136419fb",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片叠椅子倾斜电机"
+      }
+    },
+    {
+      "id": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M3231 - 盒片叠椅子倾斜电机",
+        "设备类型": "电机",
+        "缩写": "2M3231",
+        "操作方式": "由模块2A3231 - 盒片叠椅子倾斜电机驱动"
+      }
+    },
+    {
+      "id": "2da1ed93-f4f8-4e0a-9b26-5c7ae915402b",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片叠椅子向上限位器 - 盒片叠椅子向下限位器,页 2-375"
+      }
+    },
+    {
+      "id": "21800961-07fb-4c04-8910-53ba8c65e213",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片叠椅子向上限位器 - 盒片叠椅子向下限位器,页 2-375"
+      }
+    },
+    {
+      "id": "8042d38a-fa85-44b7-b0fd-072c60716b80",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒片叠转移盘异位的报警信号"
+      }
+    },
+    {
+      "id": "08cebe7d-fa73-4162-acfc-71be43a94c65",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒片叠椅子前移倾斜超时(参见 DOUBLE_ACTUATOR-信息,页 5-19) 报警信号"
+      }
+    },
+    {
+      "id": "8866403f-1002-4224-8e5f-cbccdffbfe19",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒边叠传送杆返回倾斜超时( 参见 DOUBLE_ACTUATOR-信息, 页 5-19) 的报警信号"
+      }
+    },
+    {
+      "id": "d2e94004-d33e-496e-8287-d63fbcfe48f4",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片叠椅子转动电机"
+      }
+    },
+    {
+      "id": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "type": "设备",
+      "properties": {
+        "实体名": "2M3232 - 盒片叠椅子转动电机",
+        "设备类型": "电机",
+        "缩写": "2M3232",
+        "操作方式": "由模块2A3232 - 盒片叠椅子转动电机驱动"
+      }
+    },
+    {
+      "id": "55a18fda-7851-4c2e-b07d-1d991b3b3b47",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片叠椅子转动电机的卸载限位器 - 盒片叠椅子转动电机的装载限位器,页 2-373"
+      }
+    },
+    {
+      "id": "97f0ed9f-8334-4c48-8098-6919c37b3b7c",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片叠椅子转动电机的卸载限位器 - 盒片叠椅子转动电机的装载限位器,页 2-373"
+      }
+    },
+    {
+      "id": "782ec2ad-3a73-4209-95f5-8d88418c7624",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒片叠转移盘异位的报警信号"
+      }
+    },
+    {
+      "id": "0ce7fdea-4e61-4ad6-86e2-75964d029cac",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒边叠传送杆向前转动超时 ( 参见 DOUBLE_ACTUATOR-信息, 页 5-19) 报警信号"
+      }
+    },
+    {
+      "id": "0b7a2a4a-a303-4812-98ec-2bc5b05b51ed",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 盒边叠传送杆返回转动超时( 参见 DOUBLE_ACTUATOR-信息,页 5-19) 的报警信号"
+      }
+    },
+    {
+      "id": "5600bfb5-485f-4ed4-8d09-831e61805e88",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "盒片料库钳子打开驱动装置"
+      }
+    },
+    {
+      "id": "cbbdcf7a-5617-46d3-aefa-e70fdd166d3b",
+      "type": "设备",
+      "properties": {
+        "实体名": "2Y929 - 控制一盒片臂爪张开",
+        "设备类型": "执行器",
+        "缩写": "2Y929",
+        "操作方式": "由机器软件启动(钳子打开)和免除(钳子关闭)"
+      }
+    },
+    {
+      "id": "c27e737f-344a-4522-82b3-19ebff6b4ee9",
+      "type": "参见",
+      "properties": {
+        "实体名": "盒片料库夹钳关闭的效用检测,页 2-389"
+      }
+    },
+    {
+      "id": "723d2288-45b8-4323-bea6-501ace63a609",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 故障:盒片料库传送臂闭合( 参见 DIGITAL_ACTUATOR-信息,页 5-29) 报警信号"
+      }
+    },
+    {
+      "id": "ba3ff5d2-a7ba-4aaa-b806-955a0624ac14",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 故障:盒片料库传送臂张开(参见 DIGITAL_ACTUATOR-信息,页 5-29) 报警信号"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "343db673-9cbe-4eb4-8491-44b2d87db10b",
+      "to": "2af5c9f8-6efe-4bc4-b158-45d6f8a74340"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "2af5c9f8-6efe-4bc4-b158-45d6f8a74340",
+      "to": "ee237c1f-d78b-476b-bb79-0af79c0af59a"
+    },
+    {
+      "type": "包含设备",
+      "from": "f2db8fbd-cc64-45ac-aa9e-aeb0136419fb",
+      "to": "b9115283-ab27-4668-87e4-da41884e1fce"
+    },
+    {
+      "type": "有参见",
+      "from": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "to": "2da1ed93-f4f8-4e0a-9b26-5c7ae915402b"
+    },
+    {
+      "type": "有参见",
+      "from": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "to": "21800961-07fb-4c04-8910-53ba8c65e213"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "to": "8042d38a-fa85-44b7-b0fd-072c60716b80"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "to": "08cebe7d-fa73-4162-acfc-71be43a94c65"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "b9115283-ab27-4668-87e4-da41884e1fce",
+      "to": "8866403f-1002-4224-8e5f-cbccdffbfe19"
+    },
+    {
+      "type": "包含设备",
+      "from": "d2e94004-d33e-496e-8287-d63fbcfe48f4",
+      "to": "33e2a20d-ba37-4970-bdd8-48a6adbbda82"
+    },
+    {
+      "type": "有参见",
+      "from": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "to": "55a18fda-7851-4c2e-b07d-1d991b3b3b47"
+    },
+    {
+      "type": "有参见",
+      "from": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "to": "97f0ed9f-8334-4c48-8098-6919c37b3b7c"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "to": "782ec2ad-3a73-4209-95f5-8d88418c7624"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "to": "0ce7fdea-4e61-4ad6-86e2-75964d029cac"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "33e2a20d-ba37-4970-bdd8-48a6adbbda82",
+      "to": "0b7a2a4a-a303-4812-98ec-2bc5b05b51ed"
+    },
+    {
+      "type": "包含设备",
+      "from": "5600bfb5-485f-4ed4-8d09-831e61805e88",
+      "to": "cbbdcf7a-5617-46d3-aefa-e70fdd166d3b"
+    },
+    {
+      "type": "有参见",
+      "from": "cbbdcf7a-5617-46d3-aefa-e70fdd166d3b",
+      "to": "c27e737f-344a-4522-82b3-19ebff6b4ee9"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cbbdcf7a-5617-46d3-aefa-e70fdd166d3b",
+      "to": "723d2288-45b8-4323-bea6-501ace63a609"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "cbbdcf7a-5617-46d3-aefa-e70fdd166d3b",
+      "to": "ba3ff5d2-a7ba-4aaa-b806-955a0624ac14"
+    }
+  ]
+}

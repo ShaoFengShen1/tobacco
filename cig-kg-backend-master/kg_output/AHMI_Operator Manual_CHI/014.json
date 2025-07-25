@@ -1,0 +1,236 @@
+{
+  "nodes": [
+    {
+      "id": "ebfd6e59-d8e2-421f-a25d-bb57fb8dc459",
+      "name": "按钮(14)",
+      "type": "按钮",
+      "properties": {
+        "功能": "允许浏览图像区域"
+      }
+    },
+    {
+      "id": "c4d45f97-8cca-4ee8-9952-b7d859b51638",
+      "name": "按钮(15)",
+      "type": "按钮",
+      "properties": {
+        "功能": "允许从清单上删除变量"
+      }
+    },
+    {
+      "id": "d896759f-6456-4a73-ab2a-6813b7651911",
+      "name": "主菜单",
+      "type": "菜单",
+      "properties": null
+    },
+    {
+      "id": "94f2c40a-c738-4461-b8f7-fb5952e812cf",
+      "name": "工具– (Settings)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入机器的设定工具页面"
+      }
+    },
+    {
+      "id": "db15b010-9185-41fe-8432-eb8ef1da89b3",
+      "name": "设置PLC软件– (PLC Software Configuration) (1)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入PLC软件配置页面"
+      }
+    },
+    {
+      "id": "3f621854-8c69-470c-badc-74e71ba630f9",
+      "name": "输入/输出– (Import/Export) (2)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入数据输入与输出页面"
+      }
+    },
+    {
+      "id": "906ef95d-7a93-4502-a106-8d883e8a46c7",
+      "name": "清洁屏幕 – (Touch screen cleaning) (3)",
+      "type": "按钮",
+      "properties": {
+        "功能": "清洁触摸屏"
+      }
+    },
+    {
+      "id": "b2a6f8f6-4ff3-42d7-8e63-7d911f2c7a69",
+      "name": "系统信息– (System Informations) (4)",
+      "type": "按钮",
+      "properties": {
+        "功能": "显示系统信息"
+      }
+    },
+    {
+      "id": "f73b2172-2911-4e31-8c4d-1f91a4abeb0e",
+      "name": "通信PLC – (PLC Communication) (5)",
+      "type": "按钮",
+      "properties": {
+        "功能": "进入PLC通信设置页面"
+      }
+    },
+    {
+      "id": "10facffe-b502-4bff-a822-4fc171069fc2",
+      "name": "执行 – (Submit) (2)",
+      "type": "按钮",
+      "properties": {
+        "功能": "确认选择并下载新的设置到机器上"
+      }
+    },
+    {
+      "id": "58ab5f8e-728d-4aee-9a61-65d4f9d034e6",
+      "name": "Ok – (Ok)",
+      "type": "按钮",
+      "properties": {
+        "功能": "确认操作"
+      }
+    },
+    {
+      "id": "d508ad68-eda9-4673-928b-02377389118e",
+      "name": "向前– (Next) (3)",
+      "type": "按钮",
+      "properties": {
+        "功能": "继续到下一个步骤"
+      }
+    },
+    {
+      "id": "5d48f313-a49d-403e-85d3-0b61d77f118a",
+      "name": "返回– (Back) (4)",
+      "type": "按钮",
+      "properties": {
+        "功能": "返回到前面的页面"
+      }
+    },
+    {
+      "id": "6c7b720f-c9d5-44b4-a108-9401420a3c92",
+      "name": "删除– (Cancel) (5)",
+      "type": "按钮",
+      "properties": {
+        "功能": "退出页面"
+      }
+    },
+    {
+      "id": "b95532ac-6d21-4fac-b8fa-a0aa175b5c43",
+      "name": "结束– (Finish)",
+      "type": "按钮",
+      "properties": {
+        "功能": "完成操作"
+      }
+    },
+    {
+      "id": "1b608b85-42fe-4546-a83e-c18e4ab49063",
+      "name": "是 – (Yes)",
+      "type": "按钮",
+      "properties": {
+        "功能": "确认保存图像"
+      }
+    },
+    {
+      "id": "cd34e942-5cb5-47ad-8299-b2747725df84",
+      "name": "不是 – (No)",
+      "type": "按钮",
+      "properties": {
+        "功能": "不保存图像并退出功能"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "属于",
+      "type": "属于",
+      "from": "ebfd6e59-d8e2-421f-a25d-bb57fb8dc459",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "属于",
+      "type": "属于",
+      "from": "c4d45f97-8cca-4ee8-9952-b7d859b51638",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "94f2c40a-c738-4461-b8f7-fb5952e812cf",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "db15b010-9185-41fe-8432-eb8ef1da89b3",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "3f621854-8c69-470c-badc-74e71ba630f9",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "906ef95d-7a93-4502-a106-8d883e8a46c7",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "b2a6f8f6-4ff3-42d7-8e63-7d911f2c7a69",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "f73b2172-2911-4e31-8c4d-1f91a4abeb0e",
+      "to": "d896759f-6456-4a73-ab2a-6813b7651911"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "10facffe-b502-4bff-a822-4fc171069fc2",
+      "to": "db15b010-9185-41fe-8432-eb8ef1da89b3"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "58ab5f8e-728d-4aee-9a61-65d4f9d034e6",
+      "to": "10facffe-b502-4bff-a822-4fc171069fc2"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "d508ad68-eda9-4673-928b-02377389118e",
+      "to": "3f621854-8c69-470c-badc-74e71ba630f9"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "5d48f313-a49d-403e-85d3-0b61d77f118a",
+      "to": "3f621854-8c69-470c-badc-74e71ba630f9"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "6c7b720f-c9d5-44b4-a108-9401420a3c92",
+      "to": "3f621854-8c69-470c-badc-74e71ba630f9"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "b95532ac-6d21-4fac-b8fa-a0aa175b5c43",
+      "to": "3f621854-8c69-470c-badc-74e71ba630f9"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "1b608b85-42fe-4546-a83e-c18e4ab49063",
+      "to": "b95532ac-6d21-4fac-b8fa-a0aa175b5c43"
+    },
+    {
+      "name": "控制",
+      "type": "控制",
+      "from": "cd34e942-5cb5-47ad-8299-b2747725df84",
+      "to": "b95532ac-6d21-4fac-b8fa-a0aa175b5c43"
+    }
+  ]
+}

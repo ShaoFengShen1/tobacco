@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "7bad72b9-7b40-4606-8cf5-7f68267df23a",
+      "name": "按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "复制工作日的班次",
+        "标签": "Copy day shifts"
+      }
+    },
+    {
+      "id": "5245b10c-0c5e-4aaf-87fe-1cfadf4e3976",
+      "name": "控制板",
+      "type": "界面元素",
+      "properties": {
+        "功能": "定义复制班次的日期范围"
+      }
+    },
+    {
+      "id": "9b42f81a-a705-4e64-a323-e3757be0db98",
+      "name": "信息记录按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "显示信息记录页面",
+        "标签": "Messages History"
+      }
+    },
+    {
+      "id": "027842b6-7ccd-42e5-85c5-3dc869765a43",
+      "name": "信息记录页面",
+      "type": "界面元素",
+      "properties": {
+        "功能": "显示系统内出现的信息记录"
+      }
+    },
+    {
+      "id": "44b27c38-3f53-42b4-9024-c52fdc2c4dc7",
+      "name": "显示细节按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "显示与信息相关的详细资料",
+        "标签": "Show Details"
+      }
+    },
+    {
+      "id": "51d1e1ac-6761-496b-9e52-2a5d2a408d44",
+      "name": "停机按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "打开机器停机页面",
+        "标签": "Stop"
+      }
+    },
+    {
+      "id": "2b74d390-2444-4ba6-8c9a-e52a6e59c084",
+      "name": "机器停机页面",
+      "type": "界面元素",
+      "properties": {
+        "功能": "显示所有锁定性的信息"
+      }
+    },
+    {
+      "id": "a4cf6b31-fa38-4994-a841-44d75428f10a",
+      "name": "材料计数器按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "显示材料计数器页面",
+        "标签": "Material consumption"
+      }
+    },
+    {
+      "id": "b18af4d5-59b9-453c-b041-a094369de8a0",
+      "name": "产量按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "显示实际产量的细节",
+        "标签": "Real Production"
+      }
+    },
+    {
+      "id": "90f66298-5bd6-4bee-8080-e4fca1c3f953",
+      "name": "剔除的产量按钮",
+      "type": "控制元素",
+      "properties": {
+        "功能": "显示生产剔除的细节",
+        "标签": "Rejected Production"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "控制",
+      "type": "操作",
+      "from": "7bad72b9-7b40-4606-8cf5-7f68267df23a",
+      "to": "5245b10c-0c5e-4aaf-87fe-1cfadf4e3976"
+    },
+    {
+      "name": "显示",
+      "type": "导航",
+      "from": "9b42f81a-a705-4e64-a323-e3757be0db98",
+      "to": "027842b6-7ccd-42e5-85c5-3dc869765a43"
+    },
+    {
+      "name": "显示",
+      "type": "导航",
+      "from": "44b27c38-3f53-42b4-9024-c52fdc2c4dc7",
+      "to": "027842b6-7ccd-42e5-85c5-3dc869765a43"
+    },
+    {
+      "name": "打开",
+      "type": "导航",
+      "from": "51d1e1ac-6761-496b-9e52-2a5d2a408d44",
+      "to": "2b74d390-2444-4ba6-8c9a-e52a6e59c084"
+    },
+    {
+      "name": "显示",
+      "type": "导航",
+      "from": "a4cf6b31-fa38-4994-a841-44d75428f10a",
+      "to": "b18af4d5-59b9-453c-b041-a094369de8a0"
+    },
+    {
+      "name": "显示",
+      "type": "导航",
+      "from": "90f66298-5bd6-4bee-8080-e4fca1c3f953",
+      "to": "b18af4d5-59b9-453c-b041-a094369de8a0"
+    }
+  ]
+}

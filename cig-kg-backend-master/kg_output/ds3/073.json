@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "540f4fbc-62dd-4047-819f-9f7ab77402d2",
+      "type": "设备",
+      "properties": {
+        "实体名": "X6",
+        "设备类型": null,
+        "位置": null,
+        "操作方式": "输出端横梁调节",
+        "操作细节": null,
+        "缩写": null
+      }
+    },
+    {
+      "id": "11cf9df1-441c-4f9b-acc9-bc8a3e16bb77",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "更新: 26/02/2010"
+      }
+    },
+    {
+      "id": "6965f939-1fc4-42f4-a421-ba8b94245792",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "技术"
+      }
+    },
+    {
+      "id": "9faa6470-f996-433f-9c97-2537f9081eb7",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "C. G. D. S. p. A. BOLOGNA - ITALIA"
+      }
+    },
+    {
+      "id": "23d6760c-d227-4caa-ab06-75b8e6a58f6f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "57, X66316000"
+      }
+    },
+    {
+      "id": "f81f846c-513f-483b-918f-a87cb4a9dfaf",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "数据表格"
+      }
+    },
+    {
+      "id": "ca438308-e6c6-49ac-9c7d-7bc137adbe50",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "页"
+      }
+    },
+    {
+      "id": "717cc048-9df5-449f-aa22-2bc158ad93d9",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "印刷板: 10/07/2013"
+      }
+    },
+    {
+      "id": "fe6505a0-8ce0-4929-b4ba-12ea09a1bd2f",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "BECKHOFF"
+      }
+    },
+    {
+      "id": "52798bf5-9349-475f-a1bf-628e85340853",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "0131435402"
+      }
+    },
+    {
+      "id": "33c1af50-359e-4b91-83f9-28219393159b",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "EF60a"
+      }
+    },
+    {
+      "id": "d7dd9824-105e-48eb-b035-e5bb41bb8a4c",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "9/11"
+      }
+    },
+    {
+      "id": "4c9123d4-bc77-4b60-8acb-f5e2f2fd0966",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "04-31"
+      }
+    }
+  ],
+  "relationships": []
+}

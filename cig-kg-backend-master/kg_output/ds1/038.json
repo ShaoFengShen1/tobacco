@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "id": "f50e7a7f-da79-42f7-89ef-acaa9e6a6348",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "滤嘴端探测光电管"
+      }
+    },
+    {
+      "id": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2",
+      "type": "设备",
+      "properties": {
+        "实体名": "光学组件2B120传感器",
+        "设备类型": "光电探测器",
+        "缩写": "2B120",
+        "操作细节": "检查组合盒模的所有烟支是否存在、以及是否带有滤嘴"
+      }
+    },
+    {
+      "id": "2bb4d697-3902-46a6-b891-160a220a6d50",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 72.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_164_614_715_504_200_0.jpg"
+      }
+    },
+    {
+      "id": "16ba5862-f100-414c-954f-7b6d11036752",
+      "type": "参见",
+      "properties": {
+        "实体名": "参见 PHASE_WINDOW-参数:,页 5-17"
+      }
+    },
+    {
+      "id": "7351d292-9f9a-49bd-bc1f-c0fcecda86cc",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "探测出故障的次数等于在监视器参数上设定的数值"
+      }
+    },
+    {
+      "id": "e8ee5694-ae67-4593-b35b-2c4b0fd6b0c2",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "4455fd5e-706c-47f6-a520-ff3ebc8e2497",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 来自光电探测器插件板的信号失效的报警信号"
+      }
+    },
+    {
+      "id": "1602673f-f5b8-4519-abf1-58dd79352fb4",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "缺滤嘴检测"
+      }
+    },
+    {
+      "id": "1c90cea5-6cab-4a39-b14a-6b18ec8a0656",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "探测出缺少滤嘴"
+      }
+    },
+    {
+      "id": "52cf619e-be3a-4e16-b76d-e1e298bcc75c",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "剔除站上与盒模相关的剔除"
+      }
+    },
+    {
+      "id": "704dba6b-04f3-461e-8a6d-c74d6538d4ad",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 光电探测器插件板无信号而剔除的报警信号"
+      }
+    },
+    {
+      "id": "3162a1ab-7b11-48e3-9f4c-2f30e0cef7c6",
+      "type": "检测异常",
+      "properties": {
+        "实体名": "探测出无效"
+      }
+    },
+    {
+      "id": "d9b695df-6f30-4418-ae35-5ed9a30b92f4",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "发出typology ABNORMAL 故障:光电探测器的报警信号"
+      }
+    },
+    {
+      "id": "e08d849a-c0e6-4b3e-b7df-a4bfb30d1f2e",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "校准:3个DIELL光电管的前端光电探测器组件"
+      }
+    },
+    {
+      "id": "eb70758b-ffee-48c3-9300-62e872df6274",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 73.",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_165_257_819_1054_751_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "f50e7a7f-da79-42f7-89ef-acaa9e6a6348",
+      "to": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2"
+    },
+    {
+      "type": "有图片",
+      "from": "f50e7a7f-da79-42f7-89ef-acaa9e6a6348",
+      "to": "2bb4d697-3902-46a6-b891-160a220a6d50"
+    },
+    {
+      "type": "有参见",
+      "from": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2",
+      "to": "16ba5862-f100-414c-954f-7b6d11036752"
+    },
+    {
+      "type": "有检测异常",
+      "from": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2",
+      "to": "7351d292-9f9a-49bd-bc1f-c0fcecda86cc"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7351d292-9f9a-49bd-bc1f-c0fcecda86cc",
+      "to": "e8ee5694-ae67-4593-b35b-2c4b0fd6b0c2"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "7351d292-9f9a-49bd-bc1f-c0fcecda86cc",
+      "to": "4455fd5e-706c-47f6-a520-ff3ebc8e2497"
+    },
+    {
+      "type": "有检测异常",
+      "from": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2",
+      "to": "1c90cea5-6cab-4a39-b14a-6b18ec8a0656"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1c90cea5-6cab-4a39-b14a-6b18ec8a0656",
+      "to": "52cf619e-be3a-4e16-b76d-e1e298bcc75c"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "1c90cea5-6cab-4a39-b14a-6b18ec8a0656",
+      "to": "704dba6b-04f3-461e-8a6d-c74d6538d4ad"
+    },
+    {
+      "type": "有检测异常",
+      "from": "7c906eaa-12f6-4c3e-8e3d-cc939934a0c2",
+      "to": "3162a1ab-7b11-48e3-9f4c-2f30e0cef7c6"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "3162a1ab-7b11-48e3-9f4c-2f30e0cef7c6",
+      "to": "d9b695df-6f30-4418-ae35-5ed9a30b92f4"
+    },
+    {
+      "type": "有图片",
+      "from": "e08d849a-c0e6-4b3e-b7df-a4bfb30d1f2e",
+      "to": "eb70758b-ffee-48c3-9300-62e872df6274"
+    }
+  ]
+}

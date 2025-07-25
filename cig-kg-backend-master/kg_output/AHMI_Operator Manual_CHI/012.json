@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "id": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "name": "电气装置",
+      "type": "装置",
+      "properties": {
+        "功能": "安装在机器上"
+      }
+    },
+    {
+      "id": "8996c8f2-5abb-4294-928e-d845774db735",
+      "name": "编码器",
+      "type": "装置",
+      "properties": {
+        "功能": "置零与电气复位"
+      }
+    },
+    {
+      "id": "80352e63-e540-45cd-9b5f-3511774f6e18",
+      "name": "空转运行测试",
+      "type": "测试",
+      "properties": {
+        "功能": "空转测试"
+      }
+    },
+    {
+      "id": "8e4b2a16-79fc-404e-bfe9-9fe5da845116",
+      "name": "材料松卷测试",
+      "type": "测试",
+      "properties": {
+        "功能": "送卷测试"
+      }
+    },
+    {
+      "id": "df28ebf7-3985-4ecd-ba02-6e92e1d34d6e",
+      "name": "生产测试",
+      "type": "测试",
+      "properties": {
+        "功能": "生产调试"
+      }
+    },
+    {
+      "id": "4d26c26d-fb7c-40e9-be29-eac3d58e45ad",
+      "name": "测试级别",
+      "type": "参数",
+      "properties": {
+        "功能": "调试次序"
+      }
+    },
+    {
+      "id": "4e7c0b8d-83f4-4166-8fac-7eb48673d64d",
+      "name": "驱动器",
+      "type": "装置",
+      "properties": {
+        "功能": "安装在机器上"
+      }
+    },
+    {
+      "id": "9e2f8725-769e-4650-8dda-9ec548870b22",
+      "name": "诊断",
+      "type": "功能",
+      "properties": {
+        "功能": "显示故障装置"
+      }
+    },
+    {
+      "id": "44964ed7-d43e-4780-86ae-b50d37eebf8e",
+      "name": "操作方式",
+      "type": "参数",
+      "properties": {
+        "功能": "显示物体操作方式"
+      }
+    },
+    {
+      "id": "aac23147-0db1-42a2-b814-2ab8738c9f2b",
+      "name": "调试状态",
+      "type": "参数",
+      "properties": {
+        "功能": "显示物体调试状态"
+      }
+    },
+    {
+      "id": "8cbcd466-1db7-4004-a4be-4de982e9d0b5",
+      "name": "电机",
+      "type": "装置",
+      "properties": {
+        "功能": "相关所有信息"
+      }
+    },
+    {
+      "id": "10f7af3d-2a63-4871-a97c-9a05f2bd7f12",
+      "name": "仪表",
+      "type": "装置",
+      "properties": {
+        "功能": "显示数值"
+      }
+    },
+    {
+      "id": "aaacdad6-a628-43e4-89a0-1ba74d23d70e",
+      "name": "参数",
+      "type": "参数",
+      "properties": {
+        "功能": "显示数值"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "8996c8f2-5abb-4294-928e-d845774db735"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "4e7c0b8d-83f4-4166-8fac-7eb48673d64d"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "8cbcd466-1db7-4004-a4be-4de982e9d0b5"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "80352e63-e540-45cd-9b5f-3511774f6e18"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "8e4b2a16-79fc-404e-bfe9-9fe5da845116"
+    },
+    {
+      "name": "执行",
+      "type": "操作",
+      "from": "6160d3b3-7b0a-4124-b047-7cb200a4cbd1",
+      "to": "df28ebf7-3985-4ecd-ba02-6e92e1d34d6e"
+    },
+    {
+      "name": "控制",
+      "type": "管理",
+      "from": "4d26c26d-fb7c-40e9-be29-eac3d58e45ad",
+      "to": "df28ebf7-3985-4ecd-ba02-6e92e1d34d6e"
+    },
+    {
+      "name": "提供",
+      "type": "功能",
+      "from": "4e7c0b8d-83f4-4166-8fac-7eb48673d64d",
+      "to": "9e2f8725-769e-4650-8dda-9ec548870b22"
+    },
+    {
+      "name": "提供",
+      "type": "功能",
+      "from": "4e7c0b8d-83f4-4166-8fac-7eb48673d64d",
+      "to": "44964ed7-d43e-4780-86ae-b50d37eebf8e"
+    },
+    {
+      "name": "提供",
+      "type": "功能",
+      "from": "4e7c0b8d-83f4-4166-8fac-7eb48673d64d",
+      "to": "aac23147-0db1-42a2-b814-2ab8738c9f2b"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "8cbcd466-1db7-4004-a4be-4de982e9d0b5",
+      "to": "10f7af3d-2a63-4871-a97c-9a05f2bd7f12"
+    },
+    {
+      "name": "包含",
+      "type": "组成",
+      "from": "8cbcd466-1db7-4004-a4be-4de982e9d0b5",
+      "to": "aaacdad6-a628-43e4-89a0-1ba74d23d70e"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "type": "设备",
+      "properties": {
+        "实体名": "监视器参数",
+        "设备类型": "参数设置设备",
+        "位置": null,
+        "操作方式": "参见",
+        "操作细节": "ALIGNMENT_CHECK-参数:,页 5-11",
+        "缩写": null
+      }
+    },
+    {
+      "id": "8d1bd741-541d-4812-b537-4a771631546b",
+      "type": "参见",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK-参数:,页 5-11"
+      }
+    },
+    {
+      "id": "9cda374d-df9a-4829-944a-3eec35b0e722",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 第二鼓轮上盒片未对齐"
+      }
+    },
+    {
+      "id": "86e69dda-a4c5-47df-93c1-96a34c35f63a",
+      "type": "参见",
+      "properties": {
+        "实体名": "ALIGNMENT_CHECK-信息, 页 5-11"
+      }
+    },
+    {
+      "id": "ceb51850-ac5a-41aa-b5ef-f169407737e0",
+      "type": "警告",
+      "properties": {
+        "实体名": "停机"
+      }
+    },
+    {
+      "id": "4c0464c5-d80b-400b-b06d-d1e76f730d90",
+      "type": "设备",
+      "properties": {
+        "实体名": "传感器",
+        "设备类型": "检测设备",
+        "位置": null,
+        "操作方式": "检查",
+        "操作细节": "正常运行",
+        "缩写": null
+      }
+    },
+    {
+      "id": "23d05da9-dfe1-4729-bbf3-c9d739fe7a7d",
+      "type": "参见",
+      "properties": {
+        "实体名": "CHECK_SECTION-参数: , 页 5-9"
+      }
+    },
+    {
+      "id": "5f6bf6d4-9891-457f-8721-566ea682f6af",
+      "type": "异常动作",
+      "properties": {
+        "实体名": "停止机器"
+      }
+    },
+    {
+      "id": "d13c3b38-d39a-44d8-9787-f8a306497c0f",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 第二鼓轮上盒片的存在:内检测失效"
+      }
+    },
+    {
+      "id": "cfa84fe1-f92c-4a01-bcc4-d1c9d928f522",
+      "type": "参见",
+      "properties": {
+        "实体名": "CHECK_SECTION-信息, 页 5-9"
+      }
+    },
+    {
+      "id": "9e91f54a-7c26-4dcb-99fd-02d054b37758",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "typology ABNORMAL 第二鼓轮上盒片的存在:外检测失效"
+      }
+    },
+    {
+      "id": "db325ff0-ef67-4958-808d-c7c0ecd7954d",
+      "type": "设备",
+      "properties": {
+        "实体名": "过程旋钮",
+        "设备类型": "控制设备",
+        "位置": null,
+        "操作方式": "抑制",
+        "操作细节": "检测",
+        "缩写": null
+      }
+    },
+    {
+      "id": "55b046df-88ab-4371-81db-050d2faf2b1d",
+      "type": "校准部件",
+      "properties": {
+        "实体名": "激光器光电管 BAUMER OHDM 16P5012/S14"
+      }
+    },
+    {
+      "id": "3409c392-868f-4a8d-bc82-cd02c685eb5e",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 199",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_416_168_348_1375_523_0.jpg"
+      }
+    },
+    {
+      "id": "97b4b31a-175b-43f4-a6b0-5f961eea9713",
+      "type": "图片",
+      "properties": {
+        "实体名": "图形 200",
+        "图片路径": "images/01955b02-6cff-7e1b-ac84-e8ebec45ae19_416_337_1207_1057_784_0.jpg"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有参见",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "8d1bd741-541d-4812-b537-4a771631546b"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "9cda374d-df9a-4829-944a-3eec35b0e722"
+    },
+    {
+      "type": "有参见",
+      "from": "9cda374d-df9a-4829-944a-3eec35b0e722",
+      "to": "86e69dda-a4c5-47df-93c1-96a34c35f63a"
+    },
+    {
+      "type": "有警告",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "ceb51850-ac5a-41aa-b5ef-f169407737e0"
+    },
+    {
+      "type": "有功能",
+      "from": "4c0464c5-d80b-400b-b06d-d1e76f730d90",
+      "to": "28628c2c-bc11-4fc5-98ab-b60e1c94d668"
+    },
+    {
+      "type": "有参见",
+      "from": "4c0464c5-d80b-400b-b06d-d1e76f730d90",
+      "to": "23d05da9-dfe1-4729-bbf3-c9d739fe7a7d"
+    },
+    {
+      "type": "导致异常动作",
+      "from": "9cda374d-df9a-4829-944a-3eec35b0e722",
+      "to": "5f6bf6d4-9891-457f-8721-566ea682f6af"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4c0464c5-d80b-400b-b06d-d1e76f730d90",
+      "to": "d13c3b38-d39a-44d8-9787-f8a306497c0f"
+    },
+    {
+      "type": "有参见",
+      "from": "d13c3b38-d39a-44d8-9787-f8a306497c0f",
+      "to": "cfa84fe1-f92c-4a01-bcc4-d1c9d928f522"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "4c0464c5-d80b-400b-b06d-d1e76f730d90",
+      "to": "9e91f54a-7c26-4dcb-99fd-02d054b37758"
+    },
+    {
+      "type": "有功能",
+      "from": "db325ff0-ef67-4958-808d-c7c0ecd7954d",
+      "to": "4c0464c5-d80b-400b-b06d-d1e76f730d90"
+    },
+    {
+      "type": "有校准部件",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "55b046df-88ab-4371-81db-050d2faf2b1d"
+    },
+    {
+      "type": "有图片",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "3409c392-868f-4a8d-bc82-cd02c685eb5e"
+    },
+    {
+      "type": "有图片",
+      "from": "28628c2c-bc11-4fc5-98ab-b60e1c94d668",
+      "to": "97b4b31a-175b-43f4-a6b0-5f961eea9713"
+    }
+  ]
+}

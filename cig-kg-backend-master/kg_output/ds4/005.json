@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "type": "三级标题",
+      "properties": {
+        "实体名": "HEATER"
+      }
+    },
+    {
+      "id": "0b558010-5e88-4006-9e81-ca2aebe8ce70",
+      "type": "设备",
+      "properties": {
+        "实体名": "HEATER",
+        "设备类型": "温度检测装置",
+        "操作方式": "调制信号 (PWM)",
+        "操作细节": "通过传感器 (例如:热电偶)控制其温度变换"
+      }
+    },
+    {
+      "id": "87ae9926-bec7-4dac-bbc5-af4e764fcdb9",
+      "type": "参数",
+      "properties": {
+        "实体名": "EXTERNAL_PID: [BOOL] - 控制器外部参数 (723)"
+      }
+    },
+    {
+      "id": "90c9e114-661a-4291-a83b-03f7a7e14fe0",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "FAULT_FSM - 故障(831)"
+      }
+    },
+    {
+      "id": "b3edb833-e5e6-4ce1-a87d-31e938984446",
+      "type": "诊断信息",
+      "properties": {
+        "实体名": "OUT_OF_RANGE_ASM - 未就绪(2285)"
+      }
+    },
+    {
+      "id": "0ca3bbfa-0327-416b-a940-7a87f1f86dd8",
+      "type": "参数",
+      "properties": {
+        "实体名": "KD_HEATER_EXTERNAL: [DINT] - 导数增益 (724)"
+      }
+    },
+    {
+      "id": "8453b2cc-2c26-4a09-a8ce-8d53eb3584d8",
+      "type": "参数",
+      "properties": {
+        "实体名": "KI_HEATER_EXTERNAL: [DINT] - 积分增益(725)"
+      }
+    },
+    {
+      "id": "ff1b02e2-33d5-4ffb-a1e5-7945eed110e1",
+      "type": "参数",
+      "properties": {
+        "实体名": "KP_HEATER_EXTERNAL: [DINT] - 比例增益(729)"
+      }
+    },
+    {
+      "id": "b265b9f5-abfc-47db-a1a0-211cdab01ade",
+      "type": "参数",
+      "properties": {
+        "实体名": "LOWER_RELATIVE_TEMPERATURE: [INT] - 公差下限(727)"
+      }
+    },
+    {
+      "id": "09a16c41-c4eb-4d08-a84b-a55fafb532d6",
+      "type": "参数",
+      "properties": {
+        "实体名": "RUN_MODE_VALUE: [UINT] - 额定运行方式的设定点 (733)"
+      }
+    },
+    {
+      "id": "972745e3-bac4-4acd-babf-1b9c912b123d",
+      "type": "参数",
+      "properties": {
+        "实体名": "STANDBY_VALUE: [UINT] - 待机运行方式的设定点 (734)"
+      }
+    },
+    {
+      "id": "35729ea8-933f-4334-9435-330926e502ca",
+      "type": "参数",
+      "properties": {
+        "实体名": "UPPER_RELATIVE_TEMPERATURE: [INT] - 公差上限(728)"
+      }
+    },
+    {
+      "id": "bb2f922f-41ea-440a-9f79-c321d44b0712",
+      "type": "参数",
+      "properties": {
+        "实体名": "PID_OUTPUT_FILTER_EXTERNAL: [DINT] - 输出阶段的过滤器 (730)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "包含设备",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "0b558010-5e88-4006-9e81-ca2aebe8ce70"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "90c9e114-661a-4291-a83b-03f7a7e14fe0"
+    },
+    {
+      "type": "有诊断信息",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "b3edb833-e5e6-4ce1-a87d-31e938984446"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "87ae9926-bec7-4dac-bbc5-af4e764fcdb9"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "0ca3bbfa-0327-416b-a940-7a87f1f86dd8"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "8453b2cc-2c26-4a09-a8ce-8d53eb3584d8"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "ff1b02e2-33d5-4ffb-a1e5-7945eed110e1"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "b265b9f5-abfc-47db-a1a0-211cdab01ade"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "09a16c41-c4eb-4d08-a84b-a55fafb532d6"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "972745e3-bac4-4acd-babf-1b9c912b123d"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "35729ea8-933f-4334-9435-330926e502ca"
+    },
+    {
+      "type": "有参数",
+      "from": "a4ad8afa-270b-4546-a3a6-4f62a722f668",
+      "to": "bb2f922f-41ea-440a-9f79-c321d44b0712"
+    }
+  ]
+}

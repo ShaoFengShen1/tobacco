@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "8944f15c-3292-4397-b0e6-738f1bedf6ad",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_INPUT"
+      }
+    },
+    {
+      "id": "aba02638-2fa7-4b22-9141-4edb94383d55",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_INPUT-参数:"
+      }
+    },
+    {
+      "id": "86a3177e-6f9b-4906-8e25-8786e2b3cf95",
+      "type": "设备",
+      "properties": {
+        "实体名": "POLARITY_DIRECT",
+        "设备类型": "参数",
+        "操作细节": "定义输入读取极性"
+      }
+    },
+    {
+      "id": "75b019fd-9c5f-4b24-b067-349ba9badbd6",
+      "type": "设备",
+      "properties": {
+        "实体名": "DEBOUNCE_FILTER.DELAY_OFF_ON",
+        "设备类型": "参数",
+        "操作细节": "从FALSE变为TRUE的抗波动过滤器的时间"
+      }
+    },
+    {
+      "id": "256d0033-553b-48fb-871b-8a73f3177d42",
+      "type": "设备",
+      "properties": {
+        "实体名": "DEBOUNCE_FILTER.DELAY_ON_OFF",
+        "设备类型": "参数",
+        "操作细节": "从TRUE变为FALSE的抗波动过滤器的时间"
+      }
+    },
+    {
+      "id": "e6de4f31-d075-4a96-9a9f-45f16e3c88ec",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "DIGITAL_OUTPUT"
+      }
+    },
+    {
+      "id": "7dc998bb-9d9d-4985-a95a-cc500fdeba0c",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "DIGITAL_OUTPUT-参数:"
+      }
+    },
+    {
+      "id": "f882cd5c-7424-4042-b2f7-49aad83e6911",
+      "type": "设备",
+      "properties": {
+        "实体名": "POLARITY_DIRECT",
+        "设备类型": "参数",
+        "操作细节": "定义执行器的控制极性"
+      }
+    },
+    {
+      "id": "59e71c68-55c7-4db5-8446-522b2317d34d",
+      "type": "一级标题",
+      "properties": {
+        "实体名": "TIMING CHECK"
+      }
+    },
+    {
+      "id": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "type": "二级标题",
+      "properties": {
+        "实体名": "TIMING_CHECK-参数:"
+      }
+    },
+    {
+      "id": "b891414f-b514-4042-a10c-4743e5dcae5d",
+      "type": "设备",
+      "properties": {
+        "实体名": "FIRST_TIMING_STEP",
+        "设备类型": "参数",
+        "操作细节": "检测开始的工步"
+      }
+    },
+    {
+      "id": "25d2b415-2dcb-438c-8eec-6fda09ada755",
+      "type": "设备",
+      "properties": {
+        "实体名": "STEP",
+        "设备类型": "参数",
+        "操作细节": "工步"
+      }
+    },
+    {
+      "id": "45097dfb-c61f-413a-8f84-900ac63214a1",
+      "type": "设备",
+      "properties": {
+        "实体名": "THRESHOLD_TIME",
+        "设备类型": "参数",
+        "操作细节": "临界值"
+      }
+    },
+    {
+      "id": "8f64f50b-4967-4ced-a12c-30cfda1bb3de",
+      "type": "设备",
+      "properties": {
+        "实体名": "START_TIMING_PHASE.PHASE",
+        "设备类型": "参数",
+        "操作细节": "检测开始相位"
+      }
+    },
+    {
+      "id": "fd63bc35-3494-453d-b2fb-d8bd98b9f5cb",
+      "type": "设备",
+      "properties": {
+        "实体名": "END_TIMING_PHASE.PHASE",
+        "设备类型": "参数",
+        "操作细节": "检测开始相位"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "有二级标题",
+      "from": "8944f15c-3292-4397-b0e6-738f1bedf6ad",
+      "to": "aba02638-2fa7-4b22-9141-4edb94383d55"
+    },
+    {
+      "type": "包含设备",
+      "from": "aba02638-2fa7-4b22-9141-4edb94383d55",
+      "to": "86a3177e-6f9b-4906-8e25-8786e2b3cf95"
+    },
+    {
+      "type": "包含设备",
+      "from": "aba02638-2fa7-4b22-9141-4edb94383d55",
+      "to": "75b019fd-9c5f-4b24-b067-349ba9badbd6"
+    },
+    {
+      "type": "包含设备",
+      "from": "aba02638-2fa7-4b22-9141-4edb94383d55",
+      "to": "256d0033-553b-48fb-871b-8a73f3177d42"
+    },
+    {
+      "type": "有二级标题",
+      "from": "e6de4f31-d075-4a96-9a9f-45f16e3c88ec",
+      "to": "7dc998bb-9d9d-4985-a95a-cc500fdeba0c"
+    },
+    {
+      "type": "包含设备",
+      "from": "7dc998bb-9d9d-4985-a95a-cc500fdeba0c",
+      "to": "f882cd5c-7424-4042-b2f7-49aad83e6911"
+    },
+    {
+      "type": "有二级标题",
+      "from": "59e71c68-55c7-4db5-8446-522b2317d34d",
+      "to": "5a0a9507-83f1-4b62-b8ba-582d005575d6"
+    },
+    {
+      "type": "包含设备",
+      "from": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "to": "b891414f-b514-4042-a10c-4743e5dcae5d"
+    },
+    {
+      "type": "包含设备",
+      "from": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "to": "25d2b415-2dcb-438c-8eec-6fda09ada755"
+    },
+    {
+      "type": "包含设备",
+      "from": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "to": "45097dfb-c61f-413a-8f84-900ac63214a1"
+    },
+    {
+      "type": "包含设备",
+      "from": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "to": "8f64f50b-4967-4ced-a12c-30cfda1bb3de"
+    },
+    {
+      "type": "包含设备",
+      "from": "5a0a9507-83f1-4b62-b8ba-582d005575d6",
+      "to": "fd63bc35-3494-453d-b2fb-d8bd98b9f5cb"
+    }
+  ]
+}

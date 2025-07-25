@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "82c56da5-5c2d-4995-95dd-c30d6fb3456d",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "数据表格"
+      }
+    },
+    {
+      "id": "0b21635a-21d3-416a-952d-77e38f21e306",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "57, X66316000"
+      }
+    },
+    {
+      "id": "96bb40c3-dd66-40cb-a631-aa1f956f9fb4",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "C.D. G.D. S. BOLOGNA - ITALIA"
+      }
+    },
+    {
+      "id": "5b5f1810-e0ce-4685-8d3e-a4a0fbc58500",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "技术"
+      }
+    },
+    {
+      "id": "89fcbed4-aa2f-48e7-85f1-accab83f4b80",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "更新: 26/02/2010"
+      }
+    },
+    {
+      "id": "26305649-a7ab-414e-a866-c34466a9cc47",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "04-28"
+      }
+    },
+    {
+      "id": "f0503d6b-1744-44d7-ba04-7d2d2e125fc8",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "6/11"
+      }
+    },
+    {
+      "id": "67dda20b-cc60-4902-8fb3-f2cdccbc9ec5",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "EF60a"
+      }
+    },
+    {
+      "id": "e66df7be-77f1-42a4-bd9d-489f1dd183a3",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "0131435402"
+      }
+    },
+    {
+      "id": "16979650-4b93-4020-8608-ce1803189efb",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "BECKHOFF"
+      }
+    },
+    {
+      "id": "f37f0fbd-dc74-46b8-bfd5-a4c36fcd17e8",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "印刷板: 10/07/2013"
+      }
+    },
+    {
+      "id": "3ac72448-8692-4277-aa80-9aa1eae40045",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "04"
+      }
+    },
+    {
+      "id": "abc9acd1-1017-4d78-82ee-59c64a2b2f7e",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "运行运行的描述 输出端横梁调节"
+      }
+    },
+    {
+      "id": "a9b4a8e9-2246-4f33-b234-77bbbac44c18",
+      "type": "附加描述",
+      "properties": {
+        "实体名": "X6"
+      }
+    }
+  ],
+  "relationships": []
+}
