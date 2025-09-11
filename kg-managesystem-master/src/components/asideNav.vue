@@ -7,7 +7,7 @@
             @close="handleClose"
             :router = "true"
         >
-            <el-menu-item index="/search">
+            <el-menu-item index="/pdf-upload">
             <el-icon><DataBoard /></el-icon>
             <span>文件管理</span>
             </el-menu-item>
@@ -26,6 +26,7 @@
             <el-icon><Search /></el-icon>
             <span>知识问答</span>
             </el-menu-item>
+
 
         </el-menu>
     </div>

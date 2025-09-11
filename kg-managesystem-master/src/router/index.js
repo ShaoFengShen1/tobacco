@@ -28,6 +28,11 @@ const routes = [
         path: '/QA',
         name: 'QA',
         component: () => import('../views/pages/QA.vue')
+    },
+    {
+        path: '/pdf-upload',
+        name: 'PDFUpload',
+        component: () => import('../views/pages/PDFUpload.vue')
     }
 ]
 
